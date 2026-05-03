@@ -264,17 +264,22 @@
     }
 
     .portrait-icon {
-      width: 100px; height: 100px;
+      width: 160px; height: 160px;
       border-radius: 50%;
       background: var(--gold-dim);
-      border: 1px solid rgba(201,168,76,0.3);
+      border: 2px solid rgba(201,168,76,0.4);
+      overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2.5rem;
-      color: var(--gold);
-      font-weight: 300;
+    }
+
+    .portrait-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      filter: grayscale(20%) contrast(1.05);
     }
 
     .portrait-name-card {
@@ -728,7 +733,9 @@
         <div class="portrait-accent"></div>
         <div class="portrait-accent2"></div>
         <div class="portrait-inner">
-          <div class="portrait-icon">ÜÖ</div>
+          <div class="portrait-icon">
+            <img src="profile.jpg" alt="Dr. Ümit Öz" />
+          </div>
           <div class="portrait-name-card">
             <h3>Dr. Ümit Öz</h3>
             <p>Trader · Hekim · Yatırımcı</p>
