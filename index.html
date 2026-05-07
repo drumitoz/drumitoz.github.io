@@ -113,26 +113,29 @@
 
     .nav-links a:hover { color: var(--gold); }
 
-    /* Dropdown */
+    /* Dropdown - fixed to stay open */
     .nav-links li { position: relative; }
     .nav-dropdown {
       position: absolute;
       top: 100%;
       left: 50%;
       transform: translateX(-50%);
-      margin-top: 16px;
+      padding-top: 12px;
+    }
+    .nav-dropdown-inner {
       background: rgba(8,8,8,0.97);
       border: 1px solid rgba(201,168,76,0.2);
       min-width: 160px;
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.3s, transform 0.3s;
-      transform: translateX(-50%) translateY(-8px);
+      transform: translateY(-8px);
     }
-    .nav-links li:hover .nav-dropdown {
+    .nav-links li:hover .nav-dropdown { pointer-events: all; }
+    .nav-links li:hover .nav-dropdown-inner {
       opacity: 1;
       pointer-events: all;
-      transform: translateX(-50%) translateY(0);
+      transform: translateY(0);
     }
     .nav-dropdown a {
       display: block;
@@ -808,26 +811,70 @@
 
   <div class="hover-bg" id="hoverBgSaglik">
     <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-      <g fill="none" stroke="rgba(201,168,76,0.07)" stroke-width="1.5">
-        <!-- Tooth shape center -->
-        <path d="M620,180 C600,160 560,155 540,175 C510,200 505,240 515,270 C525,300 520,340 530,370 C540,400 560,420 580,415 C600,410 610,390 620,370 C630,390 640,410 660,415 C680,420 700,400 710,370 C720,340 715,300 725,270 C735,240 730,200 700,175 C680,155 640,160 620,180Z" stroke="rgba(201,168,76,0.1)" fill="rgba(201,168,76,0.03)"/>
-        <!-- Root lines -->
-        <path d="M590,415 C585,450 580,490 575,530" stroke="rgba(201,168,76,0.07)"/>
-        <path d="M620,415 C620,455 620,495 620,535" stroke="rgba(201,168,76,0.07)"/>
-        <path d="M650,415 C655,450 660,490 665,530" stroke="rgba(201,168,76,0.07)"/>
+      <g fill="none" stroke-width="1.5">
+        <!-- Main tooth center - realistic molar shape -->
+        <path d="M660,160 
+          C640,140 600,138 578,155 
+          C548,178 542,215 550,248 
+          C556,272 552,298 558,322 
+          C564,346 572,365 588,372 
+          C604,379 618,368 628,352 
+          C636,340 640,325 645,315 
+          C650,325 654,340 662,352 
+          C672,368 686,379 702,372 
+          C718,365 726,346 732,322 
+          C738,298 734,272 740,248 
+          C748,215 742,178 712,155 
+          C690,138 680,140 660,160Z" 
+          stroke="rgba(201,168,76,0.12)" fill="rgba(201,168,76,0.03)"/>
+        <!-- Tooth roots -->
+        <path d="M615,372 C610,400 604,435 598,465 C594,485 590,505 592,520" stroke="rgba(201,168,76,0.07)" stroke-linecap="round"/>
+        <path d="M645,378 C645,410 645,445 645,475 C645,495 645,510 645,525" stroke="rgba(201,168,76,0.07)" stroke-linecap="round"/>
+        <path d="M675,372 C680,400 686,435 692,465 C696,485 700,505 698,520" stroke="rgba(201,168,76,0.07)" stroke-linecap="round"/>
+        <!-- Tooth groove lines on top -->
+        <path d="M620,200 C628,220 636,235 645,242 C654,235 662,220 670,200" stroke="rgba(201,168,76,0.06)" stroke-linecap="round"/>
+
         <!-- Small tooth left -->
-        <path d="M300,250 C288,235 265,232 255,248 C240,265 238,292 245,312 C252,332 249,360 256,378 C263,396 275,408 287,404 C299,400 305,386 312,370 C319,386 325,400 337,404 C349,408 361,396 368,378 C375,360 372,332 379,312 C386,292 384,265 369,248 C359,232 336,235 324,250Z" stroke="rgba(201,168,76,0.06)" fill="rgba(201,168,76,0.02)"/>
+        <path d="M310,230 
+          C296,215 272,213 255,226 
+          C234,243 230,272 236,297 
+          C241,316 238,337 243,354 
+          C248,371 256,382 268,377 
+          C278,373 284,360 290,348 
+          C296,360 302,373 312,377 
+          C324,382 332,371 337,354 
+          C342,337 339,316 344,297 
+          C350,272 346,243 325,226 
+          C308,213 324,215 310,230Z" 
+          stroke="rgba(201,168,76,0.08)" fill="rgba(201,168,76,0.02)"/>
+        <!-- Left tooth roots -->
+        <path d="M272,377 C268,398 264,422 261,442" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+        <path d="M290,380 C290,402 290,426 290,446" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+        <path d="M308,377 C312,398 316,422 319,442" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+
         <!-- Small tooth right -->
-        <path d="M1060,220 C1048,205 1025,202 1015,218 C1000,235 998,262 1005,282 C1012,302 1009,330 1016,348 C1023,366 1035,378 1047,374 C1059,370 1065,356 1072,340 C1079,356 1085,370 1097,374 C1109,378 1121,366 1128,348 C1135,330 1132,302 1139,282 C1146,262 1144,235 1129,218 C1119,202 1096,205 1084,220Z" stroke="rgba(201,168,76,0.06)" fill="rgba(201,168,76,0.02)"/>
-        <!-- Cross/plus medical symbol -->
-        <line x1="1250" y1="500" x2="1250" y2="620" stroke="rgba(201,168,76,0.05)" stroke-width="20" stroke-linecap="round"/>
-        <line x1="1190" y1="560" x2="1310" y2="560" stroke="rgba(201,168,76,0.05)" stroke-width="20" stroke-linecap="round"/>
-        <!-- DNA/helix hint -->
-        <path d="M150,400 C170,380 190,420 210,400 C230,380 250,420 270,400 C290,380 310,420 330,400 C350,380 370,420 390,400" stroke="rgba(201,168,76,0.06)" fill="none"/>
-        <path d="M150,440 C170,460 190,420 210,440 C230,460 250,420 270,440 C290,460 310,420 330,440 C350,460 370,420 390,440" stroke="rgba(201,168,76,0.06)" fill="none"/>
+        <path d="M1110,200 
+          C1096,185 1072,183 1055,196 
+          C1034,213 1030,242 1036,267 
+          C1041,286 1038,307 1043,324 
+          C1048,341 1056,352 1068,347 
+          C1078,343 1084,330 1090,318 
+          C1096,330 1102,343 1112,347 
+          C1124,352 1132,341 1137,324 
+          C1142,307 1139,286 1144,267 
+          C1150,242 1146,213 1125,196 
+          C1108,183 1124,185 1110,200Z" 
+          stroke="rgba(201,168,76,0.08)" fill="rgba(201,168,76,0.02)"/>
+        <!-- Right tooth roots -->
+        <path d="M1072,347 C1068,368 1064,392 1061,412" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+        <path d="M1090,350 C1090,372 1090,396 1090,416" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+        <path d="M1108,347 C1112,368 1116,392 1119,412" stroke="rgba(201,168,76,0.05)" stroke-linecap="round"/>
+
+        <!-- Medical cross -->
+        <line x1="1280" y1="520" x2="1280" y2="620" stroke="rgba(201,168,76,0.06)" stroke-width="18" stroke-linecap="round"/>
+        <line x1="1230" y1="570" x2="1330" y2="570" stroke="rgba(201,168,76,0.06)" stroke-width="18" stroke-linecap="round"/>
       </g>
-      <!-- Sağlık label -->
-      <text x="100" y="750" font-family="serif" font-size="90" fill="rgba(201,168,76,0.03)" transform="rotate(-10,100,750)">SAĞLIK</text>
+      <text x="80" y="780" font-family="serif" font-size="100" fill="rgba(201,168,76,0.025)" transform="rotate(-8,80,780)">SAĞLIK</text>
     </svg>
   </div>
 
@@ -843,15 +890,19 @@
       <li>
         <a href="makaleler.html">Makaleler</a>
         <div class="nav-dropdown">
-          <a href="makaleler.html#finans">📈 Finans</a>
-          <a href="makaleler.html#saglik">🦷 Sağlık</a>
+          <div class="nav-dropdown-inner">
+            <a href="makaleler.html#finans">📈 Finans</a>
+            <a href="makaleler.html#saglik">🦷 Sağlık</a>
+          </div>
         </div>
       </li>
       <li>
         <a href="egitim.html">Eğitim</a>
         <div class="nav-dropdown">
-          <a href="egitim.html#videolar">🎥 Videolar</a>
-          <a href="egitim.html#kurslar">📚 Kurslar</a>
+          <div class="nav-dropdown-inner">
+            <a href="egitim.html#videolar">🎥 Videolar</a>
+            <a href="egitim.html#kurslar">📚 Kurslar</a>
+          </div>
         </div>
       </li>
       <li><a href="#iletisim">İletişim</a></li>
