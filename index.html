@@ -30,7 +30,7 @@
       --text-mid: rgba(232,224,208,0.90);
     }
 
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; scroll-padding-top: 0; }
 
     body {
       background: var(--dark);
@@ -40,6 +40,9 @@
       overflow-x: hidden;
       cursor: none;
     }
+
+    /* Force page to start at top */
+    body { scroll-snap-type: none; }
 
     /* Custom cursor */
     .cursor {
@@ -724,6 +727,7 @@
     <ul class="nav-links">
       <li><a href="#hakkinda">Hakkında</a></li>
       <li><a href="#uzmanlik">Uzmanlık</a></li>
+      <li><a href="makaleler.html">Makaleler</a></li>
       <li><a href="#iletisim">İletişim</a></li>
     </ul>
   </nav>
@@ -731,16 +735,17 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="hero-left">
-      <p class="hero-tag">Ankara · Finans · Sağlık</p>
+      <p class="hero-tag">Sağlık · Finans · Ankara</p>
       <h1 class="hero-name">Dr.<br><span>Ümit</span><br>Öz</h1>
-      <p class="hero-title">Trader &nbsp;·&nbsp; Diş Hekimi &nbsp;·&nbsp; Yatırımcı</p>
+      <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; İnşaat Mühendisi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yatırımcı</p>
       <p class="hero-desc">
         Trading ne bir sprint, ne de bir ralli. Doğru pozisyon, doğru zaman, 
         doğru hacim ve doğru zihin haliyle — 6 yıllık disiplinle piyasalardayım.
       </p>
       <div class="hero-actions">
-        <a href="#uzmanlik" class="btn-primary"><span>Keşfet</span></a>
-        <a href="#iletisim" class="btn-secondary">İletişime Geç</a>
+        <a href="#hakkinda" class="btn-primary"><span>Hakkında</span></a>
+        <a href="#uzmanlik" class="btn-secondary">Keşfet</a>
+        <a href="#iletisim" class="btn-secondary">İletişim</a>
       </div>
     </div>
 
@@ -756,7 +761,7 @@
           </div>
           <div class="portrait-name-card">
             <h3>Dr. Ümit Öz</h3>
-            <p>Trader · Hekim · Yatırımcı</p>
+            <p>Diş Hekimi · İnşaat Müh. · Trader · Yatırımcı</p>
           </div>
           <div class="portrait-divider"></div>
           <div class="portrait-stats">
@@ -802,14 +807,14 @@
     </div>
     <div class="about-right reveal">
       <div class="about-card">
-        <div class="about-card-icon">📈</div>
-        <h4>Trading</h4>
-        <p>Forex & kripto piyasalarında aktif işlemler ve strateji geliştirme</p>
-      </div>
-      <div class="about-card">
         <div class="about-card-icon">🦷</div>
         <h4>Diş Hekimliği</h4>
         <p>Tıp ve sağlık alanında akademik birikim ve bilgi paylaşımı</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">📈</div>
+        <h4>Trading</h4>
+        <p>Forex & kripto piyasalarında aktif işlemler ve strateji geliştirme</p>
       </div>
       <div class="about-card">
         <div class="about-card-icon">🏗️</div>
@@ -835,24 +840,24 @@
     <div class="expertise-grid">
       <div class="expertise-item reveal">
         <div class="expertise-num">01</div>
-        <h3>Trading &<br>Yatırım</h3>
-        <p>Altın, Dow Jones, Nasdaq, forex ve Bitcoin piyasalarında 6 yıllık aktif deneyim.</p>
-        <ul>
-          <li>Altın (XAU/USD) & Dow Jones</li>
-          <li>Nasdaq & Forex Çiftleri</li>
-          <li>Bitcoin & Kripto</li>
-          <li>Birebir Mentörlük</li>
-        </ul>
-      </div>
-      <div class="expertise-item reveal">
-        <div class="expertise-num">02</div>
-        <h3>Sağlık &<br>Diş Hekimliği</h3>
+        <h3>Diş Hekimliği &<br>Sağlık</h3>
         <p>Diş hekimliği alanında birikimimi bilgi paylaşımına dönüştürüyorum.</p>
         <ul>
           <li>Oral Sağlık Bilinci</li>
           <li>Akademik İçerik</li>
           <li>Sağlıklı Yaşam</li>
           <li>Hasta Eğitimi</li>
+        </ul>
+      </div>
+      <div class="expertise-item reveal">
+        <div class="expertise-num">02</div>
+        <h3>Trading &<br>Yatırım</h3>
+        <p>Altın, Dow Jones, Nasdaq, forex ve Bitcoin piyasalarında 6 yıllık aktif deneyim.</p>
+        <ul>
+          <li>🥇 Altın (XAU/USD)</li>
+          <li>📊 Dow Jones (US30) & Nasdaq (NAS100)</li>
+          <li>💱 Forex Çiftleri</li>
+          <li>₿ Bitcoin & Kripto</li>
         </ul>
       </div>
       <div class="expertise-item reveal">
