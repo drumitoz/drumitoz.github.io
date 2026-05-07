@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destek ve Direnç: Piyasanın Dili | Dr. Ümit Öz</title>
+  <meta name="description" content="Destek ve direnç seviyeleri nedir? Neden bu kadar önemli? Dr. Ümit Öz'den teknik analizin temel taşını öğrenin." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; position: relative; overflow: hidden; background: linear-gradient(135deg, #080808, #08080d); }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .quote-block { margin: 50px 0; padding: 40px; border: 1px solid rgba(201,168,76,0.2); position: relative; background: var(--dark3); }
+    .quote-block::before { content: '"'; position: absolute; top: -20px; left: 30px; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold); line-height: 1; opacity: 0.5; }
+    .quote-block p { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic; color: var(--text); margin: 0; }
+    .concept-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 40px 0; background: rgba(201,168,76,0.1); }
+    .concept-card { background: var(--dark3); padding: 32px 24px; }
+    .concept-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 12px; }
+    .concept-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; margin: 0; }
+    .chart-visual { background: var(--dark3); border: 1px solid rgba(201,168,76,0.2); padding: 40px; margin: 40px 0; font-family: monospace; font-size: 0.8rem; color: var(--text-dim); line-height: 2; }
+    .chart-visual .resistance { color: #e05555; }
+    .chart-visual .support { color: #55a855; }
+    .chart-visual .price { color: var(--gold); }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .concept-grid { grid-template-columns: 1fr; } .author-box { flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <a href="index.html#uzmanlik" class="nav-back">← Geri Dön</a>
+</nav>
+<header class="article-hero">
+  <p class="article-category">Teknik Analiz · Bölüm 3.1</p>
+  <h1 class="article-title">Destek ve Direnç:<br><em>Piyasanın Dili</em></h1>
+  <div class="article-meta">
+    <span>📖 8 dakika okuma</span>
+    <span>✍️ Dr. Ümit Öz</span>
+    <span>🏷️ Teknik Analiz</span>
+  </div>
+</header>
+<article class="article-body">
+  <p class="lead">
+    Teknik analizin yüzlerce aracı var. Ama hepsinin temelinde tek bir gerçek yatar: 
+    fiyat belirli seviyelerde tepki verir. Bu seviyeleri okuyabilmek, 
+    grafiğin dilini konuşmak demektir.
+  </p>
+
+  <h2>Destek ve Direnç Nedir?</h2>
+  <p>Piyasada fiyat her zaman düz bir çizgide hareket etmez. Belirli seviyelere geldiğinde durur, geri döner ya da o seviyeyi kırarak devam eder. Bu seviyelere destek ve direnç diyoruz.</p>
+
+  <div class="concept-grid">
+    <div class="concept-card">
+      <h4>📗 Destek (Support)</h4>
+      <p>Fiyatın düşerken "zemin" bulduğu seviyedir. Bu seviyede alıcılar satıcılara baskın gelir ve fiyat geri döner. Geçmişte birçok kez test edilmiş bir destek seviyesi, güçlü bir alım bölgesidir.</p>
+    </div>
+    <div class="concept-card">
+      <h4>📕 Direnç (Resistance)</h4>
+      <p>Fiyatın yükselirken "tavan" bulduğu seviyedir. Bu seviyede satıcılar alıcılara baskın gelir ve fiyat geri döner. Güçlü bir direnç seviyesi, dikkatli olunması gereken bölgedir.</p>
+    </div>
+  </div>
+
+  <div class="chart-visual">
+    <div class="resistance">————————————— DİRENÇ SEVİYESİ (2050$) —————————————</div>
+    <div style="padding: 10px 0;">
+      <span class="price">    /\      /\</span><br>
+      <span class="price">   /  \    /  \    /</span><br>
+      <span class="price">  /    \  /    \  /</span><br>
+      <span class="price"> /      \/      \/</span>
+    </div>
+    <div class="support">————————————— DESTEK SEVİYESİ (1980$) —————————————</div>
+  </div>
+
+  <h2>Neden Bu Seviyeler Çalışır?</h2>
+  <p>Destek ve direnç seviyeleri çalışır çünkü piyasadaki katılımcıların <strong style="color:var(--gold)">kolektif hafızasını</strong> yansıtır. Geçmişte 2050$'dan altın satın alan biri, fiyat tekrar oraya geldiğinde çıkmak ister. Bu toplu karar, direnci oluşturur.</p>
+
+  <div class="highlight-box">
+    <p>🔄 <strong>Rol Değişimi (Role Reversal):</strong> Kırılan bir direnç, yeni bir desteğe dönüşür. Kırılan bir destek, yeni bir dirençe dönüşür. Bu en önemli teknik analiz kavramlarından biridir.</p>
+  </div>
+
+  <h2>Güçlü Seviyelerin Özellikleri</h2>
+  <div class="key-point"><p><strong>Test sayısı:</strong> Seviye ne kadar çok test edildiyse o kadar güçlüdür</p></div>
+  <div class="key-point"><p><strong>Zaman dilimi:</strong> Haftalık grafikte görülen seviye, 5 dakikalık grafikten daha güçlüdür</p></div>
+  <div class="key-point"><p><strong>Hacim:</strong> O seviyede yüksek hacimli işlem yapılmışsa seviye daha anlamlıdır</p></div>
+  <div class="key-point"><p><strong>Yuvarlak sayılar:</strong> 2000$, 1950$, 50.000$ gibi psikolojik seviyeler doğal destek/direnç oluşturur</p></div>
+
+  <h2>Pratik Kullanım</h2>
+  <p>Destek seviyesine yaklaşan fiyat, alım için potansiyel bölge sunar. Direnç seviyesine yaklaşan fiyat ise dikkatli olunması gereken bölgedir. Ancak tek başına yeterli değildir — diğer konfirmasyonlarla birlikte kullanılmalıdır.</p>
+
+  <div class="quote-block">
+    <p>Piyasa hafızası vardır. Fiyat geçmişte tepki verdiği yerlerde yeniden tepki verme eğilimindedir.</p>
+  </div>
+
+  <div class="highlight-box">
+    <p>🎯 <strong>Dr. Ümit'in Notu:</strong> Altın ve Dow Jones analizimde her zaman önce haftalık ve günlük grafikteki ana destek/direnç seviyelerini belirlerim. Bu "harita" olmadan trade açmam.</p>
+  </div>
+
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Ümit Öz" /></div>
+    <div class="author-info">
+      <h4>Dr. Ümit Öz</h4>
+      <p>6 yıllık profesyonel trading deneyimiyle altın, Dow Jones, Nasdaq ve kripto piyasalarında aktif olarak işlem yapıyor.</p>
+    </div>
+  </div>
+
+  <a href="makale-6-trend-analizi.html" class="next-article">
+    <span>Sonraki Makale →</span>
+    <h3>Trend Analizi: Piyasa Size Ne Söylüyor?</h3>
+  </a>
+
+  <p class="disclaimer">📌 Bu içerik yalnızca eğitim amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. Finansal kararlarınızı almadan önce uzman görüşü alınız. | <strong style="color:var(--gold)">drumitoz.com</strong></p>
+</article>
+</body>
+</html>

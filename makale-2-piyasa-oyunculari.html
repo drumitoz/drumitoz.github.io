@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyasadaki Oyuncular Kimler? | Dr. Ümit Öz</title>
+  <meta name="description" content="Forex ve finansal piyasalarda kimler işlem yapıyor? Retail trader, kurumsal yatırımcı ve market maker arasındaki fark nedir? Dr. Ümit Öz anlatıyor." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --gold: #c9a84c; --gold-light: #e8c97a; --gold-dim: rgba(201,168,76,0.12);
+      --dark: #080808; --dark2: #0f0f0f; --dark3: #161616;
+      --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90);
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 300; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; position: relative; overflow: hidden; background: linear-gradient(to bottom, var(--dark), var(--dark2)); }
+    .article-hero::before { content: '⚡'; position: absolute; right: 10%; top: 20%; font-size: 25vw; color: rgba(201,168,76,0.03); line-height: 1; pointer-events: none; }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; letter-spacing: 0.1em; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; color: var(--text); margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; color: var(--gold); margin: 40px 0 16px; }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; border-radius: 0 4px 4px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .quote-block { margin: 50px 0; padding: 40px; border: 1px solid rgba(201,168,76,0.2); position: relative; background: var(--dark3); }
+    .quote-block::before { content: '"'; position: absolute; top: -20px; left: 30px; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold); line-height: 1; opacity: 0.5; }
+    .quote-block p { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic; color: var(--text); margin: 0; }
+    .player-card { background: var(--dark3); border: 1px solid rgba(201,168,76,0.15); padding: 36px; margin: 20px 0; border-top: 3px solid var(--gold); transition: all 0.3s; }
+    .player-card:hover { border-color: var(--gold); background: #111; }
+    .player-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+    .player-card .tag { font-size: 0.6rem; letter-spacing: 0.2em; background: var(--gold-dim); color: var(--gold); padding: 4px 10px; border: 1px solid rgba(201,168,76,0.3); }
+    .player-card p { font-size: 0.9rem; color: var(--text-dim); line-height: 1.7; margin: 0; }
+    .player-card ul { list-style: none; margin-top: 16px; }
+    .player-card ul li { font-size: 0.85rem; color: var(--text-dim); padding: 5px 0; display: flex; align-items: center; gap: 10px; }
+    .player-card ul li::before { content: ''; width: 4px; height: 4px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); background: var(--dark3); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .author-box { flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <a href="index.html#uzmanlik" class="nav-back">← Geri Dön</a>
+</nav>
+
+<header class="article-hero">
+  <p class="article-category">Ekonomi & Para · Bölüm 1.2</p>
+  <h1 class="article-title">Piyasadaki <em>Oyuncular</em> Kimler?</h1>
+  <div class="article-meta">
+    <span>📖 10 dakika okuma</span>
+    <span>✍️ Dr. Ümit Öz</span>
+    <span>🏷️ Piyasa Dinamikleri</span>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <p class="lead">
+    Bir trade açtığınızda karşı tarafta kim var? Kim size o fiyatı veriyor? 
+    Kim kazanıyor, kim kaybediyor? Piyasanın gerçek oyuncularını tanımadan 
+    oynanan oyun, kuralları bilinmeden oynanan bir satranç gibidir.
+  </p>
+
+  <h2>Piyasa Bir Savaş Alanıdır</h2>
+  <p>
+    Finansal piyasalar romantik bir yatırım ortamı değil, 
+    farklı güç ve bilgi düzeylerine sahip oyuncuların karşı karşıya geldiği 
+    bir rekabet alanıdır. Bu alanda kim olduğunuzu ve karşınızdakinin kim olduğunu 
+    bilmek, hayatta kalmanın ön koşuludur.
+  </p>
+
+  <div class="player-card">
+    <h3>🏛️ Merkez Bankaları <span class="tag">EN BÜYÜK OYUNCU</span></h3>
+    <p>Döviz piyasasının tartışmasız en güçlü oyuncusudur. Bir merkez bankası müdahale ettiğinde, hiçbir retail trader veya hedge fon buna karşı duramaz.</p>
+    <ul>
+      <li>Faiz kararlarıyla tüm piyasaları etkiler</li>
+      <li>Döviz rezervlerini kullanarak kur müdahalesi yapabilir</li>
+      <li>Söylemleriyle bile piyasaları hareket ettirir</li>
+      <li>Fed, ECB, BOJ, TCMB en önemli örneklerdir</li>
+    </ul>
+  </div>
+
+  <div class="player-card">
+    <h3>🏦 Büyük Bankalar & Hedge Fondlar <span class="tag">AKILLI PARA</span></h3>
+    <p>Goldman Sachs, JPMorgan, Citadel gibi kurumlar günlük trilyonlarca dolarlık işlem yapar. "Akıllı para" denen kesim budur. Piyasanın yönünü belirleyen büyük çoğunlukla bu oyunculardır.</p>
+    <ul>
+      <li>En iyi analistlere ve teknolojiye sahiptirler</li>
+      <li>İçeriden bilgiye yakın olmalarıyla avantaj sağlarlar</li>
+      <li>Büyük pozisyonlarını gizlemek için likidite avlarlar</li>
+      <li>Retail traderların stop-loss'larını hedef alabilirler</li>
+    </ul>
+  </div>
+
+  <div class="player-card">
+    <h3>⚙️ Market Maker'lar <span class="tag">PİYASA YAPICI</span></h3>
+    <p>Piyasada her zaman alıcı ve satıcı bulunmasını sağlayan yapılardır. Broker'ların çoğu aynı zamanda market maker'dır. Spread (alış-satış farkı) onların kâr modelidir.</p>
+    <ul>
+      <li>Her zaman bir fiyat kotasyonu verirler</li>
+      <li>Likiditesi düşük anlarda spread'i genişletirler</li>
+      <li>Teoride tarafsızdırlar ama çıkarları karmaşıktır</li>
+      <li>Retail emirlerin büyük çoğunluğunu karşılarlar</li>
+    </ul>
+  </div>
+
+  <div class="player-card">
+    <h3>👤 Retail Trader'lar <span class="tag">SİZ</span></h3>
+    <p>Bireysel yatırımcılar. Piyasanın en küçük oyuncuları ama toplam sayı olarak en kalabalık grubu oluştururlar. İstatistiklere göre retail trader'ların %70-80'i para kaybeder.</p>
+    <ul>
+      <li>Sınırlı sermaye ve kaynaklarla çalışırlar</li>
+      <li>Duygusal kararlar almaya daha yatkındırlar</li>
+      <li>Kurumsal oyunculara kıyasla geç bilgiye ulaşırlar</li>
+      <li>Ancak çeviklik ve esneklikleri avantaj olabilir</li>
+    </ul>
+  </div>
+
+  <h2>Akıllı Para Nasıl Hareket Eder?</h2>
+  <p>
+    Kurumsal oyuncular büyük pozisyonlarını tek seferde açamazlar. 
+    Milyarlarca dolarlık alım yapmak istediklerinde, 
+    bu alımı küçük parçalara bölerek gizlemek zorundadırlar. 
+    Aksi takdirde piyasayı kendileri hareket ettirirler.
+  </p>
+
+  <div class="highlight-box">
+    <p>🎯 <strong>Stop Avı (Stop Hunt):</strong> Kurumsal oyuncular, retail trader'ların stop-loss emirlerinin yoğun olduğu seviyeleri bilerek fiyatı oraya çekip emirleri tetikler, ardından gerçek yönde hareket ederler. Bu bir komplo teorisi değil, piyasa gerçeğidir.</p>
+  </div>
+
+  <h2>Retail Trader Nasıl Hayatta Kalır?</h2>
+  <p>
+    Büyük oyunculara karşı savaşmak yerine, onların izini takip etmek çok daha akıllıca bir stratejidir. 
+    Akıllı para nereye gidiyor? Kurumlar hangi seviyelerde birikim yapıyor?
+  </p>
+
+  <div class="key-point"><p>Kurumların izini takip et, onlara karşı gitme</p></div>
+  <div class="key-point"><p>Likidite tuzaklarına (obvious stop seviyeleri) dikkat et</p></div>
+  <div class="key-point"><p>Büyük haber dönemlerinde pozisyon açarken ekstra dikkatli ol</p></div>
+  <div class="key-point"><p>Kendi analizini yap, kalabalığın tam tersini düşün</p></div>
+
+  <div class="quote-block">
+    <p>Piyasada kimlerle oynadığını bilmeden oynamak, rakibini görmeden satranç oynamak gibidir.</p>
+  </div>
+
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Ümit Öz" /></div>
+    <div class="author-info">
+      <h4>Dr. Ümit Öz</h4>
+      <p>6 yıllık profesyonel trading deneyimiyle altın, Dow Jones, Nasdaq ve kripto piyasalarında aktif olarak işlem yapıyor.</p>
+    </div>
+  </div>
+
+  <a href="makale-3-risk-yonetimi.html" class="next-article">
+    <span>Sonraki Makale →</span>
+    <h3>Risk Yönetimi: Trading'in En Önemli Kuralı</h3>
+  </a>
+
+  <p style="margin-top:40px; font-size:0.75rem; color:var(--text-dim); text-align:center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1);">
+    📌 Bu içerik yalnızca eğitim amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. 
+    Finansal kararlarınızı almadan önce uzman görüşü alınız. | <strong style="color:var(--gold)">drumitoz.com</strong>
+  </p>
+
+</article>
+</body>
+</html>
