@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dow Jones & Nasdaq: Endeksleri Anlamak | Dr. Ümit Öz</title>
+  <meta name="description" content="Dow Jones ve Nasdaq nedir, nasıl analiz edilir? Endeks trading'inin temel dinamikleri. Dr. Ümit Öz ile öğrenin." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; position: relative; overflow: hidden; background: linear-gradient(135deg, #080808, #080d0d); }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .quote-block { margin: 50px 0; padding: 40px; border: 1px solid rgba(201,168,76,0.2); position: relative; background: var(--dark3); }
+    .quote-block::before { content: '"'; position: absolute; top: -20px; left: 30px; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold); line-height: 1; opacity: 0.5; }
+    .quote-block p { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic; color: var(--text); margin: 0; }
+    .index-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 40px 0; background: rgba(201,168,76,0.1); }
+    .index-card { background: var(--dark3); padding: 32px 24px; border-top: 3px solid var(--gold); }
+    .index-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; margin-bottom: 8px; }
+    .index-card .ticker { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); margin-bottom: 16px; }
+    .index-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; margin-bottom: 12px; }
+    .index-card ul { list-style: none; }
+    .index-card ul li { font-size: 0.8rem; color: var(--text-dim); padding: 5px 0; display: flex; align-items: center; gap: 8px; }
+    .index-card ul li::before { content: ''; width: 4px; height: 4px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .index-compare { grid-template-columns: 1fr; } .author-box { flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <a href="makaleler.html" class="nav-back">← Makaleler</a>
+</nav>
+<header class="article-hero">
+  <p class="article-category">Piyasa Analizleri · Bölüm 4</p>
+  <h1 class="article-title">Dow Jones & Nasdaq:<br><em>Endeksleri Anlamak</em></h1>
+  <div class="article-meta">
+    <span>📖 9 dakika okuma</span>
+    <span>✍️ Dr. Ümit Öz</span>
+    <span>🏷️ Endeks Trading</span>
+  </div>
+</header>
+<article class="article-body">
+  <p class="lead">
+    ABD endeksleri dünya ekonomisinin nabzıdır. 
+    Dow Jones düşünce tüm piyasalar titrer. 
+    Nasdaq yükselince risk iştahı açılır. 
+    Bu iki endeksi anlamak, küresel piyasayı anlamaktır.
+  </p>
+
+  <div class="index-compare">
+    <div class="index-card">
+      <h3>Dow Jones</h3>
+      <div class="ticker">US30 · DJIA</div>
+      <p>ABD'nin en köklü 30 büyük şirketini içerir. Geleneksel sektörler ağırlıklı: finans, sağlık, sanayi, enerji.</p>
+      <ul>
+        <li>Apple, Microsoft, Goldman Sachs</li>
+        <li>Boeing, Johnson & Johnson</li>
+        <li>Daha istikrarlı, daha az volatil</li>
+        <li>Ekonominin genel sağlığını yansıtır</li>
+      </ul>
+    </div>
+    <div class="index-card">
+      <h3>Nasdaq</h3>
+      <div class="ticker">NAS100 · NDX</div>
+      <p>100 büyük teknoloji şirketini içerir. Yüksek büyüme potansiyeli ve yüksek volatilite bir arada.</p>
+      <ul>
+        <li>Apple, Microsoft, Nvidia, Meta</li>
+        <li>Amazon, Tesla, Google</li>
+        <li>Faize duyarlı — reel faiz arttıkça baskı görür</li>
+        <li>Risk iştahının termometresidir</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Endeksler Neden Hareket Eder?</h2>
+  <p>Endeksler binlerce makro ve mikro faktörün bileşkesidir. Ama en güçlü tetikleyiciler şunlardır:</p>
+
+  <div class="key-point"><p><strong>Fed Kararları:</strong> Faiz artışı endekslere baskı yapar, faiz indirimi yükselişe zemin hazırlar</p></div>
+  <div class="key-point"><p><strong>Şirket Kazançları (Earnings):</strong> Büyük şirketlerin çeyreklik kazanç açıklamaları endeksi doğrudan etkiler</p></div>
+  <div class="key-point"><p><strong>İstihdam Verileri (NFP):</strong> Güçlü istihdam = güçlü ekonomi = endeksler için olumlu</p></div>
+  <div class="key-point"><p><strong>Jeopolitik Gelişmeler:</strong> Belirsizlik arttıkça endeksler geriler</p></div>
+
+  <h2>Dow Jones vs Nasdaq: Hangisi Daha İyi?</h2>
+  <p>İkisi farklı karakterde. Nasdaq daha volatil ve daha büyük hareketler yapar — hem kazanç hem kayıp açısından. Dow Jones daha istikrarlı ama daha az "heyecanlı".</p>
+
+  <div class="highlight-box">
+    <p>📊 <strong>Korelasyon:</strong> Dow Jones ve Nasdaq genellikle aynı yönde hareket eder. Ama ayrıştıkları dönemler çok anlamlıdır. Nasdaq düşerken Dow Jones yatay kalıyorsa, bu seçici bir satış (teknoloji satışı) işaretidir.</p>
+  </div>
+
+  <h2>Teknik Analiz Endekslerde İşe Yarar mı?</h2>
+  <p>Evet — ve çok iyi çalışır. Milyonlarca katılımcısı olan bu piyasalarda destek/direnç seviyeleri, trend analizi ve Price Action son derece güvenilirdir.</p>
+
+  <div class="key-point"><p>SP500 ile korelasyonu takip edin — üçü genellikle birlikte hareket eder</p></div>
+  <div class="key-point"><p>VIX (korku endeksi) yükselince endeksler genellikle düşer</p></div>
+  <div class="key-point"><p>Piyasa açılış ve kapanış saatlerinde (09:30 ve 16:00 EST) volatilite yüksektir</p></div>
+
+  <div class="quote-block">
+    <p>Endeksler ekonominin aynadır. Aynaya bakmasını öğrenmek, geleceği görmek değil, şu anı anlamaktır.</p>
+  </div>
+
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Ümit Öz" /></div>
+    <div class="author-info">
+      <h4>Dr. Ümit Öz</h4>
+      <p>6 yıllık profesyonel trading deneyimiyle altın, Dow Jones ve Nasdaq piyasalarında aktif olarak işlem yapıyor.</p>
+    </div>
+  </div>
+
+  <a href="makale-supply-demand.html" class="next-article">
+    <span>Sonraki Makale →</span>
+    <h3>Supply & Demand: Kurumsal Para İzi</h3>
+  </a>
+  <p class="disclaimer">📌 Bu içerik yalnızca eğitim amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. | <strong style="color:var(--gold)">drumitoz.com</strong></p>
+</article>
+</body>
+</html>

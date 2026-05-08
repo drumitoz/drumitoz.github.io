@@ -4,72 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Makaleler | Dr. Ümit Öz</title>
-  <meta name="description" content="Dr. Ümit Öz'ün trading, ekonomi ve sağlık alanındaki eğitim makaleleri. Finansal piyasaları anlamak için kapsamlı içerikler." />
+  <meta name="description" content="Dr. Ümit Öz'ün trading, ekonomi ve sağlık alanındaki eğitim makaleleri." />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12);
-      --dark: #080808; --dark2: #0f0f0f; --dark3: #161616;
-      --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90);
-    }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
     html { scroll-behavior: smooth; }
-    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
-
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; }
     nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
     .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
     .nav-links { display: flex; gap: 32px; list-style: none; }
     .nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; transition: color 0.3s; }
-    .nav-links a:hover { color: var(--gold); }
-
-    .page-hero { min-height: 50vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; background: linear-gradient(to bottom, var(--dark), var(--dark2)); position: relative; overflow: hidden; }
-    .page-hero::before { content: ''; position: absolute; top: 20%; right: 10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(201,168,76,0.05) 0%, transparent 70%); pointer-events: none; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+    .page-hero { min-height: 50vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; background: linear-gradient(to bottom, var(--dark), var(--dark2)); position: relative; }
     .page-label { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; }
     .page-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
     .page-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 6vw, 6rem); font-weight: 300; line-height: 1.0; margin-bottom: 16px; }
     .page-title em { font-style: italic; color: var(--gold); }
     .page-desc { font-size: 1rem; color: var(--text-mid); max-width: 500px; line-height: 1.8; }
-
-    .articles-section { padding: 80px; }
-
-    .category-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: var(--text); margin-bottom: 32px; padding-bottom: 16px; border-bottom: 1px solid rgba(201,168,76,0.2); display: flex; align-items: center; gap: 16px; }
+    .filter-bar { padding: 40px 80px 0; display: flex; gap: 4px; flex-wrap: wrap; }
+    .filter-btn { padding: 10px 24px; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; border: 1px solid rgba(201,168,76,0.2); background: transparent; color: var(--text-dim); cursor: pointer; transition: all 0.3s; font-family: 'Outfit', sans-serif; }
+    .filter-btn:hover, .filter-btn.active { background: var(--gold-dim); color: var(--gold); border-color: var(--gold); }
+    .articles-section { padding: 40px 80px 80px; }
+    .category-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: var(--text); margin-bottom: 32px; margin-top: 60px; padding-bottom: 16px; border-bottom: 1px solid rgba(201,168,76,0.2); display: flex; align-items: center; gap: 16px; }
     .category-title span { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; }
-
-    .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-bottom: 80px; background: rgba(201,168,76,0.08); }
-
-    .article-card { background: var(--dark2); padding: 36px 28px; text-decoration: none; display: block; transition: all 0.3s; position: relative; overflow: hidden; border-top: 2px solid transparent; }
+    .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(201,168,76,0.08); }
+    .article-card { background: var(--dark2); padding: 36px 28px; text-decoration: none; display: block; transition: all 0.3s; position: relative; border-top: 2px solid transparent; overflow: hidden; }
     .article-card::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: var(--gold); transition: width 0.4s ease; }
     .article-card:hover { background: var(--dark3); border-top-color: var(--gold); }
     .article-card:hover::after { width: 100%; }
-
+    .article-card.coming-soon { opacity: 0.35; cursor: default; pointer-events: none; }
     .article-num { font-family: 'Cormorant Garamond', serif; font-size: 3rem; color: rgba(201,168,76,0.1); line-height: 1; margin-bottom: 16px; }
     .article-tag { font-size: 0.6rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-bottom: 12px; }
     .article-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 300; color: var(--text); line-height: 1.3; margin-bottom: 12px; }
     .article-card p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
-    .article-card .read-more { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-top: 20px; display: inline-block; }
-
+    .read-more { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-top: 20px; display: inline-block; }
     footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; }
     footer p { font-size: 0.7rem; color: var(--text-dim); }
     .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
-
-    @media (max-width: 900px) {
-      nav { padding: 20px 24px; }
-      .nav-links { display: none; }
-      .page-hero { padding: 100px 24px 60px; }
-      .articles-section { padding: 40px 24px; }
-      .articles-grid { grid-template-columns: 1fr; }
-      footer { padding: 30px 24px; flex-direction: column; gap: 12px; text-align: center; }
-    }
+    @media (max-width: 900px) { nav { padding: 20px 24px; } .nav-links { display: none; } .page-hero { padding: 100px 24px 60px; } .filter-bar { padding: 24px 24px 0; } .articles-section { padding: 24px 24px 60px; } .articles-grid { grid-template-columns: 1fr; } footer { padding: 30px 24px; flex-direction: column; gap: 12px; text-align: center; } }
   </style>
 </head>
 <body>
-
 <nav>
   <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
   <ul class="nav-links">
     <li><a href="index.html#hakkinda">Hakkında</a></li>
     <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
-    <li><a href="makaleler.html" style="color:var(--gold)">Makaleler</a></li>
+    <li><a href="makaleler.html" class="active">Makaleler</a></li>
     <li><a href="egitim.html">Eğitim</a></li>
     <li><a href="index.html#iletisim">İletişim</a></li>
   </ul>
@@ -78,14 +60,21 @@
 <header class="page-hero">
   <p class="page-label">Eğitim İçerikleri</p>
   <h1 class="page-title">Finansal <em>Bilgi</em><br>Merkezi</h1>
-  <p class="page-desc">Trading, ekonomi ve sağlık alanında kapsamlı eğitim makaleleri. Piyasaları anlamak için ihtiyacınız olan her şey.</p>
+  <p class="page-desc">Trading, ekonomi ve sağlık alanında kapsamlı eğitim makaleleri. Toplam <strong style="color:var(--gold)">15 makale</strong> yayında.</p>
 </header>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterArticles('all', this)">Tümü</button>
+  <button class="filter-btn" onclick="filterArticles('ekonomi', this)">📖 Ekonomi</button>
+  <button class="filter-btn" onclick="filterArticles('trading', this)">📈 Trading</button>
+  <button class="filter-btn" onclick="filterArticles('teknik', this)">📊 Teknik Analiz</button>
+  <button class="filter-btn" onclick="filterArticles('piyasa', this)">💰 Piyasalar</button>
+</div>
 
 <main class="articles-section">
 
-  <!-- BÖLÜM 1 -->
-  <h2 class="category-title">📖 Ekonomi & Finansal Dünya <span>Bölüm 1</span></h2>
-  <div class="articles-grid">
+  <h2 class="category-title cat-ekonomi">📖 Ekonomi & Finansal Dünya <span>Bölüm 1</span></h2>
+  <div class="articles-grid cat-ekonomi">
     <a href="makale-1-para-nasil-yaratilir.html" class="article-card">
       <div class="article-num">01</div>
       <div class="article-tag">Ekonomi Temelleri</div>
@@ -97,65 +86,132 @@
       <div class="article-num">02</div>
       <div class="article-tag">Piyasa Dinamikleri</div>
       <h3>Piyasadaki Oyuncular Kimler?</h3>
-      <p>Retail trader, kurumsal yatırımcı ve market maker arasındaki fark nedir?</p>
+      <p>Retail, kurumsal yatırımcı ve market maker arasındaki fark.</p>
       <span class="read-more">Okumaya Devam Et →</span>
     </a>
-    <a href="#" class="article-card" style="opacity:0.4; cursor:default;">
+    <a href="makale-akilli-para.html" class="article-card">
       <div class="article-num">03</div>
-      <div class="article-tag">Yakında</div>
+      <div class="article-tag">Smart Money</div>
       <h3>Akıllı Para Nereye Gider?</h3>
-      <p>Kurumsal paranın izini takip etmek ve piyasadaki büyük hareketleri anlamak.</p>
+      <p>Kurumsal paranın izini takip etmek ve Wyckoff döngüsü.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-faiz-kararlari.html" class="article-card">
+      <div class="article-num">04</div>
+      <div class="article-tag">Makroekonomi</div>
+      <h3>Faiz & DXY: Piyasaların Ana Tetikçisi</h3>
+      <p>Fed kararları ve dolar endeksinin tüm piyasalar üzerindeki etkisi.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
     </a>
   </div>
 
-  <!-- BÖLÜM 2 -->
-  <h2 class="category-title">📈 Trading Temelleri <span>Bölüm 2</span></h2>
-  <div class="articles-grid">
+  <h2 class="category-title cat-trading">📈 Trading Temelleri <span>Bölüm 2</span></h2>
+  <div class="articles-grid cat-trading">
     <a href="makale-3-risk-yonetimi.html" class="article-card">
       <div class="article-num">01</div>
       <div class="article-tag">Risk Yönetimi</div>
-      <h3>Risk Yönetimi: Trading'in En Önemli Kuralı</h3>
-      <p>Stop-loss, pozisyon büyüklüğü ve drawdown nedir? 6 yıllık deneyimin özeti.</p>
+      <h3>Risk Yönetimi: En Önemli Kural</h3>
+      <p>Stop-loss, pozisyon büyüklüğü ve drawdown. 6 yıllık deneyimin özeti.</p>
       <span class="read-more">Okumaya Devam Et →</span>
     </a>
     <a href="makale-4-trading-psikolojisi.html" class="article-card">
       <div class="article-num">02</div>
       <div class="article-tag">Psikoloji</div>
-      <h3>Trading Psikolojisi: Duygular Nasıl Sizi Mahveder?</h3>
-      <p>Korku, açgözlülük ve intikam tradeleri — piyasanın görünmez düşmanları.</p>
+      <h3>Trading Psikolojisi: Duygular Nasıl Mahveder?</h3>
+      <p>Korku, açgözlülük ve intikam tradeleri — görünmez düşmanlar.</p>
       <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="#" class="article-card" style="opacity:0.4; cursor:default;">
-      <div class="article-num">03</div>
-      <div class="article-tag">Yakında</div>
-      <h3>Kaldıraç: Çift Taraflı Kılıç</h3>
-      <p>Kaldıraç nedir, nasıl çalışır ve neden tehlikeli olabilir?</p>
     </a>
   </div>
 
-  <!-- BÖLÜM 3 -->
-  <h2 class="category-title">📊 Teknik Analiz <span>Bölüm 3</span></h2>
-  <div class="articles-grid">
+  <h2 class="category-title cat-teknik">📊 Teknik Analiz <span>Bölüm 3</span></h2>
+  <div class="articles-grid cat-teknik">
     <a href="makale-5-destek-direnc.html" class="article-card">
       <div class="article-num">01</div>
-      <div class="article-tag">Teknik Analiz</div>
+      <div class="article-tag">Temel Kavramlar</div>
       <h3>Destek ve Direnç: Piyasanın Dili</h3>
-      <p>Teknik analizin temel taşı. Neden bu seviyeler bu kadar önemli?</p>
+      <p>Teknik analizin temel taşı. Neden bu seviyeler önemli?</p>
       <span class="read-more">Okumaya Devam Et →</span>
     </a>
     <a href="makale-6-trend-analizi.html" class="article-card">
       <div class="article-num">02</div>
-      <div class="article-tag">Teknik Analiz</div>
+      <div class="article-tag">Trend Analizi</div>
       <h3>Trend Analizi: Piyasa Size Ne Söylüyor?</h3>
-      <p>Yükseliş, düşüş ve yatay trend nasıl tespit edilir? Top-down analiz nedir?</p>
+      <p>Yükseliş, düşüş ve yatay trend nasıl tespit edilir?</p>
       <span class="read-more">Okumaya Devam Et →</span>
     </a>
-    <a href="#" class="article-card" style="opacity:0.4; cursor:default;">
+    <a href="makale-moving-average.html" class="article-card">
+      <div class="article-num">03</div>
+      <div class="article-tag">İndikatörler</div>
+      <h3>Moving Average & EMA Nedir?</h3>
+      <p>Trendin en temel aracı. MA200, Golden Cross, Death Cross.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-rsi.html" class="article-card">
+      <div class="article-num">04</div>
+      <div class="article-tag">İndikatörler</div>
+      <h3>RSI: Aşırı Alım ve Satım Bölgeleri</h3>
+      <p>RSI'yı doğru kullanmak — 70/30 yanlışı ve divergence gerçeği.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-macd.html" class="article-card">
+      <div class="article-num">05</div>
+      <div class="article-tag">İndikatörler</div>
+      <h3>MACD: Trend ve Momentum Bir Arada</h3>
+      <p>MACD line, signal line ve histogram'ı doğru okumak.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-fibonacci.html" class="article-card">
+      <div class="article-num">06</div>
+      <div class="article-tag">İndikatörler</div>
+      <h3>Fibonacci: Piyasanın Matematiksel Ritmi</h3>
+      <p>0.618 altın oranı ve Fibonacci seviyelerini doğru kullanmak.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-price-action.html" class="article-card">
+      <div class="article-num">07</div>
+      <div class="article-tag">⭐ Temel Felsefe</div>
+      <h3>Price Action: Neden Her Şeyden Üstündür?</h3>
+      <p>İndikatörsüz trading neden daha güçlüdür? 6 yıllık deneyimin sonucu.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-supply-demand.html" class="article-card">
+      <div class="article-num">08</div>
+      <div class="article-tag">İleri Analiz</div>
+      <h3>Supply & Demand: Kurumsal Para İzi</h3>
+      <p>Arz-talep bölgeleri ve order block'lar nasıl bulunur?</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-stop-hunt.html" class="article-card">
+      <div class="article-num">09</div>
+      <div class="article-tag">⚠️ İleri Seviye</div>
+      <h3>Stop Hunt: Likidite Avcılığı</h3>
+      <p>Kurumlar neden retail'in stop emirlerini hedef alır?</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+  </div>
+
+  <h2 class="category-title cat-piyasa">💰 Piyasa Analizleri <span>Bölüm 4</span></h2>
+  <div class="articles-grid cat-piyasa">
+    <a href="makale-altin-analizi.html" class="article-card">
+      <div class="article-num">01</div>
+      <div class="article-tag">🥇 Altın</div>
+      <h3>Altın (XAU/USD) Nasıl Analiz Edilir?</h3>
+      <p>6 yıllık altın trading deneyiminden analiz yöntemi ve kontrol listesi.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <a href="makale-dow-nasdaq.html" class="article-card">
+      <div class="article-num">02</div>
+      <div class="article-tag">📊 Endeksler</div>
+      <h3>Dow Jones & Nasdaq: Endeksleri Anlamak</h3>
+      <p>ABD endekslerinin dinamikleri, farkları ve trading yaklaşımı.</p>
+      <span class="read-more">Okumaya Devam Et →</span>
+    </a>
+    <div class="article-card coming-soon">
       <div class="article-num">03</div>
       <div class="article-tag">Yakında</div>
-      <h3>Mum Formasyonları</h3>
-      <p>En önemli dönüş formasyonları ve nasıl okunur?</p>
-    </a>
+      <h3>Bitcoin & Kripto Trading</h3>
+      <p>Kripto piyasasının geleneksel piyasalardan farkı.</p>
+    </div>
   </div>
 
 </main>
@@ -165,6 +221,22 @@
   <div class="footer-logo">drumitoz.com</div>
   <p>Ankara, Türkiye</p>
 </footer>
+
+<script>
+  function filterArticles(category, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const grids = document.querySelectorAll('.articles-grid');
+    const titles = document.querySelectorAll('.category-title');
+    if (category === 'all') {
+      grids.forEach(g => g.style.display = 'grid');
+      titles.forEach(t => t.style.display = 'flex');
+    } else {
+      grids.forEach(g => { g.style.display = g.classList.contains('cat-' + category) ? 'grid' : 'none'; });
+      titles.forEach(t => { t.style.display = t.classList.contains('cat-' + category) ? 'flex' : 'none'; });
+    }
+  }
+</script>
 
 </body>
 </html>
