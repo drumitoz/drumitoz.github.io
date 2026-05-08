@@ -783,6 +783,18 @@
       transition: color 0.3s;
     }
     .mobile-menu a:hover { color: var(--gold); }
+    .mobile-menu-close {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      background: none;
+      border: none;
+      color: var(--gold);
+      font-size: 2rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 8px;
+    }
 
     @media (max-width: 900px) {
       .hamburger { display: flex; }
@@ -802,15 +814,30 @@
         grid-template-columns: 1fr;
         min-height: 100svh;
         padding-top: 0;
+        display: flex;
+        flex-direction: column;
       }
       .hero-left {
-        padding: 100px 24px 60px;
+        padding: 80px 24px 60px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         min-height: 100svh;
       }
-      .hero-right { display: none; }
+      .hero-right {
+        display: flex !important;
+        justify-content: center;
+        padding: 0 24px 60px;
+        min-height: unset;
+      }
+      .portrait-frame {
+        width: 280px;
+        height: 320px;
+      }
+      .portrait-icon {
+        width: 120px;
+        height: 120px;
+      }
       .hero-name {
         font-size: clamp(3.5rem, 15vw, 5rem);
         line-height: 1.0;
@@ -1049,6 +1076,7 @@
 
   <!-- Mobile menu -->
   <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu-close" onclick="closeMenu()">✕</button>
     <a href="#hakkinda" onclick="closeMenu()">Hakkında</a>
     <a href="#uzmanlik" onclick="closeMenu()">Uzmanlık</a>
     <a href="makaleler.html" onclick="closeMenu()">Makaleler</a>
@@ -1306,6 +1334,12 @@
         }
       });
     }, { threshold: 0.1 });
+
+    // Force scroll to top on load
+    window.addEventListener('load', () => {
+      window.scrollTo(0, 0);
+    });
+    history.scrollRestoration = 'manual';
 
     // Hamburger menu
     function toggleMenu() {
