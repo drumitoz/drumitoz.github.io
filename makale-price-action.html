@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Price Action: Neden Her Şeyden Üstündür? | Dr. Ümit Öz</title>
+  <meta name="description" content="Price Action nedir ve neden indikatörlerden üstündür? Dr. Ümit Öz'ün 6 yıllık trading deneyiminin özeti ve felsefesi." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 70vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; position: relative; overflow: hidden; background: linear-gradient(135deg, #080808 0%, #0d0a04 60%, #080808 100%); }
+    .article-hero::before { content: 'PA'; position: absolute; right: -2%; top: 10%; font-family: 'Cormorant Garamond', serif; font-size: 40vw; color: rgba(201,168,76,0.025); line-height: 1; pointer-events: none; font-style: italic; }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-badge { display: inline-block; font-size: 0.6rem; letter-spacing: 0.2em; background: var(--gold); color: var(--dark); padding: 4px 12px; margin-bottom: 20px; text-transform: uppercase; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 6vw, 7rem); font-weight: 300; line-height: 1.0; max-width: 900px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .quote-block { margin: 50px 0; padding: 40px; border: 1px solid rgba(201,168,76,0.2); position: relative; background: var(--dark3); }
+    .quote-block::before { content: '"'; position: absolute; top: -20px; left: 30px; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold); line-height: 1; opacity: 0.5; }
+    .quote-block p { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-style: italic; color: var(--text); margin: 0; }
+    .quote-block cite { display: block; margin-top: 16px; font-size: 0.75rem; color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase; font-style: normal; }
+    .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 40px 0; background: rgba(201,168,76,0.1); }
+    .comp-card { background: var(--dark3); padding: 32px 24px; }
+    .comp-card.winner { background: #0d0a04; border-top: 3px solid var(--gold); }
+    .comp-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 16px; }
+    .comp-card ul { list-style: none; }
+    .comp-card ul li { font-size: 0.85rem; color: var(--text-dim); padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); display: flex; align-items: center; gap: 10px; }
+    .comp-card ul li::before { content: ''; width: 4px; height: 4px; border-radius: 50%; flex-shrink: 0; }
+    .comp-card.loser ul li::before { background: rgba(200,80,80,0.5); }
+    .comp-card.winner ul li::before { background: var(--gold); }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .philosophy-box { background: linear-gradient(135deg, #0d0a04, #080808); border: 1px solid rgba(201,168,76,0.3); padding: 48px 40px; margin: 60px 0; text-align: center; position: relative; }
+    .philosophy-box::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(to right, transparent, var(--gold), transparent); }
+    .philosophy-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 24px; }
+    .philosophy-box p { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 300; line-height: 1.6; color: var(--text); margin: 0; }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .comparison { grid-template-columns: 1fr; } .author-box { flex-direction: column; text-align: center; } .philosophy-box { padding: 32px 24px; } .philosophy-box p { font-size: 1.3rem; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <a href="makaleler.html" class="nav-back">← Makaleler</a>
+</nav>
+
+<header class="article-hero">
+  <div class="article-badge">⭐ Temel Felsefe</div>
+  <p class="article-category">Teknik Analiz · İleri Seviye</p>
+  <h1 class="article-title">Price Action:<br><em>Neden Her Şeyden</em><br>Üstündür?</h1>
+  <div class="article-meta">
+    <span>📖 12 dakika okuma</span>
+    <span>✍️ Dr. Ümit Öz</span>
+    <span>🏷️ Temel Felsefe</span>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <p class="lead">
+    6 yıl boyunca RSI, MACD, Bollinger, Stochastic — hepsini denedim. 
+    Hepsini anladım. Hepsinin sınırlarını gördüm. 
+    Ve sonunda şu gerçeğe ulaştım: 
+    Piyasa size her şeyi söyler. Sadece dinlemeyi bilmek gerekir.
+  </p>
+
+  <h2>Price Action Nedir?</h2>
+  <p>Price Action (Fiyat Hareketi), herhangi bir indikatör kullanmadan yalnızca fiyatın kendisini, mum formasyonlarını, destek/direnç seviyelerini ve piyasa yapısını analiz ederek trade kararları vermektir.</p>
+  <p>Bir grafiğe baktığınızda tüm indikatörleri kaldırırsanız ve sadece fiyatın nasıl hareket ettiğine, nerede durduğuna, ne kadar hızlı gittiğine bakarsanız — işte bu Price Action'dır.</p>
+
+  <div class="comparison">
+    <div class="comp-card loser">
+      <h4 style="color:rgba(232,224,208,0.5);">📊 İndikatör Bazlı</h4>
+      <ul>
+        <li>Gecikmeli sinyal — hareket bitince gelir</li>
+        <li>Yatay piyasada çok fazla sahte sinyal</li>
+        <li>Fiyattan türetilir — ikincil bilgidir</li>
+        <li>Her indikatörün farklı parametresi var</li>
+        <li>Ekrana ne kadar çok koyarsan o kadar gürültü</li>
+      </ul>
+    </div>
+    <div class="comp-card winner">
+      <h4 style="color:var(--gold);">🎯 Price Action</h4>
+      <ul>
+        <li>Gerçek zamanlı — fiyat olduğu gibi görünür</li>
+        <li>Her piyasada, her zaman diliminde çalışır</li>
+        <li>Birincil kaynak — ham veri</li>
+        <li>Sade grafik, net düşünce</li>
+        <li>Kurumsal trader'ların kullandığı yaklaşım</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>İndikatörler Neden Yanıltır?</h2>
+  <p>Tüm indikatörler fiyattan türetilir. RSI fiyata göre hesaplanır. MACD fiyatın ortalamasından oluşur. Bollinger Bands fiyatın standart sapmasıdır. Yani indikatörler size fiyatı farklı bir şekilde gösterir — ama kaynakları yine fiyattır.</p>
+  <p>Peki neden dolaylı kaynağa bakasınız ki? Fiyatın kendisine bakın.</p>
+
+  <div class="highlight-box">
+    <p>🔍 <strong>Gecikme Problemi:</strong> MACD crossover sinyali geldiğinde, büyük hareketin %60-70'i genellikle çoktan gerçekleşmiştir. Price Action ile aynı sinyali çok daha erken görürsünüz — çünkü fiyatın kendisini okursunuz.</p>
+  </div>
+
+  <h2>Price Action'ın Temel Unsurları</h2>
+
+  <div class="key-point"><p><strong>Piyasa Yapısı (Market Structure):</strong> Fiyat yükselen tepe ve dip mi yapıyor, alçalan mı? Bu yapı değiştiğinde trend değişiyor demektir. En temel ve en güçlü bilgi.</p></div>
+  <div class="key-point"><p><strong>Mum Formasyonları:</strong> Pin bar, engulfing, inside bar — bu mumlar o periyottaki alıcı/satıcı savaşının sonucunu gösterir. Her mum bir hikaye anlatır.</p></div>
+  <div class="key-point"><p><strong>Destek & Direnç:</strong> Fiyat geçmişte nerede tepki verdi? Bu seviyeler kolektif hafızanın yansımasıdır ve tekrar eder.</p></div>
+  <div class="key-point"><p><strong>Likidite Bölgeleri:</strong> Stop-loss emirlerinin yoğun olduğu bölgeler. Kurumsal para bu bölgeleri hedef alır. Price Action ile bu tuzakları görebilirsiniz.</p></div>
+  <div class="key-point"><p><strong>Momentum:</strong> Mumların boyutu ve gölgeleri piyasanın arkasındaki gücü gösterir. Küçük gövdeli mumlar tereddüt, büyük gövdeli mumlar kararlılık demektir.</p></div>
+
+  <h2>Peki İndikatörler Tamamen Gereksiz mi?</h2>
+  <p>Hayır. Bu yazının amacı indikatörleri silmek değil, onların yerini doğru anlamak.</p>
+  <p>MA200 kurumların baktığı bir seviyedir — bu sebeple destek/direnç olarak anlam taşır. RSI divergence gerçek bir uyarı sinyalidir. Fibonacci seviyeleri potansiyel reaksiyon bölgelerini gösterir.</p>
+  <p>Ama bunların hepsi <strong style="color:var(--gold)">Price Action konfirmasyonu ile birlikte</strong> kullanılmalıdır. İndikatör sinyali geldi diye hemen girmek değil, fiyatın o bölgede nasıl davrandığına bakarak karar vermek.</p>
+
+  <div class="philosophy-box">
+    <h3>Dr. Ümit Öz'ün Trading Felsefesi</h3>
+    <p>Doğru pozisyon, doğru zaman,<br>doğru hacim, doğru zihin hali.<br><br>Bu dört unsur — ve fiyatın kendisi.</p>
+  </div>
+
+  <h2>Nasıl Öğrenilir?</h2>
+  <p>Price Action öğrenmek zaman ister. İndikatör kullanmak gibi "ayarla ve unut" değildir. Grafiklere bakmayı, piyasayı gözlemlemeyi ve sabırsızlığı yenmeyi gerektirir.</p>
+
+  <div class="key-point"><p>Her gün grafik okuyun — analiz etmeden, sadece izleyin</p></div>
+  <div class="key-point"><p>Geçmiş hareketleri inceleyin: "Bu setup'ta ne olmuş?"</p></div>
+  <div class="key-point"><p>Demo hesapta uygulayın, not alın</p></div>
+  <div class="key-point"><p>Sabırsızlık düşmanınız — sadece net setup'larda işlem yapın</p></div>
+
+  <div class="quote-block">
+    <p>İndikatörler size geçmişi söyler. Price Action size şu anı gösterir. Ve trading şu anda yapılır.</p>
+    <cite>— Dr. Ümit Öz</cite>
+  </div>
+
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Ümit Öz" /></div>
+    <div class="author-info">
+      <h4>Dr. Ümit Öz</h4>
+      <p>6 yıllık profesyonel trading deneyimiyle altın, Dow Jones, Nasdaq ve kripto piyasalarında aktif olarak işlem yapıyor. Trading felsefesi: Price Action önce, indikatörler destek.</p>
+    </div>
+  </div>
+
+  <a href="makaleler.html" class="next-article">
+    <span>← Tüm Makaleler</span>
+    <h3>Makale listesine dön</h3>
+  </a>
+
+  <p class="disclaimer">📌 Bu içerik yalnızca eğitim amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. Finansal kararlarınızı almadan önce uzman görüşü alınız. | <strong style="color:var(--gold)">drumitoz.com</strong></p>
+</article>
+</body>
+</html>

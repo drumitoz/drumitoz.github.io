@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moving Average & EMA Nedir? | Dr. Ümit Öz</title>
+  <meta name="description" content="Moving Average ve EMA nedir, nasıl kullanılır? Trend takibinin en temel aracını Dr. Ümit Öz ile öğrenin." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; position: relative; overflow: hidden; background: linear-gradient(135deg, #080808, #0a0a08); }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--gold); margin: 36px 0 16px; }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .quote-block { margin: 50px 0; padding: 40px; border: 1px solid rgba(201,168,76,0.2); position: relative; background: var(--dark3); }
+    .quote-block::before { content: '"'; position: absolute; top: -20px; left: 30px; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold); line-height: 1; opacity: 0.5; }
+    .quote-block p { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic; color: var(--text); margin: 0; }
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 40px 0; background: rgba(201,168,76,0.1); }
+    .compare-card { background: var(--dark3); padding: 28px 24px; }
+    .compare-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--gold); margin-bottom: 12px; }
+    .compare-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; margin: 0; }
+    .ma-visual { background: var(--dark3); border: 1px solid rgba(201,168,76,0.15); padding: 32px; margin: 40px 0; }
+    .ma-visual svg { width: 100%; height: auto; }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .warning-box { background: rgba(180,60,60,0.08); border-left: 3px solid rgba(200,80,80,0.5); padding: 24px 28px; margin: 32px 0; }
+    .warning-box p { color: var(--text-mid); margin: 0; font-size: 0.95rem; }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .compare-grid { grid-template-columns: 1fr; } .author-box { flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <a href="makaleler.html" class="nav-back">← Makaleler</a>
+</nav>
+
+<header class="article-hero">
+  <p class="article-category">Teknik Analiz · İndikatörler</p>
+  <h1 class="article-title">Moving Average &<br><em>EMA Nedir?</em></h1>
+  <div class="article-meta">
+    <span>📖 10 dakika okuma</span>
+    <span>✍️ Dr. Ümit Öz</span>
+    <span>🏷️ İndikatörler</span>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <p class="lead">
+    Yüzlerce indikatör arasında en çok kullanılan, en çok yanlış anlaşılan 
+    ve doğru kullanıldığında en güçlü araçlardan biri: Moving Average. 
+    Basit görünür, ama derinliği şaşırtıcıdır.
+  </p>
+
+  <h2>Moving Average Nedir?</h2>
+  <p>Moving Average (Hareketli Ortalama), belirli bir dönemdeki kapanış fiyatlarının ortalamasını alarak piyasanın genel yönünü gösteren bir indikatördür. Amacı tek: gürültüyü azaltmak ve trendin yönünü netleştirmek.</p>
+  <p>Örneğin 200 günlük MA, son 200 günün kapanış fiyatlarının ortalamasını gösterir. Bu çizginin üzerindeki fiyat "genel trend yukarı", altındaki fiyat "genel trend aşağı" sinyali verir.</p>
+
+  <div class="ma-visual">
+    <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Price line (noisy) -->
+      <polyline points="20,150 50,120 80,140 110,100 140,115 170,85 200,100 230,70 260,85 290,60 320,75 350,45 380,60 410,40 440,55 470,30 500,45 530,25 560,40 590,20 620,35 660,15"
+        fill="none" stroke="rgba(232,224,208,0.25)" stroke-width="1.5"/>
+      <!-- MA line (smooth) -->
+      <polyline points="20,155 80,140 140,118 200,100 260,82 320,65 380,52 440,42 500,33 560,26 620,20 660,16"
+        fill="none" stroke="rgba(201,168,76,0.8)" stroke-width="2.5"/>
+      <!-- Labels -->
+      <text x="30" y="175" font-family="sans-serif" font-size="10" fill="rgba(232,224,208,0.4)">Fiyat</text>
+      <text x="580" y="45" font-family="sans-serif" font-size="10" fill="rgba(201,168,76,0.8)">MA(50)</text>
+    </svg>
+  </div>
+
+  <h2>SMA vs EMA: Fark Ne?</h2>
+
+  <div class="compare-grid">
+    <div class="compare-card">
+      <h4>📊 SMA (Simple MA)</h4>
+      <p>Tüm dönemlere eşit ağırlık verir. Daha yavaş tepki verir. Uzun vadeli trend tespiti için idealdir. Kurumsal trader'ların takip ettiği temel seviyeler genellikle SMA'ya dayanır.</p>
+    </div>
+    <div class="compare-card">
+      <h4>⚡ EMA (Exponential MA)</h4>
+      <p>Son fiyatlara daha fazla ağırlık verir. SMA'dan daha hızlı tepki verir. Kısa-orta vadeli trader'lar için daha uygundur. Sahte sinyale daha açıktır.</p>
+    </div>
+  </div>
+
+  <h2>En Önemli MA Seviyeleri</h2>
+  <p>Her MA seviyesi farklı bir anlam taşır. Kurumsal para hangi seviyelere bakıyor? İşte en kritik olanlar:</p>
+
+  <div class="key-point"><p><strong>EMA 20:</strong> Kısa vadeli trendin nabzı. Scalper ve swing trader'ların favori dinamik desteği.</p></div>
+  <div class="key-point"><p><strong>EMA 50:</strong> Orta vadeli trend. Fiyat bu çizginin üzerinde mi altında mı? Temel soru bu.</p></div>
+  <div class="key-point"><p><strong>MA 200:</strong> En güçlü seviye. Kurumsal para bu çizgiyi izler. Haftalık grafikte MA200 altına düşen varlık ciddi satış baskısıyla karşılaşır.</p></div>
+
+  <div class="highlight-box">
+    <p>🏛️ <strong>Kurumsal Sır:</strong> Büyük bankalar ve hedge fondlar MA200'ü çok yakından takip eder. Fiyat MA200'e yaklaştığında büyük hacimli tepkiler sıkça görülür. Bu seviyeyi asla göz ardı etmeyin.</p>
+  </div>
+
+  <h2>Golden Cross & Death Cross</h2>
+  <p>İki MA'nın kesişimi, trader'ların yakından takip ettiği güçlü sinyaller üretir.</p>
+
+  <div class="compare-grid">
+    <div class="compare-card">
+      <h4>✨ Golden Cross</h4>
+      <p>MA50, MA200'ün üzerine çıktığında oluşur. Güçlü yükseliş sinyali olarak yorumlanır. Kurumsal alımların başlangıcına işaret edebilir.</p>
+    </div>
+    <div class="compare-card">
+      <h4>💀 Death Cross</h4>
+      <p>MA50, MA200'ün altına indiğinde oluşur. Güçlü düşüş sinyali olarak yorumlanır. Uzun vadeli trend değişiminin habercisi olabilir.</p>
+    </div>
+  </div>
+
+  <h2>Nasıl Kullanıyorum?</h2>
+  <p>Trading'imde MA'yı bir trend filtresi olarak kullanıyorum. Tek başına alım/satım kararı vermek için değil, "büyük resmi" görmek için.</p>
+
+  <div class="key-point"><p>Haftalık grafikte MA200'ün üzerindeyse: ana trend yukarı, sadece alım tarafında bakıyorum</p></div>
+  <div class="key-point"><p>Günlük grafikte EMA50 destek veya direnç görevi görüyor mu? Bu seviyeler kritik</p></div>
+  <div class="key-point"><p>Fiyat EMA20'nin altına düştüğünde kısa vadeli trend değişimi ihtimali artar</p></div>
+  <div class="key-point"><p>MA'lar Price Action ile birlikte kullanıldığında çok daha güçlü sinyal verir</p></div>
+
+  <div class="warning-box">
+    <p>⚠️ <strong>Dikkat:</strong> MA'lar gecikmeli indikatördür — geçmişi gösterir, geleceği değil. Yatay piyasada çok fazla sahte sinyal üretir. Tek başına kullanmak yetersizdir.</p>
+  </div>
+
+  <div class="quote-block">
+    <p>Moving Average size trendin nerede olduğunu söyler, nereye gideceğini değil. Bu farkı anlamak her şeyi değiştirir.</p>
+  </div>
+
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Ümit Öz" /></div>
+    <div class="author-info">
+      <h4>Dr. Ümit Öz</h4>
+      <p>6 yıllık profesyonel trading deneyimiyle altın, Dow Jones, Nasdaq ve kripto piyasalarında aktif olarak işlem yapıyor.</p>
+    </div>
+  </div>
+
+  <a href="makale-rsi.html" class="next-article">
+    <span>Sonraki Makale →</span>
+    <h3>RSI Nedir? Aşırı Alım ve Satım Bölgeleri</h3>
+  </a>
+
+  <p class="disclaimer">📌 Bu içerik yalnızca eğitim amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. Finansal kararlarınızı almadan önce uzman görüşü alınız. | <strong style="color:var(--gold)">drumitoz.com</strong></p>
+</article>
+</body>
+</html>
