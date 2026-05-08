@@ -739,19 +739,156 @@
       transform: translateY(0);
     }
 
-    /* RESPONSIVE */
+    /* HAMBURGER MENU */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      z-index: 200;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 1.5px;
+      background: var(--gold);
+      transition: all 0.3s;
+    }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(4px, 4px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(4px, -4px); }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(8,8,8,0.98);
+      z-index: 150;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--text-dim);
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      transition: color 0.3s;
+    }
+    .mobile-menu a:hover { color: var(--gold); }
+
     @media (max-width: 900px) {
-      nav { padding: 24px 30px; }
+      .hamburger { display: flex; }
+    }
+    @media (max-width: 900px) {
+
+      /* cursor غیرفعال در موبایل */
+      body { cursor: auto; }
+      .cursor, .cursor-ring { display: none; }
+
+      /* Nav */
+      nav { padding: 20px 24px; }
       .nav-links { display: none; }
-      .hero { grid-template-columns: 1fr; }
+
+      /* Hero - مهم‌ترین بخش */
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: 100svh;
+        padding-top: 0;
+      }
+      .hero-left {
+        padding: 100px 24px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100svh;
+      }
       .hero-right { display: none; }
-      .hero-left { padding: 120px 30px 80px; }
-      section { padding: 80px 30px; }
-      .about { grid-template-columns: 1fr; gap: 40px; }
+      .hero-name {
+        font-size: clamp(3.5rem, 15vw, 5rem);
+        line-height: 1.0;
+      }
+      .hero-tag {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+      }
+      .hero-title {
+        font-size: 0.65rem;
+        margin-bottom: 32px;
+      }
+      .hero-desc {
+        font-size: 0.95rem;
+        margin-bottom: 40px;
+        max-width: 100%;
+      }
+      .hero-actions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+      .btn-primary {
+        padding: 14px 32px;
+        font-size: 0.65rem;
+      }
+      .scroll-indicator { display: none; }
+
+      /* Sections */
+      section { padding: 60px 24px; }
+
+      /* Section titles */
+      .section-title {
+        font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 40px;
+      }
+
+      /* About */
+      .about {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 60px 24px;
+      }
+      .about-right { grid-template-columns: 1fr 1fr; }
+      .about-text p { font-size: 0.95rem; }
+
+      /* Expertise */
       .expertise-grid { grid-template-columns: 1fr; }
+      .expertise-item { padding: 40px 24px; }
+      .expertise-num { font-size: 3rem; }
+
+      /* Contact */
+      .social-links {
+        flex-direction: column;
+        align-items: center;
+      }
+      .social-link {
+        width: 100%;
+        justify-content: center;
+        max-width: 300px;
+      }
+
+      /* Footer */
+      footer {
+        padding: 30px 24px;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+      }
+
+      /* Hover backgrounds - غیرفعال در موبایل */
+      .hover-bg { display: none; }
+    }
+
+    /* Extra small screens */
+    @media (max-width: 400px) {
+      .hero-name { font-size: 3rem; }
       .about-right { grid-template-columns: 1fr; }
-      footer { padding: 30px; flex-direction: column; gap: 16px; }
-      .social-links { flex-direction: column; align-items: center; }
     }
   </style>
   <!-- Google tag (gtag.js) -->
@@ -904,14 +1041,28 @@
       <li><a href="mentoring.html">Mentorluk</a></li>
       <li><a href="#iletisim">İletişim</a></li>
     </ul>
+    <!-- Mobile hamburger -->
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hakkinda" onclick="closeMenu()">Hakkında</a>
+    <a href="#uzmanlik" onclick="closeMenu()">Uzmanlık</a>
+    <a href="makaleler.html" onclick="closeMenu()">Makaleler</a>
+    <a href="egitim.html" onclick="closeMenu()">Eğitim</a>
+    <a href="mentoring.html" onclick="closeMenu()">Mentorluk</a>
+    <a href="#iletisim" onclick="closeMenu()">İletişim</a>
+  </div>
 
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="hero-left">
       <p class="hero-tag">Sağlık · Finans · Ankara</p>
       <h1 class="hero-name">Dr.<br><span>Ümit</span><br>Öz</h1>
-      <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; İnşaat Mühendisi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yatırımcı</p>
+      <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yatırımcı</p>
       <p class="hero-desc">
         Trading ne bir sprint, ne de bir ralli. Doğru pozisyon, doğru zaman, 
         doğru hacim ve doğru zihin haliyle — 6 yıllık disiplinle piyasalardayım.
@@ -1155,6 +1306,22 @@
         }
       });
     }, { threshold: 0.1 });
+
+    // Hamburger menu
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const burger = document.getElementById('hamburger');
+      menu.classList.toggle('open');
+      burger.classList.toggle('open');
+      document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+    }
+    function closeMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const burger = document.getElementById('hamburger');
+      menu.classList.remove('open');
+      burger.classList.remove('open');
+      document.body.style.overflow = '';
+    }
 
     reveals.forEach(el => observer.observe(el));
   </script>
