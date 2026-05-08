@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentorluk | Dr. Ümit Öz</title>
+  <meta name="description" content="Dr. Ümit Öz ile birebir trading mentorluk programı. Sinyal değil, anlayış. Türkiye geneli online mentorluk." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --gold-light: #e8c97a;
+      --dark: #080808; --dark2: #0f0f0f; --dark3: #161616;
+      --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90);
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+
+    /* NAV */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; transition: color 0.3s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column;
+      justify-content: center; padding: 120px 80px 80px;
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, #080808 0%, #0d0a04 50%, #080808 100%);
+    }
+    .hero::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 60% 50%, rgba(201,168,76,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: 'M'; position: absolute; right: -5%; top: 50%; transform: translateY(-50%);
+      font-family: 'Cormorant Garamond', serif; font-size: 60vw;
+      color: rgba(201,168,76,0.02); line-height: 1; pointer-events: none; font-style: italic;
+    }
+    .hero-label { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 24px; display: flex; align-items: center; gap: 16px; }
+    .hero-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3.5rem, 7vw, 8rem); font-weight: 300; line-height: 1.0; max-width: 900px; margin-bottom: 32px; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-subtitle { font-size: 1.1rem; color: var(--text-mid); max-width: 560px; line-height: 1.8; margin-bottom: 56px; }
+    .hero-cta { display: flex; gap: 20px; align-items: center; }
+    .btn-primary { padding: 16px 44px; background: var(--gold); color: var(--dark); font-family: 'Outfit', sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; transition: all 0.3s; position: relative; overflow: hidden; }
+    .btn-primary::before { content: ''; position: absolute; inset: 0; background: var(--gold-light); transform: translateX(-100%); transition: transform 0.3s; }
+    .btn-primary:hover::before { transform: translateX(0); }
+    .btn-primary span { position: relative; z-index: 1; }
+    .btn-secondary { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .btn-secondary:hover { color: var(--gold); border-color: var(--gold); }
+
+    /* SECTIONS */
+    section { padding: 120px 80px; }
+    .section-label { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; }
+    .section-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 4rem); font-weight: 300; line-height: 1.1; margin-bottom: 60px; }
+    .section-title em { font-style: italic; color: var(--gold); }
+
+    /* FOR WHOM */
+    .for-whom { background: var(--dark2); }
+    .whom-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(201,168,76,0.1); }
+    .whom-card { background: var(--dark3); padding: 48px 36px; border-top: 2px solid transparent; transition: all 0.4s; position: relative; overflow: hidden; }
+    .whom-card::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--gold); transition: width 0.4s; }
+    .whom-card:hover { border-top-color: var(--gold); background: #111; }
+    .whom-card:hover::after { width: 100%; }
+    .whom-icon { font-size: 2rem; margin-bottom: 20px; }
+    .whom-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; margin-bottom: 16px; }
+    .whom-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.8; }
+
+    /* WHAT YOU LEARN */
+    .learn { background: var(--dark); }
+    .learn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+    .learn-list { list-style: none; }
+    .learn-item { display: flex; gap: 20px; padding: 24px 0; border-bottom: 1px solid rgba(201,168,76,0.08); align-items: flex-start; }
+    .learn-num { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: rgba(201,168,76,0.3); line-height: 1; flex-shrink: 0; width: 36px; }
+    .learn-content h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; margin-bottom: 6px; color: var(--text); }
+    .learn-content p { font-size: 0.82rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .learn-quote { background: var(--dark3); border: 1px solid rgba(201,168,76,0.2); padding: 48px 40px; position: sticky; top: 100px; }
+    .learn-quote::before { content: '"'; font-family: 'Cormorant Garamond', serif; font-size: 6rem; color: var(--gold); line-height: 0.8; opacity: 0.3; display: block; margin-bottom: 24px; }
+    .learn-quote p { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-style: italic; line-height: 1.6; color: var(--text); margin-bottom: 24px; }
+    .learn-quote cite { font-size: 0.7rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; font-style: normal; }
+
+    /* HOW IT WORKS */
+    .how { background: var(--dark2); }
+    .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background: rgba(201,168,76,0.1); margin-bottom: 60px; }
+    .step { background: var(--dark3); padding: 40px 28px; position: relative; }
+    .step-num { font-family: 'Cormorant Garamond', serif; font-size: 4rem; color: rgba(201,168,76,0.08); line-height: 1; margin-bottom: 16px; }
+    .step h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 12px; color: var(--gold); }
+    .step p { font-size: 0.82rem; color: var(--text-dim); line-height: 1.7; margin: 0; }
+    .arrow-connector { position: absolute; right: -12px; top: 50%; transform: translateY(-50%); color: var(--gold); font-size: 1.2rem; z-index: 1; }
+
+    /* PACKAGE */
+    .package { background: var(--dark); }
+    .package-box { background: var(--dark3); border: 1px solid rgba(201,168,76,0.25); padding: 60px; max-width: 700px; margin: 0 auto; position: relative; }
+    .package-box::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(to right, transparent, var(--gold), transparent); }
+    .package-tag { font-size: 0.6rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; }
+    .package-title { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; margin-bottom: 8px; }
+    .package-sub { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 40px; }
+    .package-features { list-style: none; margin-bottom: 48px; }
+    .package-features li { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid rgba(201,168,76,0.06); font-size: 0.9rem; color: var(--text-mid); align-items: center; }
+    .package-features li::before { content: '✓'; color: var(--gold); flex-shrink: 0; }
+    .package-price { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--text-dim); margin-bottom: 32px; font-style: italic; }
+    .package-cta { display: inline-block; padding: 16px 48px; background: var(--gold); color: var(--dark); font-family: 'Outfit', sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; transition: all 0.3s; }
+    .package-cta:hover { background: var(--gold-light); }
+
+    /* TESTIMONIALS placeholder */
+    .testimonials { background: var(--dark2); text-align: center; }
+    .testimonial-note { background: var(--dark3); border: 1px dashed rgba(201,168,76,0.2); padding: 48px 40px; max-width: 600px; margin: 0 auto; }
+    .testimonial-note p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.8; }
+
+    /* FOOTER */
+    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; }
+    footer p { font-size: 0.7rem; color: var(--text-dim); }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
+
+    @media (max-width: 900px) {
+      nav { padding: 20px 24px; }
+      .nav-links { display: none; }
+      section { padding: 80px 24px; }
+      .hero { padding: 120px 24px 80px; }
+      .whom-grid { grid-template-columns: 1fr; }
+      .learn-grid { grid-template-columns: 1fr; }
+      .learn-quote { position: static; }
+      .steps { grid-template-columns: 1fr 1fr; }
+      .package-box { padding: 40px 24px; }
+      footer { padding: 30px 24px; flex-direction: column; gap: 12px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <ul class="nav-links">
+    <li><a href="index.html#hakkinda">Hakkında</a></li>
+    <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
+    <li><a href="makaleler.html">Makaleler</a></li>
+    <li><a href="egitim.html">Eğitim</a></li>
+    <li><a href="mentoring.html" class="active">Mentorluk</a></li>
+    <li><a href="index.html#iletisim">İletişim</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-label">Birebir Trading Eğitimi</p>
+  <h1 class="hero-title">Sinyal değil,<br><em>anlayış.</em></h1>
+  <p class="hero-subtitle">
+    Bir kez doğru anlayan trader, sinyale muhtaç olmaz. 
+    6 yıllık piyasa deneyimimi birebir aktarıyorum — 
+    grafikleri, psikolojiyi, riski ve gerçeği.
+  </p>
+  <div class="hero-cta">
+    <a href="#basvur" class="btn-primary"><span>Başvur</span></a>
+    <a href="#nasil-calisir" class="btn-secondary">Nasıl Çalışır?</a>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="for-whom" id="kimler-icin">
+  <p class="section-label">Uygunluk</p>
+  <h2 class="section-title">Bu mentorluk<br><em>kimler için?</em></h2>
+  <div class="whom-grid">
+    <div class="whom-card">
+      <div class="whom-icon">🌱</div>
+      <h3>Sıfırdan Başlayanlar</h3>
+      <p>Trading dünyasına adım atmak isteyenler. Temel kavramlardan başlayıp sistematik bir şekilde ilerleriz. Yanlış alışkanlık edinmeden doğru temeller kurmak için ideal zaman.</p>
+    </div>
+    <div class="whom-card">
+      <div class="whom-icon">📉</div>
+      <h3>Kaybeden Trader'lar</h3>
+      <p>Strateji var, analiz var — ama para kaybetmek bitmiyor. Büyük ihtimalle sorun stratejide değil, risk yönetiminde ve psikolojide. Bunu birlikte bulur ve düzeltiriz.</p>
+    </div>
+    <div class="whom-card">
+      <div class="whom-icon">🎯</div>
+      <h3>Sistematik Düşünmek İsteyenler</h3>
+      <p>Rastgele değil, kurallı trading yapmak isteyenler. Kendi trading planını oluşturmak, disiplinle uygulamak ve uzun vadede kârlı olmayı hedefleyenler.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU LEARN -->
+<section class="learn" id="ne-ogrenirsiniz">
+  <div class="learn-grid">
+    <div>
+      <p class="section-label">Müfredat</p>
+      <h2 class="section-title">Ne<br><em>öğrenirsiniz?</em></h2>
+      <ul class="learn-list">
+        <li class="learn-item">
+          <div class="learn-num">01</div>
+          <div class="learn-content">
+            <h4>Piyasa Yapısı & Price Action</h4>
+            <p>İndikatörsüz grafik okuma. Destek, direnç, trend yapısı ve mum formasyonları.</p>
+          </div>
+        </li>
+        <li class="learn-item">
+          <div class="learn-num">02</div>
+          <div class="learn-content">
+            <h4>Risk & Para Yönetimi</h4>
+            <p>Lot hesaplama, stop-loss yerleştirme, risk/ödül oranı ve günlük kayıp limiti.</p>
+          </div>
+        </li>
+        <li class="learn-item">
+          <div class="learn-num">03</div>
+          <div class="learn-content">
+            <h4>Trading Psikolojisi</h4>
+            <p>Korku, açgözlülük ve intikam tradelerini kontrol etmek. Disiplinli trading alışkanlığı.</p>
+          </div>
+        </li>
+        <li class="learn-item">
+          <div class="learn-num">04</div>
+          <div class="learn-content">
+            <h4>Makro Analiz</h4>
+            <p>Fed, DXY, altın ve endekslerin birbiriyle ilişkisi. Haber öncesi/sonrası davranış.</p>
+          </div>
+        </li>
+        <li class="learn-item">
+          <div class="learn-num">05</div>
+          <div class="learn-content">
+            <h4>Canlı Trade Analizi</h4>
+            <p>Gerçek piyasada birlikte analiz, setup bulma ve trade yönetimi. Teori değil, pratik.</p>
+          </div>
+        </li>
+        <li class="learn-item">
+          <div class="learn-num">06</div>
+          <div class="learn-content">
+            <h4>Kişisel Trading Planı</h4>
+            <p>Size özel strateji ve kurallar. Programın sonunda kendi başınıza uygulayabileceğiniz bir sistem.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="learn-quote">
+      <p>Trading ne bir sprint, ne de bir ralli. Doğru pozisyon, doğru zaman, doğru hacim, doğru zihin hali — bu dördü bir araya gelince sonuç kaçınılmazdır.</p>
+      <cite>— Dr. Ümit Öz</cite>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="nasil-calisir">
+  <p class="section-label">Süreç</p>
+  <h2 class="section-title">Nasıl<br><em>çalışır?</em></h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <h4>Ön Görüşme</h4>
+      <p>Nerede olduğunuzu anlamak için kısa bir görüşme. Beklentiler ve hedefler netleştirilir.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <h4>Birebir Seanslar</h4>
+      <p>Online bire bir eğitim seansları. Kendi hızınızda, kendi sorularınızla ilerlenir.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <h4>Canlı Analiz</h4>
+      <p>Gerçek piyasada birlikte setup analizi. Teori pratiğe dönüşür.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <h4>Takip & Destek</h4>
+      <p>Seanslar arası sorular için destek. İlerleme takibi ve geri bildirim.</p>
+    </div>
+  </div>
+
+  <div style="background: var(--dark3); border-left: 3px solid var(--gold); padding: 28px 32px; max-width: 700px; margin: 0 auto;">
+    <p style="font-size:0.95rem; color:var(--text-mid); line-height:1.8;">
+      🌍 <strong style="color:var(--gold)">Tüm Türkiye'ye Online:</strong> 
+      Nerede olursanız olun, internet bağlantısı yeterli. 
+      Ankara'dan İstanbul'a, İzmir'den Trabzon'a — mesafe engel değil.
+    </p>
+  </div>
+</section>
+
+<!-- PACKAGE -->
+<section class="package" id="basvur">
+  <p class="section-label">Program</p>
+  <h2 class="section-title" style="text-align:center;">Birebir<br><em>Mentorluk Programı</em></h2>
+  <div class="package-box">
+    <div class="package-tag">Bireysel Program · Online · Tüm Türkiye</div>
+    <h3 class="package-title">Dr. Ümit Öz ile<br>Trading Mentorluk</h3>
+    <p class="package-sub">Sıfırdan sistematik bir trader olmak için kapsamlı birebir program.</p>
+    <ul class="package-features">
+      <li>Birebir online eğitim seansları</li>
+      <li>Price Action & Risk yönetimi eğitimi</li>
+      <li>Psikoloji ve disiplin çalışması</li>
+      <li>Canlı piyasa analizi</li>
+      <li>Kişisel trading planı oluşturma</li>
+      <li>Seanslar arası destek</li>
+      <li>İlerleme takibi ve geri bildirim</li>
+    </ul>
+    <p class="package-price">Fiyat ve program detayları için iletişime geçin.</p>
+    <a href="index.html#iletisim" class="package-cta">İletişime Geç →</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <p class="section-label" style="justify-content:center;">Referanslar</p>
+  <h2 class="section-title">Öğrenci<br><em>görüşleri</em></h2>
+  <div class="testimonial-note">
+    <p>Mentorluk programı başladığında öğrenci görüşleri burada yer alacak. İlk öğrencilerden biri olmak ister misiniz?</p>
+    <br>
+    <a href="index.html#iletisim" style="font-size:0.7rem; letter-spacing:0.2em; color:var(--gold); text-transform:uppercase; text-decoration:none; border-bottom: 1px solid var(--gold); padding-bottom:2px;">Başvur →</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Dr. Ümit Öz · Tüm hakları saklıdır</p>
+  <div class="footer-logo">drumitoz.com</div>
+  <p>Ankara, Türkiye</p>
+</footer>
+
+</body>
+</html>

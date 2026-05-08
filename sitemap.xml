@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://drumitoz.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://drumitoz.com/mentoring.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://drumitoz.com/makaleler.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://drumitoz.com/egitim.html</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://drumitoz.com/makale-1-para-nasil-yaratilir.html</loc><priority>0.7</priority></url>
