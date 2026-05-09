@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hakkımda | Dr. Ümit Öz</title>
+  <meta name="description" content="Dr. Ümit Öz kimdir? Tebriz'den Ankara'ya, mühendislikten tıbba, tradingden inovasyona — çok boyutlu bir yolculuk." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --gold-light: #e8c97a;
+      --dark: #080808; --dark2: #0f0f0f; --dark3: #161616;
+      --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90);
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; transition: color 0.3s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    /* HERO */
+    .hero {
+      min-height: 70vh; display: flex; flex-direction: column;
+      justify-content: flex-end; padding: 120px 80px 80px;
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, #080808 0%, #0d0a04 60%, #080808 100%);
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 70% 50%, rgba(201,168,76,0.05) 0%, transparent 70%);
+    }
+    .hero-label { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .hero-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 7vw, 7rem); font-weight: 300; line-height: 1.0; margin-bottom: 24px; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; color: var(--text-mid); max-width: 600px; line-height: 1.8; }
+
+    /* PROFILE SECTION */
+    .profile-section {
+      display: grid; grid-template-columns: 1fr 2fr;
+      gap: 80px; padding: 100px 80px; background: var(--dark2);
+      align-items: start;
+    }
+    .profile-left { position: sticky; top: 100px; }
+    .profile-img {
+      width: 100%; aspect-ratio: 3/4; overflow: hidden;
+      border: 1px solid rgba(201,168,76,0.2); margin-bottom: 32px;
+    }
+    .profile-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: grayscale(15%); }
+    .profile-stats { list-style: none; }
+    .profile-stat { padding: 16px 0; border-bottom: 1px solid rgba(201,168,76,0.08); }
+    .profile-stat .label { font-size: 0.6rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-bottom: 4px; }
+    .profile-stat .value { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--text); }
+
+    /* STORY */
+    .story { max-width: 100%; }
+    .story-chapter { margin-bottom: 70px; padding-bottom: 70px; border-bottom: 1px solid rgba(201,168,76,0.08); }
+    .story-chapter:last-child { border-bottom: none; }
+    .chapter-label { font-size: 0.6rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
+    .chapter-label::before { content: ''; width: 20px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .chapter-title { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin-bottom: 24px; line-height: 1.2; }
+    .chapter-title em { font-style: italic; color: var(--gold); }
+    .story p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .story p:last-child { margin-bottom: 0; }
+
+    /* QUOTE */
+    .story-quote { background: var(--dark3); border-left: 3px solid var(--gold); padding: 32px 36px; margin: 36px 0; }
+    .story-quote p { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic; color: var(--text); margin: 0 !important; line-height: 1.6; }
+
+    /* TIMELINE */
+    .timeline { margin: 40px 0; }
+    .timeline-item { display: flex; gap: 24px; margin-bottom: 24px; align-items: flex-start; }
+    .timeline-year { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); flex-shrink: 0; width: 50px; padding-top: 2px; }
+    .timeline-content { flex: 1; padding-bottom: 24px; border-bottom: 1px solid rgba(201,168,76,0.06); }
+    .timeline-content h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; margin-bottom: 4px; }
+    .timeline-content p { font-size: 0.82rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+
+    /* INNOVATION BOX */
+    .innovation-box {
+      background: linear-gradient(135deg, #0d0a04, #080808);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 48px 40px; margin: 40px 0; position: relative;
+    }
+    .innovation-box::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(to right, transparent, var(--gold), transparent); }
+    .innovation-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 300; margin-bottom: 16px; }
+    .innovation-box p { font-size: 0.9rem; color: var(--text-mid); line-height: 1.8; margin-bottom: 16px; }
+    .innovation-box .investor-note { font-size: 0.82rem; color: var(--gold); font-style: italic; padding-top: 16px; border-top: 1px solid rgba(201,168,76,0.15); margin: 0; }
+
+    /* CTA */
+    .cta-section { background: var(--dark); padding: 100px 80px; text-align: center; }
+    .cta-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 300; margin-bottom: 24px; }
+    .cta-title em { font-style: italic; color: var(--gold); }
+    .cta-desc { font-size: 1rem; color: var(--text-mid); max-width: 500px; margin: 0 auto 48px; line-height: 1.8; }
+    .cta-buttons { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .btn-primary { padding: 16px 44px; background: var(--gold); color: var(--dark); font-family: 'Outfit', sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; transition: background 0.3s; }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-outline { padding: 16px 44px; border: 1px solid rgba(201,168,76,0.3); color: var(--text-dim); font-family: 'Outfit', sans-serif; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; transition: all 0.3s; }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; }
+    footer p { font-size: 0.7rem; color: var(--text-dim); }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
+
+    @media (max-width: 900px) {
+      nav { padding: 20px 24px; }
+      .nav-links { display: none; }
+      .hero { padding: 100px 24px 60px; }
+      .profile-section { grid-template-columns: 1fr; gap: 40px; padding: 60px 24px; }
+      .profile-left { position: static; }
+      .profile-img { max-width: 280px; }
+      .chapter-title { font-size: 1.6rem; }
+      .cta-section { padding: 60px 24px; }
+      .cta-buttons { flex-direction: column; align-items: center; }
+      footer { padding: 30px 24px; flex-direction: column; gap: 12px; text-align: center; }
+      .innovation-box { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Dr. Ümit Öz</a>
+  <ul class="nav-links">
+    <li><a href="hakkimda.html" class="active">Hakkımda</a></li>
+    <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
+    <li><a href="makaleler.html">Makaleler</a></li>
+    <li><a href="egitim.html">Eğitim</a></li>
+    <li><a href="mentoring.html">Mentorluk</a></li>
+    <li><a href="index.html#iletisim">İletişim</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <p class="hero-label">Hakkımda</p>
+  <h1 class="hero-title">Çok boyutlu<br>bir <em>yolculuk.</em></h1>
+  <p class="hero-sub">Tebriz'den Ankara'ya. Mühendislikten tıbba. Tıptan piyasalara. Ve hepsinin kesişiminde: merak, disiplin ve yenilikçi bir zihin.</p>
+</header>
+
+<!-- MAIN CONTENT -->
+<div class="profile-section">
+
+  <!-- LEFT: Photo + Stats -->
+  <div class="profile-left">
+    <div class="profile-img">
+      <img src="profile.jpg" alt="Dr. Ümit Öz" />
+    </div>
+    <ul class="profile-stats">
+      <li class="profile-stat">
+        <div class="label">Doğum Yeri</div>
+        <div class="value">Tebriz, İran · 1991</div>
+      </li>
+      <li class="profile-stat">
+        <div class="label">Eğitim</div>
+        <div class="value">İnşaat Müh. · Diş Hekimliği</div>
+      </li>
+      <li class="profile-stat">
+        <div class="label">Uzmanlık</div>
+        <div class="value">Trading · Yatırım · İnovasyon</div>
+      </li>
+      <li class="profile-stat">
+        <div class="label">Yaşadığı Şehir</div>
+        <div class="value">Ankara, Türkiye</div>
+      </li>
+      <li class="profile-stat">
+        <div class="label">Trading Deneyimi</div>
+        <div class="value">6+ Yıl Profesyonel</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- RIGHT: Story -->
+  <div class="story">
+
+    <!-- CHAPTER 1: BAŞLANGIÇ -->
+    <div class="story-chapter">
+      <p class="chapter-label">Başlangıç</p>
+      <h2 class="chapter-title">Tebriz'den<br><em>başlayan merak</em></h2>
+      <p>1991'de Tebriz'de doğdum. Küçüklüğümden beri aklımda hep aynı sorular vardı: <em>Nasıl? Neden?</em> Tarihin derinliklerinden bugüne kadar insanlığa yön vermiş büyük düşünürleri hep merak ettim — onlar nasıl oluyor da birbirinden bu kadar farklı alanlarda derinleşebiliyordu?</p>
+      <p>Zamanla şunu fark ettim: Sistemler ne kadar karmaşık görünürse görünsün, özünde son derece basittirler. Ve tersine, basit görünen şeyler çoğu zaman inanılmaz bir karmaşıklık barındırır. Her şey, açıklamaya nereden başladığınıza ve nerede bitirmek istediğinize bağlıdır.</p>
+
+      <div class="story-quote">
+        <p>Mantığı anlayan, her defasında yeni bir çözüm üretebilir. Formülü ezberleyen ise yalnızca kalıpları tekrar eder.</p>
+      </div>
+
+      <p>Hem ortaokul hem de lise döneminde üstün zekâlılar sınavlarını geçerek seçkin okullarda eğitim aldım. Bu dönemde en az bir kayıtlı icadım var — ve kayıt dışı kalan çok daha fazlası. Çocukluktan bugüne uzanan bazı fikirlerim ise zamanından çok önce geldi; yıllar sonra piyasaya çıkan ürünleri gördüğümde "o kadar da erken değilmişim" diye düşündüm.</p>
+    </div>
+
+    <!-- CHAPTER 2: EĞİTİM -->
+    <div class="story-chapter">
+      <p class="chapter-label">Eğitim Yolculuğu</p>
+      <h2 class="chapter-title">İki farklı bilimin<br><em>aynı zihinде buluşması</em></h2>
+      <p>2010 yılında İnşaat Mühendisliği — Yapı Statiği bölümüne başladım. Mühendislik bana analitik düşünceyi, sistematik problem çözmeyi ve matematiğin soyut gücünü öğretti.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2010</div>
+          <div class="timeline-content">
+            <h4>İnşaat Mühendisliği — Yapı Statiği</h4>
+            <p>Lisans eğitimi. Analitik düşünce ve mühendislik mantığının temelleri.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2015</div>
+          <div class="timeline-content">
+            <h4>Yüksek Lisans & Yön Değişimi</h4>
+            <p>Yüksek lisansa başladım. Tez aşamasında içimden gelen sese kulak verdim ve köklü bir karar aldım.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2017</div>
+          <div class="timeline-content">
+            <h4>Diş Hekimliği Fakültesi</h4>
+            <p>Sıfırdan yeni bir bilim dalına adım attım. Mühendislik mantığını tıbbın hassasiyetiyle birleştirdim.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2022</div>
+          <div class="timeline-content">
+            <h4>Diş Hekimliği Diploması</h4>
+            <p>Mezuniyet. Hemen ardından Oral ve Maksillofasiyal Cerrahi uzmanlık programına başladım.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-content">
+            <h4>Ankara & Yeni Bir Sayfa</h4>
+            <p>Yeni bir şehir, yeni bir dönem. Hem trading kariyerimi hem de kişisel projelerimi büyütmeye devam ediyorum.</p>
+          </div>
+        </div>
+      </div>
+
+      <p>İki tamamen farklı disiplin arasında geçiş yapmak çılgınca görünebilir. Ama benim için her ikisi de aynı temel soruya yanıt arıyordu: Sistemler nasıl çalışır? İnsan vücudu da bir sistem, bir yapı da. İkisini de anlayan zihin, dünyayı farklı görür.</p>
+    </div>
+
+    <!-- CHAPTER 3: TRADİNG -->
+    <div class="story-chapter">
+      <p class="chapter-label">Trading Yolculuğu</p>
+      <h2 class="chapter-title">Pandemi kapıları kapattı,<br><em>piyasalar ufku açtı</em></h2>
+      <p>2020. Tüm dünya evlere kapandı. Ben de o dönemde kendime bir soru sordum: <em>Dışarıda iş yapılamıyorsa, işi içeri nasıl getiririm?</em></p>
+      <p>Trading'le tanışmam böyle başladı. İlk başta bir merak olarak yaklaştım. Sonra bu merak tutkuya dönüştü. Grafiklerin arkasındaki mantığı, piyasanın dilini, kurumsal paranın izini anlamak — bunlar mühendislik kafama hitap ediyordu.</p>
+      <p>6 yılda öğrendim ki trading aslında bir felsefedir. Strateji, analiz ve teknik bilgi başlangıç noktasıdır. Ama asıl fark yaratan şey çok daha derindir: doğru pozisyon, doğru zaman, doğru hacim ve doğru zihin hali.</p>
+
+      <div class="story-quote">
+        <p>Trading ne bir sprint, ne de bir ralli. Uzun vadede ayakta kalan trader, en iyi stratejiyi bilenden değil — en iyi disiplini taşıyandan çıkar.</p>
+      </div>
+
+      <p>Bugün ağırlıklı olarak altın (XAU/USD), Dow Jones, Nasdaq, forex çiftleri ve Bitcoin piyasalarında aktif işlem yapıyorum. Öğrendiklerimi paylaşmak, insanlara bu piyasaları anlamalarında yardımcı olmak ise yeni bir tutku haline geldi.</p>
+    </div>
+
+    <!-- CHAPTER 4: İNOVASYON -->
+    <div class="story-chapter">
+      <p class="chapter-label">İnovasyon & Projeler</p>
+      <h2 class="chapter-title">Kendimi mühendis değil,<br><em>bir yenilikçi olarak görüyorum</em></h2>
+      <p>Çocukluktan bugüne kadar aklımı meşgul eden bir soru var: <em>Bu daha iyi nasıl yapılabilir?</em> Bu soru beni mühendisliğe, tıbba ve trading'e götürdü. Ve hâlâ yeni projelere götürüyor.</p>
+
+      <div class="innovation-box">
+        <h3>💡 Akıllı Orman Yangını Söndürme Sistemi</h3>
+        <p class="investor-note">Eğer bir yenilik yatırımcısıysanız, büyük ihtimalle daha erken tanışmalıyız. → <a href="index.html#iletisim" style="color:var(--gold); text-decoration:none;">İletişime geçin</a></p>
+      </div>
+
+      <p>Zihnimde hâlâ hayata geçirilmeyi bekleyen fikirler var. Zamanı geldiğinde, doğru ortaklarla buluştuğumda, bunlar da gün yüzüne çıkacak.</p>
+    </div>
+
+    <!-- CHAPTER 5: VİZYON -->
+    <div class="story-chapter">
+      <p class="chapter-label">Vizyon</p>
+      <h2 class="chapter-title">Nereye<br><em>gidiyorum?</em></h2>
+      <p>Trading eğitimi, inovasyon projeleri, diş hekimliğinde önleme ve tedavi odaklı yeni sistemler — bunların hepsi birbirinden bağımsız değil. Hepsinin altında aynı motivasyon var: <em>Daha fazla öğrenmek, daha fazla düşünmek, daha yeni fikirler üretmek ve öğrettiklerimi paylaşmak.</em></p>
+      <p>Yakın vadede trading mentorluğunu büyütmek, kaliteli içerik üretmek ve inovasyon projelerimi doğru ortaklarla hayata geçirmek önceliklerim arasında. Uzun vadede ise bu yolculuğun nereye götüreceğini merakla bekliyorum — çünkü en iyi projeler her zaman öngörülemeyen anlarda ortaya çıkmıştır.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2 class="cta-title">Birlikte<br><em>bir şeyler yapalım</em></h2>
+  <p class="cta-desc">Trading mentorluk, inovasyon projesi veya sadece bir fikir alışverişi için kapım açık.</p>
+  <div class="cta-buttons">
+    <a href="mentoring.html" class="btn-primary">Mentorluk Programı</a>
+    <a href="index.html#iletisim" class="btn-outline">İletişime Geç</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Dr. Ümit Öz · Tüm hakları saklıdır</p>
+  <div class="footer-logo">drumitoz.com</div>
+  <p>Ankara, Türkiye</p>
+</footer>
+
+</body>
+</html>
