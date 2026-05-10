@@ -1045,7 +1045,7 @@
   <nav>
     <div class="nav-logo">Dr. Ümit Öz</div>
     <ul class="nav-links">
-      <li><a href="#hakkinda">Hakkında</a></li>
+      <li><a href="hakkimda.html">Hakkımda</a></li>
       <li><a href="#uzmanlik">Uzmanlık</a></li>
       <li>
         <a href="makaleler.html">Makaleler</a>
@@ -1077,7 +1077,7 @@
   <!-- Mobile menu -->
   <div class="mobile-menu" id="mobileMenu">
     <button class="mobile-menu-close" onclick="closeMenu()">✕</button>
-    <a href="#hakkinda" onclick="closeMenu()">Hakkında</a>
+    <a href="hakkimda.html" onclick="closeMenu()">Hakkımda</a>
     <a href="#uzmanlik" onclick="closeMenu()">Uzmanlık</a>
     <a href="makaleler.html" onclick="closeMenu()">Makaleler</a>
     <a href="egitim.html" onclick="closeMenu()">Eğitim</a>
@@ -1096,7 +1096,7 @@
         doğru hacim ve doğru zihin haliyle — 6 yıllık disiplinle piyasalardayım.
       </p>
       <div class="hero-actions">
-        <a href="#hakkinda" class="btn-primary"><span>Hakkında</span></a>
+        <a href="hakkimda.html" class="btn-primary"><span>Hakkımda</span></a>
         <a href="#uzmanlik" class="btn-secondary">Keşfet</a>
         <a href="#iletisim" class="btn-secondary">İletişim</a>
       </div>
@@ -1234,8 +1234,7 @@
       <h2 class="section-title">Birlikte<br><em>büyüyelim</em></h2>
       <div class="gold-divider"></div>
       <p class="contact-desc">
-        Trading, yatırım veya içerik konularında iş birliği için 
-        sosyal medya üzerinden ulaşabilirsiniz.
+        Trading, mentorluk veya iş birliği için aşağıdaki kanallardan ulaşabilirsiniz.
       </p>
       <div class="social-links">
         <a href="https://instagram.com/Dr.omid_kheirkhah" target="_blank" class="social-link">
@@ -1244,7 +1243,39 @@
           </svg>
           Instagram
         </a>
+        <a href="https://t.me/Drumitoz01" target="_blank" class="social-link">
+          <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+          </svg>
+          Telegram Kanalı
+        </a>
+        <a href="mailto:dr@drumitoz.com" class="social-link">
+          <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          dr@drumitoz.com
+        </a>
       </div>
+
+      <!-- Newsletter signup -->
+      <div style="margin-top: 60px; padding: 48px 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.2); max-width: 600px; margin-left: auto; margin-right: auto; margin-top: 60px;">
+        <p style="font-size:0.65rem; letter-spacing:0.3em; color:var(--gold); text-transform:uppercase; margin-bottom:16px;">Haftalık Bülten</p>
+        <h3 style="font-family:'Cormorant Garamond',serif; font-size:1.8rem; font-weight:300; margin-bottom:12px;">Piyasa analizleri &<br><em style="color:var(--gold)">özel içerikler</em></h3>
+        <p style="font-size:0.85rem; color:var(--text-dim); margin-bottom:32px; line-height:1.7;">Her hafta piyasa analizi, trading ipuçları ve özel içerikler için kaydolun.</p>
+        <form onsubmit="handleSubscribe(event)" style="display:flex; flex-direction:column; gap:12px;">
+          <input type="text" id="subName" placeholder="Adınız" required style="padding:14px 20px; background:var(--dark3); border:1px solid rgba(201,168,76,0.2); color:var(--text); font-family:'Outfit',sans-serif; font-size:0.9rem; outline:none;">
+          <input type="email" id="subEmail" placeholder="E-posta adresiniz" required style="padding:14px 20px; background:var(--dark3); border:1px solid rgba(201,168,76,0.2); color:var(--text); font-family:'Outfit',sans-serif; font-size:0.9rem; outline:none;">
+          <select id="subExp" style="padding:14px 20px; background:var(--dark3); border:1px solid rgba(201,168,76,0.2); color:var(--text-dim); font-family:'Outfit',sans-serif; font-size:0.9rem; outline:none;">
+            <option value="">Trading deneyiminiz? (isteğe bağlı)</option>
+            <option value="yeni">🟢 Yeni başlıyorum</option>
+            <option value="orta">🟡 1-3 yıl deneyimim var</option>
+            <option value="ileri">🔴 3+ yıl deneyimim var</option>
+          </select>
+          <button type="submit" style="padding:16px; background:var(--gold); color:var(--dark); font-family:'Outfit',sans-serif; font-size:0.7rem; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; border:none; cursor:pointer; transition:all 0.3s;">Kaydol →</button>
+        </form>
+        <p id="subMsg" style="display:none; margin-top:16px; font-size:0.85rem; color:var(--gold); text-align:center;"></p>
+      </div>
+
     </div>
   </section>
 
@@ -1252,7 +1283,10 @@
   <footer>
     <p>© 2025 Dr. Ümit Öz · Tüm hakları saklıdır</p>
     <div class="footer-logo">drumitoz.com</div>
-    <p>Ankara, Türkiye</p>
+    <div style="display:flex; gap:20px; align-items:center;">
+      <a href="mailto:dr@drumitoz.com" style="font-size:0.7rem; color:var(--text-dim); text-decoration:none; transition:color 0.3s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(232,224,208,0.65)'">dr@drumitoz.com</a>
+      <a href="https://t.me/Drumitoz01" target="_blank" style="font-size:0.7rem; color:var(--text-dim); text-decoration:none; transition:color 0.3s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(232,224,208,0.65)'">@Drumitoz01</a>
+    </div>
   </footer>
 
   <script>
@@ -1334,6 +1368,20 @@
         }
       });
     }, { threshold: 0.1 });
+
+    // Newsletter form
+    function handleSubscribe(e) {
+      e.preventDefault();
+      const name = document.getElementById('subName').value;
+      const email = document.getElementById('subEmail').value;
+      const exp = document.getElementById('subExp').value;
+      const msg = document.getElementById('subMsg');
+      msg.style.display = 'block';
+      msg.textContent = `Teşekkürler ${name}! Kaydınız alındı. 🎉`;
+      document.getElementById('subName').value = '';
+      document.getElementById('subEmail').value = '';
+      document.getElementById('subExp').value = '';
+    }
 
     // Force scroll to top on load
     window.addEventListener('load', () => {
