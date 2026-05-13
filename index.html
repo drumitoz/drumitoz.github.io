@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Ümit Öz | Trader · Diş Hekimi · Yatırımcı</title>
-  <meta name="description" content="Dr. Ümit Öz — 6 yıllık profesyonel trading deneyimi. Altın, Dow Jones, Nasdaq ve kripto piyasalarında uzman. Trader, Diş Hekimi ve Yatırımcı." />
+  <title>Dr. Ümit Öz | Trader · Diş Hekimi · Yazar</title>
+  <meta name="description" content="Dr. Ümit Öz — 6 yıllık profesyonel trading deneyimi. Altın, Dow Jones, Nasdaq ve kripto piyasalarında uzman. Trader, Diş Hekimi ve Yazar." />
   <meta name="keywords" content="Dr Ümit Öz, trader, altın trading, dow jones, nasdaq, bitcoin, forex, yatırım, diş hekimi, Ankara" />
   <meta name="author" content="Dr. Ümit Öz" />
-  <meta property="og:title" content="Dr. Ümit Öz | Trader · Diş Hekimi · Yatırımcı" />
+  <meta property="og:title" content="Dr. Ümit Öz | Trader · Diş Hekimi · Yazar" />
   <meta property="og:description" content="6 yıllık profesyonel trading deneyimi. Altın, Dow Jones, Nasdaq ve kripto piyasalarında uzman." />
   <meta property="og:image" content="https://drumitoz.com/profile.jpg" />
   <meta property="og:url" content="https://drumitoz.com" />
@@ -828,17 +828,45 @@
       .hero-right {
         display: flex !important;
         justify-content: center;
-        padding: 0 24px 60px;
+        align-items: center;
+        padding: 40px 24px 60px;
         min-height: unset;
       }
       .portrait-frame {
-        width: 280px;
-        height: 320px;
+        width: 240px;
+        height: auto;
+        position: relative;
+      }
+      .portrait-bg, .portrait-accent, .portrait-accent2, .portrait-line { display: none; }
+      .portrait-inner {
+        width: 100%;
+        background: var(--dark3);
+        border: 1px solid rgba(201,168,76,0.2);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
       }
       .portrait-icon {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid rgba(201,168,76,0.3);
       }
+      .portrait-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+      }
+      .portrait-stats {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+      }
+      .stat { text-align: center; }
       .hero-name {
         font-size: clamp(3.5rem, 15vw, 5rem);
         line-height: 1.0;
@@ -889,6 +917,8 @@
       .expertise-grid { grid-template-columns: 1fr; }
       .expertise-item { padding: 40px 24px; }
       .expertise-num { font-size: 3rem; }
+      /* Hide expertise section label on mobile */
+      .expertise .section-label { display: none; }
 
       /* Contact */
       .social-links {
@@ -1095,7 +1125,7 @@
     <div class="hero-left">
       <p class="hero-tag">Sağlık · Finans · Ankara</p>
       <h1 class="hero-name">Dr.<br><span>Ümit</span><br>Öz</h1>
-      <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yatırımcı</p>
+      <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yazar</p>
       <p class="hero-desc">
         Düzenli kaos. Zıtlıklar, birbirinin yokluğunda anlam kazanır ve birbirleriyle açıklanırlar.
       </p>
@@ -1129,6 +1159,9 @@
               <div class="stat-num">∞</div>
               <div class="stat-label">Vizyon</div>
             </div>
+          </div>
+          <div style="text-align:center; padding: 12px 0; border-top: 1px solid rgba(201,168,76,0.2); margin-top: 8px; display:block;">
+            <p style="font-size:0.65rem; letter-spacing:0.15em; color:var(--gold); font-family:'Outfit',sans-serif; white-space:nowrap;">Dentist · Trader · Innovator · Writer</p>
           </div>
         </div>
       </div>
@@ -1184,9 +1217,6 @@
   <!-- EXPERTISE -->
   <section class="expertise" id="uzmanlik">
     <div style="text-align:center; margin-bottom: 80px;" class="reveal">
-      <p class="section-label" style="justify-content:center;">
-        <span style="display:none"></span>Uzmanlık Alanları
-      </p>
       <h2 class="section-title">Ne yapıyorum,<br>nasıl <em>düşünüyorum</em></h2>
     </div>
     <div class="expertise-grid">
