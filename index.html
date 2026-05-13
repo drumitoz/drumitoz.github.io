@@ -1048,6 +1048,7 @@
     <img src="logo.png" alt="Dr. Ümit Öz" style="height:80px; width:auto; mix-blend-mode:lighten;">
   </a>
     <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
       <li><a href="hakkimda.html">Hakkımda</a></li>
       <li><a href="#uzmanlik">Uzmanlık</a></li>
       <li>
@@ -1080,6 +1081,7 @@
   <!-- Mobile menu -->
   <div class="mobile-menu" id="mobileMenu">
     <button class="mobile-menu-close" onclick="closeMenu()">✕</button>
+    <a href="index.html" onclick="closeMenu()">Ana Sayfa</a>
     <a href="hakkimda.html" onclick="closeMenu()">Hakkımda</a>
     <a href="#uzmanlik" onclick="closeMenu()">Uzmanlık</a>
     <a href="makaleler.html" onclick="closeMenu()">Makaleler</a>
@@ -1095,8 +1097,7 @@
       <h1 class="hero-name">Dr.<br><span>Ümit</span><br>Öz</h1>
       <p class="hero-title">Diş Hekimi &nbsp;·&nbsp; Trader &nbsp;·&nbsp; Yatırımcı</p>
       <p class="hero-desc">
-        Trading ne bir sprint, ne de bir ralli. Doğru pozisyon, doğru zaman, 
-        doğru hacim ve doğru zihin haliyle — 6 yıllık disiplinle piyasalardayım.
+        Düzenli kaos. Zıtlıklar, birbirinin yokluğunda anlam kazanır ve birbirleriyle açıklanırlar.
       </p>
       <div class="hero-actions">
         <a href="hakkimda.html" class="btn-primary"><span>Hakkımda</span></a>
@@ -1115,11 +1116,6 @@
           <div class="portrait-icon">
             <img src="profile.jpg" alt="Dr. Ümit Öz" />
           </div>
-          <div class="portrait-name-card">
-            <h3>Dr. Ümit Öz</h3>
-            <p>Diş Hekimi · İnşaat Müh. · Trader · Yatırımcı</p>
-          </div>
-          <div class="portrait-divider"></div>
           <div class="portrait-stats">
             <div class="stat">
               <div class="stat-num">6+</div>
@@ -1162,26 +1158,26 @@
       </p>
     </div>
     <div class="about-right reveal">
-      <div class="about-card" data-hover="saglik">
+      <a href="makaleler.html#saglik" class="about-card" data-hover="saglik" style="text-decoration:none; color:inherit; cursor:pointer;">
         <div class="about-card-icon">🦷</div>
         <h4>Diş Hekimliği</h4>
         <p>Tıp ve sağlık alanında akademik birikim ve bilgi paylaşımı</p>
-      </div>
-      <div class="about-card" data-hover="finans">
+      </a>
+      <a href="makaleler.html" class="about-card" data-hover="finans" style="text-decoration:none; color:inherit; cursor:pointer;">
         <div class="about-card-icon">📈</div>
         <h4>Trading</h4>
         <p>Forex & kripto piyasalarında aktif işlemler ve strateji geliştirme</p>
-      </div>
-      <div class="about-card" data-hover="finans">
+      </a>
+      <a href="hakkimda.html" class="about-card" data-hover="finans" style="text-decoration:none; color:inherit; cursor:pointer;">
         <div class="about-card-icon">🏗️</div>
         <h4>Mühendislik</h4>
         <p>İnşaat mühendisliği altyapısı ile analitik problem çözme</p>
-      </div>
-      <div class="about-card">
-        <div class="about-card-icon">💡</div>
-        <h4>Eğitim</h4>
-        <p>Bilgiyi paylaşmak ve topluluk oluşturmak temel motivasyonum</p>
-      </div>
+      </a>
+      <a href="makaleler.html" class="about-card" style="text-decoration:none; color:inherit; cursor:pointer;">
+        <div class="about-card-icon">✍️</div>
+        <h4>Yazar</h4>
+        <p>Finansal okuryazarlık ve sağlık alanında içerik üretimi</p>
+      </a>
     </div>
   </section>
 
