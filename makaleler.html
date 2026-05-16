@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Makaleler | Dr. Ümit Öz</title>
-  <meta name="description" content="Dr. Ümit Öz'ün trading, ekonomi ve sağlık alanındaki eğitim makaleleri." />
+  <meta name="description" content="Dr. Ümit Öz'ün trading, ekonomi ve diş sağlığı alanındaki eğitim makaleleri. 56 makale yayında." />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -12,46 +12,56 @@
     html { scroll-behavior: smooth; }
     body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; }
     nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
-    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-logo img { height: 80px; width: auto; mix-blend-mode: lighten; }
     .nav-links { display: flex; gap: 32px; list-style: none; }
     .nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; transition: color 0.3s; }
     .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-    .page-hero { min-height: 50vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; background: linear-gradient(to bottom, var(--dark), var(--dark2)); position: relative; }
+    .page-hero { min-height: 45vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 60px; background: linear-gradient(to bottom, var(--dark), var(--dark2)); }
     .page-label { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; }
     .page-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
-    .page-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 6vw, 6rem); font-weight: 300; line-height: 1.0; margin-bottom: 16px; }
+    .page-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 6vw, 5rem); font-weight: 300; line-height: 1.0; margin-bottom: 16px; }
     .page-title em { font-style: italic; color: var(--gold); }
-    .page-desc { font-size: 1rem; color: var(--text-mid); max-width: 500px; line-height: 1.8; }
-    .filter-bar { padding: 40px 80px 0; display: flex; gap: 4px; flex-wrap: wrap; }
-    .filter-btn { padding: 10px 24px; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; border: 1px solid rgba(201,168,76,0.2); background: transparent; color: var(--text-dim); cursor: pointer; transition: all 0.3s; font-family: 'Outfit', sans-serif; }
+    .page-desc { font-size: 0.95rem; color: var(--text-mid); max-width: 500px; line-height: 1.8; }
+    /* FILTER BAR */
+    .filter-bar { padding: 32px 80px 0; display: flex; gap: 4px; flex-wrap: wrap; }
+    .filter-btn { padding: 10px 20px; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; border: 1px solid rgba(201,168,76,0.2); background: transparent; color: var(--text-dim); cursor: pointer; transition: all 0.3s; font-family: 'Outfit', sans-serif; }
     .filter-btn:hover, .filter-btn.active { background: var(--gold-dim); color: var(--gold); border-color: var(--gold); }
+    /* SECTIONS */
     .articles-section { padding: 40px 80px 80px; }
-    .category-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: var(--text); margin-bottom: 32px; margin-top: 60px; padding-bottom: 16px; border-bottom: 1px solid rgba(201,168,76,0.2); display: flex; align-items: center; gap: 16px; }
+    .section-block { margin-bottom: 60px; }
+    .section-block.hidden { display: none; }
+    .category-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: var(--text); margin-bottom: 24px; margin-top: 40px; padding-bottom: 16px; border-bottom: 1px solid rgba(201,168,76,0.2); display: flex; align-items: center; gap: 16px; }
     .category-title span { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; }
     .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(201,168,76,0.08); }
-    .article-card { background: var(--dark2); padding: 36px 28px; text-decoration: none; display: block; transition: all 0.3s; position: relative; border-top: 2px solid transparent; overflow: hidden; }
-    .article-card::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: var(--gold); transition: width 0.4s ease; }
+    .article-card { background: var(--dark2); padding: 32px 24px; text-decoration: none; display: block; transition: all 0.3s; position: relative; border-top: 2px solid transparent; }
     .article-card:hover { background: var(--dark3); border-top-color: var(--gold); }
-    .article-card:hover::after { width: 100%; }
-    .article-card.coming-soon { opacity: 0.35; cursor: default; pointer-events: none; }
-    .article-num { font-family: 'Cormorant Garamond', serif; font-size: 3rem; color: rgba(201,168,76,0.1); line-height: 1; margin-bottom: 16px; }
-    .article-tag { font-size: 0.6rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-bottom: 12px; }
-    .article-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 300; color: var(--text); line-height: 1.3; margin-bottom: 12px; }
+    .article-num { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: rgba(201,168,76,0.1); line-height: 1; margin-bottom: 12px; }
+    .article-tag { font-size: 0.6rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-bottom: 10px; }
+    .article-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 300; color: var(--text); line-height: 1.3; margin-bottom: 10px; }
     .article-card p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
-    .read-more { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-top: 20px; display: inline-block; }
-    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; }
+    .read-more { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-top: 16px; display: inline-block; }
+    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
     footer p { font-size: 0.7rem; color: var(--text-dim); }
     .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
-    @media (max-width: 900px) { nav { padding: 20px 24px; } .nav-links { display: none; } .page-hero { padding: 100px 24px 60px; } .filter-bar { padding: 24px 24px 0; } .articles-section { padding: 24px 24px 60px; } .articles-grid { grid-template-columns: 1fr; } footer { padding: 30px 24px; flex-direction: column; gap: 12px; text-align: center; } }
+    @media (max-width: 900px) {
+      nav { padding: 20px 24px; }
+      .nav-links { display: none; }
+      .page-hero { padding: 100px 24px 40px; }
+      .filter-bar { padding: 24px 24px 0; }
+      .articles-section { padding: 24px 24px 60px; }
+      .articles-grid { grid-template-columns: 1fr; }
+      footer { padding: 30px 24px; flex-direction: column; text-align: center; }
+    }
   </style>
 </head>
 <body>
+
 <nav>
-  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Dr. Ümit Öz" style="height:80px; width:auto; mix-blend-mode:lighten;"></a>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Dr. Ümit Öz" /></a>
   <ul class="nav-links">
     <li><a href="index.html">Ana Sayfa</a></li>
     <li><a href="hakkimda.html">Hakkımda</a></li>
-    <li><a href="makaleler.html">Makaleler</a></li>
+    <li><a href="makaleler.html" class="active">Makaleler</a></li>
     <li><a href="mentoring.html">Mentorluk</a></li>
     <li><a href="egitim.html">Eğitim</a></li>
     <li><a href="index.html#iletisim">İletişim</a></li>
@@ -64,256 +74,107 @@
   <p class="page-desc">Trading, ekonomi ve diş sağlığı alanında kapsamlı eğitim makaleleri. Toplam <strong style="color:var(--gold)">56 makale</strong> yayında.</p>
 </header>
 
+<!-- FILTER BAR -->
 <div class="filter-bar">
   <button class="filter-btn active" onclick="filterArticles('all', this)">Tümü</button>
   <button class="filter-btn" onclick="filterArticles('ekonomi', this)">📖 Ekonomi</button>
   <button class="filter-btn" onclick="filterArticles('trading', this)">📈 Trading</button>
   <button class="filter-btn" onclick="filterArticles('teknik', this)">📊 Teknik Analiz</button>
+  <button class="filter-btn" onclick="filterArticles('piyasa', this)">💰 Piyasalar</button>
   <button class="filter-btn" onclick="filterArticles('saglik', this)">🦷 Sağlık</button>
 </div>
 
 <main class="articles-section">
 
-  <h2 class="category-title cat-ekonomi">📖 Ekonomi & Finansal Dünya <span>Bölüm 1</span></h2>
-  <div class="articles-grid cat-ekonomi">
-    <a href="makale-1-para-nasil-yaratilir.html" class="article-card">
-      <div class="article-num">01</div>
-      <div class="article-tag">Ekonomi Temelleri</div>
-      <h3>Para Nasıl Yaratılır?</h3>
-      <p>Merkez bankaları ve ticari bankalar paranın yaratılmasında nasıl rol oynar?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-2-piyasa-oyunculari.html" class="article-card">
-      <div class="article-num">02</div>
-      <div class="article-tag">Piyasa Dinamikleri</div>
-      <h3>Piyasadaki Oyuncular Kimler?</h3>
-      <p>Retail, kurumsal yatırımcı ve market maker arasındaki fark.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-akilli-para.html" class="article-card">
-      <div class="article-num">03</div>
-      <div class="article-tag">Smart Money</div>
-      <h3>Akıllı Para Nereye Gider?</h3>
-      <p>Kurumsal paranın izini takip etmek ve Wyckoff döngüsü.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-faiz-kararlari.html" class="article-card">
-      <div class="article-num">04</div>
-      <div class="article-tag">Makroekonomi</div>
-      <h3>Faiz & DXY: Piyasaların Ana Tetikçisi</h3>
-      <p>Fed kararları ve dolar endeksinin tüm piyasalar üzerindeki etkisi.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
+  <!-- ===== BÖLÜM 1: EKONOMİ ===== -->
+  <div class="section-block" data-category="ekonomi">
+    <h2 class="category-title">📖 Ekonomi & Finansal Dünya <span>Bölüm 1</span></h2>
+    <div class="articles-grid">
+      <a href="makale-1-para-nasil-yaratilir.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Ekonomi Temelleri</div><h3>Para Nasıl Yaratılır?</h3><p>Merkez bankaları ve ticari bankalar paranın yaratılmasında nasıl rol oynar?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-2-piyasa-oyunculari.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Piyasa Dinamikleri</div><h3>Piyasadaki Oyuncular Kimler?</h3><p>Retail, kurumsal yatırımcı ve market maker arasındaki fark.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-akilli-para.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Smart Money</div><h3>Akıllı Para Nereye Gider?</h3><p>Kurumsal paranın izini takip etmek ve Wyckoff döngüsü.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-faiz-kararlari.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Makroekonomi</div><h3>Faiz & DXY: Piyasaların Ana Tetikçisi</h3><p>Fed kararları ve dolar endeksinin tüm piyasalar üzerindeki etkisi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-enflasyon.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Makroekonomi</div><h3>Enflasyon: Paranın Sessiz Düşmanı</h3><p>Enflasyon nedir, satın alma gücü nasıl erir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-risk-on-off.html" class="article-card"><div class="article-num">06</div><div class="article-tag">Piyasa Duygusu</div><h3>Risk-On / Risk-Off: Piyasa Duygusu</h3><p>Risk iştahı nedir? VIX, JPY ve tahvil getirileri nasıl okunur?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-resesyon.html" class="article-card"><div class="article-num">07</div><div class="article-tag">Makroekonomi</div><h3>Resesyon: Piyasalar Nasıl Tepki Verir?</h3><p>Ekonomik daralma dönemlerinde hangi varlıklar nasıl hareket eder?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
   </div>
 
-    <a href="makale-enflasyon.html" class="article-card">
-      <div class="article-num">05</div>
-      <div class="article-tag">Makroekonomi</div>
-      <h3>Enflasyon: Paranın Sessiz Düşmanı</h3>
-      <p>Enflasyon nedir, satın alma gücü nasıl erir? CPI verisi piyasaları nasıl etkiler?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-risk-on-off.html" class="article-card">
-      <div class="article-num">06</div>
-      <div class="article-tag">Piyasa Duygusu</div>
-      <h3>Risk-On / Risk-Off: Piyasa Duygusu</h3>
-      <p>Risk iştahı nedir? VIX, JPY ve tahvil getirileri nasıl okunur?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-resesyon.html" class="article-card">
-      <div class="article-num">07</div>
-      <div class="article-tag">Makroekonomi</div>
-      <h3>Resesyon: Piyasalar Nasıl Tepki Verir?</h3>
-      <p>Ekonomik daralma dönemlerinde hangi varlıklar nasıl hareket eder?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
+  <!-- ===== BÖLÜM 2: TRADİNG ===== -->
+  <div class="section-block" data-category="trading">
+    <h2 class="category-title">📈 Trading Temelleri <span>Bölüm 2</span></h2>
+    <div class="articles-grid">
+      <a href="makale-trading-nedir.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Başlangıç</div><h3>Trading Nedir? Yatırımdan Farkı Ne?</h3><p>Scalping, day trading, swing trading farkları.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-3-risk-yonetimi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Risk Yönetimi</div><h3>Risk Yönetimi: En Önemli Kural</h3><p>Stop-loss, pozisyon büyüklüğü ve drawdown.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-4-trading-psikolojisi.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Psikoloji</div><h3>Trading Psikolojisi: Duygular Nasıl Mahveder?</h3><p>Korku, açgözlülük ve intikam tradeleri.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-broker-secimi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Başlangıç</div><h3>Broker Nedir? Nasıl Seçilir?</h3><p>Güvenilir broker nasıl seçilir? Spread, lisans ve platform kriterleri.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-kaldirac.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Risk</div><h3>Kaldıraç: Çift Taraflı Kılıç</h3><p>Kaldıraç nasıl çalışır ve neden tehlikelidir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
   </div>
 
-  <h2 class="category-title cat-trading">📈 Trading Temelleri <span>Bölüm 2</span></h2>
-  <div class="articles-grid cat-trading">
-    <a href="makale-trading-nedir.html" class="article-card">
-      <div class="article-num">01</div>
-      <div class="article-tag">Başlangıç</div>
-      <h3>Trading Nedir? Yatırımdan Farkı Ne?</h3>
-      <p>Scalping, day trading, swing trading farkları. Hangi tarz size uygun?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-broker-secimi.html" class="article-card">
-      <div class="article-num">02</div>
-      <div class="article-tag">Başlangıç</div>
-      <h3>Broker Nedir? Nasıl Seçilir?</h3>
-      <p>Güvenilir broker nasıl seçilir? Spread, lisans ve platform kriterleri.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-kaldirac.html" class="article-card">
-      <div class="article-num">03</div>
-      <div class="article-tag">Risk</div>
-      <h3>Kaldıraç: Çift Taraflı Kılıç</h3>
-      <p>Kaldıraç nasıl çalışır ve neden tehlikelidir? Sağlıklı kullanım rehberi.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-3-risk-yonetimi.html" class="article-card">
-      <div class="article-num">01</div>
-      <div class="article-tag">Risk Yönetimi</div>
-      <h3>Risk Yönetimi: En Önemli Kural</h3>
-      <p>Stop-loss, pozisyon büyüklüğü ve drawdown. 6 yıllık deneyimin özeti.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-4-trading-psikolojisi.html" class="article-card">
-      <div class="article-num">02</div>
-      <div class="article-tag">Psikoloji</div>
-      <h3>Trading Psikolojisi: Duygular Nasıl Mahveder?</h3>
-      <p>Korku, açgözlülük ve intikam tradeleri — görünmez düşmanlar.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
+  <!-- ===== BÖLÜM 3: TEKNİK ANALİZ ===== -->
+  <div class="section-block" data-category="teknik">
+    <h2 class="category-title">📊 Teknik Analiz <span>Bölüm 3</span></h2>
+    <div class="articles-grid">
+      <a href="makale-5-destek-direnc.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Temel Kavramlar</div><h3>Destek ve Direnç: Piyasanın Dili</h3><p>Teknik analizin temel taşı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-6-trend-analizi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Trend Analizi</div><h3>Trend Analizi: Piyasa Size Ne Söylüyor?</h3><p>Yükseliş, düşüş ve yatay trend nasıl tespit edilir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-moving-average.html" class="article-card"><div class="article-num">03</div><div class="article-tag">İndikatörler</div><h3>Moving Average & EMA Nedir?</h3><p>MA200, Golden Cross, Death Cross.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-rsi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">İndikatörler</div><h3>RSI: Aşırı Alım ve Satım Bölgeleri</h3><p>RSI'yı doğru kullanmak ve divergence gerçeği.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-macd.html" class="article-card"><div class="article-num">05</div><div class="article-tag">İndikatörler</div><h3>MACD: Trend ve Momentum Bir Arada</h3><p>MACD line, signal line ve histogram'ı doğru okumak.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-fibonacci.html" class="article-card"><div class="article-num">06</div><div class="article-tag">İndikatörler</div><h3>Fibonacci: Piyasanın Matematiksel Ritmi</h3><p>0.618 altın oranı ve Fibonacci seviyelerini doğru kullanmak.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-price-action.html" class="article-card"><div class="article-num">07</div><div class="article-tag">⭐ Temel Felsefe</div><h3>Price Action: Neden Her Şeyden Üstündür?</h3><p>İndikatörsüz trading neden daha güçlüdür?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-supply-demand.html" class="article-card"><div class="article-num">08</div><div class="article-tag">İleri Analiz</div><h3>Supply & Demand: Kurumsal Para İzi</h3><p>Arz-talep bölgeleri ve order block'lar nasıl bulunur?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-stop-hunt.html" class="article-card"><div class="article-num">09</div><div class="article-tag">⚠️ İleri Seviye</div><h3>Stop Hunt: Likidite Avcılığı</h3><p>Kurumlar neden retail'in stop emirlerini hedef alır?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-mum-formasyonlari.html" class="article-card"><div class="article-num">10</div><div class="article-tag">Price Action</div><h3>Mum Formasyonları: Dönüş Sinyalleri</h3><p>Pin bar, engulfing, doji. En güçlü dönüş formasyonları.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-bollinger-bands.html" class="article-card"><div class="article-num">11</div><div class="article-tag">İndikatörler</div><h3>Bollinger Bands: Volatiliteyi Okumak</h3><p>Squeeze, genişleme ve volatilite patlaması.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-atr.html" class="article-card"><div class="article-num">12</div><div class="article-tag">Risk Yönetimi</div><h3>ATR: Risk Yönetiminin Gizli Silahı</h3><p>Stop-loss ve hedef belirlemede ATR nasıl kullanılır?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
   </div>
 
-  <h2 class="category-title cat-teknik">📊 Teknik Analiz <span>Bölüm 3</span></h2>
-  <div class="articles-grid cat-teknik">
-    <a href="makale-5-destek-direnc.html" class="article-card">
-      <div class="article-num">01</div>
-      <div class="article-tag">Temel Kavramlar</div>
-      <h3>Destek ve Direnç: Piyasanın Dili</h3>
-      <p>Teknik analizin temel taşı. Neden bu seviyeler önemli?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-6-trend-analizi.html" class="article-card">
-      <div class="article-num">02</div>
-      <div class="article-tag">Trend Analizi</div>
-      <h3>Trend Analizi: Piyasa Size Ne Söylüyor?</h3>
-      <p>Yükseliş, düşüş ve yatay trend nasıl tespit edilir?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-moving-average.html" class="article-card">
-      <div class="article-num">03</div>
-      <div class="article-tag">İndikatörler</div>
-      <h3>Moving Average & EMA Nedir?</h3>
-      <p>Trendin en temel aracı. MA200, Golden Cross, Death Cross.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-rsi.html" class="article-card">
-      <div class="article-num">04</div>
-      <div class="article-tag">İndikatörler</div>
-      <h3>RSI: Aşırı Alım ve Satım Bölgeleri</h3>
-      <p>RSI'yı doğru kullanmak — 70/30 yanlışı ve divergence gerçeği.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-macd.html" class="article-card">
-      <div class="article-num">05</div>
-      <div class="article-tag">İndikatörler</div>
-      <h3>MACD: Trend ve Momentum Bir Arada</h3>
-      <p>MACD line, signal line ve histogram'ı doğru okumak.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-fibonacci.html" class="article-card">
-      <div class="article-num">06</div>
-      <div class="article-tag">İndikatörler</div>
-      <h3>Fibonacci: Piyasanın Matematiksel Ritmi</h3>
-      <p>0.618 altın oranı ve Fibonacci seviyelerini doğru kullanmak.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-price-action.html" class="article-card">
-      <div class="article-num">07</div>
-      <div class="article-tag">⭐ Temel Felsefe</div>
-      <h3>Price Action: Neden Her Şeyden Üstündür?</h3>
-      <p>İndikatörsüz trading neden daha güçlüdür? 6 yıllık deneyimin sonucu.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-supply-demand.html" class="article-card">
-      <div class="article-num">08</div>
-      <div class="article-tag">İleri Analiz</div>
-      <h3>Supply & Demand: Kurumsal Para İzi</h3>
-      <p>Arz-talep bölgeleri ve order block'lar nasıl bulunur?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-stop-hunt.html" class="article-card">
-      <div class="article-num">09</div>
-      <div class="article-tag">⚠️ İleri Seviye</div>
-      <h3>Stop Hunt: Likidite Avcılığı</h3>
-      <p>Kurumlar neden retail'in stop emirlerini hedef alır?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
+  <!-- ===== BÖLÜM 4: PİYASA ANALİZLERİ ===== -->
+  <div class="section-block" data-category="piyasa">
+    <h2 class="category-title">💰 Piyasa Analizleri <span>Bölüm 4</span></h2>
+    <div class="articles-grid">
+      <a href="makale-altin-analizi.html" class="article-card"><div class="article-num">01</div><div class="article-tag">🥇 Altın</div><h3>Altın (XAU/USD) Nasıl Analiz Edilir?</h3><p>6 yıllık altın trading deneyiminden analiz yöntemi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dow-nasdaq.html" class="article-card"><div class="article-num">02</div><div class="article-tag">📊 Endeksler</div><h3>Dow Jones & Nasdaq: Endeksleri Anlamak</h3><p>ABD endekslerinin dinamikleri ve trading yaklaşımı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-bitcoin.html" class="article-card"><div class="article-num">03</div><div class="article-tag">₿ Kripto</div><h3>Bitcoin & Kripto: Dijital Altın mı?</h3><p>Kripto piyasasının özellikleri, riskleri ve trading yaklaşımı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
   </div>
 
-    <a href="makale-mum-formasyonlari.html" class="article-card">
-      <div class="article-num">10</div>
-      <div class="article-tag">Price Action</div>
-      <h3>Mum Formasyonları: Dönüş Sinyalleri</h3>
-      <p>Pin bar, engulfing, doji. En güçlü dönüş formasyonları nasıl okunur?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-bollinger-bands.html" class="article-card">
-      <div class="article-num">11</div>
-      <div class="article-tag">İndikatörler</div>
-      <h3>Bollinger Bands: Volatiliteyi Okumak</h3>
-      <p>Squeeze, genişleme ve volatilite patlaması. Bollinger'ı doğru kullanmak.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-atr.html" class="article-card">
-      <div class="article-num">12</div>
-      <div class="article-tag">Risk Yönetimi</div>
-      <h3>ATR: Risk Yönetiminin Gizli Silahı</h3>
-      <p>Stop-loss ve hedef belirlemede ATR nasıl kullanılır?</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-  </div>
-
-  <h2 class="category-title cat-piyasa">💰 Piyasa Analizleri <span>Bölüm 4</span></h2>
-  <div class="articles-grid cat-piyasa">
-    <a href="makale-altin-analizi.html" class="article-card">
-      <div class="article-num">01</div>
-      <div class="article-tag">🥇 Altın</div>
-      <h3>Altın (XAU/USD) Nasıl Analiz Edilir?</h3>
-      <p>6 yıllık altın trading deneyiminden analiz yöntemi ve kontrol listesi.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-dow-nasdaq.html" class="article-card">
-      <div class="article-num">02</div>
-      <div class="article-tag">📊 Endeksler</div>
-      <h3>Dow Jones & Nasdaq: Endeksleri Anlamak</h3>
-      <p>ABD endekslerinin dinamikleri, farkları ve trading yaklaşımı.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-    <a href="makale-bitcoin.html" class="article-card">
-      <div class="article-num">03</div>
-      <div class="article-tag">₿ Kripto</div>
-      <h3>Bitcoin & Kripto: Dijital Altın mı?</h3>
-      <p>Kripto piyasasının özellikleri, riskleri ve trading yaklaşımı.</p>
-      <span class="read-more">Okumaya Devam Et →</span>
-    </a>
-  </div>
-
-  <h2 class="category-title cat-saglik" id="saglik">🦷 Diş & Genel Sağlık <span>Bölüm 5</span></h2>
-  <div class="articles-grid cat-saglik">
-    <a href="makale-dis-curugu.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Temel Bilgiler</div><h3>Diş Çürüğü: Sessiz Tehlike</h3><p>2.5 milyar kişiyi etkileyen diş çürüğünün nedenleri ve önleme yolları.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-eti-hastaligi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Periodontal</div><h3>Diş Eti Hastalığı: Görünmez Tehdit</h3><p>Kalp sağlığını da etkileyen diş eti hastalığı hakkında bilmeniz gerekenler.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dogru-dis-fircalama.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Temel Bakım</div><h3>Doğru Diş Fırçalama Tekniği</h3><p>Dişlerinizi doğru fırçalıyor musunuz? Bilimsel rehber.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-ipi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Temel Bakım</div><h3>Diş İpi: Neden Vazgeçilmez?</h3><p>Diş yüzeyinin %40'ı diş ipi olmadan temizlenemez.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-agiz-kanseri.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Kanser & Önleme</div><h3>Ağız Kanseri: Erken Teşhis Hayat Kurtarır</h3><p>Her yıl 377.000 yeni vaka. Risk faktörleri ve belirtiler.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-beyazlatma.html" class="article-card"><div class="article-num">06</div><div class="article-tag">Estetik</div><h3>Diş Beyazlatma: Bilim Ne Diyor?</h3><p>Hangisi işe yarıyor, hangisi sadece pazarlama?</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-bruksizm.html" class="article-card"><div class="article-num">07</div><div class="article-tag">Parafonsiyonel</div><h3>Bruksizm: Diş Gıcırdatmanın Bedeli</h3><p>Nüfusun %8'i uyku sırasında dişlerini gıcırdatır.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-implant-kopru.html" class="article-card"><div class="article-num">08</div><div class="article-tag">Restoratif</div><h3>İmplant mı, Köprü mü?</h3><p>Doğru seçim için bilmeniz gerekenler.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-agiz-kokusu.html" class="article-card"><div class="article-num">09</div><div class="article-tag">Genel Sağlık</div><h3>Ağız Kokusu: Gerçek Nedenler</h3><p>Nüfusun %25'i kronik ağız kokusuyla mücadele eder.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-cocuklarda-dis-sagligi.html" class="article-card"><div class="article-num">10</div><div class="article-tag">Pedodonti</div><h3>Çocuklarda Diş Sağlığı</h3><p>İlk dişten itibaren doğru alışkanlıklar ömür boyu korur.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-hamilelerde-dis-sagligi.html" class="article-card"><div class="article-num">11</div><div class="article-tag">Özel Gruplar</div><h3>Hamilelerde Diş Sağlığı</h3><p>Hamilelikte diş eti hastalığı erken doğum riskini artırabilir.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-florur.html" class="article-card"><div class="article-num">12</div><div class="article-tag">Önleyici</div><h3>Florür: Diş Sağlığının Kalkanı</h3><p>70 yılda milyonlarca dişi kurtaran florür hakkında gerçekler.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-seker-dis-sagligi.html" class="article-card"><div class="article-num">13</div><div class="article-tag">Beslenme</div><h3>Şeker ve Diş Sağlığı</h3><p>Ne kadar değil, ne sıklıkla yediğiniz önemlidir.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-kanal-tedavisi.html" class="article-card"><div class="article-num">14</div><div class="article-tag">Tedaviler</div><h3>Kanal Tedavisi: Korkmayın</h3><p>Modern diş hekimliğiyle kanal tedavisi artık ağrısız.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-ortodonti.html" class="article-card"><div class="article-num">15</div><div class="article-tag">Ortodonti</div><h3>Tel mi, Şeffaf Plak mı?</h3><p>Ortodontik tedavide doğru seçim nasıl yapılır?</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-diyabet-dis-sagligi.html" class="article-card"><div class="article-num">16</div><div class="article-tag">Sistemik</div><h3>Diyabet ve Ağız Sağlığı</h3><p>İki yönlü tehlikeli ilişki: birbirini kötüleştiren iki hastalık.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-sigara-agiz-sagligi.html" class="article-card"><div class="article-num">17</div><div class="article-tag">Risk Faktörleri</div><h3>Sigara ve Ağız Sağlığı</h3><p>Sigara ağız kanseri riskini 6 kat artırır.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-uyku-apnesi-dis.html" class="article-card"><div class="article-num">18</div><div class="article-tag">Uyku</div><h3>Uyku Apnesi ve Diş Hekimliği</h3><p>Diş hekimi uyku apnesini nasıl tedavi eder?</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-agiz-kuruluğu.html" class="article-card"><div class="article-num">19</div><div class="article-tag">Genel Sağlık</div><h3>Ağız Kuruluğu: Göründüğünden Tehlikeli</h3><p>400'den fazla ilaç ağız kuruluğuna neden olabilir.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-travmasi.html" class="article-card"><div class="article-num">20</div><div class="article-tag">⚡ Acil</div><h3>Diş Travması: İlk 30 Dakika Kritik</h3><p>Diş düştüğünde ne yapmalısınız? İlk yardım rehberi.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-yaslilik-dis-sagligi.html" class="article-card"><div class="article-num">21</div><div class="article-tag">Özel Gruplar</div><h3>Yaşlılıkta Diş Sağlığı</h3><p>Sağlıklı ağız, aktif ve kaliteli yaşlılığın temel koşuludur.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-gargara.html" class="article-card"><div class="article-num">22</div><div class="article-tag">Temel Bakım</div><h3>Ağız Gargarası: Gerekli mi?</h3><p>Gargara ne zaman faydalı, ne zaman gereksiz?</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-hassasiyeti.html" class="article-card"><div class="article-num">23</div><div class="article-tag">Hassasiyet</div><h3>Diş Hassasiyeti: Nedenleri ve Çözümleri</h3><p>Her 4 yetişkinden 1'i diş hassasiyetinden şikayet eder.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-macunu-secimi.html" class="article-card"><div class="article-num">24</div><div class="article-tag">Temel Bakım</div><h3>Doğru Diş Macunu Nasıl Seçilir?</h3><p>Yüzlerce seçenek arasında doğru diş macunu rehberi.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-kalp-dis-sagligi.html" class="article-card"><div class="article-num">25</div><div class="article-tag">Sistemik</div><h3>Kalp Hastalığı ve Diş Eti İlişkisi</h3><p>Ağız sağlığı kalp sağlığını etkiler mi? Bilim ne diyor?</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-stres-dis-sagligi.html" class="article-card"><div class="article-num">26</div><div class="article-tag">Genel Sağlık</div><h3>Stres ve Ağız Sağlığı</h3><p>Kronik stres ağız sağlığını birden fazla yoldan etkiler.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-dis-eti-cekilmesi.html" class="article-card"><div class="article-num">27</div><div class="article-tag">Periodontal</div><h3>Diş Eti Çekilmesi</h3><p>Bir kez çekilen diş eti kendiliğinden geri dönmez.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-fissur-ortucu.html" class="article-card"><div class="article-num">28</div><div class="article-tag">Önleyici</div><h3>Fissür Örtücü Nedir?</h3><p>Çürük riskini %80 azaltan önleyici uygulama.</p><span class="read-more">Okumaya Devam Et →</span></a>
-    <a href="makale-noma.html" class="article-card"><div class="article-num">29</div><div class="article-tag">Küresel Sağlık</div><h3>Noma: Dünyanın Unutulan Hastalığı</h3><p>WHO'nun ihmal edilen hastalıklar listesindeki ağız hastalığı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+  <!-- ===== BÖLÜM 5: DİŞ & SAĞLIK ===== -->
+  <div class="section-block" data-category="saglik" id="saglik">
+    <h2 class="category-title">🦷 Diş & Genel Sağlık <span>Bölüm 5</span></h2>
+    <div class="articles-grid">
+      <a href="makale-dis-curugu.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Temel Bilgiler</div><h3>Diş Çürüğü: Sessiz Tehlike</h3><p>2.5 milyar kişiyi etkileyen diş çürüğünün nedenleri ve önleme yolları.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-eti-hastaligi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Periodontal</div><h3>Diş Eti Hastalığı: Görünmez Tehdit</h3><p>Kalp sağlığını da etkileyen diş eti hastalığı hakkında bilmeniz gerekenler.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dogru-dis-fircalama.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Temel Bakım</div><h3>Doğru Diş Fırçalama Tekniği</h3><p>Dişlerinizi doğru fırçalıyor musunuz? Bilimsel rehber.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-ipi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Temel Bakım</div><h3>Diş İpi: Neden Vazgeçilmez?</h3><p>Diş yüzeyinin %40'ı diş ipi olmadan temizlenemez.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-agiz-kanseri.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Kanser & Önleme</div><h3>Ağız Kanseri: Erken Teşhis Hayat Kurtarır</h3><p>Her yıl 377.000 yeni vaka. Risk faktörleri ve belirtiler.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-beyazlatma.html" class="article-card"><div class="article-num">06</div><div class="article-tag">Estetik</div><h3>Diş Beyazlatma: Bilim Ne Diyor?</h3><p>Hangisi işe yarıyor, hangisi sadece pazarlama?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-bruksizm.html" class="article-card"><div class="article-num">07</div><div class="article-tag">Parafonsiyonel</div><h3>Bruksizm: Diş Gıcırdatmanın Bedeli</h3><p>Nüfusun %8'i uyku sırasında dişlerini gıcırdatır.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-implant-kopru.html" class="article-card"><div class="article-num">08</div><div class="article-tag">Restoratif</div><h3>İmplant mı, Köprü mü?</h3><p>Doğru seçim için bilmeniz gerekenler.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-agiz-kokusu.html" class="article-card"><div class="article-num">09</div><div class="article-tag">Genel Sağlık</div><h3>Ağız Kokusu: Gerçek Nedenler</h3><p>Nüfusun %25'i kronik ağız kokusuyla mücadele eder.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-cocuklarda-dis-sagligi.html" class="article-card"><div class="article-num">10</div><div class="article-tag">Pedodonti</div><h3>Çocuklarda Diş Sağlığı</h3><p>İlk dişten itibaren doğru alışkanlıklar ömür boyu korur.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-hamilelerde-dis-sagligi.html" class="article-card"><div class="article-num">11</div><div class="article-tag">Özel Gruplar</div><h3>Hamilelerde Diş Sağlığı</h3><p>Hamilelikte diş eti hastalığı erken doğum riskini artırabilir.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-florur.html" class="article-card"><div class="article-num">12</div><div class="article-tag">Önleyici</div><h3>Florür: Diş Sağlığının Kalkanı</h3><p>70 yılda milyonlarca dişi kurtaran florür hakkında gerçekler.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-seker-dis-sagligi.html" class="article-card"><div class="article-num">13</div><div class="article-tag">Beslenme</div><h3>Şeker ve Diş Sağlığı</h3><p>Ne kadar değil, ne sıklıkla yediğiniz önemlidir.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-kanal-tedavisi.html" class="article-card"><div class="article-num">14</div><div class="article-tag">Tedaviler</div><h3>Kanal Tedavisi: Korkmayın</h3><p>Modern diş hekimliğiyle kanal tedavisi artık ağrısız.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-ortodonti.html" class="article-card"><div class="article-num">15</div><div class="article-tag">Ortodonti</div><h3>Tel mi, Şeffaf Plak mı?</h3><p>Ortodontik tedavide doğru seçim nasıl yapılır?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-diyabet-dis-sagligi.html" class="article-card"><div class="article-num">16</div><div class="article-tag">Sistemik</div><h3>Diyabet ve Ağız Sağlığı</h3><p>İki yönlü tehlikeli ilişki: birbirini kötüleştiren iki hastalık.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-sigara-agiz-sagligi.html" class="article-card"><div class="article-num">17</div><div class="article-tag">Risk Faktörleri</div><h3>Sigara ve Ağız Sağlığı</h3><p>Sigara ağız kanseri riskini 6 kat artırır.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-uyku-apnesi-dis.html" class="article-card"><div class="article-num">18</div><div class="article-tag">Uyku</div><h3>Uyku Apnesi ve Diş Hekimliği</h3><p>Diş hekimi uyku apnesini nasıl tedavi eder?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-agiz-kuruluğu.html" class="article-card"><div class="article-num">19</div><div class="article-tag">Genel Sağlık</div><h3>Ağız Kuruluğu: Göründüğünden Tehlikeli</h3><p>400'den fazla ilaç ağız kuruluğuna neden olabilir.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-travmasi.html" class="article-card"><div class="article-num">20</div><div class="article-tag">⚡ Acil</div><h3>Diş Travması: İlk 30 Dakika Kritik</h3><p>Diş düştüğünde ne yapmalısınız? İlk yardım rehberi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-yaslilik-dis-sagligi.html" class="article-card"><div class="article-num">21</div><div class="article-tag">Özel Gruplar</div><h3>Yaşlılıkta Diş Sağlığı</h3><p>Sağlıklı ağız, aktif ve kaliteli yaşlılığın temel koşuludur.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-gargara.html" class="article-card"><div class="article-num">22</div><div class="article-tag">Temel Bakım</div><h3>Ağız Gargarası: Gerekli mi?</h3><p>Gargara ne zaman faydalı, ne zaman gereksiz?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-hassasiyeti.html" class="article-card"><div class="article-num">23</div><div class="article-tag">Hassasiyet</div><h3>Diş Hassasiyeti: Nedenleri ve Çözümleri</h3><p>Her 4 yetişkinden 1'i diş hassasiyetinden şikayet eder.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-macunu-secimi.html" class="article-card"><div class="article-num">24</div><div class="article-tag">Temel Bakım</div><h3>Doğru Diş Macunu Nasıl Seçilir?</h3><p>Yüzlerce seçenek arasında doğru diş macunu rehberi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-kalp-dis-sagligi.html" class="article-card"><div class="article-num">25</div><div class="article-tag">Sistemik</div><h3>Kalp Hastalığı ve Diş Eti İlişkisi</h3><p>Ağız sağlığı kalp sağlığını etkiler mi? Bilim ne diyor?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-stres-dis-sagligi.html" class="article-card"><div class="article-num">26</div><div class="article-tag">Genel Sağlık</div><h3>Stres ve Ağız Sağlığı</h3><p>Kronik stres ağız sağlığını birden fazla yoldan etkiler.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dis-eti-cekilmesi.html" class="article-card"><div class="article-num">27</div><div class="article-tag">Periodontal</div><h3>Diş Eti Çekilmesi</h3><p>Bir kez çekilen diş eti kendiliğinden geri dönmez.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-fissur-ortucu.html" class="article-card"><div class="article-num">28</div><div class="article-tag">Önleyici</div><h3>Fissür Örtücü Nedir?</h3><p>Çürük riskini %80 azaltan önleyici uygulama.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-noma.html" class="article-card"><div class="article-num">29</div><div class="article-tag">Küresel Sağlık</div><h3>Noma: Dünyanın Unutulan Hastalığı</h3><p>WHO'nun ihmal edilen hastalıklar listesindeki ağız hastalığı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
   </div>
 
 </main>
@@ -321,7 +182,7 @@
 <footer>
   <p>© 2025 Dr. Ümit Öz · Tüm hakları saklıdır</p>
   <div class="footer-logo">drumitoz.com</div>
-  <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; justify-content:center;">
+  <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
     <a href="mailto:dr@drumitoz.com" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">dr@drumitoz.com</a>
     <a href="https://t.me/Drumitoz01" target="_blank" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">@Drumitoz01 Trading</a>
     <a href="https://t.me/Drumitoz02" target="_blank" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">@Drumitoz02 Sağlık</a>
@@ -330,17 +191,23 @@
 
 <script>
   function filterArticles(category, btn) {
+    // Update active button
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const grids = document.querySelectorAll('.articles-grid');
-    const titles = document.querySelectorAll('.category-title');
-    if (category === 'all') {
-      grids.forEach(g => g.style.display = 'grid');
-      titles.forEach(t => t.style.display = 'flex');
-    } else {
-      grids.forEach(g => { g.style.display = g.classList.contains('cat-' + category) ? 'grid' : 'none'; });
-      titles.forEach(t => { t.style.display = t.classList.contains('cat-' + category) ? 'flex' : 'none'; });
-    }
+
+    // Show/hide sections
+    const blocks = document.querySelectorAll('.section-block');
+    blocks.forEach(block => {
+      if (category === 'all') {
+        block.classList.remove('hidden');
+      } else {
+        if (block.dataset.category === category) {
+          block.classList.remove('hidden');
+        } else {
+          block.classList.add('hidden');
+        }
+      }
+    });
   }
 </script>
 
