@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://drumitoz.com/sitemap.xml
+Sitemap: https://omidkheirkhah.com/sitemap.xml
