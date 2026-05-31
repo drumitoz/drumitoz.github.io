@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diş Apsesi: Acil Bir Durum mu? | Dr. Omid Kheirkhah</title>
+  <meta name="description" content="Diş apsesi nedir, neden tehlikelidir, ne zaman acil servise gitmeli? Belirtileri ve tedavisi. Dr. Omid Kheirkhah — Diş Hekimi." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; background: linear-gradient(135deg, #080808, #080d08); }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; flex-wrap: wrap; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .source-box { margin-top: 40px; padding: 20px 24px; background: var(--dark3); border-left: 2px solid rgba(201,168,76,0.3); font-size: 0.75rem; color: var(--text-dim); line-height: 1.7; }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    footer p { font-size: 0.7rem; color: var(--text-dim); }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .author-box { flex-direction: column; text-align: center; } footer { padding: 30px 24px; flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Dr. Omid Kheirkhah" style="height:80px; width:auto; mix-blend-mode:lighten;"></a>
+  <a href="index.html#kesifet" class="nav-back">← Makaleler</a>
+</nav>
+<header class="article-hero">
+  <p class="article-category">Diş Sağlığı · Acil Durumlar</p>
+  <h1 class="article-title">Diş Apsesi:<br><em>Acil Durum mu?</em></h1>
+  <div class="article-meta">
+    <span>📖 8 dakika okuma</span>
+    <span>✍️ Dr. Omid Kheirkhah</span>
+    <span>🦷 Diş Sağlığı</span>
+  </div>
+</header>
+<article class="article-body">
+  <p class="lead">Diş apsesi, çoğu zaman dayanılmaz bir ağrıyla kendini gösterir — ama asıl tehlike ağrı değil, enfeksiyonun yayılma potansiyelidir. Tedavi edilmeyen bir diş apsesi nadir de olsa hayatı tehdit eden komplikasyonlara yol açabilir.</p>
+  <h2>Diş Apsesi Nedir?</h2>
+  <p>Diş apsesi, bakteriyel bir enfeksiyon sonucu diş veya diş eti çevresinde irin (cerahat) birikmesidir. Üç ana tipi vardır: <strong>periapikal apse</strong> (diş kökü ucunda), <strong>periodontal apse</strong> (diş etinde) ve <strong>gingival apse</strong> (yalnızca dişeti dokusunda). En sık görüleni, tedavi edilmemiş diş çürüğünün pulpaya ulaşmasıyla oluşan periapikal apsedir.</p>
+  <p>Enfeksiyon, vücudun bağışıklık sisteminin bakterilerle savaştığı bölgede ölü doku ve beyaz kan hücrelerinden oluşan irin birikmesine neden olur. Bu birikim basınç yaratır ve karakteristik zonklayıcı ağrıyı ortaya çıkarır.</p>
+  <h2>Belirtileri Nelerdir?</h2>
+  <div class="key-point"><p><strong>Şiddetli, zonklayıcı diş ağrısı:</strong> Çeneye, kulağa veya boyuna yayılabilir</p></div>
+  <div class="key-point"><p><strong>Sıcak ve soğuğa aşırı hassasiyet</strong></p></div>
+  <div class="key-point"><p><strong>Çiğneme veya ısırma sırasında ağrı</strong></p></div>
+  <div class="key-point"><p><strong>Yüzde veya yanakta şişlik</strong></p></div>
+  <div class="key-point"><p><strong>Ateş ve halsizlik:</strong> Enfeksiyonun yayıldığının işareti</p></div>
+  <div class="key-point"><p><strong>Boyundaki lenf bezlerinde şişlik ve hassasiyet</strong></p></div>
+  <div class="key-point"><p><strong>Ağızda ani kötü tat:</strong> Apse patlarsa, tuzlu ve kötü kokulu sıvı boşalabilir</p></div>
+  <div class="highlight-box"><p>⚠️ <strong>Ne zaman acil servise gitmeli?</strong> Şişlikle birlikte ateş, yutkunma veya nefes alma güçlüğü, ağzı açmada zorluk varsa — bu, enfeksiyonun yayıldığını gösterir ve <strong>acil tıbbi müdahale</strong> gerektirir. Beklemeyin.</p></div>
+  <h2>Neden Kendiliğinden Geçmez?</h2>
+  <p>Apse patladığında ağrı geçici olarak azalabilir ve birçok hasta bunu "iyileşme" sanır. Ancak bu yanıltıcıdır: enfeksiyon kaynağı (genellikle ölü diş pulpası veya derin dişeti cebi) hâlâ oradadır. Bakteriler çoğalmaya devam eder ve enfeksiyon çene kemiğine, yüz boşluklarına, hatta kan dolaşımına (sepsis) yayılabilir.</p>
+  <h2>Tedavi Nasıl Yapılır?</h2>
+  <p>Tedavi, apsenin kaynağına ve yayılımına bağlıdır. Temel hedef daima aynıdır: enfeksiyonu boşaltmak ve kaynağını ortadan kaldırmak.</p>
+  <div class="key-point"><p><strong>Drenaj:</strong> İrinin boşaltılması, basıncı ve ağrıyı hızla azaltır</p></div>
+  <div class="key-point"><p><strong>Kanal tedavisi:</strong> Diş kurtarılabilirse, enfekte pulpa temizlenir ve diş korunur</p></div>
+  <div class="key-point"><p><strong>Diş çekimi:</strong> Diş kurtarılamıyorsa çekim ve drenaj gerekir</p></div>
+  <div class="key-point"><p><strong>Antibiyotikler:</strong> Yalnızca enfeksiyon yayıldıysa veya bağışıklık zayıfsa — tek başına apseyi tedavi etmez, kaynağın temizlenmesi şarttır</p></div>
+  <p>Antibiyotiklerin tek başına çözüm olmadığını vurgulamak önemli: ADA ve birçok klinik kılavuz, antibiyotiğin yalnızca sistemik yayılım belirtileri olduğunda, definitif diş tedavisine ek olarak kullanılmasını önerir. Gereksiz antibiyotik kullanımı antibiyotik direncine katkıda bulunur.</p>
+  <h2>Nasıl Önlenir?</h2>
+  <p>Diş apsesi neredeyse her zaman önlenebilir bir durumdur. Düzenli fırçalama ve diş ipi kullanımı, şeker tüketiminin azaltılması, florürlü diş macunu ve en önemlisi düzenli diş hekimi kontrolleri — küçük bir çürüğün apseye dönüşmesini engeller.</p>
+
+  <div class="source-box">
+    📚 <strong>Kaynaklar:</strong> American Dental Association (ADA), "Abscess (Toothache)" Patient Resources, 2024. NHS UK, "Dental Abscess" Clinical Guidance, 2023. Robertson DP, et al. "Management of severe acute dental infections." BMJ, 2015. Bu makale kamuya açık klinik kaynaklara dayanır.
+  </div>
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Omid Kheirkhah" /></div>
+    <div class="author-info">
+      <h4>Dr. Omid Kheirkhah</h4>
+      <p>Diş Hekimi. Önleyici diş hekimliği ve hasta eğitimi odaklı, bilimsel ve anlaşılır içerikler üretiyor.</p>
+    </div>
+  </div>
+  <a href="makale-kanal-tedavisi.html" class="next-article"><span>Sıradaki Makale</span><h3>Kanal Tedavisi: Korkmayın</h3></a>
+  <p class="disclaimer">📌 Bu içerik bilimsel kaynaklara dayanır, tıbbi tavsiye niteliği taşımaz. Şikayetleriniz için diş hekiminize başvurun. | <strong style="color:var(--gold)">omidkheirkhah.com</strong></p>
+</article>
+<footer>
+  <p>© 2026 Dr. Omid Kheirkhah · Tüm hakları saklıdır</p>
+  <div class="footer-logo">omidkheirkhah.com</div>
+  <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+    <a href="mailto:omid@omidkheirkhah.com" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">omid@omidkheirkhah.com</a>
+  </div>
+</footer>
+</body>
+</html>

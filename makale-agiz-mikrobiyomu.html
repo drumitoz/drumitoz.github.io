@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ağız Mikrobiyomu: Ağzımızdaki Ekosistem | Dr. Omid Kheirkhah</title>
+  <meta name="description" content="Ağzımızda yaşayan 700+ bakteri türü ne işe yarar? Mikrobiyom dengesi ve sağlık ilişkisi. Dr. Omid Kheirkhah — Diş Hekimi." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.12); --dark: #080808; --dark2: #0f0f0f; --dark3: #161616; --text: #e8e0d0; --text-dim: rgba(232,224,208,0.65); --text-mid: rgba(232,224,208,0.90); }
+    body { background: var(--dark); color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 24px 60px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(to bottom, rgba(8,8,8,0.98), transparent); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; letter-spacing: 0.3em; color: var(--gold); text-decoration: none; text-transform: uppercase; }
+    .nav-back { color: var(--text-dim); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(232,224,208,0.2); padding-bottom: 2px; transition: all 0.3s; }
+    .nav-back:hover { color: var(--gold); border-color: var(--gold); }
+    .article-hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 120px 80px 80px; background: linear-gradient(135deg, #080808, #080d08); }
+    .article-category { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; }
+    .article-category::before { content: ''; width: 30px; height: 1px; background: var(--gold); opacity: 0.5; }
+    .article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 300; line-height: 1.1; max-width: 800px; margin-bottom: 24px; }
+    .article-title em { font-style: italic; color: var(--gold); }
+    .article-meta { display: flex; gap: 32px; color: var(--text-dim); font-size: 0.75rem; flex-wrap: wrap; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 80px 40px 120px; }
+    .lead { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; line-height: 1.7; color: var(--text); margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .article-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; margin: 60px 0 24px; padding-left: 20px; border-left: 2px solid var(--gold); }
+    .article-body p { font-size: 1rem; line-height: 1.9; color: var(--text-mid); margin-bottom: 20px; }
+    .highlight-box { background: var(--gold-dim); border-left: 3px solid var(--gold); padding: 28px 32px; margin: 40px 0; }
+    .highlight-box p { color: var(--text); margin: 0; font-size: 1.05rem; }
+    .key-point { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .key-point::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 8px; }
+    .key-point p { margin: 0; color: var(--text-mid); }
+    .source-box { margin-top: 40px; padding: 20px 24px; background: var(--dark3); border-left: 2px solid rgba(201,168,76,0.3); font-size: 0.75rem; color: var(--text-dim); line-height: 1.7; }
+    .author-box { margin-top: 80px; padding: 40px; border: 1px solid rgba(201,168,76,0.2); display: flex; gap: 24px; align-items: center; background: var(--dark3); }
+    .author-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(201,168,76,0.3); overflow: hidden; flex-shrink: 0; }
+    .author-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .author-info h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; margin-bottom: 6px; }
+    .author-info p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+    .next-article { margin-top: 60px; padding: 40px; background: var(--dark2); border: 1px solid rgba(201,168,76,0.15); text-decoration: none; display: block; transition: all 0.3s; }
+    .next-article:hover { border-color: var(--gold); }
+    .next-article span { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 10px; }
+    .next-article h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--text); }
+    .disclaimer { margin-top: 40px; font-size: 0.75rem; color: var(--text-dim); text-align: center; padding: 20px; border-top: 1px solid rgba(201,168,76,0.1); }
+    footer { padding: 40px 80px; border-top: 1px solid rgba(201,168,76,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    footer p { font-size: 0.7rem; color: var(--text-dim); }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); letter-spacing: 0.2em; }
+    @media (max-width: 768px) { nav { padding: 20px 24px; } .article-hero { padding: 100px 24px 60px; } .article-body { padding: 60px 24px 80px; } .author-box { flex-direction: column; text-align: center; } footer { padding: 30px 24px; flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Dr. Omid Kheirkhah" style="height:80px; width:auto; mix-blend-mode:lighten;"></a>
+  <a href="index.html#kesifet" class="nav-back">← Makaleler</a>
+</nav>
+<header class="article-hero">
+  <p class="article-category">Diş Sağlığı · Bilim</p>
+  <h1 class="article-title">Ağız Mikrobiyomu:<br><em>İçimizdeki Ekosistem</em></h1>
+  <div class="article-meta">
+    <span>📖 8 dakika okuma</span>
+    <span>✍️ Dr. Omid Kheirkhah</span>
+    <span>🦷 Diş Sağlığı</span>
+  </div>
+</header>
+<article class="article-body">
+  <p class="lead">Ağzınız, vücudunuzdaki en kalabalık mikrobiyal toplulukların ikincisine ev sahipliği yapar. 700'den fazla bakteri türünden oluşan bu ekosistem, sandığınızın aksine düşmanınız değil — dengede tutulduğunda en büyük müttefikinizdir.</p>
+  <h2>Mikrobiyom Nedir?</h2>
+  <p>Ağız mikrobiyomu, ağız boşluğunda yaşayan bakteri, virüs, mantar ve diğer mikroorganizmaların oluşturduğu topluluktur. İnsan Mikrobiyom Projesi (Human Microbiome Project) verilerine göre, ağızda 700'den fazla bakteri türü tanımlanmıştır. Bu mikroorganizmalar diş yüzeyinde, dilde, diş etlerinde ve yanak içinde farklı topluluklar halinde yaşar.</p>
+  <p>Önemli olan nokta şu: bu bakterilerin çoğu zararlı değildir. Aksine, sağlıklı bir mikrobiyom; zararlı bakterilerin çoğalmasını engeller, sindirime yardımcı olur ve bağışıklık sistemiyle uyum içinde çalışır.</p>
+  <h2>Denge: Simbiyoz ve Disbiyoz</h2>
+  <p>Sağlıklı ağızda mikroorganizmalar bir denge (simbiyoz) içindedir. Ancak bu denge bozulduğunda — örneğin aşırı şeker tüketimi, kötü hijyen veya tükürük azalması nedeniyle — zararlı türler baskın hale gelir. Bu duruma <strong>disbiyoz</strong> denir ve çürük ile diş eti hastalığının temelinde yatan süreçtir.</p>
+  <div class="highlight-box"><p>🔬 <strong>Modern bakış açısı:</strong> Güncel diş hekimliği, çürüğü artık yalnızca "bakteriyle savaş" olarak değil, "mikrobiyom dengesinin korunması" olarak ele alıyor. Amaç tüm bakterileri yok etmek değil, sağlıklı dengeyi sürdürmektir.</p></div>
+  <h2>Çürük Nasıl Gelişir? (Mikrobiyom Penceresinden)</h2>
+  <p>Sık şeker tüketimi, asit üreten bakterilerin (özellikle <em>Streptococcus mutans</em>) çoğalması için ideal ortam yaratır. Bu bakteriler ortamı asitleştirir; asidik ortam ise daha fazla asit-sevuren bakteriyi destekler. Böylece bir kısır döngü oluşur ve mine çözünmeye başlar.</p>
+  <h2>Ağız-Vücut Bağlantısı</h2>
+  <p>Ağız mikrobiyomu yalnızca ağzı ilgilendirmez. Araştırmalar, ağız bakterilerinin kan dolaşımına geçerek kalp-damar sağlığı, diyabet ve hatta gebelik sonuçlarıyla ilişkili olabileceğini gösteriyor. Periodontal hastalık ile sistemik hastalıklar arasındaki bağlantının merkezinde bu mikrobiyal geçiş yer alır.</p>
+  <h2>Mikrobiyomu Nasıl Korumalı?</h2>
+  <div class="key-point"><p><strong>Şeker sıklığını azaltın:</strong> Miktardan çok sıklık önemli — sürekli atıştırmak mikrobiyomu sürekli asidik tutar</p></div>
+  <div class="key-point"><p><strong>Düzenli ama aşırı olmayan hijyen:</strong> Günde iki kez fırçalama ve diş ipi dengeli temizlik sağlar</p></div>
+  <div class="key-point"><p><strong>Antibakteriyel gargaraları bilinçli kullanın:</strong> Güçlü antiseptikler faydalı bakterileri de öldürebilir; rutin kullanım yerine hekim önerisiyle kullanın</p></div>
+  <div class="key-point"><p><strong>Tükürüğü destekleyin:</strong> Yeterli su tüketimi ve şekersiz sakız tükürük akışını artırır — tükürük doğal bir dengeleyicidir</p></div>
+  <div class="key-point"><p><strong>Dengeli beslenin:</strong> Lifli gıdalar ve probiyotikler sağlıklı mikrobiyomu destekler</p></div>
+  <h2>Geleceğin Yaklaşımı</h2>
+  <p>Bilim, gelecekte zararlı bakterileri seçici olarak hedefleyen veya faydalı bakterileri destekleyen (probiyotik) tedavilere yöneliyor. Ağız sağlığının geleceği, "sterilizasyon" değil "ekolojik denge" üzerine kurulu olacak gibi görünüyor.</p>
+
+  <div class="source-box">
+    📚 <strong>Kaynaklar:</strong> Human Microbiome Project Consortium, Nature, 2012. Dewhirst FE, et al. "The Human Oral Microbiome." Journal of Bacteriology, 2010. Marsh PD. "Dental plaque as a biofilm and microbial community." 2006. Bu makale hakemli bilimsel literatüre dayanır.
+  </div>
+  <div class="author-box">
+    <div class="author-img"><img src="profile.jpg" alt="Dr. Omid Kheirkhah" /></div>
+    <div class="author-info">
+      <h4>Dr. Omid Kheirkhah</h4>
+      <p>Diş Hekimi. Önleyici diş hekimliği ve hasta eğitimi odaklı, bilimsel ve anlaşılır içerikler üretiyor.</p>
+    </div>
+  </div>
+  <a href="makale-dis-curugu.html" class="next-article"><span>Sıradaki Makale</span><h3>Diş Çürüğü Nedir?</h3></a>
+  <p class="disclaimer">📌 Bu içerik bilimsel kaynaklara dayanır, tıbbi tavsiye niteliği taşımaz. Şikayetleriniz için diş hekiminize başvurun. | <strong style="color:var(--gold)">omidkheirkhah.com</strong></p>
+</article>
+<footer>
+  <p>© 2026 Dr. Omid Kheirkhah · Tüm hakları saklıdır</p>
+  <div class="footer-logo">omidkheirkhah.com</div>
+  <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+    <a href="mailto:omid@omidkheirkhah.com" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">omid@omidkheirkhah.com</a>
+  </div>
+</footer>
+</body>
+</html>
