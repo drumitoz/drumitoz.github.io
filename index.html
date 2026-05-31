@@ -127,11 +127,14 @@ body.in-sub #logo{opacity:0;pointer-events:none}
   opacity:0;transform:translateY(14px);transition:all 1.1s var(--e) .3s
 }
 .hub-ready .hero-tag{opacity:1;transform:none}
+.hero-avatar{width:84px;height:84px;border-radius:50%;overflow:hidden;border:1px solid rgba(201,168,76,.35);margin-bottom:28px;opacity:0;transform:translateY(14px) scale(.94);transition:all 1s var(--e) .15s;box-shadow:0 0 28px rgba(201,168,76,.18)}
+.hub-ready .hero-avatar{opacity:1;transform:none}
+.hero-avatar img{width:100%;height:100%;object-fit:cover;object-position:center top}
 .hero-tag .tag-hl{color:var(--gold-l);text-shadow:0 0 14px rgba(232,201,122,.55);font-weight:400}
 
 h1.hero-h{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(3.2rem,8vw,7.5rem);font-weight:400;line-height:1.05;letter-spacing:-1.5px
+  font-size:clamp(2.6rem,6vw,5.4rem);font-weight:300;line-height:1.08;letter-spacing:-1px
 }
 h1.hero-h .ln{overflow:hidden;display:block;padding-bottom:.04em}
 h1.hero-h .ln>span{display:block;transform:translateY(110%);transition:transform 1.6s var(--e)}
@@ -223,7 +226,7 @@ h1.hero-h em{font-style:italic;color:var(--gold-l)}
 /* ============================================================
    DENTAL SCENE
 ============================================================ */
-#dental{background:linear-gradient(180deg,#0a1a24 0%,#eef4f7 25%,#eef4f7 100%)}
+#dental{background:linear-gradient(180deg,#0a1a24 0%,#16323f 18%,#3a5764 38%,#8aa3ad 58%,#cdd9de 75%,#eef4f7 90%,#eef4f7 100%)}
 
 .dental-hero{
   min-height:100svh;display:flex;flex-direction:column;justify-content:center;
@@ -683,7 +686,7 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
 <div id="veil"></div>
 
 <!-- LOGO -->
-<a id="logo" data-goto="hub">Dr. <b>Omid</b></a>
+<a id="logo" data-goto="hub">Dr. Omid <b>Kheirkhah</b></a>
 
 <!-- HAMBURGER BUTTON -->
 <button id="menuBtn" aria-label="Menü">
@@ -716,6 +719,7 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
   <div id="hubField"></div>
   <div class="wrap hub-body">
     <div class="hero">
+      <div class="hero-avatar"><img src="profile.jpg" alt="Dr. Omid Kheirkhah"/></div>
       <p class="hero-tag">Diş Hekimi · Trader · <span class="tag-hl">Yenilikçi</span> · Yazar</p>
       <h1 class="hero-h">
         <span class="ln"><span>Dala değil,</span></span>
@@ -724,7 +728,7 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
       <p class="hero-lead">Bu dünya öğrenilecek şeylerle dolu, şuanki teknolojimiz bile bence her çözüme yeter, hala sorun varsa çözmek tercihim, eğer çözülmüyorsa belki de bakış açımızı değiştirmeliyiz.</p>
       <div class="hero-stats">
         <div class="stat"><b>6+</b><span>Yıl Trading</span></div>
-        <div class="stat"><b>∞</b><span>İnovasyon</span></div>
+        <div class="stat"><b>∞</b><span>Vizyon</span></div>
       </div>
       <div class="scroll-cue"><span class="sl"></span> Dünyaları keşfet</div>
     </div>
@@ -794,7 +798,7 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
     <div class="wrap">
       <p class="sec-label" style="color:#8fd4ee;margin-bottom:20px">01 · Dentistry · Sağlık</p>
       <h1 class="d-h">
-        <span class="ln"><span>Hassasiyet,</span></span>
+        <span class="ln"><span>Diş hekimliği,</span></span>
         <span class="ln"><span>bir <em>sanattır.</em></span></span>
       </h1>
       <p class="d-lead">Mühendislik mantığını tıbbın inceliğiyle birleştiriyorum. Diş hekimliği benim için yalnızca tedavi değil — önleme, eğitim ve sağlığa bütüncül bir bakış.</p>
@@ -1119,11 +1123,12 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
       <div class="bk-content">
         <p class="bk-eyebrow">Hakkımda</p>
         <h1 class="bk-h">Birden fazla<br><em>dünyada yaşamak.</em></h1>
-        <p class="bk-lead">"Dala değil, köke bakıyorum. Kök mantığı anlayana, dal kendiliğinden açılır."</p>
-        <p class="bk-text">1991'de Tebriz'de doğdum, bugün Türkiye'de yaşıyorum. Tebriz'den Ankara'ya, mühendislikten tıbba, tıptan piyasalara — ve hepsinin kesişiminde aynı şey var: merak, disiplin ve "bu daha iyi nasıl yapılabilir?" sorusu.</p>
-        <p class="bk-text">2010'da İnşaat Mühendisliği — Yapı Statiği okudum. Mühendislik bana analitik düşünmeyi ve sistematik problem çözmeyi öğretti. Yüksek lisans tezi aşamasında köklü bir karar alıp sıfırdan Diş Hekimliği'ne başladım. İki tamamen farklı disiplin gibi görünüyor — ama ikisi de aynı soruyu soruyor: <em>sistemler nasıl çalışır?</em> İnsan vücudu da bir sistemdir, bir yapı da.</p>
-        <p class="bk-text">2020'de pandemi tüm kapıları kapattığında kendime sordum: "Dışarıda iş yapılamıyorsa, işi içeri nasıl getiririm?" Trading'le tanışmam böyle başladı. Önce merak, sonra tutku. Grafiklerin arkasındaki mantık, piyasanın dili, kurumsal paranın izi — hepsi mühendis kafama hitap ediyordu. 6 yıldır altın (XAU/USD), Dow Jones, Nasdaq, forex ve Bitcoin piyasalarında aktif işlem yapıyorum.</p>
-        <p class="bk-text">Kendimi mühendis ya da yalnızca hekim değil, bir <em>yenilikçi</em> olarak görüyorum. İcatlar ve patentler üzerine çalışıyorum — teknoloji her problemi çözebilecek kadar ilerledi, yeter ki doğru soruyu soralım. Ayrıca Kuzey Kıbrıs'taki üç köklü üniversitede (NEU, CIU, EMU) resmi öğrenci danışmanlığı yapıyorum.</p>
+        <p class="bk-lead">"Dala değil, köke bakıyorum. Kök mantığını anlayana, dal kendiliğinden açılır."</p>
+        <p class="bk-text">1991'de Tebriz'de doğdum. Küçüklüğümden beri aklımda hep aynı sorular vardı: tarih boyunca insanlığa yön vermiş büyük düşünürler, nasıl oluyor da birbirinden bu kadar farklı alanlarda derinleşebiliyordu? Zamanla şunu fark ettim: sistemler ne kadar karmaşık görünürse görünsün, özünde son derece basittirler. <em>Mantığı anlayan her defasında yeni bir çözüm üretebilir; formülü ezberleyen ise yalnızca kalıpları tekrar eder.</em></p>
+        <p class="bk-text">2010'da İnşaat Mühendisliği — Yapı Statiği bölümüne başladım. Mühendislik bana analitik düşünceyi, sistematik problem çözmeyi ve matematiğin soyut gücünü öğretti. Yüksek lisans tez aşamasında içimden gelen sese kulak verdim ve köklü bir karar alarak sıfırdan Diş Hekimliği'ne adım attım. İki tamamen farklı disiplin arasında geçiş yapmak çılgınca görünebilir — ama her ikisi de aynı temel soruya yanıt arıyordu: <em>sistemler nasıl çalışır?</em> İnsan vücudu da bir sistemdir, bir yapı da.</p>
+        <p class="bk-text">2017'de diş hekimliği eğitimime başladım ve 2022'de mezun oldum. Ardından Kuzey Kıbrıs'ta Oral ve Maksillofasiyal Cerrahi doktora programına başladım; bu yolculuğu henüz tamamlamadım — belki ileride devam ederim. Önleyici diş hekimliği ve hasta eğitimi her zaman önceliğim oldu.</p>
+        <p class="bk-text">2020'de pandemi tüm kapıları kapattığında kendime sordum: "Dışarıda iş yapılamıyorsa, işi içeri nasıl getiririm?" Trading'le tanışmam böyle başladı. Önce bir merak, sonra tutku. Grafiklerin arkasındaki mantığı, piyasanın dilini, kurumsal paranın izini anlamak — hepsi mühendis kafama hitap ediyordu. 6 yıldır altın (XAU/USD), Dow Jones, Nasdaq, forex çiftleri ve Bitcoin piyasalarında aktif işlem yapıyorum. Öğrendiklerimi paylaşmak ise yeni bir tutku haline geldi.</p>
+        <p class="bk-text">Kendimi yalnızca mühendis ya da hekim değil, bir <em>yenilikçi</em> olarak görüyorum. İcatlar ve patentler üzerine çalışıyorum — teknoloji her problemi çözebilecek kadar ilerledi, yeter ki doğru soruyu soralım. 2017'den bu yana Kuzey Kıbrıs'taki üç köklü üniversitede (NEU, CIU, EMU) resmi öğrenci danışmanlığı yapıyorum.</p>
         <div class="bk-philo">
           <p>"Pozisyon açmak veya piyasadan kâr almak önemli değil; ne sürede ne kadar kâr almak benim için daha önemli. Doğru zaman, doğru hacim ve güvenilir karar."</p>
           <span>— Dr. Omid Kheirkhah</span>
@@ -1136,9 +1141,10 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
       <h2 class="bk-tl-h">Yolculuk <em>haritası.</em></h2>
       <div class="tl-items">
         <div class="tl-item"><div class="tl-year">2020–</div><div class="tl-c"><h4>Aktif Trading</h4><p>Altın, Dow Jones, Nasdaq ve kripto piyasalarında günlük aktif işlem. Makro + teknik analiz metodolojisi.</p></div></div>
-        <div class="tl-item"><div class="tl-year">2019–</div><div class="tl-c"><h4>KKTC Üniversite Danışmanlığı</h4><p>NEU, CIU ve EMU için resmi öğrenci danışmanlığı. Yüzlerce öğrencinin başvuru sürecinde rehberlik.</p></div></div>
-        <div class="tl-item"><div class="tl-year">2016–</div><div class="tl-c"><h4>Diş Hekimliği — Uzman</h4><p>Oral ve Maksillofasiyal Cerrahi uzmanlığı. Önleyici diş hekimliği ve hasta eğitimi odaklı pratik.</p></div></div>
-        <div class="tl-item"><div class="tl-year">2010–</div><div class="tl-c"><h4>İnşaat Mühendisliği</h4><p>Yapı mühendisliği eğitimi. Analitik düşüncenin ve problem çözme yaklaşımının temeli.</p></div></div>
+        <div class="tl-item"><div class="tl-year">2022–</div><div class="tl-c"><h4>Oral &amp; Maksillofasiyal Cerrahi Doktorası</h4><p>Kuzey Kıbrıs'ta doktora programı. Henüz tamamlanmadı — ileride devam etme ihtimali açık.</p></div></div>
+        <div class="tl-item"><div class="tl-year">2017–22</div><div class="tl-c"><h4>Diş Hekimliği</h4><p>Diş hekimliği eğitimimi tamamladım. Önleyici diş hekimliği ve hasta eğitimi odaklı bir yaklaşım benimsedim.</p></div></div>
+        <div class="tl-item"><div class="tl-year">2017–</div><div class="tl-c"><h4>KKTC Üniversite Danışmanlığı</h4><p>NEU, CIU ve EMU için resmi öğrenci danışmanlığı. Yüzlerce öğrencinin başvuru sürecinde rehberlik.</p></div></div>
+        <div class="tl-item"><div class="tl-year">2010–</div><div class="tl-c"><h4>İnşaat Mühendisliği</h4><p>Yapı statiği eğitimi. Analitik düşüncenin ve problem çözme yaklaşımının temeli.</p></div></div>
       </div>
     </div>
   </div>
@@ -1472,7 +1478,36 @@ document.getElementById('contactForm').addEventListener('submit',e=>{
 /* ============================================================
    BOOT
 ============================================================ */
-initHub();
+function boot(){
+  const hash = (location.hash || '').replace('#','').trim();
+  const valid = ['hub','kesifet','egitim','universiteler','benkimim','iletisim','dental','trading','lab','writing','engineering'];
+  // پشتیبانی از kesifet با دسته: #kesifet-saglik یا #kesifet-finans
+  let target = hash, cat = null;
+  if(hash.startsWith('kesifet-')){ target='kesifet'; cat=hash.split('-')[1]; }
+  if(target && valid.includes(target) && target!=='hub'){
+    // صحنه‌ی هدف را مستقیم فعال کن (بدون انیمیشن veil برای لود اولیه)
+    document.getElementById('hub').classList.remove('active');
+    const next = document.getElementById(target);
+    next.classList.add('active');
+    currentScene = target;
+    initScene(target, cat ? {cat} : {});
+    updateMenuActive(target);
+    document.body.classList.add('in-sub');
+  } else {
+    initHub();
+  }
+}
+// واکنش به تغییر hash (وقتی کاربر از مقاله برمی‌گردد یا منو را می‌زند)
+window.addEventListener('hashchange', ()=>{
+  const hash = (location.hash || '').replace('#','').trim();
+  let target = hash, cat = null;
+  if(hash.startsWith('kesifet-')){ target='kesifet'; cat=hash.split('-')[1]; }
+  const valid = ['hub','kesifet','egitim','universiteler','benkimim','iletisim'];
+  if(target && valid.includes(target) && target!==currentScene){
+    navigate(target, cat ? {cat} : {});
+  }
+});
+boot();
 </script>
 </body>
 </html>
