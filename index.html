@@ -123,8 +123,9 @@ body.in-sub #logo{opacity:0;pointer-events:none}
 
 /* Hero */
 .hero{padding:60px 0 20px;position:relative;z-index:3}
+@media (min-width:901px){.hero{margin-left:-60px}}
 /* ---- HERO DENTAL ARCH GRAPHIC ---- */
-.hero-arch{position:absolute;top:340px;right:-12%;transform:translateY(-50%);width:min(38vw,440px);height:min(38vw,440px);z-index:0;pointer-events:none;opacity:0;animation:archFade 1.6s var(--e) .8s forwards}
+.hero-arch{position:absolute;top:340px;right:-20%;transform:translateY(-50%);width:min(38vw,440px);height:min(38vw,440px);z-index:0;pointer-events:none;opacity:0;animation:archFade 1.6s var(--e) .8s forwards}
 @keyframes archFade{to{opacity:1}}
 .hero-arch .tooth-3d{position:absolute;inset:0;perspective:1200px}
 .hero-arch .tooth-img{width:100%;height:100%;object-fit:contain;mix-blend-mode:screen;animation:toothSpin 14s ease-in-out infinite;transform-style:preserve-3d;-webkit-mask:radial-gradient(circle at 50% 50%,#000 55%,transparent 78%);mask:radial-gradient(circle at 50% 50%,#000 55%,transparent 78%)}
