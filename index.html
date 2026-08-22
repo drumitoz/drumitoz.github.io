@@ -65,7 +65,17 @@ body.in-sub #logo{opacity:0;pointer-events:none}
 /* ============================================================
    HAMBURGER BUTTON
 ============================================================ */
-#faSiteLink{position:fixed;top:18px;right:76px;z-index:400;height:44px;min-width:44px;padding:0 12px;display:flex;align-items:center;justify-content:center;background:rgba(8,8,8,.85);border:1px solid rgba(201,168,76,.2);backdrop-filter:blur(12px);border-radius:5px;font-size:.67rem;font-weight:500;letter-spacing:.14em;color:var(--gold-l);transition:border-color .3s,color .3s,background .3s}\n#faSiteLink:hover{border-color:var(--gold);color:var(--dk);background:var(--gold)}\n#menuBtn{
+#faSiteLink{
+  position:fixed;top:18px;right:76px;z-index:400;
+  height:44px;min-width:44px;padding:0 12px;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(8,8,8,.85);border:1px solid rgba(201,168,76,.2);
+  backdrop-filter:blur(12px);border-radius:5px;
+  font-size:.67rem;font-weight:500;letter-spacing:.14em;color:var(--gold-l);
+  transition:border-color .3s,color .3s,background .3s
+}
+#faSiteLink:hover{border-color:var(--gold);color:var(--dk);background:var(--gold)}
+#menuBtn{
   position:fixed;top:18px;right:22px;z-index:400;
   width:44px;height:44px;
   display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;
@@ -719,6 +729,8 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
 ============================================================ */
 @media(max-width:768px){
   :root{--wrap:min(100% - 32px,860px)}
+  #faSiteLink{right:70px;top:16px;height:40px;min-width:40px;padding:0 9px}
+  #menuBtn{right:18px;top:16px;width:40px;height:40px}
   .iletisim-grid{grid-template-columns:1fr;gap:40px}
   .bk-grid{grid-template-columns:1fr;gap:36px}
   .bk-photo{aspect-ratio:4/3;max-width:280px}
