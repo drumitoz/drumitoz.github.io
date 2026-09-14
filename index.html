@@ -1062,7 +1062,7 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
     <div class="uni-form-sec">
       <h2 class="uni-form-h">Ücretsiz <em>danışmanlık</em> alın.</h2>
       <p class="uni-form-sub">Başvuru süreci, burs olanakları ve üniversite seçimi hakkında size rehberlik edeyim.</p>
-      <form class="consult-form" id="consultForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form class="consult-form" id="consultForm">
         <div class="form-row">
           <div class="f-field"><label>Ad Soyad *</label><input type="text" name="name" placeholder="Adınız" required/></div>
           <div class="f-field"><label>Telefon *</label><input type="tel" name="phone" placeholder="+90 5xx xxx xx xx" required/></div>
@@ -1084,8 +1084,8 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
           </select>
         </div>
         <p class="form-note">📌 Tüm başvurular ücretsizdir. 24 saat içinde geri dönüş yapılır.</p>
-        <button type="submit" class="btn-submit">Danışmanlık Talebi Gönder →</button>
-        <div class="form-success" id="consultSuccess">✓ Talebiniz alındı! En kısa sürede iletişime geçeceğim.</div>
+        <button type="submit" class="btn-submit">WhatsApp ile Gönder →</button>
+        <div class="form-success" id="consultSuccess">✓ WhatsApp mesajınız hazırlanıyor…</div>
       </form>
     </div>
   </div>
@@ -1114,13 +1114,13 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
         </div>
       </div>
 
-      <form class="cf" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form class="cf" id="contactForm">
         <div class="cf-field"><label>Ad Soyad *</label><input type="text" name="name" placeholder="Adınız" required/></div>
         <div class="cf-field"><label>E-posta *</label><input type="email" name="email" placeholder="ornek@email.com" required/></div>
         <div class="cf-field"><label>Konu</label><input type="text" name="subject" placeholder="Ne hakkında?"/></div>
         <div class="cf-field"><label>Mesaj *</label><textarea name="message" placeholder="Mesajınız..." required></textarea></div>
-        <button type="submit" class="btn-submit">Gönder →</button>
-        <div class="form-success" id="contactSuccess" style="display:none">✓ Mesajınız iletildi! Teşekkürler.</div>
+        <button type="submit" class="btn-submit">WhatsApp ile Gönder →</button>
+        <div class="form-success" id="contactSuccess" style="display:none">✓ WhatsApp mesajınız hazırlanıyor…</div>
       </form>
     </div>
   </div>
@@ -1406,25 +1406,48 @@ document.querySelectorAll('.uni-expand-btn').forEach(btn=>{
 /* ============================================================
    FORM HANDLING
 ============================================================ */
-async function handleForm(form, successId){
-  const data = new FormData(form);
-  try{
-    const res = await fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}});
-    if(res.ok){
-      form.reset();
-      document.getElementById(successId).style.display='block';
-      setTimeout(()=>document.getElementById(successId).style.display='none',5000);
-    }
-  }catch(e){ console.error(e); }
+const WHATSAPP_NUMBER = '905338481611';
+
+function valueOf(form, name){
+  return (form.elements[name]?.value || '').trim();
+}
+function selectedText(form, name){
+  const field = form.elements[name];
+  return field?.selectedOptions?.[0]?.textContent.trim() || 'Belirtilmedi';
+}
+function openWhatsApp(lines){
+  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`;
+  window.open(url, '_blank', 'noopener,noreferrer');
 }
 
-document.getElementById('consultForm').addEventListener('submit',e=>{
+document.getElementById('consultForm').addEventListener('submit', e=>{
   e.preventDefault();
-  handleForm(e.target,'consultSuccess');
+  const form = e.currentTarget;
+  if(!form.reportValidity()) return;
+  openWhatsApp([
+    'Merhaba Dr. Omid Kheirkhah,',
+    'Türkçe web sitenizden üniversite danışmanlığı için yazıyorum.',
+    '',
+    `Ad Soyad: ${valueOf(form,'name')}`,
+    `Telefon: ${valueOf(form,'phone')}`,
+    `E-posta: ${valueOf(form,'email')}`,
+    `İlgilenilen Bölüm: ${selectedText(form,'program')}`
+  ]);
 });
-document.getElementById('contactForm').addEventListener('submit',e=>{
+
+document.getElementById('contactForm').addEventListener('submit', e=>{
   e.preventDefault();
-  handleForm(e.target,'contactSuccess');
+  const form = e.currentTarget;
+  if(!form.reportValidity()) return;
+  openWhatsApp([
+    'Merhaba Dr. Omid Kheirkhah,',
+    'Türkçe web sitenizden iletişime geçiyorum.',
+    '',
+    `Ad Soyad: ${valueOf(form,'name')}`,
+    `E-posta: ${valueOf(form,'email')}`,
+    `Konu: ${valueOf(form,'subject') || 'Belirtilmedi'}`,
+    `Mesaj: ${valueOf(form,'message')}`
+  ]);
 });
 
 /* ============================================================
