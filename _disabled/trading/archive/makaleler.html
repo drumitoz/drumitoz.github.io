@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Makaleler | Dr. Omid Kheirkhah</title>
-  <meta name="description" content="Dr. Omid Kheirkhah'ün diş ve ağız sağlığı alanındaki bilimsel eğitim makaleleri." />
+  <meta name="description" content="Dr. Omid Kheirkhah'ün trading, ekonomi ve diş sağlığı alanındaki eğitim makaleleri. 56 makale yayında." />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -62,6 +62,8 @@
     <li><a href="index.html">Ana Sayfa</a></li>
     <li><a href="hakkimda.html">Hakkımda</a></li>
     <li><a href="makaleler.html" class="active">Makaleler</a></li>
+    <li><a href="mentoring.html">Mentorluk</a></li>
+    <li><a href="egitim.html">Eğitim</a></li>
     <li><a href="index.html#iletisim">İletişim</a></li>
   </ul>
 </nav>
@@ -69,14 +71,79 @@
 <header class="page-hero">
   <p class="page-label">Eğitim İçerikleri</p>
   <h1 class="page-title">Bilgi <em>Merkezi</em></h1>
-  <p class="page-desc">Diş ve ağız sağlığı alanında kapsamlı, bilimsel eğitim makaleleri.</p>
+  <p class="page-desc">Trading, ekonomi ve diş sağlığı alanında kapsamlı eğitim makaleleri. Toplam <strong style="color:var(--gold)">56 makale</strong> yayında.</p>
 </header>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterArticles('all', this)">Tümü</button>
+  <button class="filter-btn" onclick="filterArticles('ekonomi', this)">📖 Ekonomi</button>
+  <button class="filter-btn" onclick="filterArticles('trading', this)">📈 Trading</button>
+  <button class="filter-btn" onclick="filterArticles('teknik', this)">📊 Teknik Analiz</button>
+  <button class="filter-btn" onclick="filterArticles('piyasa', this)">💰 Piyasalar</button>
+  <button class="filter-btn" onclick="filterArticles('saglik', this)">🦷 Sağlık</button>
+</div>
 
 <main class="articles-section">
 
-  <!-- DİŞ & SAĞLIK MAKALELERİ -->
+  <!-- ===== BÖLÜM 1: EKONOMİ ===== -->
+  <div class="section-block" data-category="ekonomi">
+    <h2 class="category-title">📖 Ekonomi & Finansal Dünya <span>Bölüm 1</span></h2>
+    <div class="articles-grid">
+      <a href="makale-1-para-nasil-yaratilir.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Ekonomi Temelleri</div><h3>Para Nasıl Yaratılır?</h3><p>Merkez bankaları ve ticari bankalar paranın yaratılmasında nasıl rol oynar?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-2-piyasa-oyunculari.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Piyasa Dinamikleri</div><h3>Piyasadaki Oyuncular Kimler?</h3><p>Retail, kurumsal yatırımcı ve market maker arasındaki fark.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-akilli-para.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Smart Money</div><h3>Akıllı Para Nereye Gider?</h3><p>Kurumsal paranın izini takip etmek ve Wyckoff döngüsü.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-faiz-kararlari.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Makroekonomi</div><h3>Faiz & DXY: Piyasaların Ana Tetikçisi</h3><p>Fed kararları ve dolar endeksinin tüm piyasalar üzerindeki etkisi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-enflasyon.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Makroekonomi</div><h3>Enflasyon: Paranın Sessiz Düşmanı</h3><p>Enflasyon nedir, satın alma gücü nasıl erir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-risk-on-off.html" class="article-card"><div class="article-num">06</div><div class="article-tag">Piyasa Duygusu</div><h3>Risk-On / Risk-Off: Piyasa Duygusu</h3><p>Risk iştahı nedir? VIX, JPY ve tahvil getirileri nasıl okunur?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-resesyon.html" class="article-card"><div class="article-num">07</div><div class="article-tag">Makroekonomi</div><h3>Resesyon: Piyasalar Nasıl Tepki Verir?</h3><p>Ekonomik daralma dönemlerinde hangi varlıklar nasıl hareket eder?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
+  </div>
+
+  <!-- ===== BÖLÜM 2: TRADİNG ===== -->
+  <div class="section-block" data-category="trading">
+    <h2 class="category-title">📈 Trading Temelleri <span>Bölüm 2</span></h2>
+    <div class="articles-grid">
+      <a href="makale-trading-nedir.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Başlangıç</div><h3>Trading Nedir? Yatırımdan Farkı Ne?</h3><p>Scalping, day trading, swing trading farkları.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-3-risk-yonetimi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Risk Yönetimi</div><h3>Risk Yönetimi: En Önemli Kural</h3><p>Stop-loss, pozisyon büyüklüğü ve drawdown.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-4-trading-psikolojisi.html" class="article-card"><div class="article-num">03</div><div class="article-tag">Psikoloji</div><h3>Trading Psikolojisi: Duygular Nasıl Mahveder?</h3><p>Korku, açgözlülük ve intikam tradeleri.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-broker-secimi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">Başlangıç</div><h3>Broker Nedir? Nasıl Seçilir?</h3><p>Güvenilir broker nasıl seçilir? Spread, lisans ve platform kriterleri.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-kaldirac.html" class="article-card"><div class="article-num">05</div><div class="article-tag">Risk</div><h3>Kaldıraç: Çift Taraflı Kılıç</h3><p>Kaldıraç nasıl çalışır ve neden tehlikelidir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
+  </div>
+
+  <!-- ===== BÖLÜM 3: TEKNİK ANALİZ ===== -->
+  <div class="section-block" data-category="teknik">
+    <h2 class="category-title">📊 Teknik Analiz <span>Bölüm 3</span></h2>
+    <div class="articles-grid">
+      <a href="makale-5-destek-direnc.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Temel Kavramlar</div><h3>Destek ve Direnç: Piyasanın Dili</h3><p>Teknik analizin temel taşı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-6-trend-analizi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Trend Analizi</div><h3>Trend Analizi: Piyasa Size Ne Söylüyor?</h3><p>Yükseliş, düşüş ve yatay trend nasıl tespit edilir?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-moving-average.html" class="article-card"><div class="article-num">03</div><div class="article-tag">İndikatörler</div><h3>Moving Average & EMA Nedir?</h3><p>MA200, Golden Cross, Death Cross.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-rsi.html" class="article-card"><div class="article-num">04</div><div class="article-tag">İndikatörler</div><h3>RSI: Aşırı Alım ve Satım Bölgeleri</h3><p>RSI'yı doğru kullanmak ve divergence gerçeği.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-macd.html" class="article-card"><div class="article-num">05</div><div class="article-tag">İndikatörler</div><h3>MACD: Trend ve Momentum Bir Arada</h3><p>MACD line, signal line ve histogram'ı doğru okumak.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-fibonacci.html" class="article-card"><div class="article-num">06</div><div class="article-tag">İndikatörler</div><h3>Fibonacci: Piyasanın Matematiksel Ritmi</h3><p>0.618 altın oranı ve Fibonacci seviyelerini doğru kullanmak.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-price-action.html" class="article-card"><div class="article-num">07</div><div class="article-tag">⭐ Temel Felsefe</div><h3>Price Action: Neden Her Şeyden Üstündür?</h3><p>İndikatörsüz trading neden daha güçlüdür?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-supply-demand.html" class="article-card"><div class="article-num">08</div><div class="article-tag">İleri Analiz</div><h3>Supply & Demand: Kurumsal Para İzi</h3><p>Arz-talep bölgeleri ve order block'lar nasıl bulunur?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-stop-hunt.html" class="article-card"><div class="article-num">09</div><div class="article-tag">⚠️ İleri Seviye</div><h3>Stop Hunt: Likidite Avcılığı</h3><p>Kurumlar neden retail'in stop emirlerini hedef alır?</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-mum-formasyonlari.html" class="article-card"><div class="article-num">10</div><div class="article-tag">Price Action</div><h3>Mum Formasyonları: Dönüş Sinyalleri</h3><p>Pin bar, engulfing, doji. En güçlü dönüş formasyonları.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-bollinger-bands.html" class="article-card"><div class="article-num">11</div><div class="article-tag">İndikatörler</div><h3>Bollinger Bands: Volatiliteyi Okumak</h3><p>Squeeze, genişleme ve volatilite patlaması.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-atr.html" class="article-card"><div class="article-num">12</div><div class="article-tag">Risk Yönetimi</div><h3>ATR: Risk Yönetiminin Gizli Silahı</h3><p>Stop-loss ve hedef belirlemede ATR nasıl kullanılır?</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
+  </div>
+
+  <!-- ===== BÖLÜM 4: PİYASA ANALİZLERİ ===== -->
+  <div class="section-block" data-category="piyasa">
+    <h2 class="category-title">💰 Piyasa Analizleri <span>Bölüm 4</span></h2>
+    <div class="articles-grid">
+      <a href="makale-altin-analizi.html" class="article-card"><div class="article-num">01</div><div class="article-tag">🥇 Altın</div><h3>Altın (XAU/USD) Nasıl Analiz Edilir?</h3><p>6 yıllık altın trading deneyiminden analiz yöntemi.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-dow-nasdaq.html" class="article-card"><div class="article-num">02</div><div class="article-tag">📊 Endeksler</div><h3>Dow Jones & Nasdaq: Endeksleri Anlamak</h3><p>ABD endekslerinin dinamikleri ve trading yaklaşımı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+      <a href="makale-bitcoin.html" class="article-card"><div class="article-num">03</div><div class="article-tag">₿ Kripto</div><h3>Bitcoin & Kripto: Dijital Altın mı?</h3><p>Kripto piyasasının özellikleri, riskleri ve trading yaklaşımı.</p><span class="read-more">Okumaya Devam Et →</span></a>
+    </div>
+  </div>
+
+  <!-- ===== BÖLÜM 5: DİŞ & SAĞLIK ===== -->
   <div class="section-block" data-category="saglik" id="saglik">
-    <h2 class="category-title">🦷 Diş & Genel Sağlık</h2>
+    <h2 class="category-title">🦷 Diş & Genel Sağlık <span>Bölüm 5</span></h2>
     <div class="articles-grid">
       <a href="makale-dis-curugu.html" class="article-card"><div class="article-num">01</div><div class="article-tag">Temel Bilgiler</div><h3>Diş Çürüğü: Sessiz Tehlike</h3><p>2.5 milyar kişiyi etkileyen diş çürüğünün nedenleri ve önleme yolları.</p><span class="read-more">Okumaya Devam Et →</span></a>
       <a href="makale-dis-eti-hastaligi.html" class="article-card"><div class="article-num">02</div><div class="article-tag">Periodontal</div><h3>Diş Eti Hastalığı: Görünmez Tehdit</h3><p>Kalp sağlığını da etkileyen diş eti hastalığı hakkında bilmeniz gerekenler.</p><span class="read-more">Okumaya Devam Et →</span></a>
@@ -117,6 +184,7 @@
   <div class="footer-logo">drumitoz.com</div>
   <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
     <a href="mailto:dr@drumitoz.com" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">dr@drumitoz.com</a>
+    <a href="https://t.me/Drumitoz01" target="_blank" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">@Drumitoz01 Trading</a>
     <a href="https://t.me/Drumitoz02" target="_blank" style="font-size:0.7rem; color:rgba(232,224,208,0.65); text-decoration:none;">@Drumitoz02 Sağlık</a>
   </div>
 </footer>
