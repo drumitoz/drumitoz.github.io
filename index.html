@@ -724,6 +724,24 @@ h1.eg-h em{font-style:italic;color:var(--gold-l)}
 }
 .btn-submit:hover{background:var(--gold-l);transform:translateY(-2px)}
 
+/* Readable text in dark cards and form boxes */
+.wcard,.uni-card,.lab-card,.lab-cta,.eg-step,.eg-cta,.art-row,.hub-contact,.c-item,.bk-philo,.consult-form,.cf{
+  --tx:#faf8f4;--tx-d:#e4e3e0;--tx-m:#eeece8;color:var(--tx)
+}
+.wcard-desc,.uni-expand-desc,.lab-card p,.lab-cta p,.eg-step-body p,.eg-cta-p{
+  font-size:1rem;line-height:1.8
+}
+.uni-rank-label,.c-item-txt span,.c-links a{font-size:1rem;line-height:1.6}
+.wcard-tag{color:var(--wb);font-size:.75rem;opacity:1;letter-spacing:.18em}
+.uni-year,.art-row-time,.c-item-txt small{font-size:.8rem;line-height:1.6;letter-spacing:.12em}
+.art-row-cat,.lab-card-badge{font-size:.75rem;line-height:1.6;letter-spacing:.14em}
+.art-row-title,.uni-fullname{font-size:1.3rem;line-height:1.4}
+.uni-expand-btn{font-size:.8rem;line-height:1.5;letter-spacing:.14em}
+.uni-card.expanded .uni-expand-body{max-height:none}
+.f-field label,.cf-field label,.form-note{font-size:.85rem;line-height:1.6;letter-spacing:.08em}
+.f-field input,.f-field select,.cf-field input,.cf-field textarea{font-size:1rem;line-height:1.5}
+.c-item-txt{min-width:0;overflow-wrap:anywhere}
+
 /* ============================================================
    RESPONSIVE
 ============================================================ */
