@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "locale": "tr",
+  "articles": [
+    {
+      "id": "2026-09-30-enamel-remineralization",
+      "category": "dentistry",
+      "published": "2026-09-30",
+      "studyDate": "2026-09-20",
+      "title": "Diş minesi onarılabilir mi? Nanohidroksiapatit araştırmasına yakından bakış",
+      "summary": "Yeni bir laboratuvar çalışması, mineye mineral kazandırma konusunu yeniden gündeme taşıyor. Başlangıç lezyonunun onarılması ile kaybedilen diş dokusunun yeniden oluşması arasındaki fark ne?",
+      "evidence": "Laboratuvar çalışması; klinik öncesi kanıt",
+      "access": "Araştırmanın özeti ve birincil hasta bilgilendirme kaynakları incelendi; çalışmanın tam metni değerlendirilmedi.",
+      "takeaway": "Başlangıç lezyonuna yeniden mineral kazandırılması, dişin yeniden çıkması veya bir çürük boşluğunun kendiliğinden kapanması değildir. Bu çalışma tek başına tedaviyi değiştirmek ya da belirli bir ürünü seçmek için yeterli değildir.",
+      "image": "assets/latest/enamel-white-spots.jpg",
+      "alt": "Diş eti yakınındaki beyaz mine bölgelerinin işaretlendiği eğitici diş fotoğrafı",
+      "caption": "Minedeki beyaz lekelere ilişkin eğitici örnek; yeni araştırmanın katılımcılarını göstermiyor. Kaynak: NIDCR, The Tooth Decay Process; erişim: 30 Eylül 2026.",
+      "imageSource": "https://www.nidcr.nih.gov/health-info/tooth-decay/more-info/tooth-decay-process",
+      "imageRights": "NIDCR public-domain default; no separate credit/restriction on source image. https://www.nidcr.nih.gov/about-us/web-policies",
+      "sections": [
+        {
+          "heading": "Yeni araştırma ne söylüyor?",
+          "paragraphs": [
+            "Nebu George Thomas ve çalışma arkadaşlarının 20 Eylül 2026 tarihinde Odontology’de yayımlanan araştırması, balık pulundan elde edilen nanohidroksiapatit ile arjinini değerlendirdi. Çalışma, ağız dışında 40 diş üzerinde 28 gün sürdü. Florürlü diş macununun da yer aldığı birleşik uygulama, yüzey sertliğinde en büyük artışı gösterdi. Sonuç laboratuvar örneklerine ait; hastalarda tedavi başarısı anlamına gelmiyor. [1]"
+          ]
+        },
+        {
+          "heading": "Remineralizasyon ne demek?",
+          "paragraphs": [
+            "Diş yüzeyi gün boyunca mineral kaybı ve yeniden mineral kazanımı arasında değişen bir denge içindedir. Plaktaki bakterilerin ürettiği asitler dengeyi mine aleyhine çevirebilir. Tükürük ve florür, mineral kazanımına destek olur. Bu nedenle çok erken bir lezyon, henüz boşluk oluşmadan durdurulabilir veya kısmen geri döndürülebilir. [2, 3]",
+            "Bu süreç, bir bölümü kaybedilmiş dişin bütünüyle yeniden yapılması değildir. Çürük boşluğu oluştuğunda diş hekimi değerlendirmesi ve tedavisi gerekir. Beyaz bir alanın görünüşü de tek başına tanı koydurmaz; eğitici bir fotoğraf muayenenin yerini tutmaz. [2]"
+          ]
+        },
+        {
+          "heading": "Umut verici sonuç neden kesin tedavi anlamına gelmez?",
+          "paragraphs": [
+            "Böyle bir haberi okurken üç soruyu ayırmak yararlıdır: Ne ölçüldü, hangi ortamda ölçüldü ve hangi kararı destekliyor? Yüzey sertliği bir araştırma ölçütüdür. Hastanın sorusu ise çoğu zaman farklıdır: Günlük yaşamda çürük, ağrı veya dolgu ihtiyacı azalacak mı? Bu soruya yanıt vermek için doğrudan ilgili sonuçları inceleyen kanıt gerekir.",
+            "Bu ayrım laboratuvar araştırmasının değerini azaltmaz; araştırma sürecindeki yerini netleştirir. Yaygın kullanım önerisinden önce ağız içindeki performans, güvenlilik, etkinin kalıcılığı ve klinik karşılaştırmalar değerlendirilmelidir. Bu yazıda tam metin incelemesi veya bağımsız uzman değerlendirmesi yapıldığı iddia edilmiyor."
+          ]
+        },
+        {
+          "heading": "Günlük bakım açısından bugün ne önemli?",
+          "paragraphs": [
+            "NIDCR’nin önerileri; florürlü diş macunuyla günde iki kez fırçalamayı, diş aralarını temizlemeyi, şekerli yiyecek ve içeceklerin sık tüketimini azaltmayı ve düzenli muayeneyi içeriyor. [2] Amerikan Diş Hekimleri Birliği de florürün çürükten korunmadaki rolünü açıklıyor; uygun uygulama ve miktar yaşa ve bireysel koşullara bağlıdır. [4]",
+            "Bu haberden evde hazırlanacak bir karışım tarifi çıkarılamaz. Piyasadaki bir diş macununun araştırmada kullanılan bileşimle aynı olduğu da varsayılamaz. Beyaz lekeler veya çürük riskiniz hakkında sorunuz varsa ürünün adını ve dişinizin durumunu diş hekiminizle görüşün."
+          ]
+        },
+        {
+          "heading": "Bu alandaki yeni haberleri nasıl okuyabiliriz?",
+          "paragraphs": [
+            "Mucize vaat eden başlıklar yerine sonraki çalışmanın insanlarda mı yoksa laboratuvarda mı yapıldığına, katılımcı sayısına, karşılaştırma grubuna ve takip süresine bakın. Etkinin büyüklüğü ve araştırmanın sınırlılıkları başlıktan daha değerlidir. En Yeniler bölümünde kaynak tarihi ve kanıt türü belirtilir; böylece araştırmadaki gerçek ilerlemeyi aynı iddianın tekrarından ayırt etmek kolaylaşır."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Nebu George Thomas et al. · Odontology · 2026 · Özgün araştırma",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763368/",
+          "doi": "10.1007/s10266-026-01551-9"
+        },
+        {
+          "label": "NIDCR · Tooth Decay · Diş çürüğü rehberi",
+          "url": "https://www.nidcr.nih.gov/health-info/tooth-decay"
+        },
+        {
+          "label": "NIDCR · The Tooth Decay Process · Çürük süreci",
+          "url": "https://www.nidcr.nih.gov/health-info/tooth-decay/more-info/tooth-decay-process"
+        },
+        {
+          "label": "ADA · Fluoride: Topical and Systemic Supplements",
+          "url": "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+        }
+      ],
+      "related": [
+        {
+          "label": "Minenin yeniden mineral kazanması",
+          "path": "makale-mine-remineralizasyonu.html"
+        },
+        {
+          "label": "Florür ve çürükten korunma",
+          "path": "makale-florur.html"
+        },
+        {
+          "label": "Diş macunu seçimi",
+          "path": "makale-dis-macunu-secimi.html"
+        }
+      ],
+      "imageCredit": "NIDCR"
+    }
+  ]
+}
