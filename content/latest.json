@@ -449,6 +449,103 @@
           "url": "https://medlineplus.gov/steatoticliverdisease.html"
         }
       ]
+    },
+    {
+      "id": "2026-10-04-who-global-health-estimates",
+      "category": "health",
+      "published": "2026-10-04",
+      "studyDate": "2026-10-02",
+      "image": "assets/latest/who-global-health-estimates-2023.webp",
+      "imageCredit": "Veri: WHO; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape",
+      "imageRights": "Original data visualization created for this article from WHO Global Health Estimates 2023; chart licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. WHO is the data source and does not endorse this site.",
+      "title": "WHO'nun yeni tahminleri: Yaşam süresi neredeyse toparlandı, sağlıklı yıllar hâlâ geride",
+      "summary": "Dünya Sağlık Örgütü, 2000–2023 dönemine ait ölüm, engellilik ve yaşam beklentisi tahminlerini güncelledi. Rakamlar ne söylüyor ve neden ham veri ya da kişisel öngörü gibi okunmamalı?",
+      "evidence": "Ölüm kayıtları, anketler, kurumlar arası kaynaklar ve modellemeyi birleştiren resmî nüfus tahminleri; genel eğilimler için uygun, kişisel risk için değil",
+      "access": "WHO'nun resmî duyurusu ve veri portalı; yaşam beklentisi, ölüm nedenleri ve DALY sayfaları ile üç teknik yöntem raporunun ilgili bölümleri incelendi. Bu bir dergi makalesi değildir ve DOI'si yoktur; WHO teknik belge numaraları kaynaklarda yer alır.",
+      "takeaway": "Küresel yaşam beklentisi 2023'te pandemi öncesi düzeye neredeyse döndü, ancak sağlıklı yaşam beklentisi 2019'un hâlâ 0,4 yıl altındaydı. Ölümlerin %74'ü bulaşıcı olmayan hastalıklara bağlandı. Bunlar nüfus tahminleridir; bir kişinin yaşam süresi veya tedavisi hakkında öngörü değildir.",
+      "alt": "2023 küresel yaşam beklentisini, sağlıklı yaşam beklentisini ve bulaşıcı olmayan hastalıkların ölüm payını gösteren grafik",
+      "caption": "WHO'nun üç resmî göstergesini özetleyen veri grafiği: 2023'te 73,3 yıl yaşam beklentisi, 62,8 yıl sağlıklı yaşam beklentisi ve ölümlerde %74 bulaşıcı olmayan hastalık payı. İngilizce etiketli görsel nüfus verilerinden hazırlanmıştır; bireysel veri veya katılımcı fotoğrafı değildir.",
+      "sections": [
+        {
+          "heading": "2 Ekim'de ne yayımlandı?",
+          "paragraphs": [
+            "Dünya Sağlık Örgütü 2 Ekim 2026'da Global Health Estimates veri setinin yeni sürümünü yayımladı. Bu çalışma, 2000–2023 arasında yaşam beklentisi, ölüm nedenleri ve hastalık yükünü dünya, bölge ve ülke düzeyinde tahmin ediyor. Dolayısıyla 2023 son veri yılıdır; sayılar 2026'da ölçülmüş sonuçlar değildir. [1, 2]",
+            "Bu ürün DOI taşıyan hakemli bir dergi makalesi değil. Eylül 2026 tarihli üç teknik rapor; yaşam tablolarını, ölüm nedenlerini ve hastalık yükünü hesaplama yöntemlerini açıklıyor. Tahminlerin önemli bir bölümünü Bochen Cao yönetti; Gretchen A. Stevens, Wahyu Retno Mahanani ve Doris Ma Fat temel analiz ekibinde yer aldı. Çalışmaya WHO programları, BM kuruluşları ve Global Burden of Disease grubu veri ve yöntem girdisi sağladı. [3, 4, 5]"
+          ]
+        },
+        {
+          "heading": "Yaşam beklentisi toparlandı; peki hangisi?",
+          "paragraphs": [
+            "Doğuşta küresel yaşam beklentisi 2023'te 73,3 yıla çıktı; bu değer COVID-19 salgınının büyük kesintisinden önce, 2019'da ölçülen 73,4 yıla çok yakın. Buna karşılık sağlıklı yaşam beklentisi, yani HALE, 62,8 yıla ulaştı ve 2019 düzeyinin 0,4 yıl altında kaldı. HALE yalnızca hayatta kalmayı değil, tam sağlıkla geçirilmesi beklenen yılları da hesaba katar. [1, 3]",
+            "İki gösterge arasındaki fark, herkesin tam olarak 10,5 yıl hasta yaşayacağı anlamına gelmez. İkisi de ölüm oranları, hastalık yaygınlığı ve engellilik ağırlıklarından üretilen nüfus ortalamalarıdır. Ülke, yaş, cinsiyet ve veri kalitesi yerel görünümü değiştirir; tek bir kişinin küresel ortalamayla karşılaştırılması doğru bir risk hesabı değildir."
+          ]
+        },
+        {
+          "heading": "Bulaşıcı olmayan hastalıklar neden daha görünür?",
+          "paragraphs": [
+            "WHO, kalp hastalığı, diyabet, kanser ve demans gibi bulaşıcı olmayan hastalıkların 2023'te dünyadaki ölümlerin %74'ünü oluşturduğunu tahmin ediyor; bu pay 2000'de %58'di. 2023'ün en sık on ölüm nedeninden sekizi bu gruptaydı. Değişim; bazı enfeksiyon ölümlerindeki düşüş, nüfus artışı ve yaşlanma ile kronik risk etkenlerinin birleşimini yansıtır. Payın yükselmesi, her bireyin riskinin aynı oranda arttığını kanıtlamaz. [1, 4]",
+            "İskemik kalp hastalığı yaklaşık 9,5 milyon ölüm ve 210 milyon DALY ile küresel yükün başında kaldı. Demans 2000'de ölüm nedenleri arasında 19. sıradayken 2023'te beşinci sıraya yükseldi; atfedilen ölümler üç katına çıktı. Düşük gelirli ülkelerde bulaşıcı hastalıkların tüm ölümlerdeki payı ilk kez yarının altına indi, ancak solunum enfeksiyonları, sıtma, tüberküloz ve HIV hâlâ büyük yük oluşturuyor. [1, 4]"
+          ]
+        },
+        {
+          "heading": "DALY neyi ölçer?",
+          "paragraphs": [
+            "DALY, “engelliliğe ayarlanmış yaşam yılı”dır. Erken ölüm nedeniyle kaybedilen yıllarla tam sağlıktan daha düşük bir durumda geçirilen yılları toplar. Nüfus düzeyinde bir DALY, kabaca bir tam sağlıklı yılın kaybı olarak yorumlanır. Bu ölçü ölüm ve engelliliği aynı çerçevede gösterir; bir hastanın yaşadığı deneyimi veya yaşamının değerini ölçmez. [5]",
+            "Yeni tahminlerde 2019–2023 arasında yaşa göre standartlaştırılmış DALY oranı depresif bozukluklarda yaklaşık %20, anksiyete bozukluklarında yaklaşık %45 arttı. İki durumun 2023'te toplam 110 milyon tam sağlıklı yaşam yılı kaybıyla ilişkili olduğu tahmin edildi. Sonuç, ruh sağlığının planlamadaki önemini gösterir; kişisel tanı, tek bir neden veya belirli bir tedavinin etkisi hakkında kanıt oluşturmaz. [1]"
+          ]
+        },
+        {
+          "heading": "Bu sayılar nasıl üretildi?",
+          "paragraphs": [
+            "WHO; nüfus ve ölüm kayıtlarını, BM nüfus tahminlerini, anketleri, örnek kayıt sistemlerini, uzman programlarını ve bilimsel çalışmaları birleştirdi. Yeterli kapsama sahip 91 ülke ve bölgede ölüm kayıtları yaşam tablolarının önemli temelini oluşturdu. Eksik kayıt bulunan yerlerde sayım ve anket verileriyle model yaşam tabloları kullanıldı. Ölüm nedenlerinde belirsiz kodlar yeniden dağıtıldı ve uzman kuruluşların girdileri uyumlaştırıldı. [2, 3, 4]",
+            "Bu yüzden anahtar sözcük “tahmin”dir. Bazı sayılar ulusal kayıtlardan doğrudan gelirken veri boşluklarının bir bölümü modellerle tamamlanır. WHO ülke düzeyinde veri kalitesi ve belirsizlik aralıkları sunuyor; birbirine yakın ölüm nedeni sıralamalarının veya ülkeler arasındaki küçük farkların aşırı yorumlanmaması gerektiğini özellikle belirtiyor. [4, 5]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve pratik anlam nedir?",
+          "paragraphs": [
+            "Eksik ölüm kayıtları, ölüm nedeninin yanlış sınıflandırılması, raporlama farkları ve bazı ülkelerde model kullanımının ağırlığı temel sınırlılıklardır. Doğrudan COVID-19 ölümlerini sağlık hizmetlerindeki aksamaların sonuçlarından ayırmak da güçtür. Belirsizlik aralıkları tüm hata kaynaklarını kapsamaz; gerçek belirsizlik daha büyük olabilir. 2000–2023 sürümü tüm zaman serisini yeniden hesapladığından eski sürümle farklar gerçek zaman eğilimi gibi okunmamalıdır. [4, 5]",
+            "Politika açısından mesaj; kronik hastalıkların önlenmesi ve tedavisi, ruh sağlığı ve veri kayıt sistemleri güçlendirilirken bulaşıcı hastalıklarla mücadelenin sürdürülmesidir. Bireysel okuyucu için bu rapor bir öz tanı aracı değildir; küresel sayı tıbbi öykü, kişisel risk etkenleri veya profesyonel değerlendirmenin yerini tutmaz. Asıl değeri, sağlık sistemlerinin değişen ihtiyaçlarını ve uzun yaşamla sağlıklı yıllar arasındaki boşluğu göstermesidir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Kalp hastalığı ve diş eti ilişkisi",
+          "path": "makale-kalp-dis-sagligi.html"
+        },
+        {
+          "label": "Diyabet ve ağız sağlığı",
+          "path": "makale-diyabet-dis-sagligi.html"
+        },
+        {
+          "label": "Yaşlılıkta ağız ve diş sağlığı",
+          "path": "makale-yaslilik-dis-sagligi.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO · New Global Health Estimates · 2026-10-02",
+          "url": "https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape"
+        },
+        {
+          "label": "WHO · Global Health Estimates 2023 · Veri ve yöntem portalı",
+          "url": "https://www.who.int/data/global-health-estimates"
+        },
+        {
+          "label": "WHO · Methods for life tables 2000–2023 · WHO/DDI/DNA/GHE/2026.1",
+          "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2023_lifetable_methods.pdf"
+        },
+        {
+          "label": "WHO · Methods for country-level causes of death 2000–2023 · WHO/HSA/DDA/GHE/2026.2",
+          "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2023_cod_methods.pdf"
+        },
+        {
+          "label": "WHO · Methods for global burden of disease estimates 2000–2023 · WHO/DSA/DDA/GHE/2026.3",
+          "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2023_daly_methods.pdf"
+        }
+      ]
     }
   ]
 }
