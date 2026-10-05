@@ -546,6 +546,92 @@
           "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2023_daly_methods.pdf"
         }
       ]
+    },
+    {
+      "id": "2026-10-05-salivary-alp-periodontitis",
+      "category": "dentistry",
+      "published": "2026-10-05",
+      "studyDate": "2026-10-03",
+      "image": "assets/latest/salivary-alp-periodontitis-2026.webp",
+      "imageCredit": "Veri: Alarcón-Sánchez ve ark.; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.nature.com/articles/s41405-026-00488-z",
+      "imageRights": "Original editorial visualization created for this article from reported aggregate results; licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The source article is cited; BDJ Open/Springer Nature does not endorse this site.",
+      "title": "Tükürük diş eti hastalığını gösterebilir mi? Yeni meta-analizin önemli uyarısı",
+      "summary": "Yeni bir meta-analiz, periodontitisli kişilerde tükürük ALP düzeyini sağlıklı kişilerden yüksek buldu. Ancak aşırı heterojenlik ve çok düşük kanıt kesinliği, bu bulgunun henüz hazır bir tanı testine dönüştürülemeyeceğini gösteriyor.",
+      "evidence": "Toplam 1.459 katılımcıyı içeren, çoğu gözlemsel 20 çalışmanın sistematik derlemesi ve meta-analizi; GRADE'e göre kanıt kesinliği çok düşük",
+      "access": "Hakemli BDJ Open makalesinin tam HTML metni, yöntemleri, tabloları, duyarlılık analizleri, sınırlılıkları ve lisans bilgileri incelendi; klinik bağlam için NIDCR'nin resmî diş eti hastalığı sayfası okundu. Bu yazı bağımsız uzman hakemliği iddiası taşımaz.",
+      "takeaway": "Birleştirilmiş verilerde tükürük ALP'si periodontitisle ilişkiliydi; fakat çalışmalar arasındaki fark çok büyüktü ve geçerli bir tanı eşiği belirlenmedi. Tükürük testi şimdilik diş eti muayenesinin, cep ölçümünün ve radyografinin yerini almıyor.",
+      "alt": "Yirmi çalışma ve 1.459 katılımcıyı, tükürük ALP farkını, yüzde 100 heterojenlik uyarısını gösteren veri grafiği",
+      "caption": "BDJ Open makalesindeki toplu sonuçlara dayalı editoryal grafik: periodontitis grubunda 44,62 birim daha yüksek ortalama ALP farkının yanında %100 heterojenlik ve çok düşük kanıt kesinliği gösteriliyor. Görsel bireysel veri veya çalışma katılımcısı fotoğrafı değildir.",
+      "sections": [
+        {
+          "heading": "Yeni çalışma tam olarak neydi?",
+          "paragraphs": [
+            "Mario Alberto Alarcón-Sánchez, Sarah Monserrat Lomelí-Martínez, Daniel Ortuño-Sahagún ve arkadaşları sistematik derleme ve meta-analizlerini 3 Ekim 2026'da BDJ Open'da yayımladı. Araştırma ekibi altı veri tabanı ile Google Scholar'ı taradı, protokolü PROSPERO'ya kaydetti ve PRISMA'ya göre raporladı. Temel soru, sağlıklı, gingivitisli ve periodontitisli kişiler arasında tükürükteki alkalen fosfataz, yani ALP, düzeyinin farklı olup olmadığıydı. [1]",
+            "İlk 592 kayıttan toplam 1.459 katılımcıyı içeren 20 çalışma derlemeye alındı; 12 çalışma meta-analize uygun karşılaştırılabilir veri sağladı. Yedi çalışmanın ileriye dönük izlemi, 13'ünün kesitsel tasarımı vardı; ancak toplu analize yalnızca grupların başlangıçtaki gözlemsel karşılaştırmaları girdi. Dolayısıyla bu araştırma hazır bir testin deneyi veya tedavi çalışması değil, olası bir biyobelirteç hakkındaki önceki kanıtların sentezidir. [1]"
+          ]
+        },
+        {
+          "heading": "ALP nedir ve neden tükürükte ölçülüyor?",
+          "paragraphs": [
+            "ALP, fosfat gruplarını ayıran ve mineralize dokuyla ilişkili süreçlerde rol alan bir enzimdir. Diş çevresindeki kemik hücrelerinin, fibroblastların ve inflamatuvar hücrelerin etkinliği düzeyini etkileyebilir. Periodontitiste destek dokularda ve alveol kemiğinde inflamasyon, yeniden yapılanma ve yıkım gelişir. Bu nedenle araştırmacılar tükürük ALP'sindeki artışın sürmekte olan biyolojik etkinliğe işaret edip edemeyeceğini inceliyor. [1]",
+            "Tükürüğün avantajı açıktır: örnek almak girişimsel değildir, nispeten kolaydır ve tekrarlanabilir. Yine de bir maddenin ölçülebilmesi, tanı amacıyla kullanılabileceği anlamına gelmez. Klinik bir test için örnek alma ve analiz standartlaşmalı; pozitif ve negatif eşikler belirlenmeli; duyarlılık, özgüllük ve farklı topluluklardaki performans değerlendirilmelidir. Tükürük ALP'si için bu adımlar henüz tamamlanmadı. [1]"
+          ]
+        },
+        {
+          "heading": "Sayısal sonuç neydi?",
+          "paragraphs": [
+            "Periodontitisli kişiler sağlıklı periodonsiyuma sahip kontrollerle karşılaştırıldığında, birleştirilmiş ortalama ALP farkı 44,62 birimdi; %95 güven aralığı 22,54 ile 66,69, p değeri ise 0,001 olarak bildirildi. Çalışmaların teker teker çıkarıldığı duyarlılık analizi sonucun yönünü değiştirmedi. Bu, mevcut veri kümesinde tükürük ALP'sinin periodontitis grubunda ortalama olarak daha yüksek olduğunu gösterir. [1]",
+            "Buna karşılık gingivitis ile sağlıklı kontroller arasındaki fark anlamlı değildi: ortalama fark 16,05, %95 güven aralığı -10,14 ile 42,25'ti. Gingivitis ile periodontitis karşılaştırması da anlamlı değildi. Yani aynı meta-analizde bile belirteç, yüzeysel diş eti inflamasyonu ile periodontitis arasında net bir sınır çizemedi. Grup ortalaması, ALP'si yüksek her kişide periodontitis bulunduğunu veya düşük bir değerin hastalığı dışladığını söylemez. [1]"
+          ]
+        },
+        {
+          "heading": "%100 heterojenlik neden önemli?",
+          "paragraphs": [
+            "Ana karşılaştırmada I² değeri %100'dü; başka bir deyişle çalışma sonuçları arasındaki fark yalnızca rastlantısal dalgalanmayla açıklanamaz. Uyarılmış veya uyarılmamış tükürük kullanımı, toplama zamanı ve süresi, saklama sıcaklığı, laboratuvar yöntemi, raporlama birimi, hastalık tanımı ve katılımcı özellikleri değişiyordu. %95 tahmin aralığı -30,40 ile 118,54 arasındaydı ve sıfırı içeriyordu; yeni bir çalışma belirgin biçimde farklı sonuç verebilir. [1]",
+            "Yazarlar GRADE ile kanıt kesinliğini 'çok düşük' olarak değerlendirdi. Yöntem sorunları, küçük örneklemler, karıştırıcı değişkenlerin yetersiz kontrolü ve küçük çalışma etkisi olasılığı güveni azalttı. Sekiz çalışma JBI değerlendirmesindeki tüm ölçütleri karşılarken diğerleri bir ile beş ölçütte eksikti. İstatistiksel anlamlılık bu sınırlılıkları ortadan kaldırmaz. [1]"
+          ]
+        },
+        {
+          "heading": "Bu bulgu bir tanı testi oluşturuyor mu?",
+          "paragraphs": [
+            "Henüz değil. Yeni derleme, belirli bir kitin bireysel tanı doğruluğunu değil gruplar arasındaki ortalama farkı değerlendirdi. Referans eşik, duyarlılık, özgüllük, öngörü değeri ve yanlış pozitif ya da negatif oranları belirlenmedi. ALP başka biyolojik süreçlerden de etkilenebilir. Bu ilişkiyi klinik araca dönüştürmek için standart örnekleme ve analiz kullanan uzunlamasına tanı doğruluğu çalışmaları gerekir. [1]",
+            "NIDCR, diş eti hastalığı değerlendirmesinin muayeneye, diş çevresindeki ceplerin probla ölçülmesine ve gerektiğinde kemik kaybını inceleyen radyografilere dayandığını açıklıyor. Kızarıklık, şişlik, kanama, kalıcı ağız kokusu, diş eti çekilmesi veya dişte sallanma değerlendirme gerektirebilir; ağrı olmaması hastalığı dışlamaz. Bir araştırma belirteci, klinik bağlam olmadan kesin tanıya çevrilmemelidir. [2]"
+          ]
+        },
+        {
+          "heading": "Okur için pratik mesaj nedir?",
+          "paragraphs": [
+            "Bu meta-analizin değeri bir ürünü onaylamak veya reddetmek değildir. Tükürüğün yararlı biyolojik bilgi taşıyabileceğini ve standartlaştırmanın sonucu ne kadar etkilediğini birlikte gösterir. Sonraki araştırmalar geçerli eşikleri, testin tekrarlanabilirliğini, farklı hastalık evrelerindeki performansı ve rutin muayeneye sağladığı ek değeri sınamalıdır. Birden çok biyobelirtecin birleşimi tek bir sayıdan daha iyi olabilir, fakat bu da şimdilik araştırma sorusudur. [1]",
+            "Diş eti kanaması, çekilme, kalıcı ağız kokusu veya dişte sallanma yaşayan biri için bu haberin mesajı belirli bir tükürük testi satın almak ya da istemek değildir. Diş hekimi değerlendirmesi ve uygun günlük bakım kararın temelini oluşturmaya devam eder. Periodontal tedavi de kişinin tanısına, hastalık şiddetine ve risk etkenlerine göre planlanır. Bu yazı genel bilgilendirme amaçlıdır ve kişisel tanı veya tedavi önerisi sunmaz. [2]"
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Diş eti hastalığı: inflamasyon ile doku kaybı arasındaki fark",
+          "path": "makale-dis-eti-hastaligi.html"
+        },
+        {
+          "label": "Periodontal tedavi: nedeni kontrol etmek ve sonucu korumak",
+          "path": "makale-periodontal-tedavi.html"
+        },
+        {
+          "label": "Diş eti kanaması: normal mi, değerlendirmek mi gerekir?",
+          "path": "makale-dis-eti-kanamasi.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Alarcón-Sánchez et al. · BDJ Open · Sistematik derleme ve meta-analiz · 2026-10-03",
+          "url": "https://www.nature.com/articles/s41405-026-00488-z",
+          "doi": "10.1038/s41405-026-00488-z"
+        },
+        {
+          "label": "NIDCR · Periodontal (Gum) Disease · Resmî eğitim kaynağı",
+          "url": "https://www.nidcr.nih.gov/health-info/gum-disease"
+        }
+      ]
     }
   ]
 }
