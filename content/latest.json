@@ -725,6 +725,96 @@
           "url": "https://www.cdc.gov/tobacco/about/how-to-quit.html"
         }
       ]
+    },
+    {
+      "id": "2026-10-07-adolescent-girls-violence",
+      "category": "health",
+      "published": "2026-10-07",
+      "studyDate": "2026-10-05",
+      "image": "assets/latest/adolescent-girls-violence-estimates-2026.webp",
+      "imageCredit": "Veri: DSÖ ve UNFPA; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://doi.org/10.2471/B09912",
+      "imageRights": "Original editorial visualization adapted from aggregate data in the WHO/UNFPA technical brief; licensed CC BY-NC-SA 3.0 IGO: https://creativecommons.org/licenses/by-nc-sa/3.0/igo/. No WHO endorsement; no WHO logo used.",
+      "title": "Ergen kızlara yönelik şiddet: Yeni küresel tahminler ne söylüyor?",
+      "summary": "DSÖ ve UNFPA'nın yeni teknik özeti, dünyadaki 15–19 yaşındaki her on kızdan yaklaşık üçünün partner şiddeti veya partner dışı cinsel şiddet biçimlerinden en az birini yaşadığını tahmin ediyor; ancak paydaların farklılığı, eksik bildirim ve model belirsizliği doğru yorum için vazgeçilmez.",
+      "evidence": "Nüfusa dayalı araştırmalardan üretilen modellenmiş yaygınlık tahminlerinin resmi teknik özeti; küresel yükü değerlendirmek için güçlü nüfus düzeyi kanıtı, nedensellik veya bireysel risk kanıtı değil",
+      "access": "DSÖ/UNFPA'nın 39 sayfalık teknik özeti tam metin olarak; aynı belgedeki yöntem açıklaması ile 2023 ana raporu ve RESPECT Women rehberinin resmi yayın sayfaları incelendi. Belge yeni bir deney ya da yeni bir saha araştırması değildir; bu yazı bağımsız uzman hakemliği iddiasında bulunmaz.",
+      "takeaway": "Modellenmiş tahmine göre 15–19 yaşındaki tüm kızların %29,5'i—yaklaşık 43 milyon kişi—bu yaşa kadar partner şiddeti ve/veya partner dışı cinsel şiddet yaşamıştır. Gerçek sayı muhtemelen daha yüksektir; veriler hizmet planlama ve önleme içindir, ülke sıralaması ya da tek bir kişinin durumunu öngörmek için değildir.",
+      "alt": "15–19 yaşındaki kızlara yönelik küresel şiddet tahminlerini yüzde 29,5, 23,3 ve 8,4 olarak gösteren, paydaların farklı olduğunu belirten üç veri paneli",
+      "caption": "DSÖ ve BM ortaklarının 2023 yılına ait modellenmiş tahminlerinden hazırlanan editoryal grafik. Panellerin paydaları aynı değildir ve doğrudan sıralama gibi karşılaştırılmamalıdır; görsel mağdurların ya da araştırma katılımcılarının fotoğrafı değildir.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Dünya Sağlık Örgütü ile Birleşmiş Milletler Nüfus Fonu, 15–19 yaşındaki kızlara ilişkin teknik özeti 5 Ekim 2026'da yayımladı. Merkezi tahmine göre bu yaş grubundaki tüm kızların %29,5'i, yani yaklaşık 43 milyon kişi, partnerinden fiziksel veya cinsel şiddet ve/veya partneri olmayan birinden cinsel şiddet görmüştür. Bu tahminin %95 belirsizlik aralığı %27,4–32,7'dir. [1]",
+            "Bu sayı 2026'da yapılmış yeni bir ankete dayanmaz. Rapor, daha önceki nüfus araştırmalarını küresel bir istatistiksel modelde birleştirir ve 2023 için tahmini durumu gösterir. Açıklanmayan deneyimler, araştırma yöntemlerindeki farklılıklar ve bazı kriz ortamlarında güvenli veri bulunmaması eksik tahmin olasılığını artırır. Dolayısıyla sayılar eksiksiz bir olay sayımı değil, halk sağlığı yükünün haritasıdır. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Raporu kimler, hangi amaçla hazırladı?",
+          "paragraphs": [
+            "Kurumsal editörler DSÖ ve UNFPA'dır. Teknik yönlendirme ve eşgüdümü LynnMarie Sardinha yürüttü; Irina Bergenfeld ile Polychronis Kostoulas veri yönetimine katkı verdi, Kostoulas istatistiksel çerçeveyi geliştirip modellemeyi yaptı. Baş yazarlar LynnMarie Sardinha, Morane Verhoeven ve Mandip Aujla; teknik incelemeyi yapanlar Claudia García-Moreno ile Avni Amin'dir. [1]",
+            "Belge, bağımsız örneklem toplayan yeni bir araştırma makalesi değildir; 2023'e ait küresel, bölgesel ve ulusal tahminlerin teknik bir özetidir. Değeri, dağınık kanıtları ortak tanım ve modelle politika planlaması için bir araya getirmesidir. Bu düzey, nüfus yükünü tahmin etmede değerlidir; şiddetin nedenini belirlemek, tek bir kişinin riskini öngörmek veya bir müdahalenin etkisini ölçmek için yeterli değildir."
+          ]
+        },
+        {
+          "heading": "Üç ana sayının paydaları neden farklı?",
+          "paragraphs": [
+            "Daha önce evlenmiş veya bir partner ilişkisi yaşamış 15–19 yaşındaki kızlar arasında, yaşam boyu partner kaynaklı fiziksel ve/veya cinsel şiddet %23,3 olarak tahmin edildi; belirsizlik aralığı %21,5–25,7 idi. Son 12 aya ilişkin tahmin %16,0, yani partner deneyimi bulunan yaklaşık 12,5 milyon kızdı. [1]",
+            "On beş yaşından sonra partner dışı cinsel şiddet, 15–19 yaşındaki tüm kızlarda %8,4 olarak tahmin edildi; belirsizlik aralığı %6,7–11,7 idi. Son 12 ay için tahmin %4,0, yaklaşık 13 milyon kişidir. Partner şiddeti tahmininin paydası yalnızca partner deneyimi bulunan kızlardan, partner dışı şiddetin paydası ise tüm kızlardan oluşur. Bu nedenle %23,3 ile %8,4'ü eşdeğer iki sütun gibi karşılaştırmak veya basitçe toplamak yanıltıcıdır. [1]"
+          ]
+        },
+        {
+          "heading": "Tahminler nasıl üretildi?",
+          "paragraphs": [
+            "Uygun verilerin nüfusa dayalı, ulusal ya da temsili bölgesel araştırmalardan gelmesi; araştırmaların 2000–2023 arasında yapılmış ve Kasım 2024'e kadar erişilebilir olması; şiddetin belirli eylemler sorularak ölçülmesi gerekiyordu. Partner şiddeti için 168 ülke ve bölgede en az bir uygun kaynak vardı. Beş düzeyli hiyerarşik Bayesçi model, çalışmalar, ülkeler, bölgeler, üst bölgeler ve dünya düzeyindeki bilgiyi birleştirip tanımlanabilen yöntem farklılıklarına göre düzeltme yaptı. [1, 2]",
+            "Belirsizlik aralığı, tek bir anketin güven aralığıyla aynı şey değildir; model tahmininin makul aralığını gösterir. Modelleme veri boşluklarını azaltabilir, fakat eksik veriyi gerçek gözleme dönüştürmez. Küçük ergen örneklemli veya eski verili ülke tahminleri daha temkinli okunmalıdır. Ülkeler arasındaki birkaç puanlık fark da tek başına gerçek bir farkı ya da kesin bir sıralamayı kanıtlamaz."
+          ]
+        },
+        {
+          "heading": "Gerçek yaygınlık neden daha yüksek olabilir?",
+          "paragraphs": [
+            "Sonuçlardan korkma, utanç, damgalanma, toplumsal normlar ve güvenli hizmet eksikliği açıklamayı azaltabilir; bu etkilerin gücü her ülkede aynı değildir. Rapor, eksik bildirimin ülkeler ve bölgeler arasındaki doğrudan karşılaştırmayı zorlaştırdığını açıkça belirtir. Sorulan eylemler de değişir: bazı araştırmalar maddeyle kolaylaştırılan saldırıyı, fiziksel güç olmadan zorlanan cinsel ilişkiyi veya temas içermeyen biçimleri eksik kapsar. [1]",
+            "Bazı ülkelerde ergen örneklemi küçüktür ve belirsizlik aralıkları genişler. Savaş, yerinden edilme ve insani krizlerde veri toplamak hem daha zor hem güvenlik açısından daha hassastır; bu ortamlar tahminlerde eksik temsil edilebilir. Ana kapsam çevrimdışı fiziksel ve cinsel şiddettir; psikolojik ya da teknoloji aracılı şiddet ana tahmine dahil değildir. Bunlar raporu değersiz kılmaz, sayıların neyi söyleyip neyi söyleyemediğinin sınırını çizer."
+          ]
+        },
+        {
+          "heading": "Sağlık sistemi ve önleme için pratik mesaj ne?",
+          "paragraphs": [
+            "Rapor; gizli, güvenli, ergenlerin ihtiyaçlarına yanıt veren ve şiddete maruz kalan kişinin iradesiyle onurunu merkeze alan sağlık hizmetlerini destekler. Etkili yanıt yalnızca kliniğin görevi değildir: eğitim, çocuk koruma, sosyal hizmetler ve adalet sistemi erişilebilir ve eşgüdümlü yollar kurmalıdır. Ortaöğretimin sürmesi, çocuk yaşta evliliğin önlenmesi, yasal eşitlik ve güvenli çevreler de nüfus düzeyinde önem taşır. [1, 3]",
+            "RESPECT Women çerçevesi; ilişki becerileri ve kadınların güçlendirilmesinden yoksulluğun azaltılmasına, güvenli çevrelere ve normların dönüşümüne uzanan yedi önleme alanını tanımlar. [3] Bu tahminler hangi kızın şiddet yaşadığını veya tek bir programın her ülkede başarılı olacağını söylemez; bu sorular için yerel değerlendirme ve müdahale araştırmaları gerekir. Savunulabilir sonuç, sorunun yaygın ve önlenebilir olduğu, destekleyici hizmetlerle çok sektörlü politika gerektirdiğidir—istatistikler kişinin deneyimini dinlemenin ya da güvenliğini değerlendirmenin yerine geçmez."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Stres ve ağız sağlığı: Doğrudan etkiler ve değişen alışkanlıklar",
+          "path": "makale-stres-dis-sagligi.html"
+        },
+        {
+          "label": "Çocuklarda ağız sağlığı: İlk dişten kalıcı alışkanlıklara",
+          "path": "makale-cocuklarda-dis-sagligi.html"
+        },
+        {
+          "label": "Hamilelikte ağız sağlığı: Güvenli bakım ve gecikmeyi önleme",
+          "path": "makale-hamilelerde-dis-sagligi.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "DSÖ ve UNFPA · 15–19 yaşındaki kızlara yönelik şiddet teknik özeti · 2026-10-05",
+          "url": "https://www.who.int/publications/i/item/B09912",
+          "doi": "10.2471/B09912"
+        },
+        {
+          "label": "DSÖ ve BM ortakları · Violence against women prevalence estimates, 2023 · yöntem ve tahmin raporu",
+          "url": "https://www.who.int/publications/i/item/9789240116962"
+        },
+        {
+          "label": "DSÖ ve UN Women · RESPECT Women: Preventing violence against women · ikinci baskı",
+          "url": "https://www.who.int/publications/i/item/9789240117020"
+        }
+      ]
     }
   ]
 }
