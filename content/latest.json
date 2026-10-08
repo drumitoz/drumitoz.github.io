@@ -815,6 +815,96 @@
           "url": "https://www.who.int/publications/i/item/9789240117020"
         }
       ]
+    },
+    {
+      "id": "2026-10-08-edentulism-frailty-older-adults",
+      "category": "dentistry",
+      "published": "2026-10-08",
+      "studyDate": "2026-10-07",
+      "image": "assets/latest/edentulism-frailty-older-adults-2026.webp",
+      "imageCredit": "Veri: Pylińska-Dąbrowska ve arkadaşları; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://dmp.umw.edu.pl/en/ahead-of-print/213281/",
+      "imageRights": "Original editorial visualization created from aggregate results in the source article, which is licensed CC BY 3.0: https://creativecommons.org/licenses/by/3.0/. This visualization is licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No journal or university endorsement is implied.",
+      "title": "Dişsizlik ve yaşlılıkta kırılganlık: Ulusal çalışma ne gösteriyor?",
+      "summary": "Polonya'da 5.457 yaşlı yetişkinin kesitsel analizinde dişsizlik, fiziksel kırılganlık ve işlevsel hassasiyet olasılığının daha yüksek olmasıyla ilişkiliydi; ancak bu ilişki diş kaybının kırılganlığa neden olduğunu veya protezin bunu önlediğini kanıtlamıyor.",
+      "evidence": "Polonya'da 60 yaş ve üzeri kişileri temsil eden ulusal örneklemli kesitsel çalışma; zamansal sırayı veya nedenselliği belirleyemeyen gözlemsel ilişki kanıtı",
+      "access": "Hakemli makalenin tam HTML metni, yöntemleri, tabloları, düzeltilmiş analizleri, sınırlılıkları, etik bilgileri ve CC BY 3.0 lisansı incelendi. Yaşlılıkta ağız sağlığı için DSÖ ve NIDCR'nin resmi sayfaları okundu; bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "PolSenior2 verilerinde ham kırılganlık oranı en az 20 doğal dişi olanlarda %5,8 iken dişsizlerde %27,0'a çıktı. Birkaç değişken için düzeltme yapıldığında ilişki sürdü; buna karşın kesitsel tasarım ve ölçülmeyen karıştırıcılar neden-sonuç yorumu yapılmasına izin vermiyor.",
+      "alt": "Polonya'daki 5.457 yaşlı yetişkinin çalışmasını gösteren veri grafiği; diş sayısına göre ham kırılganlık oranları yüzde 5,8, 14,0 ve 27,0 ile dişsizliğin düzeltilmiş olasılık oranları",
+      "caption": "PolSenior2 çalışmasının grup sonuçlarından hazırlanan editoryal grafik: %5,8, %14,0 ve %27,0 ham oranlardır; 1,47 ve 1,38 ise düzeltilmiş olasılık oranlarıdır. Görsel bireysel veri ya da nedensellik kanıtı değildir.",
+      "sections": [
+        {
+          "heading": "Yeni çalışma tam olarak neydi?",
+          "paragraphs": [
+            "Dorota Pylińska-Dąbrowska, Hanna Kujawska-Danecka, Kacper Jagiełło, Małgorzata Mossakowska ve Tomasz Roman Zdrojewski bu analizi 7 Ekim 2026'da Dental and Medical Problems dergisinde yayımladı. Araştırmacılar, Polonya'nın ulusal PolSenior2 araştırmasına katılan toplum içinde yaşayan 60 yaş ve üzeri 5.457 kişinin verilerini inceledi; saha çalışması ve diş muayeneleri 2018–2019'da yapılmıştı. [1]",
+            "Bu tarihler aynı değildir: 7 Ekim makalenin yayın tarihidir, verinin toplandığı tarih değil. Örneklem ulusal kayıttan çok aşamalı tabakalı yöntemle seçildi ve Polonya nüfusunu temsil etmek için örnekleme ağırlıkları kullanıldı. Çalışma bu toplumdaki ilişkileri incelemek için değerlidir; protez tedavisi deneyi ya da izlem çalışması değildir."
+          ]
+        },
+        {
+          "heading": "Diş durumu ve kırılganlık nasıl ölçüldü?",
+          "paragraphs": [
+            "Eğitimli muayeneciler katılımcıları doğal diş sayısına göre üç gruba ayırdı: en az 20 dişle 'işlevsel dişlenme', 1–19 dişle kısmi dişlenme ve sıfır dişle tam dişsizlik. Protez kullanımı da kaydedildi; ancak protezin türü, uyumu, kalitesi ya da gerçek çiğneme performansı ölçülmedi. [1]",
+            "Fiziksel kırılganlık; istemsiz kilo kaybı, tükenmişlik, düşük el kavrama gücü, yavaş yürüme ve az fiziksel aktiviteyi kapsayan Fried fenotipiyle değerlendirildi. Beş ölçütten en az üçünün bulunması kırılganlık olarak tanımlandı. VES-13 ise yaş, kişinin sağlık algısı ve günlük işlev sınırlılıklarını birleştirir; üç ve üzeri puan işlevsel hassasiyet kabul edildi. İki araç aynı boyutları ölçmez. [1]"
+          ]
+        },
+        {
+          "heading": "Ham sayılar nasıl bir tablo çizdi?",
+          "paragraphs": [
+            "En az 20 dişi olanların %5,8'i kırılganlık ölçütünü karşıladı. Oran 1–19 dişi olanlarda %14,0, dişsizlerde %27,0 idi. Ortalama VES-13 puanı da sırasıyla 1,5, 2,5 ve 4,2 olarak bildirildi. Farklar istatistiksel olarak anlamlıydı; fakat bunlar ham karşılaştırmalardır. Dişsiz grup daha yaşlıydı, eğitim düzeyi daha düşüktü ve yerleşim yeri ile başka özellikler açısından farklıydı. [1]",
+            "Dişsiz katılımcılar arasında protez kullanmayanların ham kırılganlık oranı %46,0, protez kullananların oranı %24,9 idi; ortalama VES-13 puanları da 6,1'e karşı 4,0'dı. Fark büyük görünse de protez rastgele atanmadı. Genel sağlık, bakıma ulaşabilme, gelir, protez kalitesi ve bağımsızlık hem protez kullanımını hem de sonuçları etkileyebilir."
+          ]
+        },
+        {
+          "heading": "Düzeltmeden sonra hangi ilişki kaldı?",
+          "paragraphs": [
+            "İstatistiksel model yaş, cinsiyet, vücut kitle indeksi, eğitim, yerleşim yeri ve sigara durumunu hesaba kattı. En az 20 dişi olanlarla karşılaştırıldığında dişsizlik, kırılganlık için 1,47 olasılık oranıyla ilişkiliydi; %95 güven aralığı 1,08–2,01 idi. İşlevsel hassasiyet için olasılık oranı 1,38, güven aralığı 1,10–1,74 olarak bildirildi. [1]",
+            "1,47'lik olasılık oranı, riskin 47 yüzde puanı arttığı veya bir kişinin geleceğinin öngörüldüğü anlamına gelmez. Ayrıca özet ile ana sonuç metni, 1–19 diş grubundaki ilişkinin anlamlılığı konusunda tam uyumlu değildir; bu makaleden diş sayısına dayalı bir tedavi eşiği çıkarılamaz. Raporun daha sağlam bulgusu, tam dişsizliğin iki hassasiyet göstergesiyle birlikte görülmesidir."
+          ]
+        },
+        {
+          "heading": "Neden nedensellik sonucu çıkarılamaz?",
+          "paragraphs": [
+            "Diş durumu ile kırılganlık aynı zaman kesitinde ölçüldüğü için ilişkinin yönü bilinmiyor. Diş kaybı çiğneme, beslenme ve toplumsal katılımı sınırlayarak kırılganlıkla ilişkili olabilir; öte yandan kırılganlık ve kronik hastalıklar günlük bakımı, diş hekimine erişimi ve dişleri koruma kapasitesini azaltabilir. Sosyal etkenler her iki yolu da etkileyebilir. [1]",
+            "Eşlik eden hastalıklar modele alınmadı; beslenme ile fiziksel aktivite doğrudan ölçülmedi; protez türü, uyumu ve çiğneme işlevi kaydedilmedi; bazı veriler öz bildirime dayanıyordu ve gruplar eşit büyüklükte değildi. Bu eksikler artık karıştırıcılık olasılığını bırakır. Polonya'da 2018–2019'da toplum içinde yaşayan yaşlılardan elde edilen sonuçların başka ülkelere, bakım kurumlarına veya sağlık sistemlerine aktarımı da dikkat gerektirir."
+          ]
+        },
+        {
+          "heading": "Pratik mesaj nedir?",
+          "paragraphs": [
+            "DSÖ, dişsizliği çoğunlukla uzun bir ağız hastalığı geçmişinin son noktası olarak tanımlar ve 60 yaş üzerindekilerde küresel ortalama yaygınlığın yaklaşık %23 olduğunu tahmin eder; yük, toplumsal eşitsizliklerle de bağlantılıdır. [2] Polonya çalışması, yaşlı sağlığı değerlendirilirken diş sayısı, çiğneme kapasitesi ve protez durumunun gözden kaçmamasını destekler—tek başına ağız muayenesinin kırılganlık tanısı koyduğunu değil.",
+            "Politika düzeyinde yaşam boyunca doğal dişleri korumak, koruyucu ve tedavi edici bakıma erişimi artırmak ve protez değerlendirmesini yaşlı bakımına dahil etmek makul hedeflerdir. NIDCR de ağız sorunlarının yaşlanmanın kaçınılmaz parçası olmadığını ve ömür boyu bakımın önemini vurgular. [3] Bu makale, tek bir kişi için hangi protezin veya tedavinin kırılganlığı azaltacağını söylemez; klinik karar muayene, işlevsel kapasite, tıbbi durum ve kişinin hedeflerine dayanmalıdır."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Yaşlılıkta diş sağlığı: İşlevi korumak ve bakımı kolaylaştırmak",
+          "path": "makale-yaslilik-dis-sagligi.html"
+        },
+        {
+          "label": "İmplant mı, köprü mü? Ağız koşullarına göre doğru seçim",
+          "path": "makale-implant-kopru.html"
+        },
+        {
+          "label": "Periodontal tedavi: Diş etini ve destek dokuları korumak",
+          "path": "makale-periodontal-tedavi.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Pylińska-Dąbrowska ve arkadaşları · Dental and Medical Problems · kesitsel çalışma · 2026-10-07",
+          "url": "https://dmp.umw.edu.pl/en/ahead-of-print/213281/",
+          "doi": "10.17219/dmp/213281"
+        },
+        {
+          "label": "DSÖ · Oral health · resmi bilgi notu · 2025-03-17",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/oral-health"
+        },
+        {
+          "label": "NIDCR · Older Adults and Oral Health · resmi eğitim kaynağı",
+          "url": "https://www.nidcr.nih.gov/health-info/publications/older-adults-oral-health"
+        }
+      ]
     }
   ]
 }
