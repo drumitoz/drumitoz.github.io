@@ -3,6 +3,96 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-09-nicotinamide-riboside-parkinson",
+      "category": "medicine",
+      "published": "2026-10-09",
+      "studyDate": "2026-10-08",
+      "image": "assets/latest/nopark-nicotinamide-riboside-2026.webp",
+      "imageCredit": "Veri: Brakedal ve arkadaşları; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://jamanetwork.com/journals/jama/article-abstract/2855023",
+      "imageRights": "Original editorial visualization created from aggregate facts reported in the JAMA abstract; no JAMA artwork was reproduced. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No journal, university or investigator endorsement is implied.",
+      "title": "Nikotinamid ribozid Parkinson'u yavaşlatmadı: NOPARK sonucu",
+      "summary": "Erken Parkinson hastalığı olan 410 kişiyle yürütülen faz 3 randomize çalışmada, bir yıllık nikotinamid ribozid tedavisi klinik sonuçları iyileştirmedi ve birincil sonuçtaki küçük fark plasebo lehineydi; ancak fark klinik açıdan önemli değişim eşiğinin altındaydı.",
+      "evidence": "Norveç'te 11 merkezde yürütülen faz 3, randomize, çift kör ve plasebo kontrollü klinik çalışma; aynı doz, seçilmiş hasta grubu ve 52 haftalık süre için doğrudan kanıt",
+      "access": "JAMA'da yayımlanan hakemli makalenin özeti, temel bulguları, yazar ve yayın bilgileri ile NCT03568968 kaydı ve istatistiksel analiz planı incelendi. Tam metin hesap/abonelik erişiminin arkasındaydı ve değerlendirilmedi; bu nedenle tedaviye uyum, eksik veriler, alt grup analizleri ve makalede bildirilen tüm sınırlılıklar ayrıntılı olarak incelenemedi. Yazım sırasında düzeltme, geri çekme ya da endişe bildirimi bulunmadı; bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "NOPARK, günde iki kez 500 mg nikotinamid ribozidin erken Parkinson hastalığında 52 hafta boyunca plasebodan daha iyi olmadığını gösterdi. Ana ölçütteki 2,72 puanlık fark istatistiksel olarak plasebo lehineydi, fakat klinik açıdan önemli kötüleşme için belirtilen 5,2 puanlık eşiğin altındaydı. Sonuç, kesin zarar kanıtından çok beklenen yararı desteklemeyen güçlü kanıttır.",
+      "alt": "Erken Parkinson hastalığı olan 410 kişilik NOPARK çalışmasının grafiği; 52 haftada MDS-UPDRS değişimi nikotinamid ribozid için artı 2,45, plasebo için eksi 0,27 puan",
+      "caption": "NOPARK özetindeki grup sonuçlarından hazırlanan editoryal grafik. Daha yüksek MDS-UPDRS puanı daha ağır belirti ve işlev kaybını gösterir. Düzeltilmiş 2,72 puanlık fark plasebo lehineydi, ancak klinik açıdan önemli kötüleşme için 5,2 puanlık eşiğin altındaydı; görsel kişisel veri veya tedavi önerisi değildir.",
+      "sections": [
+        {
+          "heading": "NOPARK hangi soruyu sınadı?",
+          "paragraphs": [
+            "Brage Brakedal, Geir Olve Skeie, Carlotta Derad ve Charalampos Tzoulis'in öncülük ettiği ekip NOPARK sonuçlarını 8 Ekim 2026'da JAMA'da yayımladı. Araştırma, Norveç'teki 11 merkezde yürütülen faz 3, randomize, çift kör ve plasebo kontrollü bir çalışmaydı; katılımcılar ile değerlendirme ekipleri hangi tedavinin verildiğini bilmiyordu. [1]",
+            "Randomizasyona 35 yaş ve üzeri 410 kişi alındı. Parkinson tanısı son iki yıl içinde konmuştu, Hoehn ve Yahr evresi 3'ün altındaydı, dopamin taşıyıcı görüntülemesi nigrostriatal dopamin kaybını doğruluyordu ve dopaminerjik tedavi başlangıçta stabildi. Katılım Mayıs 2020 ile Haziran 2024 arasında gerçekleşti; son izlem 19 Haziran 2025'te tamamlandı. Dolayısıyla veri toplama tarihi ile 2026 yayın tarihi aynı değildir. [1,2]"
+          ]
+        },
+        {
+          "heading": "Tedavi ve ana ölçüt neydi?",
+          "paragraphs": [
+            "Katılımcıların 206'sı 52 hafta boyunca günde iki kez 500 mg nikotinamid ribozid, 204'ü eşleştirilmiş plasebo aldı. Nikotinamid ribozid, hücresel enerji metabolizmasında rol oynayan nikotinamid adenin dinükleotidin, yani NAD'ın öncülüdür. Biyolojik gerekçe ile daha önceki klinik öncesi ve küçük çalışmalar bu fikri çekici kılmıştı; ancak umut veren mekanizma tek başına hastaya yarar sağlandığını kanıtlamaz. [1]",
+            "Birincil sonuç, MDS-UPDRS'nin birinci, ikinci ve üçüncü bölümlerindeki toplam puanın değişimiydi. Ölçek 0 ile 236 arasındadır ve yüksek puan daha ağır hastalık anlamına gelir. Makale klinik açıdan önemli değişim eşiklerini iyileşme için 6,7, kötüleşme için 5,2 puan olarak belirtiyor. Ana analize 393 kişi girdi; ortalama yaş 65,6 idi ve katılımcıların %34'ü kadındı. [1]"
+          ]
+        },
+        {
+          "heading": "Ana sonuç ne gösterdi?",
+          "paragraphs": [
+            "Elli iki haftada düzeltilmiş ortalama MDS-UPDRS puanı nikotinamid ribozid grubunda 2,45 puan arttı; %95 güven aralığı 0,80 ile 4,10'du. Plasebo grubunda puan 0,27 azaldı; güven aralığı eksi 1,95 ile 1,40 arasındaydı. Gruplar arasındaki düzeltilmiş fark 2,72 puanla plasebo lehineydi; %95 güven aralığı 0,47–4,98 ve P değeri 0,02 olarak bildirildi. [1]",
+            "İstatistiksel anlamlılık, farkın mutlaka klinik olarak büyük olduğu anlamına gelmez. 2,72 puanlık fark, önemli kötüleşme için belirtilen 5,2 puanlık eşikten küçüktü. Buna karşılık sonuç, beklenen yararın yönünde de değildi. En temkinli yorum şudur: Bu bir yıllık tedavi rejimi hastalığın seyrini yavaşlatan bir yarar göstermedi; fakat bu bulgu NAD düzeyini artırmaya yönelik her yaklaşımın, her dozda ve her hastalıkta zararlı olduğunu kanıtlamaz."
+          ]
+        },
+        {
+          "heading": "İkincil sonuçlar ve güvenlik ne söyledi?",
+          "paragraphs": [
+            "Önceden belirlenen beş temel ikincil sonucun dördünde anlamlı fark yoktu. Motor dışı belirti yükü nikotinamid ribozid grubunda daha fazla kötüleşti: NMSS için düzeltilmiş ortalama fark 4,22 puandı; %95 güven aralığı 1,07–7,37 ve P değeri 0,009'du. Özet bu farkın klinik önem eşiğini vermiyor; bu yüzden yalnızca P değerinden günlük yaşamdaki büyüklüğü çıkarılamaz. [1]",
+            "Güvenlik grubunda ciddi olumsuz olay nikotinamid ribozid alan 205 kişinin 17'sinde (%8,3), plasebo alan 205 kişinin 29'unda (%14,1) görüldü. Bu ham sayı takviyenin koruyucu ya da daha güvenli olduğunu tek başına kanıtlamaz. Olay türleri, tedaviyle ilişkileri ve güvenlik karşılaştırmasının istatistiksel gücü böyle bir yorum için gereklidir; bu ayrıntılar bu incelemede erişilemeyen tam metinde yer alabilir."
+          ]
+        },
+        {
+          "heading": "Kanıtın sınırları nerede?",
+          "paragraphs": [
+            "Randomizasyon, çift kör tasarım, plasebo grubu ve çok merkezli yürütme birçok yanlılık riskini azaltır; çalışma kendi dar sorusu için güçlü klinik kanıt sunar. Yine de sonuç erken Parkinson hastalığı olan seçilmiş kişilere, stabil tedaviye, günlük toplam 1000 mg doza ve bir yıllık izlemin sonuna aittir. İleri hastalık, başka dozlar, daha uzun kullanım, Norveç dışındaki toplumlar veya farklı hastalıklar için ayrıca araştırma gerekir.",
+            "Ayrıca randomize edilen 410 kişinin 393'ü ana analize girdi; erişilebilir özet dışarıda kalan 17 kişinin nedenlerini ve eksik verilerin etkisini ayrıntılandırmıyor. Tek bir çalışma bütün soruları kapatmaz. Buna rağmen, bu ürün ve rejimin Parkinson'u yavaşlattığı iddiası açısından büyük faz 3 sonucunun ağırlığı, küçük araştırmalardan veya laboratuvar göstergelerinden daha fazladır."
+          ]
+        },
+        {
+          "heading": "Hasta ve aile için pratik mesaj nedir?",
+          "paragraphs": [
+            "NINDS, mevcut ilaçların veya cerrahinin hareketi ve başka belirtileri iyileştirebildiğini, ancak Parkinson için bilinen bir kür olmadığını ve tedavinin kişinin günlük gereksinimlerine göre düzenlenmesi gerektiğini belirtiyor. [3] NOPARK, bir NAD öncülünün yerleşik tedavilerin yerine geçebileceği ya da kanıtlanmış biçimde hastalığı yavaşlattığı düşüncesini desteklemiyor.",
+            "Bu yazı takviyeye başlama veya takviyeyi bırakma yönünde kişisel öneri değildir. Parkinson hastalığı olan bir kişinin reçetesiz ürünleri ve takviyeleri de nöroloji uzmanına veya eczacısına bildirmesi gerekir; klinik karar belirtilere, eş zamanlı tedavilere ve diğer hastalıklara bağlıdır. Araştırmanın daha genel dersi nettir: Güçlü bir biyolojik varsayım, sıkı bir klinik çalışmada ölçülebilir yarara dönüşmelidir—NOPARK'ta böyle bir yarar görülmedi."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Dişsizlik ve yaşlılıkta kırılganlık: Ulusal çalışma ne gösteriyor?",
+          "path": "latest/2026-10-08-edentulism-frailty-older-adults.html"
+        },
+        {
+          "label": "WHO'nun yeni tahminleri: Yaşam süresi ve sağlıklı yıllar",
+          "path": "latest/2026-10-04-who-global-health-estimates.html"
+        },
+        {
+          "label": "Yaşlılıkta diş sağlığı: İşlevi korumak ve bakımı kolaylaştırmak",
+          "path": "makale-yaslilik-dis-sagligi.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Brakedal ve arkadaşları · JAMA · faz 3 randomize çalışma · 2026-10-08",
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/2855023",
+          "doi": "10.1001/jama.2026.18828"
+        },
+        {
+          "label": "ClinicalTrials.gov · NOPARK kaydı ve istatistiksel analiz planı · NCT03568968",
+          "url": "https://clinicaltrials.gov/study/NCT03568968"
+        },
+        {
+          "label": "NINDS · Parkinson's Disease · resmi eğitim kaynağı",
+          "url": "https://www.ninds.nih.gov/health-information/disorders/parkinsons-disease"
+        }
+      ]
+    },
+    {
       "id": "2026-09-30-enamel-remineralization",
       "category": "dentistry",
       "published": "2026-09-30",
