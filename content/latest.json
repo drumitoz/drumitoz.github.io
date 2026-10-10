@@ -3,6 +3,95 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-10-community-mental-health-transition",
+      "category": "health",
+      "published": "2026-10-10",
+      "studyDate": "2026-10-09",
+      "image": "assets/latest/community-mental-health-transition-2026.webp",
+      "imageCredit": "Veri: Dünya Sağlık Örgütü; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.who.int/publications/i/item/9789240124134",
+      "imageRights": "Original editorial visualization created from aggregate facts reported by WHO; no WHO artwork was reproduced. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No WHO endorsement is implied.",
+      "title": "Toplum temelli ruh sağlığı: WHO'dan güvenli kurumdan çıkış rehberi",
+      "summary": "Dünya Sağlık Örgütü'nün yeni 146 sayfalık rehberi, uzun süreli psikiyatri yatışından çıkışın yalnızca yatak kapatmak ya da hızlı taburculuk olmadığını vurguluyor; konut, kesintisiz tedavi, sosyal destek ve kişilerin kararlara katılımı geçişten önce hazır olmalı.",
+      "evidence": "Ruh sağlığı sistemi reformu için WHO'nun resmi, kanıta dayalı uygulama rehberi; tek bir müdahalenin etkisini ölçen klinik çalışma ya da sistematik derleme değil, hak temelli bir uygulama çerçevesi",
+      "access": "Resmi yayın sayfası, 146 sayfalık özgün PDF, rehberin yapısı ve WHO'nun resmi duyurusu incelendi. Yüzde 9, yüzde 53 ve yüzde 28'lik bağlam verileri Mental Health Atlas 2024 ile karşılaştırıldı. Belge kanıta dayalı bir uygulama rehberidir; sistematik derleme veya klinik çalışma değildir, öneriler için tek bir etki büyüklüğü ya da derecelendirilmiş kesinlik sunmaz ve bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "Rehberin ana mesajı, kurumsuzlaştırmanın yalnızca kişinin bulunduğu yeri değiştirmek olmadığıdır. Plan; önlenebilir yatışları ve uzun kalışları azaltmalı, hastane içindeki hakları ve bakım kalitesini iyileştirmeli, konut, tedavi, gelir desteği ve toplumsal katılımla desteklenen taburculuğu birlikte sağlamalıdır.",
+      "alt": "WHO'nun ruh sağlığı bakımı dönüşümüne ilişkin üç göstergesini gösteren infografik: ülkelerin yüzde 9'u geçişi tamamladı, yüzde 53'ü erken aşamada ve yatışların yüzde 28'i altı aydan uzun sürüyor",
+      "caption": "WHO'nun toplu verilerinden hazırlanmış editoryal grafik. Bildirim yapan ülkelerin %9'u toplum temelli bakıma geçişi tamamladı, %53'ü hâlâ erken aşamada; psikiyatri hastanesi yatışlarının %28'i altı aydan uzun sürdü. Görsel, sistem düzeyindeki durumu özetler; tek bir kişinin tedavi sonucunu göstermez.",
+      "sections": [
+        {
+          "heading": "Yeni rehber hangi soruna yanıt veriyor?",
+          "paragraphs": [
+            "Dünya Sağlık Örgütü, 9 Ekim 2026'da “Toplum temelli ruh sağlığı ve sosyal bakıma geçişin desteklenmesi” başlıklı rehberi yayımladı. 146 sayfalık belge, uzun süreli—rehber bağlamında genellikle altı ay veya daha fazla—psikiyatri hastanesi deneyimi olan yetişkinlerle çalışan hastane yöneticileri ve karar vericiler için hazırlandı. Kurumsal yazar WHO'nun Bulaşıcı Olmayan Hastalıklar ve Ruh Sağlığı ekibi; belge DOI taşıyan bir araştırma makalesi değil, resmi uygulama rehberidir. [1,2]",
+            "Sorun yalnızca hizmetin verildiği yer değildir. Kurumsal bakım ruh sağlığı bütçesinin büyük bölümünü tüketebilir, kişileri aile ve toplumdan ayırabilir, seçim özgürlüğünü sınırlayabilir ve insan hakları ihlali riskini artırabilir. WHO bunun yerine kişi merkezli, haklara dayalı bakımı savunuyor; ancak alternatif hizmetler hazırlanmadan kurumdan çıkışın terk edilme, evsizlik veya tedavinin kesilmesiyle sonuçlanabileceğini de çerçevenin merkezine koyuyor. [1]"
+          ]
+        },
+        {
+          "heading": "Kurumsuzlaştırma hastane kapatmaktan ibaret değil",
+          "paragraphs": [
+            "Bu yaklaşımda yatak sayısını azaltmak veya taburculuk belgesi düzenlemek son nokta değildir. Politika, hukuk ve finansman birlikte değişmeli; toplum temelli hizmetler geçiş başlamadan önce gerçek kapasiteye sahip olmalıdır. Güvenli konut, birinci basamak ve uzman bakım, sosyal destek, eğitim ve istihdam, aile desteği ve kriz sırasında erişilebilir yardım birbirini tamamlar. Hastane bu ağı tek başına kuramaz; kamu kurumları, sosyal hizmetler, yerel kuruluşlar ve deneyim sahibi kişiler ortak olmalıdır. [1,2]",
+            "Bu ayrım güvenlik açısından önemlidir. Takip, ilaç, barınma veya gelir desteği olmadan taburculuk, kalış süresini kâğıt üzerinde kısaltabilir; fakat bağımsız yaşam ve toplumsal katılım yaratmaz. Rehber bu nedenle kişisel planı, bakım sürekliliğini ve yatak sayısının ötesindeki sonuçları—seçim hakkı, onur, sosyal bağ ve gerektiğinde yardıma hızla yeniden ulaşabilme—izlemeyi öne çıkarıyor."
+          ]
+        },
+        {
+          "heading": "Üç aşama ve üç eylem alanı",
+          "paragraphs": [
+            "WHO eylemleri üç aşamada düzenliyor: yön, sorumluluk ve kaynakları belirlemek için “planla”; kapasiteyi, ortaklıkları ve alternatif hizmetleri kurmak için “hazırla”; geçişi ve sürekli desteği hayata geçirmek için “sun”. Bu sıra, toplumdaki destek ve izlem yolu hazır olmadan transferin başlamaması gerektiğini hatırlatıyor. Rehber her ülkeye tek reçete vermiyor; çerçevenin yerel hukuk, kaynak ve kültüre uyarlanmasını istiyor. [1]",
+            "Hastanenin etkileyebileceği üç alan da ayrı tanımlanıyor: gereksiz yatışları önlemek ve kaçınılabilir uzun kalışları azaltmak; hastane içindeki kültür ve uygulamaları hakları daha iyi koruyacak biçimde dönüştürmek; destekli taburculuğu, bakım sürekliliğini ve toplumsal katılımı artırmak. Sorumluluklar doğrudan liderlik, başkalarıyla ortaklık ve yetkili makamlardan talepte bulunma olarak ayrılıyor; yani hastane tüm araçlara sahip değil, fakat reformun dışında da değil."
+          ]
+        },
+        {
+          "heading": "Küresel sayılar ne gösteriyor?",
+          "paragraphs": [
+            "WHO'nun resmi duyurusu, Mental Health Atlas 2024'e dayanarak yanıt veren ülkelerin yalnızca %9'unun psikiyatri hastanelerinden toplum temelli bakıma geçişi tamamladığını bildiriyor. Ülkelerin %53'ü, yatakların ve hizmetlerin hâlâ daha çok psikiyatri hastanelerinde toplandığı erken aşamada. Psikiyatri hastanesine kabul edilen kişilerin %28'i ise altı aydan uzun süre kalıyor. [2,3]",
+            "Bu yüzdeler sağlık sistemi göstergeleridir; tek bir hastanın tedavi başarısı veya başarısızlığına ilişkin olasılık değildir. Tanımlar, veri kayıt kapasitesi ve ülkelerin yanıt durumu karşılaştırmayı sınırlar. Yine de %9 ile %53 arasındaki fark, rehberin çevresel bir konuya değil, bildirim yapan sistemlerin çoğunda henüz tamamlanmamış büyük bir dönüşüme odaklandığını gösterir."
+          ]
+        },
+        {
+          "heading": "Kanıt düzeyi ve sınırlar nerede?",
+          "paragraphs": [
+            "Bu belge, mevcut kanıtlara ve WHO'nun önceki politika çalışmalarına dayanan bir uygulama rehberidir. Uluslararası uzmanların ve kurumsal bakım deneyimi olan kişilerin katkısı önemli bir güçtür; çünkü hizmet yapısıyla uygulamadaki hak ve güvenlik sonuçlarını birlikte ele alır. Ancak bu format, belirli bir müdahaleyi sınayan randomize çalışma ya da sistematik derleme değildir; “toplum temelli bakım” için ortak bir etki büyüklüğü veya tek bir kanıt kesinliği derecesi sunmaz. [1,2]",
+            "Uygulanabilirlik ülkenin kaynaklarına bağlıdır. Uzman iş gücü, destekli konut, kriz hizmetleri, sosyal bütçe ve kurumlar arası koordinasyon yetersizse geçiş yavaşlayabilir veya güvensiz olabilir. Bu nedenle “toplum temelli bakım daha iyidir” ifadesi aceleyle yatak kapatma izni değildir. Güvenli kısa süreli yatış yine gerekli olabilir; rehberin hedefi bütün hastane bakımını kaldırmak değil, uzun ve gerekçesiz kurumsal bağımlılığı sona erdirmektir."
+          ]
+        },
+        {
+          "heading": "Pratik mesaj nedir?",
+          "paragraphs": [
+            "Politika yapıcılar ve yöneticiler için başarı sorusu “kaç yatak kapandı?” olmaktan çıkıp “kişi taburculuk sonrasında konuta, tedaviye, sosyal desteğe, seçim hakkına ve yardıma yeniden ulaşmak için açık bir yola sahip mi?” olmalıdır. Deneyim sahibi kişilerin katılımı da sembolik danışmadan öteye geçmeli; hizmetlerin tasarım, uygulama ve değerlendirmesinde gerçek yetki taşımalıdır. [2]",
+            "Hasta ve aile için bu haber yatış veya taburculuk hakkında kişisel öneri değildir. Hastane ile toplum arasında geçiş; güvenlik, kişinin tercihi, destek ağı ve yerel hizmetlere erişime bağlı klinik ve sosyal bir karardır. Rehberin genel mesajı nettir: özgürlük ve toplum içinde yaşamak, bakımın kesilmesi karşılığında sunulmamalıdır; güvenli geçiş ancak gerekli destek kişiyle birlikte gerçekten taşındığında anlamlıdır."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "WHO'nun yeni yaşam süresi ve sağlıklı yaşam yılı tahminleri",
+          "path": "latest/2026-10-04-who-global-health-estimates.html"
+        },
+        {
+          "label": "Ergen kızlara yönelik şiddet: Yeni küresel tahminler",
+          "path": "latest/2026-10-07-adolescent-girls-violence.html"
+        },
+        {
+          "label": "Kalabalık etkinliklerde aşırı sıcak: WHO'nun yeni paketi",
+          "path": "latest/2026-10-01-heat-mass-gatherings.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dünya Sağlık Örgütü · Toplum temelli bakıma geçiş uygulama rehberi · 2026-10-09",
+          "url": "https://www.who.int/publications/i/item/9789240124134"
+        },
+        {
+          "label": "Dünya Sağlık Örgütü · Yayın duyurusu ve küresel göstergeler · 2026-10-09",
+          "url": "https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care"
+        },
+        {
+          "label": "WHO Mental Health Atlas 2024 · tam rapor · 2026",
+          "url": "https://iris.who.int/bitstream/handle/10665/382452/9789240114487-eng.pdf?sequence=1"
+        }
+      ]
+    },
+    {
       "id": "2026-10-09-nicotinamide-riboside-parkinson",
       "category": "medicine",
       "published": "2026-10-09",
