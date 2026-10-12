@@ -3,6 +3,92 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-12-roxadustat-stemi-infarct-size",
+      "category": "medicine",
+      "published": "2026-10-12",
+      "studyDate": "2026-10-09",
+      "image": "assets/latest/roxami-infarct-size-2026.webp",
+      "imageCredit": "Veri: Quan ve arkadaşları; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855122",
+      "imageRights": "Original editorial visualization created from aggregate facts reported in the full-text article; no JAMA Network artwork was reproduced. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, investigator or manufacturer endorsement is implied.",
+      "title": "Roksadustat kalp krizinden sonra hasarlı alanı küçültmedi",
+      "summary": "STEMI geçiren 158 hastalık ROXAMI randomize çalışmasında, damarın PCI ile açılmasından sonra başlanan roksadustat 30. gündeki enfarktüs boyutunu azaltmadı; kalp işlevindeki ikincil farklar keşif niteliğinde ve henüz tedavi kanıtı değil.",
+      "evidence": "Kör sonlanım değerlendirmeli, tek merkezli, açık etiketli faz 2 randomize çalışma; görüntüleme sonucu için doğrudan insan kanıtı, ancak ölüm, kalp yetersizliği veya klinik güvenlik hakkında sonuç çıkarmak için yetersiz",
+      "access": "JAMA Network Open'daki açık erişimli tam metin, tablolar, şekiller, yöntem ekleri, protokol ve istatistiksel analiz planı incelendi. NCT04803864 numaralı çalışma kaydıyla karşılaştırıldı. Yazım sırasında düzeltme, geri çekme ya da endişe bildirimi bulunmadı. Bu yazı analitik bir yeniden anlatımdır; bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "PCI'den en geç iki saat sonra başlanan, iki hafta boyunca haftada üç kez 100 mg roksadustat, 30. günde kalpteki hasarlı alanı küçültmedi. Ortalama fark 1,3 yüzde puandı ve güven aralığı hem azalma hem artış olasılığını içeriyordu. Ekokardiyografideki ikincil sinyaller ve klinik olay sayıları tedaviyi değiştirmek için yeterli değil.",
+      "alt": "ROXAMI çalışmasının infografiği; 30. günde ortalama enfarktüs boyutu roksadustatla sol ventrikülün yüzde 23,3'ü, standart bakımla yüzde 22,0'siydi ve fark anlamlı değildi",
+      "caption": "ROXAMI çalışmasının birincil sonucundan hazırlanan editoryal grafik. Randomize edilen 158 hastanın 148'inde değerlendirilebilir görüntüleme vardı. Enfarktüs boyutundaki 1,3 yüzde puanlık farkın yüzde 95 güven aralığı −2,7 ile 5,3'tü; P=0,51 ile anlamlı değildi.",
+      "sections": [
+        {
+          "heading": "Çalışma hangi soruyu sordu?",
+          "paragraphs": [
+            "Weiwei Quan, Yueying Wang, Min Zhang ve arkadaşları ROXAMI çalışmasının sonuçlarını 9 Ekim 2026'da JAMA Network Open'da yayımladı. Araştırmacılar, HIF-prolil hidroksilaz inhibitörü roksadustatın STEMI tipi kalp krizinde damar açıldıktan hemen sonra verilmesi halinde iskemi ve yeniden kanlanma hasarını sınırlayıp sınırlamayacağını sordu. Makalenin DOI'si 10.1001/jamanetworkopen.2026.37953'tür. [1]",
+            "Roksadustat bazı ülkelerde kronik böbrek hastalığına bağlı aneminin tedavisi için ruhsatlıdır; kalp krizinden sonra denenmesi farklı bir kullanımdır. Araştırma fikri, HIF'in stabilize edilmesinin hücrenin oksijen azlığına uyumunu desteklediği ve hayvan modellerinde hasarı azalttığı preklinik çalışmalardan doğdu. Bu çalışma, hayvanlarda umut veren mekanizmanın PCI sonrasında insanlarda daha küçük enfarktüse dönüşüp dönüşmediğini sınadı. [1]"
+          ]
+        },
+        {
+          "heading": "Araştırma nasıl yapıldı?",
+          "paragraphs": [
+            "Faz 2 çalışma Şanghay'daki tek bir üniversite hastanesinde yürütüldü. Belirtilerin başlamasından sonraki 12 saat içinde birincil PCI uygulanan 158 yetişkin, işlem tamamlandıktan sonra 79'ar kişilik iki gruba rastgele atandı. Müdahale grubu ilk dozu PCI'den en geç iki saat sonra olmak üzere iki hafta boyunca haftada üç kez 100 mg roksadustat aldı; karşılaştırma grubu standart bakımla izlendi. Çalışma açık etiketliydi, fakat görüntüler, biyobelirteçler ve klinik olaylar tedaviyi bilmeyen ekiplerce değerlendirildi. [1, 2]",
+            "Birincil sonlanım, yaklaşık 30. günde enfarktüsün sol ventrikül hacmindeki yüzdesiydi. Ölçüm, fibroblast aktivitesini gösteren özel PET ile geç gadolinyum tutulumlu kardiyak MR'ın birlikte kullanılmasıyla yapıldı. Randomize edilenlerin 148'inde değerlendirilebilir görüntü vardı. Çalışma, enfarktüs boyutunda göreli yüzde 20 azalmayı saptamak üzere tasarlanmıştı; ölüm, kalp yetersizliği yatışı veya seyrek güvenlik olaylarında fark kanıtlamak üzere güçlendirilmemişti."
+          ]
+        },
+        {
+          "heading": "Birincil sonuç olumsuzdu",
+          "paragraphs": [
+            "Ortalama enfarktüs boyutu roksadustat grubunda sol ventrikülün yüzde 23,3'ü, standart bakım grubunda yüzde 22,0'siydi. Düzeltilmiş fark 1,3 yüzde puandı; yüzde 95 güven aralığı −2,7 ile 5,3 yüzde puan, P değeri 0,51 olarak bildirildi. Eksik görüntüler için yapılan duyarlılık analizi de sonucu değiştirmedi. Dolayısıyla çalışma, ilacın enfarktüs boyutunu azalttığını göstermedi. [1]",
+            "Güven aralığı, yalnızca “anlamlı değil” etiketinden daha fazla bilgi verir: veriler orta düzey bir yarar, etkisizlik ve hatta hasarda orta düzey artış olasılığıyla uyumluydu. Sonuç, roksadustatın her zamanlamada kesinlikle etkisiz olduğunu kanıtlamaz; aynı zamanda hayvan bulgularının etkili insan tedavisi sayılmasına izin vermez. Yazarlar, ağızdan verilen ilacın kan akımı döndükten sonra başlamasının dakikalar içinde oluşan hasarı önlemek için geç kalmış olabileceğini düşündü. Bu, biyolojik bir açıklamadır; doğrulanmış neden değildir."
+          ]
+        },
+        {
+          "heading": "İkincil sinyaller neden tedaviyi kanıtlamıyor?",
+          "paragraphs": [
+            "On ikinci ayda sol ventrikül ejeksiyon fraksiyonundaki değişim roksadustat lehine ortalama 2,9 yüzde puan, diyastol sonu hacim indeksindeki değişim ise metrekare başına 4,5 mL farklıydı. Ancak bu analizlerde çoklu karşılaştırma düzeltmesi yapılmadı ve birincil sonlanım olumsuzdu; makale bu nedenle bulguları keşif niteliğinde kabul ediyor. Sistol sonu hacim indeksi farkı da anlamlı değildi. [1]",
+            "Majör kardiyovasküler olaylar ilaç grubunda 79 hastanın 3'ünde, kontrol grubunda 79 hastanın 7'sinde görüldü. Tehlike oranı 0,42 olsa da güven aralığı 0,11-1,63 kadar genişti ve P değeri 0,21'di. Çalışmanın bu sonuç için yeterli gücü yoktu; sayılar ne risk azalmasını kanıtlar ne de olası bir artışı dışlar."
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve güvenlik",
+          "paragraphs": [
+            "Örneklem küçük, tek merkezli ve ağırlıklı olarak erkekti; katılımcıların yüzde 84,2'si erkekti. Açık etiketli tasarım eşlik eden bakımda farklılığa izin verebilir. Başlangıçta tip 2 diyabet ilaç grubunda daha sıktı ve araştırmacılar bu dengesizliği gördükten sonra modeli ayrıca düzeltti. On kişinin birincil görüntülemesi yoktu; tahmine dayalı analiz aynı sonuca ulaştı. Enfarktüs boyutunun gerçek değişkenliği de planlanandan yüksekti ve istatistiksel gücü azalttı. [1]",
+            "Önceden belirlenmiş güvenlik sonuçları anlamlı biçimde farklı değildi; ancak kanama roksadustat grubunda 79 hastanın 6'sında, kontrolde 79 hastanın 3'ünde bildirildi. Küçük ve istatistiksel açıdan belirsiz bu fark, PCI sonrasında ikili antiplatelet tedavi kullanıldığı için sonraki araştırmalarda izlenmeye değer. Çıkar çatışması bildirilmedi. Ticari olmayan çalışma bağımsız Çin araştırma hibeleriyle desteklendi ve üreticinin çalışmada rolü yoktu. [1]"
+          ]
+        },
+        {
+          "heading": "Pratik mesaj nedir?",
+          "paragraphs": [
+            "Bu araştırma, STEMI sonrasında standart bakıma roksadustat eklemek için yeni bir gerekçe sunmuyor. Birincil görüntüleme sonucu olumsuzdu; çalışma sağkalım, kalp yetersizliği veya kesin güvenlik değerlendirmesi için çok küçüktü. İlacın böbrek hastalığı anemisinde ya da başka bir durumda kullanımı da ruhsat, kılavuz ve kişinin klinik özelliklerine dayanmalıdır. Bu yazı kişisel tedavi önerisi değildir.",
+            "Çalışmanın değeri, hayvan modelinden kliniğe başarılı biçimde taşınamayan bir fikri ayrıntılı raporlamasıdır. Gelecekteki araştırmalar yapılırsa zamanlama, uygulama yolu ve gerçek klinik sonuçları daha büyük, çok merkezli ve kör çalışmalarda sınamalıdır. O zamana kadar ikincil sinyaller birincil sonucu gölgelememeli: PCI sonrası roksadustat bu çalışmada enfarktüs boyutunu küçültmedi."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Nikotinamid ribozid Parkinson'u yavaşlatmadı: NOPARK çalışması",
+          "path": "latest/2026-10-09-nicotinamide-riboside-parkinson.html"
+        },
+        {
+          "label": "Akciğer taramasında sigarayı bırakma: Bir çalışmanın sonucu",
+          "path": "latest/2026-10-06-smoking-cessation-incentives.html"
+        },
+        {
+          "label": "Zayıf kişilerde yağlı karaciğer: Normal kilo neden riski sıfırlamaz?",
+          "path": "latest/2026-10-03-lean-masld-fibrosis.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Quan ve arkadaşları · JAMA Network Open · Faz 2 randomize çalışma · 2026-10-09",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855122",
+          "doi": "10.1001/jamanetworkopen.2026.37953"
+        },
+        {
+          "label": "ClinicalTrials.gov · Resmi ROXAMI kaydı · NCT04803864",
+          "url": "https://clinicaltrials.gov/study/NCT04803864"
+        }
+      ]
+    },
+    {
       "id": "2026-10-11-gingival-recession-prf-am",
       "category": "dentistry",
       "published": "2026-10-11",
