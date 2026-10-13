@@ -3,6 +3,93 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-13-pci-access-ami-outcomes",
+      "category": "health",
+      "published": "2026-10-13",
+      "studyDate": "2026-10-12",
+      "image": "assets/latest/pci-access-ami-outcomes-2026.webp",
+      "imageCredit": "Veri: Shen ve Hsia; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855215",
+      "imageRights": "Original editorial visualization created from aggregate adjusted results reported in the open-access CC BY article; no JAMA Network artwork was reproduced. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, author or funder endorsement is implied.",
+      "title": "Yeni PCI erişimi, hizmetten yoksun bölgelerde daha iyi sağkalımla ilişkiliydi",
+      "summary": "Kaliforniya'daki 590.282 kalp krizi yatışını inceleyen çalışmada, önceden erişimi olmayan bölgelere 30 dakikalık sürüş mesafesinde PCI merkezi açılması daha fazla erişim ve daha düşük ölüm oranıyla ilişkiliydi; zaten hizmet alan bölgelerde sağkalım iyileşmedi ve gözlemsel tasarım nedenselliği kanıtlamıyor.",
+      "evidence": "2011-2022 idari verilerini ve sabit etkili modelleri kullanan Kaliforniya çapında kohort çalışması; sağlık hizmeti planlamasına ilişkin gözlemsel kanıt, neden-sonuç kanıtı değil",
+      "access": "JAMA Network Open'daki açık erişimli tam metin, tablolar, şekiller, yöntemler, duyarlılık analizleri, sınırlılıklar ve finansman bilgileri incelendi; klinik bağlam için 2025 ACC/AHA akut koroner sendrom kılavuzunun resmi özeti okundu. Yazım sırasında düzeltme, geri çekme ya da endişe bildirimi bulunmadı. Bu yazı bağımsız uzman hakemliği iddiası taşımaz.",
+      "takeaway": "2011'de 30 dakika içinde PCI merkezi bulunmayan bölgelerde yeni bir merkez açılması, PCI yapabilen hastaneye yatışta 30 yüzde puanlık artış ve 30 günlük ve bir yıllık ölümde sırasıyla 1,8 ve 2,8 yüzde puanlık azalmayla ilişkiliydi. Ölüm ilişkisi zaten erişimi olan bölgelerde görülmedi; çalışma sınırsız merkez artışını değil, coğrafi açığın hedeflenmesini destekliyor.",
+      "alt": "Kaliforniya çalışmasının infografiği; önceden PCI erişimi olmayan bölgelerde merkez açıldıktan sonra PCI yapabilen hastaneye yatış 30 yüzde puan arttı, 30 günlük ve bir yıllık ölüm sırasıyla 1,8 ve 2,8 yüzde puan azaldı; erişimli bölgelerde ölüm değişmedi",
+      "caption": "Çalışmanın düzeltilmiş tahminlerinden hazırlanan editoryal grafik. Sonuçlar, bir topluluğa 30 dakikalık sürüş mesafesinde PCI merkezi açılmasından sonraki değişimi gösteriyor. Rakamlar gözlemsel ilişkidir; kesin nedensel etkiyi kanıtlamaz.",
+      "sections": [
+        {
+          "heading": "PCI merkezinin yeri neden bir halk sağlığı sorusu?",
+          "paragraphs": [
+            "Yu-Chu Shen ve Renee Y. Hsia, 12 Ekim 2026'da JAMA Network Open'da yayımladıkları çalışmada iki ilacı değil, uzmanlaşmış hizmetlerin yerleşimini karşılaştırdı: Hastaların yaşadığı yere yakın bir perkütan koroner girişim (PCI) merkezinin açılması kalp krizi sonrası erişim ve sonuçlarla ilişkili mi ve ilişki önceden hizmet alan bölgelerle erişimsiz bölgelerde aynı mı? Makalenin DOI'si 10.1001/jamanetworkopen.2026.38687'dir. [1]",
+            "PCI, daralmış ya da tıkanmış kalp damarını kateter laboratuvarında açan bir işlemdir. Akut koroner sendromda uygun değerlendirme ve tedaviye zamanında ulaşmak önemlidir; ancak her hasta aynı tedavi yolunu izlemez. ACC/AHA kılavuzu kararı infarktüs türü, klinik durum ve tanısal bulgularla ilişkilendirir. Bu makale bir kişiye PCI reçete etmiyor; maliyetli hastane kapasitesinin nüfus düzeyinde nerede daha fazla yarar sağlayabileceğini soruyor. [2]"
+          ]
+        },
+        {
+          "heading": "Araştırma nasıl yapıldı?",
+          "paragraphs": [
+            "Araştırmacılar Kaliforniya'nın 2011 başından 2022 sonuna kadar yatan hasta, acil servis ve ayaktan cerrahi verilerini birbirine bağladı. Örneklem, birincil tanısı akut miyokart enfarktüsü olan 590.282 yetişkin yatışını kapsadı; yüzde 23'ü STEMI, yüzde 77'si NSTEMI idi. Her posta kodu bölgesi, 2011'de 30 dakikalık sürüş mesafesinde PCI yapabilen hastane bulunup bulunmamasına göre sınıflandırıldı. Aynı yarıçapta yeni merkez açılması çalışmanın maruziyetiydi. [1]",
+            "Sonuçlar PCI yapabilen hastaneye yatış, aynı yatış sırasında PCI uygulanması, 30 gün içinde plansız akut bakım başvurusu ve 30 günlük ile bir yıllık tüm nedenlere bağlı ölümdü. Topluluk ve zaman sabit etkili doğrusal olasılık modelleri, açılıştan önceki ve sonraki değişimi aynı dönemde yeni merkez açılmayan bölgelerle karşılaştırdı; yaş, cinsiyet, ırk ve etnik köken, sigorta ve eşlik eden hastalıklar için düzeltme yaptı. Bu yaklaşım bazı sabit bölgesel farkları ve zaman eğilimlerini kontrol eder, fakat randomizasyonun yerini tutmaz."
+          ]
+        },
+        {
+          "heading": "Önceden erişimi olmayan bölgelerde ne bulundu?",
+          "paragraphs": [
+            "Başlangıçta 89.504 hasta, yani örneklemin yüzde 15'i, 30 dakika içinde PCI merkezi bulunmayan bölgelerde yaşıyordu. Bu grubun 18.805'i, çalışma sırasında yakınına yeni merkez açılan bir bölgede bulunuyordu. Açılıştan sonra PCI yapabilen hastaneye yatış olasılığı düzeltilmiş olarak 30,0 yüzde puan arttı; yüzde 95 güven aralığı 28,2-31,8 idi. PCI uygulanması da 5,1 yüzde puan yükseldi; güven aralığı 3,3-7,0'dı. [1]",
+            "Otuz günlük ölüm 1,8 yüzde puan azaldı; yüzde 95 güven aralığı −3,2 ile −0,5'ti. Bir yıllık ölümdeki azalma 2,8 yüzde puandı; güven aralığı −4,7 ile −1,0'dı. Bunlar düzeltilmiş mutlak değişimlerdir; makale göreli azalmaları sırasıyla yüzde 20 ve yüzde 15 olarak bildirdi. Yalnızca STEMI hastalarının analizinde PCI uygulanması anlamlı biçimde değişmediği halde ölüm daha düşüktü. Daha kısa nakil ve iskemi süresi olası bir açıklamadır, kanıtlanmış mekanizma değildir."
+          ]
+        },
+        {
+          "heading": "Neden daha fazla merkez her yerde daha iyi sonuç vermedi?",
+          "paragraphs": [
+            "Örneklemin 500.778'i, yani yüzde 85'i, başlangıçta 30 dakika içinde PCI erişimi olan bölgelerdeydi. Bu bölgelere başka bir merkez açılması, PCI yapabilen hastaneye yatışta yalnızca 1,5 yüzde puanlık ve PCI uygulanmasında 1,0 yüzde puanlık artışla ilişkiliydi. Otuz günlük plansız başvuru 0,7 yüzde puan azaldı; 30 günlük ve bir yıllık ölüm ise anlamlı biçimde değişmedi. [1]",
+            "Bu ayrım planlama açısından önemlidir: Hizmetin zaten yakın olduğu yere yeni kapasite eklemek, gerçek bir coğrafi açığı kapatmakla aynı getiriyi sağlamayabilir. Yine de çalışma, hizmet alan bölgelerde açılan her merkezin zararlı olduğunu göstermedi. Yıllık yüksek işlem hacmine sahip merkezlere yatanların payı sabit kaldı; düşük hacimli merkezlere yatış ise her iki bölge türünde arttı. Sonuç genel bir yasak değil, kaynakların ihtiyaca göre hedeflenmesi çağrısıdır."
+          ]
+        },
+        {
+          "heading": "Çalışmanın sınırları neler?",
+          "paragraphs": [
+            "En önemli sınır gözlemsel tasarımdır. İdari veriler gerçek iskemi süresi, infarktüs büyüklüğü, PCI'nın uygunluğu, hasta tercihi ve sevk örüntüsü gibi klinik ayrıntıları içermiyordu. Bir merkezin açılması, sağkalımı etkileyen başka yerel değişimlerle aynı döneme denk gelmiş olabilir. Yazarlar sonuçların ilişki gösterdiğini, nedenselliği kanıtlamadığını açıkça belirtiyor. Erişim ölçümü de posta kodu merkezinden olağan sürüş süresine dayanıyordu ve saatlik trafiği hesaba katmıyordu. [1]",
+            "Ölüm verileri yalnızca 2019'a kadar vardı; diğer sonuçlar 2022'ye kadar izlendi. Bulgular belirli coğrafya ve politikalara sahip tek bir eyaletten geldiği için başka ülke ve eyaletlere doğrudan taşınamaz. Başlangıçta erişimsiz bölgeler daha kırsaldı; kırsal hastaların yüzde 81'i bu gruptaydı. Sabit etkili modeller ve yılda en az 50 PCI yapan merkezlerle sınırlı duyarlılık analizi sonucu desteklese de ölçülmemiş karıştırıcıları ortadan kaldırmaz."
+          ]
+        },
+        {
+          "heading": "Pratik mesaj ve kanıt düzeyi",
+          "paragraphs": [
+            "Kanıt, sağlık sistemi ilişkisi için büyük ve görece kesin bir gözlemsel çalışmadır; yeni bir merkez inşa etmenin doğrudan ölümleri azalttığını söylemek için yeterli değildir. Araştırma NHLBI hibesiyle desteklendi ve fon sağlayıcının tasarım, analiz ya da yayın kararında rolü yoktu. Yazarlar çalışma dışındaki kamu araştırma hibelerini bildirdi; ilgili ticari çıkar çatışması açıklanmadı. [1]",
+            "Planlamacılar için çıkarım, yatırım öncesinde gerçek mesafeyi, nakil süresini, nüfus gereksinimini ve olası merkez hacmini birlikte değerlendirmektir. Hasta ve aile açısından bu çalışma bekleme süresini ya da hangi hastanenin seçileceğini belirlemez; olası kalp krizi belirtileri acil yardım çağrısı ve klinik ekip kararı gerektirir. Araştırmanın temel değeri şudur: Hizmet açığını kapatmak ile zaten erişimli bir yerde aynı hizmeti çoğaltmak aynı şey değildir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Roksadustat kalp krizinden sonra hasarlı alanı küçültmedi",
+          "path": "latest/2026-10-12-roxadustat-stemi-infarct-size.html"
+        },
+        {
+          "label": "WHO'nun yaşam süresi ve sağlıklı yıllar için yeni tahminleri",
+          "path": "latest/2026-10-04-who-global-health-estimates.html"
+        },
+        {
+          "label": "Akciğer taramasında sigarayı bırakma: Bir çalışmanın sonucu",
+          "path": "latest/2026-10-06-smoking-cessation-incentives.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Shen ve Hsia · JAMA Network Open · Kohort çalışması · 2026-10-12",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855215",
+          "doi": "10.1001/jamanetworkopen.2026.38687"
+        },
+        {
+          "label": "ACC/AHA/ACEP/NAEMSP/SCAI · Akut koroner sendrom yönetimi kılavuzu · 2025",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "doi": "10.1161/CIR.0000000000001309"
+        }
+      ]
+    },
+    {
       "id": "2026-10-12-roxadustat-stemi-infarct-size",
       "category": "medicine",
       "published": "2026-10-12",
