@@ -3,6 +3,98 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-14-digital-conventional-complete-denture",
+      "category": "dentistry",
+      "published": "2026-10-14",
+      "studyDate": "2026-10-13",
+      "image": "assets/latest/complete-denture-digital-impression-2026.webp",
+      "imageCredit": "Veri: Habash ve arkadaşları; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.nature.com/articles/s41598-026-75157-0",
+      "imageRights": "Original editorial visualization created from aggregate results reported in the study; no Scientific Reports artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, author or manufacturer endorsement is implied.",
+      "title": "Tam protez ölçüsünde dijital tarama: Genel doğruluk iyiydi, tutuculuk daha düşüktü",
+      "summary": "Yirmi kişilik çapraz çalışmada, tamamen dişsiz üst çenenin ağız içi taraması damak ve kret bölgesinde geleneksel ölçüye yakındı; çevresel kenarlar ile arka damak mühründe sapma arttı ve geleneksel ölçüden üretilen kaideler altı klinik ölçütün dördünde daha iyi sonuç verdi.",
+      "evidence": "Yirmi katılımcıda rastgele yöntem sıralı, ileriye dönük ve kişi içi karşılaştırmalı klinik çalışma; doğrudan ancak küçük, tek merkezli, tek tarayıcıya ve kısa süreli deneme kaidesi değerlendirmesine dayanan kanıt",
+      "access": "Scientific Reports'taki 18 sayfalık tam Article in Press PDF'si; yöntemler, tablolar, şekiller, istatistiksel analiz, sınırlılıklar, etik ve çıkar çatışması bildirimleri incelendi. Bu sürüm hakem değerlendirmesinden geçmiş, kabul edilmiş ve kalıcı DOI almıştır; ancak yayıncının son düzenlenmiş kayıt sürümü çıkmadan önce küçük değişiklikler olabilir. Kanıt bağlamı için 2026 tarihli kapsam derlemesi ile 2023 tarihli sistematik derleme okundu. Yazım sırasında düzeltme, geri çekme ya da endişe bildirimi bulunmadı; bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "Bu küçük örneklemde dijital tarama, dişsiz üst çenenin daha sabit bölgelerinde geleneksel referansa yakındı; çevresel kenar ile arka damak mührünü daha zayıf kaydetti. Geleneksel ölçü kaideleri arka tutuculuk, yana ve öne-arkaya stabilite ile öne-arkaya destek açısından daha yüksek puan aldı. Çalışma, geleneksel ölçünün tamamen yerini almayı kanıtlamıyor.",
+      "alt": "Üst tam protez ölçüsünü karşılaştıran 20 kişilik çalışmanın infografiği; dijital tarama sapması damakta 178, krette 180, çevresel kenarda 453 ve arka damak mühründe 481 mikrometreydi, geleneksel ölçü altı klinik ölçütün dördünde daha iyiydi",
+      "caption": "Çalışmanın toplu sonuçlarından hazırlanmış editoryal grafik. Sayılar dijital taramanın geleneksel referans ölçüden RMS sapmasını gösterir; daha düşük değer daha fazla benzerlik demektir. Görsel makale şekillerini yeniden üretmez ve uzun dönem tedavi sonucunu göstermez.",
+      "sections": [
+        {
+          "heading": "Araştırma hangi soruyu sordu?",
+          "paragraphs": [
+            "Mohammad Murhaf Habash, Ammar Almustafa ve Hasan Alzoubi'nin klinik çalışması 13 Ekim 2026'da Scientific Reports'ta yayımlandı. Araştırmacılar, ağız içi taramanın tamamen dişsiz üst çenede tam protez için geleneksel ölçünün yerini alıp alamayacağını sordu. Makalenin DOI'si 10.1038/s41598-026-75157-0'dır. Metin Article in Press biçimindedir: hakem değerlendirmesi ve kabul tamamlanmıştır, ancak yayıncının son düzenlenmiş kayıt sürümü henüz bunun yerini almamıştır. [1]",
+            "Dişsiz çenede tarayıcı; düzgün yüzeyler, hareketli yumuşak doku ve az sayıda geometrik işaretle karşılaşır. Geleneksel yöntem yalnızca yüzeyi kaydetmez; kenar şekillendirme sırasında işlevsel hareket ve kontrollü basınçla vestibül derinliği ile arka damak mührünü yakalamaya çalışır. Bu bölgeler protezin tutuculuğu ve stabilitesi için önemlidir. Dijital tarama ölçü maddesini ortadan kaldırıp iş akışını kolaylaştırabilir, fakat rahatlık tek başına işlevsel doğruluğu garanti etmez. [2]"
+          ]
+        },
+        {
+          "heading": "Çalışma nasıl yapıldı?",
+          "paragraphs": [
+            "Çalışmaya ortalama yaşı 62,4 olan 20 kişi alındı. Tümünde tamamen dişsiz üst çene, sağlıklı mukoza ve Cawood-Howell sınıf III, U biçimli kret vardı. Her katılımcıya iki yöntem de uygulandı; önce hangisinin yapılacağı bilgisayar dizisi ve kapalı zarflarla belirlendi. Geleneksel nihai ölçü kişisel kaşık, kenar şekillendirme ve çinko oksit-öjenol patıyla; dijital ölçü ise tek bir CAMEO ELEGANT 3 tarayıcı ve standart tarama yolu ile alındı. [1]",
+            "Geleneksel ölçüler laboratuvar tarayıcısıyla sayısallaştırılıp referans kabul edildi. İki veri grubundan da aynı kalınlıkta, üç boyutlu yazdırılmış deneme kaideleri üretildi. Hangi yöntemle hazırlandığını bilmeyen iki protez uzmanı tutuculuk, destek ve stabiliteyi puanladı. Kişi içi tasarım anatomik farklılıkların etkisini azaltır; ancak katılımcılar bitmiş protezleri aylarca kullanmadı ve uzun süreli çiğneme, rahatlık ya da memnuniyet ölçülmedi."
+          ]
+        },
+        {
+          "heading": "Üç boyutlu doğruluk ne gösterdi?",
+          "paragraphs": [
+            "Dijital taramanın geleneksel referanstan tüm yüzey için ortalama RMS sapması 234,6 mikrometreydi; çalışmanın önceden seçtiği 300 mikrometre eşiğinin altındaydı. Daha sabit bölgelerde sapma daha düşüktü: damakta 178, kret tepesinde 180 mikrometre. Çevresel kenar çıkarıldığında tüm yüzey RMS değeri 235'ten 210 mikrometreye indi. Başka bir deyişle hata bütün yüzeye eşit dağılmıyor, anatomik bölge sonucu değiştiriyordu. [1]",
+            "Çevresel kenarda ortalama sapma 453, arka damak mühründe 481 mikrometreydi; ikisi de eşikten yüksek ve daha değişkendi. On iki çalışmalık sistematik derleme de benzer bir örüntü bulmuştu: sabit, belirgin yapılar daha iyi; vestibül, yumuşak damak ve hareketli dokular daha farklı kaydediliyordu. Bununla birlikte 300 mikrometrelik eşik her anatomik bölge için kesin biçimde doğrulanmış değildir; eşik altındaki bir değer otomatik olarak garantili klinik başarı anlamına gelmez. [3]"
+          ]
+        },
+        {
+          "heading": "Üretilen kaideler nasıl performans gösterdi?",
+          "paragraphs": [
+            "Altı karşılaştırmanın dördünde geleneksel ölçüden üretilen kaide daha yüksek puan aldı: arka tutuculuk, yana stabilite, öne-arkaya stabilite ve öne-arkaya destek. Sıra temelli etki büyüklükleri 0,60 ile 0,77 arasındaydı; P değerleri 0,001 ile 0,007 arasında bildirildi. Ön tutuculuk ve yana destek açısından istatistiksel fark bulunmadı. Küçük bir çalışmada fark bulunmaması, yöntemlerin eşdeğer olduğunu kanıtlamaz. [1]",
+            "Bölgesel geometrik sapma ile işlev puanları arasındaki ilişkiler, çoklu test düzeltmesinden sonra anlamlı kalmadı. Bu nedenle daha yüksek RMS değerinin tek başına daha düşük tutuculuğa neden olduğu söylenemez. Tutuculuk ve stabilite; kenar biçimi, dokunun sıkıştırılabilirliği, tükürük, nöromüsküler kontrol ve kaidenin mukozayla etkileşimine de bağlıdır. Temkinli yorum şudur: genel geometrik benzerlik, eşit klinik performansı garanti etmedi."
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar nelerdi?",
+          "paragraphs": [
+            "Örneklem tek merkezden yalnızca 20 kişiydi ve tüm katılımcıların kret anatomisi görece elverişliydi. İleri derecede rezorbe kret, gevşek doku, ağız kuruluğu veya iyileşmeyi etkileyen hastalıkları olanlar dışlandı. Yalnızca bir tarayıcı ve deneyimli bir operatör değerlendirildi. Doğruluğun yalnızca referansa yakınlık bileşeni ölçüldü; tekrar taramalarının tutarlılığı incelenmedi. Bazı stabilite ve destek puanlarında değerlendiriciler arası uyum da düşük ya da değişkendi. [1]",
+            "Deneme kaydı 19 Ağustos 2025'te yapıldı; katılımcı alımı ise Mart 2024 ile Şubat 2025 arasındaydı. Kayıt bu nedenle ileriye dönük değildir ve bütün sonuçların önceden tanımlandığını doğrulama gücü sınırlıdır. Ayrıca geleneksel ölçü canlı dokunun doğrudan geometrik gerçeği değil, çalışma referansıydı. Yirmi altı çalışmayı kapsayan 2026 tarihli derleme de dijital taramanın bütün tam protez hastalarında geleneksel ölçünün yerini alabileceğine dair güvenilir kanıt bulunmadığı sonucuna vardı. [2]"
+          ]
+        },
+        {
+          "heading": "Pratik mesaj ve kanıt düzeyi",
+          "paragraphs": [
+            "Kanıt doğrudan ama başlangıç düzeyindedir: yöntem sırası rastgeleydi ve değerlendiriciler kördü; buna karşılık örneklem küçük, merkez tekti ve sonuçlar kısa süreliydi. Bulgular en çok elverişli anatomisi olan dişsiz üst çenelerde taramanın uygulanabilirliğiyle ilgilidir; alt çene, zor kretler veya uzun dönem protez başarısı hakkında kesin hüküm vermez. Çalışma dijitali başarısız ilan etmiyor; sabit bölgelerin daha iyi, hareketli kenar dokularının daha zor kaydedildiğini gösteriyor. [1,2]",
+            "Gerçek tedavide yöntem seçimi kret ve mukoza biçimine, işlevsel mühür gereksinimine, tarayıcıya, operatör deneyimine, laboratuvar olanaklarına, kişinin rahatlığına ve maliyete bağlıdır. Geleneksel işlevsel kenar kaydını dijital veriyle birleştiren karma bir iş akışı bazı durumlarda uygun olabilir; ancak bu çalışma herkese tek bir yöntem önermiyor. Bu yazı kişiye özel tedavi önerisi değildir; karar protez muayenesi ve bireysel değerlendirme gerektirir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Dişsizlik ve yaşlılıkta kırılganlık: ulusal çalışma",
+          "path": "latest/2026-10-08-edentulism-frailty-older-adults.html"
+        },
+        {
+          "label": "Diş hekimliği lupları eğitimde neden az kullanılıyor?",
+          "path": "latest/2026-10-02-dental-magnification-training.html"
+        },
+        {
+          "label": "Tükürük diş eti hastalığını gösterebilir mi?",
+          "path": "latest/2026-10-05-salivary-alp-periodontitis.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Habash, Almustafa ve Alzoubi · Scientific Reports · Çapraz klinik çalışma · 2026-10-13",
+          "url": "https://www.nature.com/articles/s41598-026-75157-0",
+          "doi": "10.1038/s41598-026-75157-0"
+        },
+        {
+          "label": "Mohamedin ve arkadaşları · Journal of Prosthetic Dentistry · 26 çalışmalık kapsam derlemesi · 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40175262/",
+          "doi": "10.1016/j.prosdent.2025.02.051"
+        },
+        {
+          "label": "Srivastava ve arkadaşları · Dentistry Journal · 12 çalışmalık sistematik derleme · 2023",
+          "url": "https://www.mdpi.com/2304-6767/11/10/241",
+          "doi": "10.3390/dj11100241"
+        }
+      ]
+    },
+    {
       "id": "2026-10-13-pci-access-ami-outcomes",
       "category": "health",
       "published": "2026-10-13",
