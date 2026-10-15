@@ -3,6 +3,97 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-15-dobutamine-septic-shock-aki",
+      "category": "medicine",
+      "published": "2026-10-15",
+      "studyDate": "2026-10-14",
+      "image": "assets/latest/dobutamine-septic-shock-aki-2026.webp",
+      "imageCredit": "Veri: Chinese Perioperative Septic Shock Investigators; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://jamanetwork.com/journals/jama/fullarticle/2855463",
+      "imageRights": "Original editorial visualization created from aggregate results reported in the JAMA study; no JAMA artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, author or treatment endorsement is implied.",
+      "title": "Septik şok cerrahisinde dobutamin: Böbrek hasarı azaldı, taşikardi arttı",
+      "summary": "Beş yüz seksen dört kişilik randomize çalışmada, enfeksiyon odağını kontrol eden cerrahi sırasında norepinefrine dobutamin eklenmesi yedi günlük akut böbrek hasarını %34,7'den %22,8'e düşürdü; ancak taşikardi arttı, ölüm, böbrek yerine koyma tedavisi ve yatış süresinde anlamlı fark görülmedi.",
+      "evidence": "Çin'deki 39 hastanede yürütülen çok merkezli, açık etiketli randomize kontrollü çalışma; tüm sepsis hastaları için değil, cerrahi kaynak kontrolü gereken septik şok hastaları için doğrudan kanıt",
+      "access": "JAMA makalesinin tam HTML metni, yöntemler, sonuç ve güvenlik tabloları, ek dosya dizini, çalışma kaydı ve resmi Surviving Sepsis Campaign kılavuzu incelendi. Makale 14 Ekim 2026'da çevrim içi yayımlandı ve kalıcı DOI aldı. Yazım sırasında düzeltme, geri çekme ya da endişe bildirimi bulunmadı. Bağımsız uzman hakemliği iddia edilmez.",
+      "takeaway": "Dobutaminin yalnızca enfeksiyon odağını kontrol eden ameliyat sırasında eklenmesi, birleşik akut böbrek hasarı sonucunu yaklaşık 12 yüzde puan düşürdü; bu, yaklaşık her dokuz hastada bir olayın azalmasına karşılık geliyor. Buna karşılık taşikardi yaklaşık 11 yüzde puan arttı. Çalışma ölüm ya da diyaliz gereksiniminde azalma kanıtlamadı; sonuç cerrahi dışı septik şoka veya otomatik ilaç kullanımına genellenemez.",
+      "alt": "Septik şokta 584 kişilik çalışmanın infografiği; akut böbrek hasarı dobutamin artı norepinefrinle yüzde 22,8, yalnız norepinefrinle yüzde 34,7 iken taşikardi sırasıyla yüzde 41 ve 29,9 görüldü",
+      "caption": "Çalışmanın iki toplu sonucundan hazırlanmış editoryal grafik: yedi güne kadar akut böbrek hasarı daha az, taşikardi daha fazlaydı. D+NE dobutamin ile norepinefrini, NE yalnız norepinefrini gösterir; görsel makaleden yeniden üretilmemiştir.",
+      "sections": [
+        {
+          "heading": "Klinik soru neydi?",
+          "paragraphs": [
+            "Chinese Perioperative Septic Shock Investigators grubu; Lihua Chu, Guohao Xie ve Rui Shi'nin eş ilk yazarlığı, Xiangming Fang ile Nazrul Islam'ın sorumlu yazarlığında çalışmasını 14 Ekim 2026'da JAMA'da yayımladı. Soru belirgindi: Enfeksiyon kaynağını kontrol etmek için ameliyata alınan septik şoklu yetişkinlerde, yalnızca ameliyat sırasında norepinefrine dobutamin eklemek akut böbrek hasarını azaltır mı? [1]",
+            "Norepinefrin damarları daraltarak kan basıncını korur; dobutamin ise başlıca kalbin kasılma gücünü ve kalp debisini artırır. Uluslararası sepsis kılavuzu, yeterli sıvı ve arter basıncına rağmen kalp işlev bozukluğu ile süren hipoperfüzyonu olan seçilmiş hastalarda dobutamin eklenmesini zayıf bir öneri ve düşük kesinlikli kanıta dayanarak belirtmişti. Bu nedenle yeni çalışma, bütün septik şok hastalarında genel ilaç kullanımını değil, çok sınırlı bir hastane protokolünü sınadı. [2]"
+          ]
+        },
+        {
+          "heading": "Çalışma nasıl yapıldı?",
+          "paragraphs": [
+            "Çin'deki 39 üçüncü basamak hastanede Haziran 2024 ile Ağustos 2025 arasında 584 yetişkin, merkeze göre tabakalandırılarak rastgele iki gruba ayrıldı: 290 kişi dobutamin artı norepinefrin, 294 kişi yalnız norepinefrin aldı. Ortanca yaş 67,5'ti ve katılımcıların %32,9'u kadındı. Çoğu ameliyattan önce şoktaydı; cerrahi kaynak kontrolünün en sık nedeni gastrointestinal perforasyon, ardından bağırsak tıkanıklığıydı. Sonuç değerlendiricileri ve istatistikçiler grupları bilmiyordu; girişimin niteliği nedeniyle tedavi ekibi ile hastalar körlenemedi. [1,3]",
+            "Dobutamin dakikada kilogram başına 5 mikrogram başlangıç hızıyla verildi; norepinefrin ortalama arter basıncını en az 65 mm Hg'de tutacak şekilde ayarlandı. Kalp hızı ve ritim her 15 dakikada izlendi. Hız 130'u aşarsa ya da dolaşımı etkileyen aritmi gelişirse dobutamin azaltıldı veya kesildi. Birincil sonuç, KDIGO ölçütlerine göre ameliyattan sonraki yedi gün içinde yeni akut böbrek hasarı ya da önceden var olan hasarın en az bir evre kötüleşmesiydi; günlük kreatinin ile idrar çıkışı birlikte kullanıldı. [1]"
+          ]
+        },
+        {
+          "heading": "Birincil sonuç ne gösterdi?",
+          "paragraphs": [
+            "Akut böbrek hasarı dobutamin grubundaki 290 kişinin 66'sında, kontrol grubundaki 294 kişinin 102'sinde görüldü: %22,8'e karşı %34,7. Düzeltilmiş risk oranı 0,64, %95 güven aralığı 0,49 ile 0,83'tü. Mutlak fark 11,9 yüzde puandır; kabaca bu protokolle dokuz hastanın tedavisi bir birincil olayın azalmasıyla ilişkilidir. Bu “tedavi için gereken sayı”, yalnızca bu çalışmanın sonucundan hesaplanan açıklayıcı bir değerdir; her merkez ve hasta için garanti değildir. [1]",
+            "Çalışma sonrası keşifsel analizlerde evre 2 hasar %4,8'e karşı %9,9; evre 3 hasar %7,9'a karşı %13,6 bulundu. Buna karşılık önceden var olan böbrek hasarının kötüleşmesi tek başına gruplar arasında benzerdi; farkın büyük bölümü yeni gelişen olaylardan geldi. Birinci gün SOFA organ yetmezliği puanı biraz daha düşük, girişimden bir saat sonraki idrar çıkışı daha yüksekti; ancak 11 ikincil sonucun dokuzunda anlamlı fark yoktu. [1]"
+          ]
+        },
+        {
+          "heading": "Neler değişmedi, hangi yan etki arttı?",
+          "paragraphs": [
+            "Yirmi sekiz günlük ölüm %16,2'ye karşı %20,4; 90 günlük ölüm %18,6'ya karşı %23,1'di, fakat güven aralıkları etkisizlik olasılığını dışlamadı. Dolayısıyla çalışma ölümde azalma kanıtlamadı. Böbrek yerine koyma tedavisi ya da diyaliz, mekanik ventilasyon süresi, yoğun bakım ve hastane yatış süresi de anlamlı biçimde değişmedi. Kısa dönem böbrek göstergesindeki iyileşme, kanıtlanmış sağkalım artışı veya diyaliz azalmasıyla eş tutulmamalıdır. [1]",
+            "Dakikada 100'ün üzerindeki kalp hızı olarak tanımlanan taşikardi dobutaminle daha sıktı: %41'e karşı %29,9; düzeltilmiş risk oranı 1,42. Ventriküler taşikardi, kalp durması, atriyal fibrilasyon ve erken ventriküler atımlarda belirgin fark görülmedi; ancak bunlar seyrek olaylardı ve çalışma nadir zarar artışını dışlamak için yeterli güce sahip değildi. Böbrekle ilgili yarar ile kalp hızındaki artış birlikte değerlendirilmelidir. [1]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve genellenebilirlik",
+          "paragraphs": [
+            "Çalışma açık etiketliydi; grup bilgisinin klinik kararları etkilemesi mümkündür, gerçi sonuç değerlendiricileri ve istatistikçiler kördü. İleri hemodinamik izlem herkese uygulanmadığı için başlangıç kalp işlevi farklı olan hastaların eşit yarar görüp görmediği bilinmiyor. Bazı hastalar ameliyat sırasında kısa süreli nişasta veya jelatin solüsyonu aldı; bunların böbrek sonucuna olası etkisi tümüyle dışlanamaz. Ayrıca 30 duyarlılık analizi çalışma sonrasında yapıldı ve AKI evrelerine ilişkin bulgular keşifsel niteliktedir. [1]",
+            "Katılımcıların tümü Çin'deki üçüncü basamak hastanelerdeydi ve enfeksiyon odağının cerrahi kontrolüne gereksinim duyuyordu; bu grup septik şok hastalarının yalnızca yaklaşık %20 ile %30'unu temsil eder. Girişim yalnızca ameliyat boyunca uygulandı ve başka inotroplarla karşılaştırılmadı. Sonuçlar cerrahi dışı septik şoka, farklı kaynaklara sahip merkezlere, daha uzun kullanıma veya sürekli izlem olmadan tedaviye doğrudan aktarılamaz. [1]"
+          ]
+        },
+        {
+          "heading": "Pratik mesaj ve kanıt düzeyi",
+          "paragraphs": [
+            "Bu çok merkezli randomize çalışma, önceki gözlemsel verilerden daha doğrudan bir kanıt adımıdır ve birincil sonuçta istatistiksel üstünlük gösterdi. Yine de güven düzeyi “orta ve çalışma bağlamıyla sınırlı” görülmelidir: tek ülke, açık etiketli tedavi, yedi günlük sonuç ve ölüm ya da diyaliz üzerinde kanıtlanmış etki yokluğu. Önerilen mekanizma olan kalp debisi ve doku perfüzyonundaki iyileşme, daha iyi perfüzyon göstergeleriyle uyumluydu; fakat bu analiz kesin nedensel yolu kanıtlamaz. [1]",
+            "Septik şokta dobutamin kullanımı anlık monitörizasyon, doz ayarı ve yoğun bakım ile anestezi ekibinin kararını gerektirir. Bulgular gelecekteki kılavuzları ve doğrulama çalışmalarını şekillendirebilir; herkese aynı reçeteyi verme yetkisi sağlamaz. Bu yazı kişiye özel tedavi önerisi değildir ve ilaç, uzman bakım ortamı dışında bu sonuca dayanarak başlatılmamalı veya değiştirilmemelidir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Roksadustat kalp krizinden sonra hasarlı alanı küçültmedi",
+          "path": "latest/2026-10-12-roxadustat-stemi-infarct-size.html"
+        },
+        {
+          "label": "PCI erişimi ile kalp krizi sağkalımı arasındaki ilişki",
+          "path": "latest/2026-10-13-pci-access-ami-outcomes.html"
+        },
+        {
+          "label": "Akciğer taramasında sigarayı bırakmak için mali teşvik",
+          "path": "latest/2026-10-06-smoking-cessation-incentives.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Chinese Perioperative Septic Shock Investigators · JAMA · Çok merkezli randomize çalışma · 2026-10-14",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2855463",
+          "doi": "10.1001/jama.2026.21322"
+        },
+        {
+          "label": "Evans ve arkadaşları · Surviving Sepsis Campaign · Uluslararası sepsis ve septik şok kılavuzu · 2021",
+          "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021",
+          "doi": "10.1007/s00134-021-06506-y"
+        },
+        {
+          "label": "ClinicalTrials.gov · Septik şoklu cerrahi hastalarında dobutamin çalışma kaydı · NCT06462313",
+          "url": "https://clinicaltrials.gov/study/NCT06462313"
+        }
+      ]
+    },
+    {
       "id": "2026-10-14-digital-conventional-complete-denture",
       "category": "dentistry",
       "published": "2026-10-14",
