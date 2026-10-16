@@ -3,6 +3,92 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-16-income-cardiovascular-inequality-denmark",
+      "category": "health",
+      "published": "2026-10-16",
+      "studyDate": "2026-10-15",
+      "image": "assets/latest/income-cardiovascular-inequality-denmark-2026.webp",
+      "imageCredit": "Veri: Denholt ve arkadaşları, JAMA Network Open; grafik: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855352",
+      "imageRights": "Original editorial visualization created from aggregate results reported in the JAMA Network Open study; no publisher figure or artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher or author endorsement is implied.",
+      "title": "Kalp-damar olayları azaldı; Danimarka'da gelir farkı sürdü",
+      "summary": "Danimarka'da 5,9 milyon yetişkini kapsayan ulusal çalışma, kalp krizi, inme, kalp yetersizliği veya kararsız angina için yaşa göre standartlaştırılmış hızların 1988-2023 arasında tüm gelir gruplarında düştüğünü gösterdi. Buna karşın düşük gelirli grup bütün dönem boyunca daha yüksek hızlara sahipti. Çalışma bir eğilimi ve ilişkiyi gösteriyor; gelirin nedensel etkisini kanıtlamıyor.",
+      "evidence": "Danimarka ulusal kayıtlarını bağlayan, 30 yaş ve üzeri 5.932.672 kişilik toplum temelli açık kohort; Danimarka'daki eğilimler için güçlü gözlemsel kanıt, nedensellik veya başka ülkelere otomatik genelleme için yeterli değil",
+      "access": "Makalenin tam HTML metni, yöntemleri, tabloları, şekilleri, ek dosyası, duyarlılık analizleri ile açık erişim, çıkar çatışması ve finansman bildirimleri incelendi. Makale 15 Ekim 2026'da JAMA Network Open'da yayımlandı ve kalıcı DOI aldı. Yazım sırasında düzeltme, geri çekme veya endişe bildirimi bulunamadı. Bu haber bağımsız uzman değerlendirmesi iddiası taşımaz.",
+      "takeaway": "Kalp-damar sağlığındaki ilerleme dört gelir çeyreğine de ulaştı, fakat eşit ölçüde değil: 2023'te majör kardiyovasküler olay hızı düşük ve yüksek gelirli çeyreklerde erkekler için sırasıyla 10.000 kişi-yılda 119,6 ve 85,9; kadınlar için 70,4 ve 53,1 idi. Gelir burada toplumsal bir göstergedir; tanı veya tek başına neden değildir. Bulgular, toplum genelindeki korunmanın dezavantajlı gruplara daha yoğun erişimle birlikte yürütülmesini destekliyor.",
+      "alt": "Danimarka'da 2023 majör kardiyovasküler olay hızlarını gösteren editoryal grafik; düşük ve yüksek gelir çeyreklerinde erkeklerde 10.000 kişi-yılda 119,6 ve 85,9, kadınlarda 70,4 ve 53,1 olay",
+      "caption": "2023'te en düşük ve en yüksek gelir çeyrekleri için yaşa göre standartlaştırılmış hızlar. MACE; kalp krizi, kararsız angina, inme veya kalp yetersizliği nedeniyle ilk yatışı kapsıyordu. Bu bağımsız editoryal grafik, makaledeki bir görselin kopyası değildir.",
+      "sections": [
+        {
+          "heading": "Çalışmanın sorusu neydi?",
+          "paragraphs": [
+            "Cæcilie Stilling Denholt, Hannah K. Wood-Kurland, Kathrine Kold Sørensen ve çalışma arkadaşları 15 Ekim 2026'da, kalp-damar hastalıklarında onlarca yıldır görülen azalmanın Danimarka'daki gelir gruplarına benzer biçimde ulaşıp ulaşmadığını araştırdı. Majör advers kardiyovasküler olay (MACE), kalp krizi, kararsız angina, inme veya kalp yetersizliği nedeniyle ilk hastane yatışı olarak tanımlandı. Soru nüfus eğilimiyle ilgiliydi; belirli bir kişinin gelirini artırmanın riskini mutlaka düşüreceği anlamına gelmiyordu. [1]",
+            "Bu ayrım önemli. Gelir; eğitim, çalışma ve barınma koşulları, sağlıklı gıdaya erişim, sağlık davranışları, stres ve sağlık hizmetine ulaşma ile bağlantılıdır. Hastalık da kişinin gelir elde etme kapasitesini azaltabilir. Dünya Sağlık Örgütü yaşam koşullarını ve kaynakların dağılımını sağlığın sosyal belirleyicileri arasında sayıyor. Bu analizde gelir, tek bir biyolojik açıklama ya da tek başına neden değil, çok boyutlu bir toplumsal göstergedir. [2]"
+          ]
+        },
+        {
+          "heading": "Kohort nasıl oluşturuldu?",
+          "paragraphs": [
+            "Araştırmacılar Danimarka nüfus, hasta ve gelir kayıtlarını kişisel kimlik numarası üzerinden bağladı. 1988-2023 arasındaki her yılda hayatta olan, 30 yaşını doldurmuş ve o yıl ya da önceki beş yıl içinde gelir kaydı bulunan tüm sakinler açık kohorta alındı; toplam 5.932.672 kişi incelendi. Yıllık çalışma nüfusu 1988'de 3,06 milyondan 2023'te 3,85 milyona çıktı. Veri analizi Ağustos 2025 ile Temmuz 2026 arasında yapıldı. [1]",
+            "Hanenin kullanılabilir geliri hane büyüklüğüne göre eşdeğerleştirildi ve her yıl dört çeyreğe ayrıldı. Her kişi yıl sonuna, ölüme, göçe veya ilk MACE olayına kadar izlendi; ilk olaydan sonra sonraki yılların risk nüfusundan çıkarıldı. Hızlar yaşa göre standartlaştırıldı ve kadınlar ile erkekler için ayrı verildi. Enflasyona göre düzeltilmiş gelir ve sabit gelir sınırları kullanılan duyarlılık analizleri de bulguların genel yönünü değiştirmedi. [1]"
+          ]
+        },
+        {
+          "heading": "Azalma yaygındı, fark ise kapanmadı",
+          "paragraphs": [
+            "En düşük gelir çeyreğindeki erkeklerde yaşa göre standartlaştırılmış MACE hızı 1988'de 10.000 kişi-yılda 191,1 iken 2023'te 119,6'ya indi; en yüksek gelir çeyreğinde 153,5'ten 85,9'a düştü. Kadınlarda aynı hız düşük gelir çeyreğinde 116,0'dan 70,4'e, yüksek gelir çeyreğinde 89,5'ten 53,1'e geriledi. Makale yüzde 95 güven aralıklarını da bildirdi; düşüş her iki cinsiyette ve dört gelir grubunun tamamında görüldü. [1]",
+            "Ancak toplum genelindeki ilerleme eşitliği sağlamadı. Dönemin sonunda da en düşük gelir grubu en yüksek hıza sahipti. 2023'te mutlak fark erkeklerde 10.000 kişi-yılda yaklaşık 33,7, kadınlarda 17,3 olaydı. Göreli eşitsizlik indeksi dönem boyunca 1,3 ile 1,9 arasında değişti; araştırmacılar eşitsizlikte pratik açıdan anlamlı bir değişim görmedi. Doğru sonuç, korunmanın başarısız olduğu değil; hastalık yükünü azaltmakla toplumsal farkı kapatmanın ayrı hedefler olduğudur. [1]"
+          ]
+        },
+        {
+          "heading": "Bu sayılar neyi kanıtlamıyor?",
+          "paragraphs": [
+            "Çalışma gözlemsel ve betimleyiciydi. Araştırmacılar gelir, tedavi veya davranış üzerinde bir müdahale yapmadı; makale de bulguların nedensel yorumlanmaması gerektiğini açıkça belirtiyor. Her yılın başındaki gelir ve eşlik eden hastalıklar önceki yaşam seyrini yansıttığından, kayıt verisi düşük gelirin hastalıktan önce gelip gelmediğini, hastalığın geliri düşürüp düşürmediğini veya başka etkenlerin ikisini birden şekillendirip şekillendirmediğini güvenilir biçimde ayıramaz. [1]",
+            "Sonuçlar idari yatış kodlarından belirlendi. 1994'te ICD-8'den ICD-10'a geçilmesi ve hastane kayıt sisteminin yeniden düzenlenmesi zaman içindeki karşılaştırmayı etkileyebilir; araştırmacılar karşılaştırılabilirliği artırmak için doğrulanmış bir kod eşlemesi kullandı. Ölüm nedeninin kaydındaki belirsizlik yüzünden kardiyovasküler ölüm MACE tanımına alınmadı ve ölüm rekabet eden bir risk oluşturdu. Az sayıdaki eksik gelir için önceki beş yıldaki son değer kullanıldı; bu da bazı kişileri yanlış sınıflandırmış olabilir. [1]"
+          ]
+        },
+        {
+          "heading": "Kanıt düzeyi ve genellenebilirlik",
+          "paragraphs": [
+            "Neredeyse ülke çapında kapsama, çok büyük örneklem, 36 yıllık izlem ve duyarlılık analizlerindeki tutarlılık önemli güçlü yanlardır. Yine de veriler, bütünleşik kayıtları ve kendine özgü refah ve sağlık sistemi olan yüksek gelirli Danimarka'dan geliyor. Gelir eşitsizliği daha büyük, sigorta ve hizmete erişim farklı veya kayıtları eksik ülkelerde örüntünün büyüklüğü değişebilir. Yazarlar bu soruyu yanıtlamak için uluslararası karşılaştırmalı kohortlara ihtiyaç olduğunu belirtiyor. [1]",
+            "Kanıt düzeyi, Danimarka'daki eğilimi tanımlamak için yüksek; nedensel çıkarım veya belirli bir politika reçetesi için sınırlı kabul edilebilir. Çalışma hangi müdahalenin farkı kapatacağını sınamadı; yalnızca ortalama toplum sağlığındaki iyileşmenin farkı kendiliğinden ortadan kaldırmadığını gösterdi. DSÖ'nün küresel raporu da sağlık eşitsizliklerini azaltmak için yaşam koşulları, güç ve kaynak dağılımı ile eşitsizliklerin düzenli ölçümü üzerinde eşgüdümlü eylem gerektiğini vurguluyor. [2]"
+          ]
+        },
+        {
+          "heading": "Pratik mesaj",
+          "paragraphs": [
+            "Sağlık sistemleri için yalnızca ortalama hastalık hızını izlemek yeterli değildir; kimsenin geride kalıp kalmadığını görmek için sonuçlar toplumsal göstergelere göre de incelenmelidir. Tansiyon kontrolü, tütünün bırakılması, hareket, beslenme ve zamanında bakım gibi toplum çapındaki kalp-damar korunması; dezavantajlı grupların erişim ve izlemini güçlendiren hedefli yaklaşımlarla birlikte yürütülebilir. Bu bir politika çıkarımıdır; Danimarka çalışması belirli bir programın etkisini test etmedi. [1,2]",
+            "Bireyler açısından gelir çeyreği klinik değerlendirmenin yerini tutmaz ve damgalamaya ya da kaygıya yol açmamalıdır. Kalp-damar riski yaş, aile öyküsü, kan basıncı, kolesterol, diyabet, tütün kullanımı ve toplumsal koşulların bileşiminden doğar. Bu yazı kişisel tedavi önerisi değildir; korunma ve tedavi kararları kişinin durumuna ve hekimle görüşmesine dayanmalıdır."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "PCI merkezine erişim ve kalp krizi sağkalımı",
+          "path": "latest/2026-10-13-pci-access-ami-outcomes.html"
+        },
+        {
+          "label": "DSÖ'nün 2023'e kadar küresel sağlık tahminleri",
+          "path": "latest/2026-10-04-who-global-health-estimates.html"
+        },
+        {
+          "label": "Akciğer taramasında sigarayı bırakmaya mali teşvik",
+          "path": "latest/2026-10-06-smoking-cessation-incentives.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Denholt ve arkadaşları · JAMA Network Open · Danimarka ulusal kohortu · 2026-10-15",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855352",
+          "doi": "10.1001/jamanetworkopen.2026.39072"
+        },
+        {
+          "label": "Dünya Sağlık Örgütü · Sağlık eşitliğinin sosyal belirleyicileri küresel raporu · 2025",
+          "url": "https://www.who.int/publications/i/item/9789240107588"
+        }
+      ]
+    },
+    {
       "id": "2026-10-15-dobutamine-septic-shock-aki",
       "category": "medicine",
       "published": "2026-10-15",
