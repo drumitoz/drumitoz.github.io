@@ -3,6 +3,93 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-17-calcium-hypophosphite-dentin-tubules",
+      "category": "dentistry",
+      "published": "2026-10-17",
+      "studyDate": "2026-10-16",
+      "image": "assets/latest/calcium-hypophosphite-dentin-2026.webp",
+      "imageCredit": "Veri: Fandrich ve arkadaşları, BDJ Open; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.nature.com/articles/s41405-026-00502-4",
+      "imageRights": "Original editorial visualization created from aggregate and qualitative results reported in the BDJ Open study; no publisher figure, micrograph, or artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, funder, or author endorsement is implied.",
+      "title": "Kalsiyum hipofosfit laboratuvarda hidroksiapatit oluşturdu; henüz hassasiyet tedavisi değil",
+      "summary": "Bir laboratuvar çalışmasında kalsiyum hipofosfit, yapay tükürükte ve tek gönüllüden alınan insan tükürüğünde hidroksiapatit oluşumuna yol açtı; deneysel fırçalama sonrasında dentin tübüllerinde mineral birikimi görüldü. Ancak dentin bölümü gruplarda yalnızca beşer örnek içeriyordu, nitel tasarlanmıştı ve ağrı, geçirgenlik ya da klinik dayanıklılık ölçülmedi. Tedavi etkinliği kanıtlanmış değildir.",
+      "evidence": "Keşif amaçlı in vitro kavram kanıtlama çalışması: tükürükte XRD ile çökelti analizi ve 10 insan dentini örneğinde fırçalama modeli; laboratuvardaki kimyasal olay için doğrudan, hastalarda hassasiyet tedavisi için çok düşük düzeyde kanıt",
+      "access": "Makalenin sekiz sayfalık tam metni, yöntemleri, sonuçları, sınırlılıkları, kaynakları, finansman ve çıkar çatışması bildirimleri ile açık erişim lisansı incelendi. Makale 16 Ekim 2026'da BDJ Open'da yayımlandı ve kalıcı DOI aldı. Yazım sırasında düzeltme, geri çekme veya endişe bildirimi bulunamadı. Bu haber bağımsız uzman değerlendirmesi iddiası taşımaz.",
+      "takeaway": "Kalsiyum hipofosfit bu modelde tükürük varlığında hidroksiapatit oluşturdu; tedavi edilen beş örneğin tamamında kalsiyum, fosfor ve oksijen içeren birikimler görülürken beş su kontrolünde birikim görülmedi. Bu, olası bir mekanizmayı gösterir; ağrının azaldığını veya bir diş macununun etkili olduğunu değil. Küçük örneklem, istatistiksel karşılaştırmanın yokluğu ve üretici şirketin finansmanı bağımsız tekrar ile klinik deneme gereğini güçlendiriyor.",
+      "alt": "Kalsiyum hipofosfit laboratuvar çalışmasının editoryal şeması; tükürükte hidroksiapatit oluşumu, tedavi edilen beş dentin örneğinde birikim ve beş su kontrolünde birikim olmaması, klinik sonuç ölçülmediği uyarısıyla gösteriliyor",
+      "caption": "Çalışmanın iki bölümünü özetleyen bağımsız editoryal şema: tükürükte hidroksiapatit oluşumu ve nitel dentin fırçalama modeli. Makaledeki şekil veya mikrograf kopyalanmadı; görsel klinik bir sonucu temsil etmiyor.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Pascal Fandrich, Erik Schulze zur Wiesche, Bennett Tochukwu Amaechi ve Joachim Enax, 16 Ekim 2026'da yayımlanan çalışmalarında kalsiyum hipofosfitin (CaP) tükürük ortamında dişin başlıca minerallerinden hidroksiapatit oluşturup oluşturamayacağını ve açık dentin tübüllerinde birikim sağlayıp sağlamayacağını araştırdı. Kontrollü laboratuvar koşullarında mineral oluştu; fakat çalışmada hasta, ağrı ya da hassasiyet değerlendirilmedi. [1]",
+            "Bu nedenle bulgunun doğru adı erken bir in vitro kavram kanıtıdır. Açık dentin tübüllerini kapatmak, dentin hassasiyetini azaltmak için kullanılan mekanizmalardan biridir; mikroskopta birikim görmek ise ağrının azaldığını kanıtlamaz. Kimyasal mekanizmadan tedavi iddiasına geçmek için dentin geçirgenliği, asit ve aşınmaya dayanıklılık, yerleşik ajanlarla karşılaştırma ve son olarak klinik çalışma gerekir. [1,2]"
+          ]
+        },
+        {
+          "heading": "İki deney nasıl yürütüldü?",
+          "paragraphs": [
+            "İlk bölümde araştırmacılar yüzde 2 ağırlıkta CaP çözeltisini yapay tükürükle ve ayrı olarak insan tükürüğüyle karıştırdı. İnsan tükürüğü yalnızca bir sağlıklı gönüllüden alındı. Oluşan çökelti, kristal yapıyı tanımlayan X-ışını kırınımı (XRD) ile incelendi. Her iki ortamda hidroksiapatit deseni saptandı. İnsan tükürüğündeki ortalama kristalit boyutu 5,7 ± 0,6 nanometreydi; yapay tükürükte hidroksiapatite ek olarak brushit de oluştu. [1]",
+            "İkinci bölüm için çekilmiş insan azı dişlerinden on dentin örneği hazırlandı ve tübüller sitrik asitle açıldı. Beş örneğe yüzde 2 CaP, beşine deiyonize su uygulandı. Örnekler yapay tükürük içinde, 1,5 newton kuvvetle beş kez 30'ar saniye fırçalandı. Konfokal ve taramalı elektron mikroskopisi birikimin görünümünü; EDX spektroskopisi ise içerdiği elementleri değerlendirdi. [1]"
+          ]
+        },
+        {
+          "heading": "Ana bulgu neydi?",
+          "paragraphs": [
+            "İşlemden sonra CaP grubundaki beş örneğin tamamında açık tübüllerin içinde mineral birikimi görüldü; su grubundaki beş örneğin hiçbirinde bu görünüm yoktu. EDX analizi birikimlerde kalsiyum, fosfor ve oksijen bulunduğunu gösterdi. Bu gözlem, tükürükteki XRD verisiyle birlikte, CaP'nin çözünür kalsiyum sağlayıp tükürük fosfatıyla hidroksiapatit oluşumunu destekleyebileceği mekanizmasıyla uyumludur. [1]",
+            "Bununla birlikte çalışma tübül kapanma yüzdesini nicel olarak hesaplamadı, grupları istatistiksel olarak karşılaştırmadı ve güvenilir bir etkiyi yakalamak için gerekli örnek sayısını önceden belirlemedi. Sonuç temelde 'birikim görüldü veya görülmedi' düzeyindedir. EDX'de kalsiyum, fosfor ve oksijen görmek de her birikimin ağızda aynı kristal fazı ve kalıcı davranışı göstereceğini tek başına kanıtlamaz. [1]"
+          ]
+        },
+        {
+          "heading": "Neden henüz hassasiyet tedavisi sayılmaz?",
+          "paragraphs": [
+            "Dentin hassasiyeti; soğuk, hava, dokunma ya da ozmotik uyaranlarla ortaya çıkan kısa ağrı gibi klinik bir sonuçtur. Bu araştırma ağrı şiddetini, yaşam kalitesini veya hasta yanıtını ölçmedi. Laboratuvar düzeyinde bile tedavi öncesi ve sonrası dentin geçirgenliği değerlendirilmedi. Birikimlerin asit, diş macunu aşındırıcılığı ve haftalarca fırçalama altında kalıp kalmayacağı; sıvı hareketini ve ağrıyı azaltacak ölçüde tübül kapatıp kapatmayacağı bilinmiyor. [1]",
+            "Hassasiyet giderici diş macunlarına ilişkin sistematik derleme, etkinliğin klinik deney, kontrol karşılaştırması ve farklı zamanlarda ağrı ölçümüyle değerlendirilmesi gerektiğini; aktif bileşenlerin performansının aynı olmadığını gösteriyor. Bu çalışmadaki CaP, diğer kalsiyum-fosfat bileşikleriyle veya hazır hidroksiapatitle eş tutulmamalıdır. Bugünkü veri yalnızca bu maddeyi ve bu özel modeli kapsıyor. [2]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve çıkar çatışması",
+          "paragraphs": [
+            "Başlıca sınırlılıklar kontrollü laboratuvar ortamı, tek tükürük vericisi, dentin gruplarında beşer örnek, nitel değerlendirme, bildirilmeyen randomizasyon veya körleme, güç hesabının bulunmaması ve fırçalama modelinde yapay tükürük kullanılmasıdır. Asit ve aşınmaya dayanıklılık, dentin geçirgenliği, yerleşik hassasiyet gidericilerle doğrudan karşılaştırma ve hasta sonuçları incelenmedi. Bunlar erken bir etkinin olduğundan büyük görünmesi riskini artırır. [1]",
+            "Araştırmayı Dr. Kurt Wolff GmbH & Co. KG finanse etti; üç yazar—Fandrich, Enax ve Schulze zur Wiesche—aynı şirketin çalışanı. Bu durum sonucu kendiliğinden geçersiz kılmaz, fakat bağımsız tekrar ve önceden kayıtlı bir çalışma tasarımını daha önemli hale getirir. Makale çıkar çatışmasını açıkça bildiriyor ve CC BY-NC-ND 4.0 lisansıyla yayımlanıyor. Bu sayfadaki görsel bağımsız üretildi; makaleden şekil veya mikrograf uyarlanmadı. [1]"
+          ]
+        },
+        {
+          "heading": "Kanıt düzeyi ve pratik mesaj",
+          "paragraphs": [
+            "'CaP, laboratuvarda tükürük varlığında hidroksiapatit oluşturabilir' önermesi için kanıt doğrudan fakat sınırlıdır. 'CaP içeren bir ürün diş hassasiyetini tedavi eder' önermesi için ise bu çalışmanın kanıtı çok düşük düzeyde ve yetersizdir. Mantıklı sonraki adımlar daha büyük örneklemle bağımsız tekrar, nicel tübül kapanması ve geçirgenlik ölçümü, dayanıklılık testi ve ardından ağrı sonuçlu randomize klinik deneydir. [1]",
+            "Okur açısından bu haber bir diş macununa başlama, ürünü bırakma ya da değiştirme gerekçesi değildir. Soğukla ağrı; diş eti çekilmesi, aşınma, çürük veya çatlak gibi farklı nedenlerden kaynaklanabilir ve laboratuvar görüntüsüyle tanı konulamaz. 'Onarım' veya 'kesin tedavi' pazarlama iddiaları, aynı ürün formülünün klinik verileriyle sınanmalıdır. Bu yazı kişisel tedavi önerisi değildir; süren veya şiddetli ağrı diş hekimi değerlendirmesi gerektirir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Diş hassasiyeti: nedenleri ve çözümleri",
+          "path": "makale-dis-hassasiyeti.html"
+        },
+        {
+          "label": "Beyaz mine lezyonlarında remineralizasyon",
+          "path": "latest/2026-09-30-enamel-remineralization.html"
+        },
+        {
+          "label": "Tükürük ALP düzeyi ve periodontitis",
+          "path": "latest/2026-10-05-salivary-alp-periodontitis.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fandrich ve arkadaşları · BDJ Open · in vitro çalışma · 2026-10-16",
+          "url": "https://www.nature.com/articles/s41405-026-00502-4",
+          "doi": "10.1038/s41405-026-00502-4"
+        },
+        {
+          "label": "Hu ve arkadaşları · Journal of Dentistry · hassasiyet giderici diş macunları sistematik derlemesi · 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29787782/",
+          "doi": "10.1016/j.jdent.2018.05.012"
+        }
+      ]
+    },
+    {
       "id": "2026-10-16-income-cardiovascular-inequality-denmark",
       "category": "health",
       "published": "2026-10-16",
