@@ -3,6 +3,93 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-18-dreamm3-belantamab-final-analysis",
+      "category": "medicine",
+      "published": "2026-10-18",
+      "studyDate": "2026-10-17",
+      "image": "assets/latest/dreamm3-belantamab-final-analysis-2026.webp",
+      "imageCredit": "Veri: Dimopoulos ve arkadaşları, Blood Cancer Journal; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.nature.com/articles/s41408-026-01646-0",
+      "imageRights": "Original editorial visualization created from aggregate results reported in the open-access Blood Cancer Journal article; no publisher figure or artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No publisher, funder, or author endorsement is implied.",
+      "title": "DREAMM-3 final analizi: Belantamab mafodotinin üstünlüğü kanıtlanmadı; göz yan etkileri daha sıktı",
+      "summary": "DREAMM-3 faz 3 çalışmasının final analizinde progresyonsuz sağkalım belantamab mafodotinle 11,2 ay, pomalidomid-deksametazonla 7 ay bulundu; ancak tehlike oranının güven aralığı 1'i içerdi ve final analiz için önceden belirlenmiş resmi hipotez testi yoktu. Birincil analiz de üstünlük göstermemişti; göz yan etkileri yüzde 71'e karşı yüzde 23 bildirildi.",
+      "evidence": "Nükseden veya tedaviye dirençli multipl miyelomlu 325 hastada çok merkezli, açık etiketli, randomize faz 3 çalışma; doğrudan karşılaştırmalı kanıt, fakat birincil sonuç negatif ve final analiz yalnızca betimleyici",
+      "access": "Final analizin dört sayfalık tam metni; yöntemler, sonuçlar, güvenlik, sınırlılıklar, finansman, çıkar çatışmaları ve açık erişim lisansı incelendi. DREAMM-3'ün Lancet Haematology'deki ilk raporu ile EMA değerlendirmesi klinik ve düzenleyici bağlam için okundu. Final makale 17 Ekim 2026'da yayımlandı ve kalıcı DOI aldı. Bu haber bağımsız uzman değerlendirmesi iddiası taşımaz.",
+      "takeaway": "DREAMM-3, tek ajan belantamab mafodotinin pomalidomid ve deksametazona üstünlüğünü birincil analizde kanıtlayamadı. Final PFS sayıları belantamab lehine görünse de tehlike oranının yüzde 95 güven aralığı 0,64–1,18'di ve final analiz betimleyiciydi. Genel sağkalım neredeyse aynı, göz yan etkileri belirgin biçimde daha sıktı; dolayısıyla bu rapor negatif birincil sonucu pozitif bir bulguya dönüştürmez.",
+      "alt": "DREAMM-3 final analizinin editoryal grafiği; progresyonsuz sağkalım 11,2'ye karşı 7 ay, genel sağkalım 24'e karşı 22,9 ay, göz yan etkileri yüzde 71'e karşı yüzde 23 ve birincil üstünlük sonlanımının karşılanmadığı uyarısı",
+      "caption": "DREAMM-3'ün toplu sonuçlarından hazırlanan bağımsız editoryal görsel. Final veriler betimleyicidir; hem progresyonsuz hem genel sağkalım tehlike oranlarının güven aralığı 1'i içerir ve birincil üstünlük sonlanımı ilk analizde karşılanmamıştır.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Meletios Athanasios Dimopoulos, Vania Hungria, Haitao Meng ve çalışma arkadaşları 17 Ekim 2026'da DREAMM-3'ün final analizini yayımladı. Çalışma, nükseden veya tedaviye dirençli multipl miyelomda tek ajan belantamab mafodotini düşük doz deksametazonla birlikte pomalidomidle karşılaştırdı. Finalde medyan progresyonsuz sağkalım 11,2 aya karşı 7 aydı; tehlike oranı 0,87, yüzde 95 güven aralığı 0,64–1,18 idi. Aralık 1'i içerdiği ve bu analizde resmi test yapılmadığı için üstünlük sonucu çıkarılamaz. [1]",
+            "Belirleyici nokta, önceki birincil analizin de üstünlük sonlanımını karşılamamış olmasıdır: progresyonsuz sağkalım için tehlike oranı 1,03, p değeri 0,56 idi. Daha uzun izlem yararlı bilgi verir, fakat final analiz negatif birincil sonucu istatistiksel olarak kurtarmak üzere tasarlanmadı. Genel sağkalımda belirgin ayrışma görülmezken göz yan etkileri belantamabla çok daha sık ortaya çıktı. [1,2]"
+          ]
+        },
+        {
+          "heading": "Çalışma nasıl yürütüldü?",
+          "paragraphs": [
+            "DREAMM-3, 18 ülkedeki 108 merkezde yürütülen açık etiketli, randomize bir faz 3 çalışmaydı. Daha önce lenalidomid ve bir proteazom inhibitörü dahil en az iki tedavi hattı almış 325 hasta, her üç haftada bir belantamab mafodotin ya da pomalidomid-deksametazona 2:1 oranında atandı; gruplarda sırasıyla 218 ve 107 kişi vardı. Medyan yaş 68'di, katılımcıların yüzde 22'si en az 75 yaşındaydı ve yüzde 78'i Beyaz olarak bildirildi. [1,2]",
+            "Açık etiketli tasarımda hasta ve klinisyen verilen tedaviyi biliyordu. Birincil sonlanım, bağımsız incelemeyle belirlenen progresyonsuz sağkalımdı. Final veri kesimi 22 Nisan 2025'ti; medyan izlem iki grupta yaklaşık 22 aydı. Bu değerlendirme birincil analizden sonra yapıldı ve yazarlar final analiz için önceden planlanmış resmi hipotez testi bulunmadığını açıkça belirtti. Bu nedenle sonuçlar betimleyici okunmalıdır. [1]"
+          ]
+        },
+        {
+          "heading": "Final sonuçlar ne gösterdi?",
+          "paragraphs": [
+            "Medyan progresyonsuz sağkalım belantamab grubunda 11,2 ay, karşılaştırma grubunda 7 aydı. Tehlike oranı daha düşük riske işaret etse de güven aralığı genişti ve fark olmaması olasılığını içeriyordu. Medyan genel sağkalım 24,0 aya karşı 22,9 aydı; tehlike oranı 0,98 ve yüzde 95 güven aralığı 0,73–1,30 idi. Genel sağkalımda net bir ayrışma yoktu. [1]",
+            "Objektif yanıt oranı yüzde 41'e karşı yüzde 36, kesin tam yanıt yüzde 9'a karşı yüzde 3'tü. Yalnızca yanıt verenler arasında medyan yanıt süresi 25,3 aya karşı 9,9 ay; ikinci progresyonsuz sağkalım 17,3 aya karşı 13 ay bildirildi. Bu ölçümler hipotez üreticidir: yanıt süresi seçilmiş bir alt grupta hesaplanır ve çalışma sonrası tedaviler standartlaştırılmamıştır; her ikisi de karşılaştırmayı etkileyebilir. [1]"
+          ]
+        },
+        {
+          "heading": "Güvenlik ve göz yan etkileri",
+          "paragraphs": [
+            "Derece 3 veya 4 advers olaylar belantamab grubunun yüzde 71'inde, karşılaştırma grubunun yüzde 66'sında görüldü. Gözle ilişkili advers olaylar yüzde 71'e karşı yüzde 23'tü; bulanık görme yüzde 48'e karşı yüzde 7, kuru göz yüzde 38'e karşı yüzde 3 ve görme keskinliğinde azalma yüzde 18'e karşı yüzde 1'in altındaydı. Ciddi advers olaylar yüzde 47 ve yüzde 44 oranındaydı. [1]",
+            "Değerlendirilebilir belantamab hastalarının yüzde 79'unda muayeneden türetilmiş bir göz bulgusu vardı ve bunların yüzde 80'i en az derece 2 idi. Veri kesimine dek etkilenenlerin yüzde 80'i derece 1'e veya daha iyi düzeye döndü; medyan düzelme süresi 68 gündü, fakat aralık 731 güne uzandı ve 24 olay son kontrolde çözülmemişti. Protokolde göz takibi ve doz düzenlemesi gerektiren bu yük önemsiz sayılmamalıdır. [1]"
+          ]
+        },
+        {
+          "heading": "Final analiz neden birincil sonucu değiştirmiyor?",
+          "paragraphs": [
+            "Progresyonsuz sağkalım eğrileri zaman içinde kesişti. Bu durum orantılı tehlikeler varsayımını zorlaştırır ve tek bir tehlike oranının tüm zaman örüntüsünü eksik özetleyebileceğini gösterir. Araştırmacılar randomizasyondan sonra hızlı ilerleyen hastalardaki dengesizliği de inceledi; ancak bu açıklayıcı, sonradan yapılan bir analizdi. Böyle analizler bir sonucu anlamaya yardım eder, fakat başarısız birincil testi değiştiremez. [1]",
+            "EMA'nın düzenleyici değerlendirmesi de sunulan ara ve sonradan yapılan analizlerin tek ajan tedavinin üstünlüğünü kanıtlamadığı sonucuna vardı. Ayrım önemlidir: belantamab içeren kombinasyon rejimlerinin ayrı kanıtları ve izinleri olabilir, ancak bunlar DREAMM-3'ü ya da burada incelenen tek ajan yaklaşımını doğrulamaz. Bu haber yalnızca bu karşılaştırmayı ve bu dozlamayı yorumlamaktadır. [3]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar, finansman ve pratik mesaj",
+          "paragraphs": [
+            "Başlıca sınırlılıklar açık etiketli tasarım, 2:1 atama nedeniyle daha küçük karşılaştırma grubu, betimleyici final analiz, kesişen sağkalım eğrileri, sonradan yapılan açıklayıcı analizler, sınırlı demografik çeşitlilik ve değişen multipl miyelom tedavi ortamıdır. Çalışmayı GSK finanse etti; bazı yazarlar GSK çalışanı veya hissedarıydı ve çok sayıda başka çıkar ilişkisi bildirildi. Yazım desteği de şirket tarafından karşılandı. Bu şeffaflık, tasarım ve sayıların dikkatle değerlendirilmesi gereğini ortadan kaldırmaz. [1]",
+            "Doğrudan randomize karşılaştırma gözlemsel çalışmadan daha güçlüdür; yine de bu araştırmanın birincil sonucu negatiftir ve final analiz üstünlük hakkında yeni kesinlik sağlamaz. Pratik mesaj, kişisel tedaviyi başlatmak veya bırakmak değildir. Nükseden miyelomda seçim; önceki tedavilere, hastalık durumuna, erişime, eşlik eden hastalıklara ve göz riskine göre değişir. Bulgular güncel seçeneklerle birlikte hematoloji-onkoloji ekibi tarafından değerlendirilmelidir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "NOPARK faz 3 çalışması ve Parkinson için negatif sonuç",
+          "path": "latest/2026-10-09-nicotinamide-riboside-parkinson.html"
+        },
+        {
+          "label": "Roksadustat kalp krizinden sonra hasar boyutunu azaltmadı",
+          "path": "latest/2026-10-12-roxadustat-stemi-infarct-size.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dimopoulos ve arkadaşları · Blood Cancer Journal · DREAMM-3 final analizi · 2026-10-17",
+          "url": "https://www.nature.com/articles/s41408-026-01646-0",
+          "doi": "10.1038/s41408-026-01646-0"
+        },
+        {
+          "label": "Dimopoulos ve arkadaşları · Lancet Haematology · DREAMM-3 birincil raporu · 2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37793771/",
+          "doi": "10.1016/S2352-3026(23)00243-0"
+        },
+        {
+          "label": "EMA · Blenrep düzenleyici değerlendirme raporu · DREAMM-3 sonucu",
+          "url": "https://www.ema.europa.eu/en/documents/variation-report/blenrep-h-c-004935-ii-0015-epar-assessment-report-variation_en.pdf"
+        }
+      ]
+    },
+    {
       "id": "2026-10-17-calcium-hypophosphite-dentin-tubules",
       "category": "dentistry",
       "published": "2026-10-17",
