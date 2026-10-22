@@ -3,6 +3,90 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-22-who-tb-diagnostics-evidence-guidance",
+      "category": "health",
+      "published": "2026-10-22",
+      "studyDate": "2026-10-20",
+      "image": "assets/latest/who-tb-diagnostics-evidence-2026.webp",
+      "imageCredit": "Veri ve kavramsal çerçeve: Dünya Sağlık Örgütü; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.who.int/publications/i/item/9789240123793",
+      "imageRights": "Original editorial visualization based only on themes described in the WHO publication overview; no WHO figure, logo, photograph, or artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. WHO does not endorse this visualization or website.",
+      "title": "WHO’nun yeni TB tanı rehberi: Tanısal doğruluk tek başına yeterli değil",
+      "summary": "Dünya Sağlık Örgütü, 20 Ekim 2026'da yeni tüberküloz testleri, örnek türleri ve test stratejileri için kanıt üretimini ele alan 121 sayfalık bir rehber yayımladı. Rehberin 28 ana mesajı doğruluk çalışması tasarımından katılımcı seçimine; insan için önemli sonuçlardan maliyet-etkililik, hakkaniyet, kabul edilebilirlik ve uygulanabilirliğe uzanıyor. Belge belirli bir testi onaylamıyor ya da hastaya önermiyor; politika yapımında kullanılabilecek kanıt üretmek isteyen araştırmacı ve geliştiricilere yol haritası sunuyor.",
+      "evidence": "Dünya Sağlık Örgütü'nün 121 sayfalık ve 28 ana mesaj içeren resmi metodolojik rehberi; tek bir ürünün klinik çalışması veya doğruluk araştırması değil, politika kararları için kanıt üretme ve değerlendirme çerçevesi; WHO'nun kanıt beklentilerini tanımlamak için yüksek, belirli bir testin performansı hakkında sonuç çıkarmak için ilgisiz/yetersiz kanıt",
+      "access": "WHO'nun resmi yayın sayfası, bibliyografik bilgiler, genel bakış ve belgeyi tanıtan resmi güncelleme incelendi. Nihai PDF dosyasına IRIS üzerinden bu inceleme ortamında erişim hatası alındı; bu nedenle yazı 121 sayfanın tam metin incelemesi değildir ve yalnızca WHO'nun erişilebilen resmi sayfalarında yer alan iddiaları aktarır. Bağımsız uzman hakemliği veya tıbbi öneri değildir.",
+      "takeaway": "Bir test kontrollü koşullarda doğru olabilir; ancak uygun olmayan popülasyon, maliyet, uygulama güçlüğü ya da sonucun klinik karara ulaşmaması nedeniyle gerçek bakım yolunda beklenen etkiyi göstermeyebilir. WHO rehberi, testin klinik yoldaki rolünün en başta tanımlanmasını ve çalışmanın bu role göre tasarlanmasını istiyor. Yine de rehberin yayımlanması herhangi bir ürünün etkili olduğunu kanıtlamaz ve TB tanı-tedavi kılavuzlarının yerini almaz.",
+      "alt": "TB tanısında kanıt üretme yolunu gösteren bağımsız şema: bakım yolundaki test rolü, doğruluk çalışması tasarımı, insan için önemli sonuçlar ve maliyet, hakkaniyet, kabul edilebilirlik ile uygulanabilirlik",
+      "caption": "WHO rehberinde duyurulan başlıklara dayalı bağımsız kavramsal harita. Resmi belge şekli, çalışma fotoğrafı veya WHO onayı değildir.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Dünya Sağlık Örgütü, “Yeni tüberküloz tanı yöntemlerinde kanıt üretimi rehberi”ni 20 Ekim 2026'da yayımladı ve ertesi gün resmi bir güncellemeyle tanıttı. WHO editörlüğündeki, ISBN 978-92-4-012379-3 numaralı 121 sayfalık belge; yeni TB testleri, örnek türleri ve test stratejilerine ilişkin kanıtı WHO kılavuz geliştirme sürecine hazırlayan araştırmacılar, teknoloji geliştiricileri, fon sağlayıcılar ve diğer paydaşlar için yazıldı. [1,2]",
+            "Belge bir klinik çalışma sonucu, etkililik derlemesi veya ürün onayı değildir. Yirmi sekiz ana mesaj; doğruluk çalışmasının nasıl tasarlanacağı, kimlerin araştırmaya alınacağı, örneklem büyüklüğü ve raporlamanın yanı sıra insan için önemli sonuçlar, değerler, maliyet-etkililik, hakkaniyet, kabul edilebilirlik ve uygulanabilirlik için hangi kanıtların gerektiğini ele alıyor. Doğru başlık “daha iyi kanıt standardı”dır; “TB'yi daha iyi bulan yeni test” değildir. [1]"
+          ]
+        },
+        {
+          "heading": "Tanısal doğruluk neden yetmiyor?",
+          "paragraphs": [
+            "Duyarlılık ve özgüllük, bir testin çalışma koşullarında hastalığı olanlarla olmayanları ne ölçüde doğru sınıflandırdığını gösterir. Politika yapıcı ise başka sorulara da yanıt arar: Test bakım yolunun hangi noktasında kullanılacak? Tarama, tanıyı doğrulama ya da ilaç direncini saptama amacı mı taşıyor? Sonuç zamanında klinik karara dönüşecek mi? Yaygın kullanım için altyapı, personel ve bütçe var mı? En çok gereksinimi bulunan gruplar çalışmada temsil edildi mi?",
+            "WHO'ya göre yeni TB tanıları için üretilen kanıt sıkça eksik kaldı: bazı araştırmalar yalnızca doğruluğa odaklandı, yöntemsel sınırlılıklar taşıdı, müdahaleden en çok yararlanabilecek kırılgan grupları dışladı ya da maliyet, hakkaniyet, kabul edilebilirlik ve uygulanabilirlik hakkında az bilgi sundu. Eksik veya tutarsız raporlama da çalışmaların birlikte değerlendirilmesini zorlaştırdı. Bu eleştiri doğruluğu önemsiz yapmaz; doğruluk gereklidir, fakat politika kararı için tek başına yeterli değildir. [1,2]"
+          ]
+        },
+        {
+          "heading": "Analitik çerçeve neyi değiştiriyor?",
+          "paragraphs": [
+            "Rehberin merkezinde, tanı yönteminin klinik yol içindeki “amaçlanan rolünü” haritalayan ve bu rolü çalışma tasarımı, popülasyon, yöntemler ve sonuç raporlamasıyla ilişkilendiren yeni bir analitik çerçeve var. Toplum düzeyinde tarama amacıyla kullanılacak bir test ile referans laboratuvarında ilaç direncini doğrulayacak testin araştırma sorusu ve başarı ölçütü aynı değildir. Rolün erken tanımlanması, teknik olarak doğru fakat gerçek kararla ilgisiz veri üretme riskini azaltır. [1]",
+            "Yirmi sekiz ana mesaj katılımcı seçimini ve örneklem büyüklüğünü de öne çıkarıyor. Yalnızca kolay balgam verebilen yetişkinlerde yürütülen bir araştırmanın sonuçları, yeterli ek kanıt olmadan çocuklara, HIV ile yaşayanlara veya akciğer dışı TB'si olanlara taşınamaz. İnsan için önemli sonuçların kaydı ise bir stratejinin yalnızca laboratuvar sayısını mı iyileştirdiğini, yoksa tanıya ulaşma süresi, tedavi başlangıcı ve hasta deneyimini de değiştirip değiştirmediğini gösterebilir."
+          ]
+        },
+        {
+          "heading": "Hakkaniyet, maliyet ve uygulanabilirliğin yeri",
+          "paragraphs": [
+            "Yenilikçi bir test, yalnızca donanımlı araştırma merkezinde çalışmakla kamu politikasına hazır hale gelmez. Cihaz ve sarf maliyeti, tedarik zinciri, elektrik ya da soğuk zincir gereksinimi, personel eğitimi, sonuç süresi ve iş akışına uyum gerçek dünyadaki etkiyi değiştirebilir. Hasta ve çalışan açısından kabul edilebilirlik de önemlidir; zor örnek alma veya uzun süreç, analitik performans iyi olsa bile kullanımı azaltabilir.",
+            "Hakkaniyet sonradan eklenen bir dipnot değildir. Hastalık yükü yüksek grupların dışlanması, yayımlanan performans ile gerçek yaşam performansı arasındaki farkı büyütebilir. Rehber, kanıt üreticilerinden bu boyutları çalışma bittikten sonra sınırlılıklara yazmak yerine tasarım aşamasında ele almalarını istiyor. Bu yaklaşım nihai verinin WHO değerlendirmesi ve ülke kararları için daha yararlı olma olasılığını artırır; fakat rehberin kendisi teknolojilerin daha hızlı, ucuz veya adil uygulanacağını garanti etmez."
+          ]
+        },
+        {
+          "heading": "Bu haberin sınırlılıkları ve kanıt düzeyi",
+          "paragraphs": [
+            "Belge resmi bir metodoloji rehberi olduğu için WHO'nun hangi kanıt türlerini beklediğini açıklamakta yüksek güvenilirliğe sahiptir. Bununla birlikte erişilebilen özet sayfalarda belirli bir teste ait hasta örneklemi, duyarlılık tahmini, tedavi karşılaştırması veya sağlık sonucu yer almıyor. Rehberin yayımlanmasından mevcut bir teknolojinin etkili, maliyet-etkili ya da WHO tarafından önerilmiş olduğu sonucu çıkarılamaz. Her ürün ayrı veriye ve değerlendirmeye ihtiyaç duyar.",
+            "Bu incelemenin önemli erişim sınırlılığı da var: WHO yayın sayfası, bibliyografik bilgiler ve resmi tanıtım metni incelendi; ancak nihai PDF'nin IRIS üzerinden indirilmesi bu ortamda mümkün olmadı. Dolayısıyla yazı erişilebilir resmi bilgilerin temkinli bir özetidir; 121 sayfanın tümünün okunduğu iddiasını taşımaz. Yöntem ayrıntıları için WHO sayfasında bağlantısı verilen nihai metne başvurulmalıdır."
+          ]
+        },
+        {
+          "heading": "Araştırma ve bakım için pratik mesaj",
+          "paragraphs": [
+            "Araştırma ekipleri için mesaj nettir: katılımcı alımından önce testin bakım yolundaki rolünü, hedef popülasyonu, karşılaştırıcıyı, önemli sonuçları ve analiz-raporlama planını açıklığa kavuşturun; maliyet, hakkaniyet ve uygulamayı sonraya bırakmayın. Genel ve klinik okur için mesaj daha sınırlıdır: bu belge bir tanı ya da tedavi reçetesi değildir ve belirli bir testi önermiyor. TB şüphesi olan kişi yerel kılavuzlara ve profesyonel değerlendirmeye göre izlenmelidir; tek bir hasta için test seçme veya dışlama kararı bu haberden çıkarılamaz."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "WHO küresel sağlık tahminleri nasıl okunmalı?",
+          "path": "latest/2026-10-04-who-global-health-estimates.html"
+        },
+        {
+          "label": "WHO'nun toplum temelli ruh sağlığı geçiş rehberi",
+          "path": "latest/2026-10-10-community-mental-health-transition.html"
+        },
+        {
+          "label": "Ağız kanserinde tükürük testlerinin sınırları",
+          "path": "latest/2026-09-30-oral-cancer-salivary-tests.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dünya Sağlık Örgütü · Yeni tüberküloz tanılarında kanıt üretimi rehberi · 2026-10-20 · ISBN 978-92-4-012379-3",
+          "url": "https://www.who.int/publications/i/item/9789240123793"
+        },
+        {
+          "label": "Dünya Sağlık Örgütü · Yeni TB tanılarında kanıt üretimi rehberinin resmi duyurusu · 2026-10-21",
+          "url": "https://www.who.int/news/item/21-10-2026-who-launches-guidance-on-evidence-generation-for-new-tb-diagnostics"
+        }
+      ]
+    },
+    {
       "id": "2026-10-21-entinostat-exemestane-breast-cancer-survival",
       "category": "medicine",
       "published": "2026-10-21",
