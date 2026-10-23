@@ -3,6 +3,86 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-23-resorbed-mandible-impression-techniques",
+      "category": "dentistry",
+      "published": "2026-10-23",
+      "studyDate": "2026-10-22",
+      "image": "assets/latest/resorbed-mandible-impression-techniques-2026.webp",
+      "imageCredit": "Veri ve tema: Saravanakumar ve arkadaşları; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "imageSource": "https://www.nature.com/articles/s41432-026-01269-1",
+      "imageRights": "Original editorial visualization based on the review's reported technique families and outcomes; no publisher figure, photograph, logo, or patient material was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Springer Nature and the study authors do not endorse this visualization or website.",
+      "title": "İleri mandibular rezorpsiyonda ölçü teknikleri: Hiçbir yöntem tüm sonuçlarda üstün değildi",
+      "summary": "Yeni bir sistematik derleme, ileri derecede rezorbe mandibulada tam protez ölçüsü için altı randomize çalışmayı bir araya getirdi. Nötral alan, fonksiyonel, iki aşamalı ve admiks yöntemler bazı koşullarda tutuculuk, stabilite veya memnuniyette olumlu sonuçlar verdi; ancak hiçbir teknik bütün sonuçlarda tutarlı biçimde üstün değildi. Az sayıda ve heterojen çalışma tek bir reçeteyi desteklemiyor. Anatomi, kas kontrolü ve hastanın hedefleri klinik seçimi yönlendirmeli.",
+      "evidence": "PROSPERO'da CRD420251008136 numarasıyla kayıtlı, PRISMA'ya göre raporlanan ve altı randomize kontrollü çalışmayı içeren sistematik derleme; yöntem kalitesi Cochrane risk-of-bias aracıyla değerlendirilmiştir. Çalışma sayısının azlığı ve heterojenlik nedeniyle tek bir üstün yöntemi seçme kesinliği düşüktür; evrensel üstünlük olmadığı sonucu da ihtiyatla yorumlanmalıdır",
+      "access": "Yayıncının ana sayfası, yapılandırılmış özet, bibliyografik bilgiler, kaynak listesi ve CrossMark durumu incelendi; makalenin tam metni abonelik arkasındaydı. Ayrıca 52 kişilik bir randomize çalışmanın PubMed'deki tam özeti doğrudan bağlam için incelendi. Bu nedenle toplam katılımcı sayısı, çalışma başına etki tahminleri ve alan bazında risk-of-bias kararları gibi yalnız tam metinde bulunabilecek ayrıntılar burada ileri sürülmemiştir. İnceleme sırasında kontrol edilen kayıtlarda düzeltme veya geri çekme görülmedi.",
+      "takeaway": "Derlemenin mesajı “herkeste en basit yöntem” ya da “nötral alan kesinlikle üstündür” değildir. Mevcut kanıt, daha karmaşık bir ölçü sürecinin otomatik olarak daha iyi sonuç vermediğini; seçimin kret anatomisi, mukozanın özellikleri, kas kontrolü, önceki protez deneyimi ve hastanın hedefleriyle eşleştirilmesi gerektiğini gösteriyor. Bu sonuç protez muayenesinin ve kişiselleştirilmiş kararın yerini tutmaz.",
+      "alt": "İleri derecede rezorbe alt çene yayı ile nötral alan, fonksiyonel, iki aşamalı ve admiks ölçü yollarının tutuculuk, stabilite ve konfor için tek kazananı olmayan bir dengeye ulaştığını gösteren özgün infografik",
+      "caption": "Yöntem ailelerini ve derlemenin ana mesajını gösteren özgün görselleştirme; makalenin resmi şekli, hasta fotoğrafı veya bir çalışmanın görüntüleme sonucu değildir.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Prathibha Saravanakumar, Divyabharathi Selvam ve Karthigeyan Jeyapalan, 22 Ekim 2026'da Evidence-Based Dentistry'de bir sistematik derleme yayımladı. Soru şuydu: İleri derecede rezorbe mandibulaya sahip tam dişsiz kişilerde tam protez için hangi ölçü yöntemi tutuculuğu, stabiliteyi ve hasta memnuniyetini daha iyi artırır? Analize altı randomize kontrollü çalışma alındı. [1]",
+            "Sonuç bilerek ihtiyatlıdır: Nötral alan, fonksiyonel, iki aşamalı ve admiks ölçü teknikleri bazı durumlarda iyileşme gösterdi, fakat hiçbir yöntem bütün sonuçlarda sürekli üstün değildi. Yazarlar kanıtı sınırlı ve heterojen buldu; sonuçların dayanıklılığını değerlendiren daha büyük randomize çalışmalar istedi. Bu derleme bir tedavi kılavuzu değildir ve implant seçeneklerini karşılaştırmaz. [1]"
+          ]
+        },
+        {
+          "heading": "Hangi kanıtlar incelendi?",
+          "paragraphs": [
+            "Araştırmacılar PubMed, ScienceDirect, Google Scholar ve Cochrane veri tabanlarını PICOS çerçevesiyle taradı ve yalnız ilgili randomize kontrollü çalışmaları dahil etti. İki yazar verileri bağımsız çıkardı; anlaşmazlıkları üçüncü yazar çözdü. Derleme PRISMA'ya uydu, PROSPERO'ya CRD420251008136 numarasıyla kaydedildi ve yöntem kalitesini Cochrane risk-of-bias aracıyla değerlendirdi. Bunlar süreci güçlendirir; yine de sonuçların güvenilirliği altı çalışmanın büyüklüğüne, tasarımına ve birbiriyle uyumuna bağlıdır. [1]",
+            "İnceleme sırasında tam metin abonelik arkasındaydı; yayıncı sayfasında yapılandırılmış özet, kaynaklar ve bibliyografik bilgiler açıktı. Dolayısıyla kamuya açık verilerden toplam katılımcı sayısını, her karşılaştırmanın etki büyüklüğünü ya da ayrıntılı risk-of-bias kararlarını aktarmak mümkün değildir. Bu yazı özeti tam metinmiş gibi sunmaz ve eksik ayrıntılardan bütün çalışmaların yüksek ya da düşük kaliteli olduğu sonucunu çıkarmaz."
+          ]
+        },
+        {
+          "heading": "Teknikler gerçekte nasıl ayrılıyor?",
+          "paragraphs": [
+            "Tek aşamalı yöntemde kayıt hazır kaşık ve ölçü maddesiyle tek adımda alınır. İki aşamalı yaklaşım çoğunlukla kişisel kaşık, kenar şekillendirme ve ayrı bir nihai ölçü kullanır. Fonksiyonel ölçü, dokuları ve sınırları hareket ya da işlev sırasında kaydetmeyi amaçlar. Nötral alan yaklaşımı protezin konumunu ve biçimini dilin dışa, dudak ve yanağın içe yönelen kuvvetleriyle uyumlu hale getirir. Admiks materyal ise rezorbe kret için uygun kıvamı hedefleyen bir karışımdır. Bu teknik farklar belirli hastada önemli olabilir; daha karmaşık olmak tek başına daha iyi sonuç demek değildir.",
+            "Örneğin önceki bir randomize çalışma, 52 hastada hazır kaşık ve aljinatla tek aşamalı ölçüyü; kişisel kaşık, kenar şekillendirme ve polieter içeren iki aşamalı yöntemle karşılaştırdı. Üç ve altı ayda çiğneme performansı anlamlı biçimde farklı değildi. Hastaların bildirdiği memnuniyet, konfor, tutuculuk ve stabilitede de fark saptanmadı. Teslim sonrası ayarlama seansı ortalaması 3,8'e karşı 3,2 idi ve fark anlamlı değildi (P=0,09). Bu, kanıt kümesindeki tek bir karşılaştırmadır; tüm yöntemlerin tüm hastalarda eşit olduğunu kanıtlamaz. [2]"
+          ]
+        },
+        {
+          "heading": "Bulgular ve güven düzeyi",
+          "paragraphs": [
+            "Derleme, nötral alan ve tek aşamalı yöntemlerin bazı senaryolarda olumlu olduğunu; fonksiyonel, iki aşamalı ve admiks yöntemlerin de bazı çalışmalarda tutuculuk veya stabiliteye katkı sağladığını bildiriyor. Ancak sonuç ölçütleri aynı değildi: Bazı araştırmalar çekme kuvvetiyle tutuculuğu, bazıları stabiliteyi veya çiğneme kalitesini, diğerleri hasta memnuniyeti ve konforunu değerlendirdi. Testler, teknikler ve izlem süreleri değiştiğinde “en iyi yöntem” sonucu kırılgan hale gelir. [1]",
+            "Bu nedenle kanıt iki düzeyde okunmalı: Birden fazla uygulanabilir yaklaşım bulunduğu ve evrensel bir kazanan olmadığı savı, altı randomize çalışmadan doğrudan fakat sınırlı destek alıyor. Belirli bir kişiye belirli bir teknik önermek için ise kanıt yetersiz. Açık özette etkilerin ne kadar sürdüğü veya hangi anatomik alt grubun hangi yöntemden daha fazla yarar gördüğü de netleşmiyor."
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar",
+          "paragraphs": [
+            "Altı çalışma, birden fazla teknik ailesini, farklı sonuçları ve farklı hasta gruplarını karşılaştırmak için azdır. Klinik ve yöntemsel heterojenlik gerçek bir farkı örtebilir ya da küçük sonuçları olduğundan büyük gösterebilir. Derlemenin özeti meta-analiz veya birleşik etki tahmini sunmuyor; yazarlar da kesin bir sonuca varılamadığını söylüyor. Risk-of-bias aracı kullanılmış olsa da alan bazındaki kararlar özette yer almadığı için bu yazı “düşük yanlılık riski” iddiasında bulunmaz. [1]",
+            "Elli iki kişilik çalışma da yalnız belirli bir karşılaştırmayı altı aylık sürede sınadı. İstatistiksel fark bulunmaması kusursuz eşdeğerlik anlamına gelmez. Sonuçlar tüm malzemelere, uygulayıcı becerilerine, rezorpsiyon biçimlerine veya nöromüsküler sorunları olan kişilere otomatik olarak genellenemez."
+          ]
+        },
+        {
+          "heading": "Reçete vermeden pratik mesaj",
+          "paragraphs": [
+            "Hasta ve diş hekimi için pratik nokta şudur: Tekniğin adı protezin kalitesini tek başına garanti etmez. Dokunun şekli ve kıvamı, sulkus derinliği, kas dengesi, önceki başarısız protez deneyimi, randevulara erişim ve hastanın öncelikleri; klinik beceri ve teslim sonrası ayarlama olanağıyla birlikte değerlendirilmelidir. Yeni derleme, karmaşık bir yöntemi herkese zorunlu kılmak ya da basit bir yöntemi her zaman yeterli saymak için gerekçe sunmuyor. Ölçü tekniği ve diğer rehabilitasyon seçenekleri protez muayenesinden sonra seçilmelidir; bu yazı kişisel tedavi önerisi değildir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Tam protezde dijital tarama mı, geleneksel ölçü mü?",
+          "path": "latest/2026-10-14-digital-conventional-complete-denture.html"
+        },
+        {
+          "label": "Dişsizlik ve yaşlılıkta kırılganlık",
+          "path": "latest/2026-10-08-edentulism-frailty-older-adults.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Saravanakumar P, Selvam D ve Jeyapalan K · İleri rezorbe mandibulada ölçü tekniklerinin sistematik derlemesi · Evidence-Based Dentistry · 22.10.2026 · DOI: 10.1038/s41432-026-01269-1",
+          "url": "https://www.nature.com/articles/s41432-026-01269-1"
+        },
+        {
+          "label": "Albuquerque IS ve arkadaşları · Tek ve iki aşamalı ölçünün 52 kişilik randomize karşılaştırması · Journal of Dentistry · 2020 · DOI: 10.1016/j.jdent.2020.103357 · PMID 32437857",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32437857/"
+        }
+      ]
+    },
+    {
       "id": "2026-10-22-who-tb-diagnostics-evidence-guidance",
       "category": "health",
       "published": "2026-10-22",
