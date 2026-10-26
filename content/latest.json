@@ -3,6 +3,91 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-26-lifestyle-phase-angle-muscle-bone",
+      "category": "health",
+      "published": "2026-10-26",
+      "studyDate": "2026-10-25",
+      "image": "assets/latest/muscle-bone-lifestyle-2026.webp",
+      "imageSource": "https://link.springer.com/article/10.1186/s41043-026-01491-8",
+      "imageRights": "Original editorial visualization based only on the published sample size and fully adjusted odds ratios for high versus low lifestyle score. No publisher figure, participant image, logo, or proprietary artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Springer Nature, the journal, and the study authors do not endorse this visualization or website.",
+      "imageCredit": "Veriler: Xu ve çalışma arkadaşları, Journal of Health, Population and Nutrition; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "title": "Yaşam tarzı ve kas-kemik sağlığı: İlişki görüldü, nedensellik kanıtlanmadı",
+      "summary": "Han Çinlisi 21.340 yetişkinin kesitsel analizinde, daha yüksek yaşam tarzı puanı ve faz açısı; düşük el kavrama gücü, topuk ultrasonunda düşük kemik durumu ve ikisinin birlikte görülmesiyle daha düşük olasılık düzeyinde ilişkiliydi. Veriler ne neden-sonuç gösteriyor ne de yeni bir tanı testi oluşturuyor.",
+      "evidence": "China National Health Survey verilerine dayanan toplum tabanlı kesitsel çalışma; Çin'deki beş il veya belediyeden 21.340 yetişkin. Maruziyetler ve sonuçlar aynı dönemde ölçülerek çok değişkenli regresyonla incelendi. Büyük örneklem ve duyarlılık analizleri güçlü yönlerdir; ancak zaman sırası ve nedensellik bu tasarımla belirlenemez",
+      "access": "Yalnız özet değil; yöntemler, tablolar, tartışma ve sınırlılıkları içeren, hakem değerlendirmesinden geçmiş 17 sayfalık Article in Press tam metni incelendi. Makale kalıcı DOI ile 25 Ekim 2026'da yayımlandı, CC BY-NC-ND 4.0 lisanslı ve son sürümden önce düzenlenebilir. İnceleme sırasında makale sayfasında ve başlık/DOI taramasında düzeltme, geri çekme veya endişe bildirimi görülmedi. Eşlik eden görsel bağımsızdır; makalenin resmi şekli değildir.",
+      "takeaway": "Daha yüksek yaşam tarzı puanı, çalışmada tanımlanan üç sonucun daha düşük olasılığıyla ilişkiliydi; fakat kesitsel tasarım davranış değişikliğinin bu göstergeleri mutlaka iyileştireceğini söyleyemez. Faz açısı ve topuk ultrasonu da burada araştırma ölçümleriydi; bulgular sarkopeni tanısının, standart kemik yoğunluğu ölçümünün veya kişisel değerlendirmenin yerini almaz.",
+      "alt": "Yirmi bir bin üç yüz kırk yetişkinlik kesitsel çalışma ile düşük kavrama gücü için 0,69, düşük topuk ultrasonu kemik durumu için 0,76 ve ikisinin birlikteliği için 0,56 düzeltilmiş olasılık oranlarını gösteren bağımsız infografik",
+      "caption": "Yüksek ve düşük yaşam tarzı puanlarını karşılaştıran üç ana tahminin bağımsız gösterimi. Birden küçük olasılık oranı istatistiksel ilişkiyi anlatır; kesin risk azalmasını veya nedenselliği değil.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Da Xu, Yaoda Hu, Huijing He, Xingming Chen ve çalışma arkadaşları, toplum tabanlı kesitsel araştırmalarını 25 Ekim 2026'da yayımladı. Analiz, Çin'in beş il veya belediyesinde yaşayan 21.340 Han Çinlisi yetişkini kapsıyordu; ortanca yaş 55'ti ve katılımcıların yüzde 63,6'sı kadındı. Araştırmacılar dört bileşenli bir yaşam tarzı puanı ile biyoelektrik impedanstan elde edilen “faz açısının” el kavrama gücü ve topuk kemiği ölçümüyle ilişkisini sordu. [1]",
+            "Tam düzeltilmiş modelde yüksek yaşam tarzı puanı olanların, düşük puanlı gruba göre düşük kavrama gücü için olasılık oranı 0,69; kantitatif topuk ultrasonunda düşük kemik durumu için 0,76; iki sonucun birlikte görülmesi için 0,56 idi. Hem yaşam tarzı puanı hem faz açısı yüksek olanlarda birliktelik için en düşük tahmin görüldü: her iki göstergesi düşük gruba karşı 0,33. Bunlar düzeltilmiş göreli olasılık tahminleridir; kesin risk azalması yüzdeleri değildir. [1]"
+          ]
+        },
+        {
+          "heading": "Tam olarak ne ölçüldü?",
+          "paragraphs": [
+            "Sıfır ile dört arasındaki yaşam tarzı puanı; sigara, alkol tüketimi, egzersiz ve beslenmeye birer puan vererek oluşturuldu. Sıfır-bir düşük, iki orta, üç-dört yüksek sayıldı. Tanımlar önemlidir: Yeterli egzersiz haftada üç-yedi gün bildirilen aktiviteydi; beslenme bileşeni enerji ve besin öğelerinin ayrıntılı ölçümü yerine sekiz yiyecek davranışının sıklığına dayanıyordu. Alkol bileşeninde “zararlı tüketim” eşiğinin altındaki mevcut içiciler puan aldı; hiç içmeyenler ve eski içiciler birincil tanımda puan almadı. Bu nedenle puan, içmeye başlama önerisi veya klinik kontrol listesi değildir. Alternatif alkol tanımı ve alkolü dışlayan duyarlılık analizleri genel örüntüyü değiştirmedi. [1]",
+            "Kavrama gücü dinamometreyle ölçüldü; erkeklerde 35,5 kg, kadınlarda 20 kg altı “düşük” kabul edildi. Kemik durumu, kantitatif topuk ultrasonunda eksi birin altındaki T-skoruyla tanımlandı. Faz açısı, çok frekanslı biyoelektrik impedansta direnç ve reaktanstan hesaplandı; her cinsiyet için ayrı çeyreklikler halinde incelendi. Bu sayı dokunun elektriksel özellikleri, sıvı dağılımı ve hücre kütlesiyle ilişkilidir, ancak tek başına sarkopeni veya kemik hastalığı tanısı değildir. [1]"
+          ]
+        },
+        {
+          "heading": "Bulgular ve sayıların anlamı",
+          "paragraphs": [
+            "Örneklemin yüzde 12,8'inde düşük kavrama gücü, yüzde 23,9'unda QUS ile tanımlanan düşük kemik durumu, yüzde 4,3'ünde ise her ikisi vardı. Modeller yaş, cinsiyet, beden kitle indeksi, eğitim, gelir, yerleşim, mesleki aktivite, hipertansiyon, diyabet, dislipidemi, kalp-damar hastalığı, kanser ve kırık öyküsüne göre düzeltildi; kadınlarda faz açısı analizine menopoz durumu da eklendi. Yaşam tarzı puanındaki her bir puan artışı, iki sonucun birlikteliği için 0,80 olasılık oranıyla ilişkiliydi. Yine de bileşenlerin katkısı eşit değildi: Beslenme ilişkisi daha güçlüydü; egzersiz ve sigara bileşenleri birleşik sonuçta istatistik eşiğini geçmedi. [1]",
+            "Faz açısında da herkes için tekdüze bir örüntü yoktu. Erkeklerde en yüksek çeyrek, en düşük çeyreğe göre birliktelik için 0,39 olasılık oranıyla ilişkiliydi. Kadınlarda tahmin 0,82 idi ve yüzde 95 güven aralığı 0,57 ile 1,16 arasında olup biri içeriyordu. Bu sonuçta cinsiyet etkileşimi anlamlı değildi. Yaşam tarzı puanı ile faz açısının kendi aralarındaki çarpımsal etkileşimi de istatistiksel olarak anlamlı çıkmadı. Dolayısıyla ortak analizdeki 0,33 değeri, “kanıtlanmış sinerji” veya daha iyi sonuç garantisi sayılmamalıdır. [1]"
+          ]
+        },
+        {
+          "heading": "Neden nedensellik göstermez?",
+          "paragraphs": [
+            "Kesitsel tasarımda davranışlar, faz açısı ve sonuçlar yaklaşık aynı dönemde ölçülür. Düşük yaşam tarzı puanı ya da faz açısının kas-kemik bulgularından önce geldiği bilinmez; mevcut hastalık aktiviteyi, beslenmeyi veya vücut bileşimini değiştirmiş olabilir. İstatistiksel düzeltme birçok farkı hesaba katsa da kemik ve kası etkileyen ilaçlar, ayrıntılı beslenme ve başka hastalıklar gibi ölçülmeyen etkenler ilişkinin bir bölümünü açıklayabilir. Sonuç yaygın olduğunda olasılık oranı da risk oranıyla aynı değildir. [1]",
+            "Bu uyarı özellikle faz açısı için önemlidir. Daha yüksek değer daha iyi hücresel veya beslenme durumuyla birlikte görülebilir; fakat aralık cihaz, cinsiyet, yaş, sıvı dengesi ve topluma göre değişir. Çalışma bu sayıyı kasıtlı olarak yükseltmenin gücü ya da kemiği iyileştirdiğini göstermedi ve evrensel bir tanı eşiği önermedi. En makul yorum, davranışsal ve biyoelektrik göstergelerin bu örneklemde birbirini tamamlayan bilgi taşıdığı ve gelecekteki değişiklikleri öngörme değerlerinin boylamsal çalışmalarla sınanması gerektiğidir. [1]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve kanıt düzeyi",
+          "paragraphs": [
+            "Katılımcılar Han Çinlisi yetişkinlerdi; bulguların başka etnik gruplara, ülkelere veya klinik ortamlara doğrudan aktarılması kesin değildir. Davranışlar özbildirime dayanıyordu; beslenme değerlendirmesi enerji, makro besinler, mikro besin yeterliliği ya da bölgesel gelenekleri kapsamıyordu. Kas sonucu yalnız kavrama gücüydü ve fiziksel performans ölçülmedi; dolayısıyla uzlaşı tanımlı sarkopeniyle eşdeğer değildir. Güç ile kas kütlesini birleştiren duyarlılık analizi benzer sonuç verdi, ancak kesme noktaları bu örneklemin kendi dağılımından türetildi. [1]",
+            "Kemik tarafında topuk QUS'u radyasyonsuz ve saha çalışmaları için kullanışlıdır; buna karşın merkezi DXA, dansitometrik tanı için başlıca referans olmaya devam eder. ISCD'nin resmi yetişkin pozisyonları tanıyı belirli DXA bölgelerine dayandırır. [2] Bu nedenle makaledeki “düşük kemik durumu”, osteoporoz tanısı diye okunmamalıdır. Kanıt, büyük bir gözlemsel çalışmadan geliyor: İlişki keşfetmek için değerli, fakat korunma etkisini kanıtlamak veya yeni bir tarama testi önermek için yetersiz."
+          ]
+        },
+        {
+          "heading": "Tedavi önerisi vermeden pratik anlam",
+          "paragraphs": [
+            "Araştırma hareket, beslenme, sigara ve kas-kemik sağlığını birlikte düşünme yönündeki genel halk sağlığı yaklaşımıyla uyumludur; ancak tek bir kişi için hangi değişikliğin ne kadar yarar sağlayacağını göstermez. Özellikle çalışmanın alkol tanımı tüketim önerisi gibi yorumlanmamalıdır. Tüketici tipi faz açısı ölçümleri veya topuk ultrasonu da tıbbi değerlendirmenin, güç ölçümünün ve gerektiğinde DXA'nın yerine geçmez. Güçsüzlük, düşme riski ya da kemik sağlığı incelemesi; yaş, belirtiler, kırık öyküsü, ilaçlar ve profesyonel değerlendirmeyle belirlenmelidir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Dişsizlik ve yaşlılıkta kırılganlık: İlişki, kesin neden değil",
+          "path": "latest/2026-10-08-edentulism-frailty-older-adults.html"
+        },
+        {
+          "label": "Gelir farkı ve kalp-damar olayları: Gözlemsel çalışmanın sınırı",
+          "path": "latest/2026-10-16-income-cardiovascular-inequality-denmark.html"
+        },
+        {
+          "label": "Sigarayı bırakma teşviki: Randomize çalışma nedeni nasıl daha iyi sınar?",
+          "path": "latest/2026-10-06-smoking-cessation-incentives.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Xu D, Hu Y, He H ve diğerleri · Yaşam tarzı, faz açısı ve kas-kemik göstergeleri üzerine kesitsel çalışma · Journal of Health, Population and Nutrition · 25 Ekim 2026",
+          "url": "https://link.springer.com/article/10.1186/s41043-026-01491-8",
+          "doi": "10.1186/s41043-026-01491-8"
+        },
+        {
+          "label": "International Society for Clinical Densitometry · DXA ve dansitometrik tanı için 2023 resmi yetişkin pozisyonları",
+          "url": "https://iscd.org/official-positions-2023/"
+        }
+      ]
+    },
+    {
       "id": "2026-10-25-clear-aligner-root-resorption-movements",
       "category": "dentistry",
       "published": "2026-10-25",
