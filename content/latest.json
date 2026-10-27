@@ -3,6 +3,93 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-27-capillary-refill-septic-shock-fluids",
+      "category": "medicine",
+      "published": "2026-10-27",
+      "studyDate": "2026-10-26",
+      "image": "assets/latest/capillary-refill-septic-shock-2026.webp",
+      "imageSource": "https://www.nature.com/articles/s41598-026-77226-w",
+      "imageRights": "Original editorial visualization based only on the published randomized-group sample sizes, 6-hour median fluid inputs, and Hodges-Lehmann location-shift estimate. No publisher figure, patient image, logo, or proprietary artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Springer Nature, Scientific Reports, and the study authors do not endorse this visualization or website.",
+      "imageCredit": "Veriler: Gao ve çalışma arkadaşları, Scientific Reports; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "title": "Septik şokta kapiller dolum süresi: Daha az sıvı, daha iyi sonuç kanıtlanmadı",
+      "summary": "Septik şoklu 85 hastanın yer aldığı tek merkezli bir çalışmada, altı saat boyunca kapiller dolum süresini hedefleyen strateji, laktatı hedefleyen stratejiye göre yaklaşık 250 mL daha az intravenöz sıvıyla ilişkiliydi. Bu küçük ve keşif amaçlı analiz ne mortalite azalmasını kanıtladı ne de tedavi standardını hemen değiştirmeyi destekliyor.",
+      "evidence": "İleriye dönük, randomize, açık etiketli ve tek merkezli çalışma; ilk resüsitasyon sonrası altı saat boyunca iki hedefe dayalı strateji karşılaştırıldı, 85 hasta. Sıvı sonlanımı başlangıçta ikincildi; hedeflenen örnekleme ulaşılamayınca bu raporun ana sonucu yapıldı. Kamuya açık kayıt da hasta alımı bittikten sonra yapıldı; tüm bulgular keşif amaçlıdır",
+      "access": "Hakem değerlendirmesinden geçmiş ve kabul edilmiş makalenin resmi sayfası, ayrıntılı özeti, üst verileri, finansman ve çıkar çatışması bölümleri ile listelenen ekleri incelendi. Yöntemler ve tabloların tam gövdesi ilk HTML sürümünde henüz görünmediği için bu yazı tam metin incelemesi iddiasında değildir. Makale kalıcı DOI ile 26 Ekim 2026'da yayımlandı ve son sürümden önce düzenlenebilir. İnceleme sırasında makale sayfasında ve başlık/DOI taramasında düzeltme, geri çekme veya endişe bildirimi görülmedi. Eşlik eden görsel makale şekli değildir.",
+      "takeaway": "Kapiller dolum süresi düşük maliyetli bir klinik bulgudur; ancak bu küçük çalışma yalnızca ona dayalı bir stratejinin ilk altı saatte daha az sıvı kullanabileceğini gösterdi. Farkın klinik önemi belirsizdir. Sonuç, kendi kendine tedavi önerisi olmadığı gibi laktatın veya kapsamlı hemodinamik değerlendirmenin bırakılmasını da desteklemez.",
+      "alt": "Seksen beş septik şok hastasının çalışmasında altı saatlik medyan intravenöz sıvıyı kapiller dolum süresi grubunda 1135 mL, laktat grubunda 1350 mL ve tahmini farkı eksi 250 mL olarak gösteren bağımsız infografik",
+      "caption": "Altı saatlik keşif amaçlı sıvı girdisinin bağımsız gösterimi. Tahmini fark −250 mL, yüzde 95 güven aralığı −500 ile −20 mL idi; görsel komplikasyon veya mortalite azalmasını göstermiyor.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Fei Gao, Yuan Xu, Zhiyu Li ve çalışma arkadaşları septik şoklu hastalarda yürüttükleri randomize çalışmayı 26 Ekim 2026'da yayımladı. İlk resüsitasyondan sonra 85 hasta altı saatlik iki stratejiden birine atandı: kapiller dolum süresinin en fazla üç saniye olması ya da arteriyel laktatın en fazla 2 mmol/L olması veya saatte yüzde 10'dan çok azalması hedeflendi. Çalışma ileriye dönük ve randomizeydi; ancak tek merkezli ve açık etiketliydi. [1]",
+            "Altı saatte toplam intravenöz sıvı medyanı kapiller dolum süresi grubunda 1135 mL, laktat grubunda 1350 mL idi. Hodges-Lehmann konum kayması tahmini −250 mL; yüzde 95 güven aralığı −500 ile −20 mL ve P değeri 0,035'ti. Yazarlar farkın klinik öneminin belirsiz olduğunu ve daha iyi klinik sonuçların kanıtlanmadığını özellikle belirtiyor. [1]"
+          ]
+        },
+        {
+          "heading": "Çalışma tam olarak neyi karşılaştırdı?",
+          "paragraphs": [
+            "Kapiller dolum süresi, tırnak yatağına veya deriye kısa süre basıldıktan sonra rengin geri dönme zamanıdır; uzaması yetersiz periferik perfüzyona işaret edebilir. Kan laktatı ise şokta farklı nedenlerle yükselebilen ve dolaşım düzelmesinden daha yavaş gerileyebilen bir laboratuvar göstergesidir. Çalışmanın sorusu iki tanı testinden hangisinin daha iyi olduğu değildi; hemodinamik tedaviyi ayarlamak için kullanılan, hedefe dayalı iki karar paketini karşılaştırdı. [1]",
+            "CRT grubunda 44, laktat grubunda 41 hasta vardı. Müdahale ilk resüsitasyondan sonra başladı ve yalnız kristaloid boluslarını değil, altı saatte verilen toplam sıvıyı saydı. Araştırmacılar sıvı sonucunun yazılı protokolde önceden ikincil sonlanım olarak bulunduğunu; fakat mortaliteyi sınamak için gereken örneklemin çok altında kalındığı için bu raporda ana erken resüsitasyon sonucu yapıldığını bildiriyor. İç protokolde yer alsa bile bu öncelik değişikliği çıkarımın kesinliğini azaltır. [1]"
+          ]
+        },
+        {
+          "heading": "Sayılar ne söylüyor, ne söylemiyor?",
+          "paragraphs": [
+            "Altıncı ve 24. saatte pozitif sıvı dengesi de CRT grubunda daha düşüktü; ancak bildirilen P değerleri nominaldi ve çoklu karşılaştırmalar için düzeltilmemişti. Altı ila 24. saatlerde kapiller dolum süresi, arteriyel laktat veya norepinefrin dozu açısından gruplar arasında anlamlı fark görülmedi. Başka bir deyişle stratejiler sıvı kullanımını bir miktar değiştirdi, fakat çalışma herhangi bir fizyolojik göstergenin kalıcı olarak daha iyi olduğunu göstermedi. [1]",
+            "Yirmi sekiz günlük mortalite CRT grubunda 44 hastanın 10'unda, yüzde 22,7; laktat grubunda 41 hastanın 12'sinde, yüzde 29,3'tü. Risk oranı 0,78 ve çok geniş yüzde 95 güven aralığı 0,38-1,60 idi; bu aralık hem önemli yararı hem olası zararı dışlamıyor. Ventilatörsüz günler sayısal olarak daha fazlaydı, fakat bu ve diğer sonraki klinik sonuçlar keşif amaçlıdır. Çalışmanın mortalite için gücü yoktu ve sağkalım hakkında kesin sonuç veremez. [1]"
+          ]
+        },
+        {
+          "heading": "Duyarlılık analizi önemli bir uyarı ekledi",
+          "paragraphs": [
+            "Başlangıçta sekiz katılımcının kapiller dolum süresi zaten üç saniye veya daha kısaydı; yani müdahale öncesinde CRT hedefindeydiler. Araştırmacılar verileri gördükten sonra bu kişileri dışladığında sıvı farkı tahmini −240 mL oldu, ancak güven aralığı sıfıra ulaştı ve P değeri 0,052'ye çıktı. Bu sonradan yapılan analiz ana bulguyu otomatik olarak geçersiz kılmaz; yine de istatistiksel üstünlüğün kırılgan ve nüfus seçimine duyarlı olduğunu gösterir. [1]",
+            "Çalışma ayrıca hasta alımı tamamlandıktan sonra, 5 Ağustos 2025'te Çin Klinik Araştırma Kaydı'na geriye dönük olarak kaydedildi. Geç kayıt, sonlanımların önceden belirlenmiş sırasını ileriye dönük kayıt kadar doğrulanabilir kılmaz. Makale etik onay, bilimsel inceleme ve yazılı protokolün hasta alımından önce var olduğunu belirtiyor; fakat kamuya açık kayıt altı saatlik sıvı girdisini ileriye dönük birincil sonlanım olarak sabitlemiyor. Bu sınırlılık randomizasyonun yanında açıkça görülmelidir. [1]"
+          ]
+        },
+        {
+          "heading": "Bulgular daha büyük kanıtların neresinde?",
+          "paragraphs": [
+            "2025'teki ANDROMEDA-SHOCK-2 çalışması, 19 ülkedeki 86 yoğun bakım ünitesinden 1467 hastayı içerdi. CRT'yi normalleştirmeyi hedefleyen kişiselleştirilmiş strateji, olağan bakıma göre mortalite, yaşam desteği süresi ve hastanede kalışı sıralı biçimde birleştiren sonlanımda istatistiksel üstünlük gösterdi; fark esas olarak daha kısa yaşam desteği süresinden kaynaklandı. O protokol nabız basıncı, sıvı yanıtlılığı, diyastolik basınç ve ekokardiyografiyi de kullandığı için yeni çalışmadaki doğrudan CRT-laktat karşılaştırmasıyla aynı değildir. [2]",
+            "Bu nedenle 85 kişilik çalışma, mortalite azalmasının bağımsız doğrulaması ya da ANDROMEDA-SHOCK-2'nin basitleştirilmiş kopyası olarak okunmamalıdır. Katkısı daha dardır: Tek bir merkezde CRT hedeflemenin biraz daha az sıvı girdisiyle yürüyebileceğini ve daha büyük, önceden kayıtlı araştırmalarda sınanacak bir hipotez oluşturduğunu gösterir. Bazı hastalar için 250 mL önemli olabilir; ancak sıvı bileşenleri, hasta odaklı sonuçlar ve tekrarlanabilirlik netleşmeden farkın büyüklüğünün klinik anlamı bilinmez. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar, kanıt düzeyi ve pratik mesaj",
+          "paragraphs": [
+            "Tek merkezli tasarım genellenebilirliği sınırlar. Açık etiketli olması, ekibin grubu bilmesinin sıvı, vazopresör veya başka müdahale kararlarını etkilemesine yol açabilir. Küçük örneklem, hedefin altında katılım, sonlanım önceliğinin değiştirilmesi, geriye dönük kayıt ve birden fazla sonucun sınanması tesadüfi pozitif bulgu riskini artırır. Ayrıca çalışma stratejileri değerlendirdi; CRT ölçümünün laktata karşı saf etkisini ayırmadı. Sıvı kullanımı için kanıt randomize olsa da keşif amaçlı ve düşük kesinliktedir; sağkalım için yetersizdir. [1]",
+            "Okur için pratik mesaj, tırnağa basarak sıvı tedavisi kararı vermek değildir. Septik şok hastanede acil tedavi gerektirir; sıvı, vazopresör, laktat, kan basıncı, idrar çıkışı, ekokardiyografi ve tedavi yanıtı birlikte değerlendirilir. Bu çalışma periferik perfüzyona dikkat edilmesini destekler, fakat yoğun bakımın yerel protokolünün veya klinik ekibin kararının yerini almaz ve tek başına bakım standardını değiştirecek güçte değildir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Septik şok cerrahisinde dobutamin: Böbrek sonucu ve taşikardi riski",
+          "path": "latest/2026-10-15-dobutamine-septic-shock-aki.html"
+        },
+        {
+          "label": "Kalp krizinden sonra roksadustat: Birincil sonlanım negatif olduğunda",
+          "path": "latest/2026-10-12-roxadustat-stemi-infarct-size.html"
+        },
+        {
+          "label": "Cerrahi sonrası KRAS aşısı: Bağışıklık yanıtı birincil hedef değildir",
+          "path": "latest/2026-10-24-camupepimut-pancreatic-cancer-phase2.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Gao F, Xu Y, Li Z ve diğerleri · Septik şok resüsitasyonunda CRT ile laktat hedeflerini karşılaştıran randomize çalışma · Scientific Reports · 26 Ekim 2026",
+          "url": "https://www.nature.com/articles/s41598-026-77226-w",
+          "doi": "10.1038/s41598-026-77226-w"
+        },
+        {
+          "label": "Hernández G ve ANDROMEDA-SHOCK-2 araştırmacıları · Erken septik şokta CRT hedefli kişiselleştirilmiş resüsitasyon · JAMA · 29 Ekim 2025",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2840823",
+          "doi": "10.1001/jama.2025.20402"
+        }
+      ]
+    },
+    {
       "id": "2026-10-26-lifestyle-phase-angle-muscle-bone",
       "category": "health",
       "published": "2026-10-26",
