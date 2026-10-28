@@ -3,6 +3,93 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-28-hba1c-residual-periodontal-pockets",
+      "category": "dentistry",
+      "published": "2026-10-28",
+      "studyDate": "2026-10-27",
+      "image": "assets/latest/hba1c-periodontal-pockets-2026.webp",
+      "imageSource": "https://link.springer.com/article/10.1186/s12903-026-10261-1",
+      "imageRights": "Original editorial visualization based only on the published cohort size, residual-pocket frequency, and internally validated model performance. No publisher figure, patient image, logo, nomogram, or proprietary artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Springer Nature, BMC Oral Health, and the study authors do not endorse this visualization or website.",
+      "imageCredit": "Veriler: Meng, Hao ve Liu, BMC Oral Health; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "title": "Diş eti tedavisi sonrası cep tahmini: Model umut verici, rutin kullanıma hazır değil",
+      "summary": "Tek merkezli, geriye dönük 420 kişilik kohortta hastaların yüzde 35,2'sinde cerrahi olmayan periodontal tedaviden üç ila altı ay sonra en az bir 5 mm veya daha derin cep kaldı. Beş değişkenli model içeride iyi performans gösterdi; ancak bağımsız bir toplulukta doğrulanmadı ve tedavi kararını belirlemiyor.",
+      "evidence": "Tek merkezli, geriye dönük kohort; 2019-2024 arasında tedavi edilen 420 hasta, model geliştirme ve 1.000 bootstrap örneklemiyle iç doğrulama. Zamansal ya da dış doğrulama yok; modeli kullanmanın hasta sonuçlarını iyileştirdiği sınanmadı. Klinik uygulama için kanıt düzeyi şimdilik başlangıç aşamasındadır",
+      "access": "Resmî makale sayfası ile 20 sayfalık Article in Press tam metni; yöntemler, tablolar, duyarlılık analizleri, sınırlılıklar, finansman ve çıkar çatışması bölümleri incelendi. Hakem değerlendirmesinden geçen makale kalıcı DOI ile 27 Ekim 2026'da yayımlandı, ancak son redaksiyonlu kayıt sürümü değildir. İnceleme sırasında makale sayfasında ve başlık/DOI taramasında düzeltme, geri çekme ya da endişe bildirimi görülmedi. Eşlik eden görsel makalenin şekli veya nomogramı değildir.",
+      "takeaway": "HbA1c, sigara, plak, en fazla kemik kaybı ve derin ceplerin oranı bu örneklemde cep kalmasıyla ilişkiliydi. Bu, içeride doğrulanmış bir tahmin modelidir; neden kanıtı ya da tedaviye hazır hesaplayıcı değildir. Tedavi sonrası her diş ve bölgenin yeniden değerlendirilmesi zorunluluğu sürer.",
+      "alt": "Periodontitisli 420 hastanın çalışmasında 148 hastada kalan cep, yüzde 35,2 sıklık ve beş değişkenli modelin düzeltilmiş 0,810 AUC değerini gösteren bağımsız infografik",
+      "caption": "Çalışmanın üç ana sayısının bağımsız gösterimi. Düzeltilmiş AUC, aynı merkezdeki iç doğrulamada modelin ayırt etme gücünü anlatır; dış geçerlilik, tedavi etkinliği veya cebin yerini göstermez.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Han Meng, Ting Hao ve Yue Liu, 27 Ekim 2026'da BMC Oral Health'te geriye dönük bir kohort çalışması yayımladı. Çin'deki tek bir merkezde 2019-2024 arasında standart diş taşı temizliği ve kök yüzeyi düzleştirmesi uygulanan 420 periodontitisli yetişkinin kayıtları incelendi. Üç ila altı ay sonraki kontrolde en az bir bölgede sondalama derinliğinin 5 mm veya daha fazla olması ana sonuçtu. [1]",
+            "Yüz kırk sekiz hastada, yani yüzde 35,2'de, kalan periodontal cep vardı. Son model beş değişken içerdi: başlangıç HbA1c'si, sigara durumu, tüm ağız plak skoru, en fazla alveoler kemik kaybı ve başlangıçta en az 6 mm derinlikte olan bölgelerin yüzdesi. Görünür AUC 0,824, bootstrap ile iyimserlik düzeltmesi sonrası AUC 0,810'du; içeride umut verici bir ayırım, rutin kullanım izni değil. [1]"
+          ]
+        },
+        {
+          "heading": "Araştırmacılar modeli nasıl kurdu?",
+          "paragraphs": [
+            "Taranan 582 kaydın 162'si; çoğunlukla başlangıca yakın HbA1c bulunmaması, yeniden değerlendirme eksikliği, 10'dan az diş veya sistemik antibiyotik kullanımı nedeniyle dışlandı. Önceden belirlenen 16 öngördürücü LASSO regresyonuyla değerlendirildi. Yüzde 5-20 eksikliği olan veriler çoklu atamayla ele alındı ve sürekli değişkenlerin ilişki biçimi kısıtlı kübik eğrilerle sınandı. [1]",
+            "Yöntemsel bir güç, 1.000 bootstrap örnekleminin her birinde eksik veri yönetiminden ceza seçimine, değişken seçimine ve yeniden model kurmaya kadar bütün geliştirme sürecinin tekrarlanmasıydı. Düzeltilmiş kalibrasyon eğimi 0,95, Brier skoru 0,146 idi. Bununla birlikte bootstrap yine aynı hastalardan ve aynı merkezden gelir; yeni bir hastane ya da nüfus modeli henüz sınamadı. [1]"
+          ]
+        },
+        {
+          "heading": "Bu sayılar ne anlama geliyor?",
+          "paragraphs": [
+            "Yaklaşık 0,81 AUC, kalan cebi olan bir hasta ile olmayan bir hasta rastgele eşleştirildiğinde modelin çiftlerin yaklaşık yüzde 81'inde ilk hastaya daha yüksek puan verdiği anlamına gelir. AUC, kişisel olasılıkların doğru kalacağını, belirli cebin yerini bulacağını ya da model kullanılırsa sağlığın iyileşeceğini kanıtlamaz. İyi görünen iç kalibrasyon başka bir nüfusa taşındığında bozulabilir. [1]",
+            "Veriden seçilen 0,38 eşiğinde duyarlılık yüzde 78,4; özgüllük yüzde 74,3; pozitif öngörü değeri yüzde 62,5 ve negatif öngörü değeri yüzde 86,4'tü. Youden indeksinden aynı veriyle çıkarılan bu eşik zorunlu bir tedavi eşiği değildir. Karar eğrisi yüzde 10-75 aralığında olası net yarar gösterdi; fakat gerçek yararı sınamak için hiçbir hasta nomograma göre tedavi edilmedi. [1]"
+          ]
+        },
+        {
+          "heading": "HbA1c ve sigara: Öngördürücü, neden kanıtı değil",
+          "paragraphs": [
+            "Ortalama HbA1c, kalan cep grubunda yüzde 7,2; diğer grupta yüzde 6,1'di. Modelde her bir yüzde puanlık HbA1c artışı sonuç olasılığıyla ilişkili kaldı ve Avrupa Periodontoloji Federasyonu tanımına uyumlu duyarlılık analizinde ilişkinin yönü değişmedi. Ancak gözlemsel tasarım, yalnız HbA1c düşürmenin cep kalmasını önleyeceğini gösteremez. [1]",
+            "Güncel sigara kullanımı, hiç içmemeye kıyasla kalan cep olasılığının iki kattan fazla artmasıyla ilişkiliydi. Çalışmada günlük miktar, paket-yıl ve bırakma süresi ayrıntılı değildi; bu nedenle eski içicilerde istatistiksel anlam çıkmamasını hiç içenlerle eşitlik diye yorumlamak yanlış olur. Plak, kemik yıkımı ve başlangıçtaki derin cep yükü de tahmine bilgi ekledi; ilişki nedensellik değildir. [1]"
+          ]
+        },
+        {
+          "heading": "Model neden henüz tedaviye hazır değil?",
+          "paragraphs": [
+            "Çalışma geriye dönük, tek merkezli ve kontrole dönen kişilerin kayıtlarına bağlıydı; ölçüm hatası, kalan karıştırıcılık ve seçim yanlılığı mümkündür. Diyabet ilaçları, eş hastalıklar, beslenme, tedaviye uyum, sosyoekonomik durum, mikrobiyom ve inflamasyon belirteçleri eksiksiz yakalanmadı. Sonuç yalnız üç ila altı aylık yanıtı kapsadı; uzun dönem stabilite, yeniden tedavi, cerrahi veya diş kaybını açıklamıyor. [1]",
+            "Model hasta düzeyinde en az bir cep bulunma olasılığını verir; hangi diş ya da yüzeyin etkilendiğini ve kemik kusurunun biçimini söylemez. EFP kılavuzu aşamalı kararları bölge bazında sondalama, kanama, cep derinliği, furkasyon, hareketlilik, plak kontrolü ve hasta tercihiyle ilişkilendirir. Genel bir olasılık bu muayeneyi kaldıramaz ve tek başına cerrahiyi gerekçelendiremez. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Kanıt düzeyi ve pratik mesaj",
+          "paragraphs": [
+            "İlişkiler için kanıt gözlemsel, model performansı için ise yalnız iç doğrulamadır; bu ne bir etkinlik çalışmasıdır ne de dış doğrulamadır. Farklı duyarlılık analizlerinde benzer sonuçlar ve iyimserlik düzeltmesi güçlü yönlerdir. Sonraki adımlar zamansal ve çok merkezli doğrulama, farklı topluluklarda kalibrasyon ve ardından model kullanımının kararlarla hasta sonuçlarını değiştirip değiştirmediğinin sınanmasıdır. O zamana kadar nomogram araştırma aracı sayılmalıdır. [1]",
+            "Pratik mesaj, periodontal tedavi yanıtının tek bir sayıya indirgenemeyeceğidir. Plak kontrolü, sigarayı bırakma ve diyabet bakımının eşgüdümü önemlidir; ancak bu çalışma kişiye özel reçete veya yeni bir HbA1c hedefi belirlemez. Cerrahi olmayan tedaviden sonra tam yeniden değerlendirme zamanında yapılmalı; ek tedavi kararını diş hekimi veya periodontolog her bölgenin gerçek bulgularına göre vermelidir."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Tükürük diş eti hastalığını gösterebilir mi? Meta-analizin uyarısı",
+          "path": "latest/2026-10-05-salivary-alp-periodontitis.html"
+        },
+        {
+          "label": "Diş hekimliğinde diyabet taraması: Tarama testi, tanı değil",
+          "path": "latest/2026-10-20-dental-diabetes-screening-indicate.html"
+        },
+        {
+          "label": "Kök kapatma cerrahisinde PRF veya amniyon zarı: Belirgin üstünlük yok",
+          "path": "latest/2026-10-11-gingival-recession-prf-am.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Meng H, Hao T ve Liu Y · Cerrahi olmayan tedavi sonrası kalan cepler için nomogram geliştirme ve iç doğrulama · BMC Oral Health · 27 Ekim 2026",
+          "url": "https://link.springer.com/article/10.1186/s12903-026-10261-1",
+          "doi": "10.1186/s12903-026-10261-1"
+        },
+        {
+          "label": "Sanz M ve diğerleri · Avrupa Periodontoloji Federasyonu evre I-III tedavi S3 klinik uygulama kılavuzu · Journal of Clinical Periodontology · 2020",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcpe.13290",
+          "doi": "10.1111/jcpe.13290"
+        }
+      ]
+    },
+    {
       "id": "2026-10-27-capillary-refill-septic-shock-fluids",
       "category": "medicine",
       "published": "2026-10-27",
