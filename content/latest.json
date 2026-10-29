@@ -3,6 +3,98 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-10-29-leap-block-left-bundle-pacing",
+      "category": "medicine",
+      "published": "2026-10-29",
+      "studyDate": "2026-10-28",
+      "image": "assets/latest/leap-block-pacing-2026.webp",
+      "imageSource": "https://jamanetwork.com/journals/jama/article-abstract/2855975",
+      "imageRights": "Original editorial visualization based only on the published participant count, number of sites, 24-month composite-endpoint percentages, and heart-failure-event percentages. No JAMA figure, patient image, device photograph, logo, or proprietary artwork was reproduced or adapted. Visualization licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. JAMA, the American Medical Association, the investigators, and the funders do not endorse this visualization or website.",
+      "imageCredit": "Veriler: Li ve diğerleri, JAMA; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "title": "Kalp bloğunda sol dal alanı uyarımı: Bileşik sonuç azaldı, ölüm için yanıt net değil",
+      "summary": "LEAP-Block randomize çalışmasında 482 hasta 24 ay izlendi. Ölüm, kalp yetersizliği olayı veya iki ventriküllü uyarıma yükseltmeden oluşan bileşik sonuç, sol dal alanı uyarımında sağ ventrikül uyarımına göre daha düşüktü. Farkın büyük bölümü kalp yetersizliği olaylarından geldi; tek başına ölüm anlamlı olarak farklı değildi.",
+      "evidence": "Çin'deki 14 hastanede yürütülen ileriye dönük, çok merkezli, randomize, kontrollü üstünlük çalışması; 499 kişi randomize edildi, 482 kişi birincil analizde yer aldı, sonuç değerlendirmesi kör ve takip 24 aydı. Bileşik sonucun tek tek bileşenleri için yetersiz güç, randomizasyon sonrası az sayıda dışlama ve farklı elektrotlarla topluluklara sınırlı genellenebilirlik",
+      "access": "Ana makalenin resmî özeti ve JAMA araştırma özeti; tasarım, katılım ölçütleri, sonuç sayıları ve sınırlılıklar açısından incelendi. Ana makalenin tam metni ile PDF'sine bu incelemede erişilemedi; bu nedenle yazı tam metin incelemesi olarak sunulmuyor. Klinik bağlam için 2023 HRS/APHRS/LAHRS kılavuzunun tam metni de incelendi. İnceleme sırasında başlık veya DOI için düzeltme, geri çekme ya da endişe bildirimi görülmedi. Eşlik eden görsel makale şekli veya cihaz fotoğrafı değildir.",
+      "takeaway": "Atriyoventriküler blok, korunmuş ejeksiyon fraksiyonu ve yüzde 40'ın üzerinde beklenen ventrikül uyarım yükü bulunan seçilmiş yetişkinlerde sol dal alanı uyarımı bu çalışmada 24 aylık bileşik sonucu azalttı. Bu, her hasta için üstünlük ya da ölüm azalması kanıtı değildir; yöntem seçimi anatomiye, merkez deneyimine, elektrot türüne ve bireysel koşullara bağlıdır.",
+      "alt": "LEAP-Block çalışmasındaki 14 hastanede analiz edilen 482 hastayı, sol dal alanı uyarımında yüzde 2,4'e karşı sağ ventrikül uyarımında yüzde 12,5 bileşik sonuç oranını ve yüzde 3,4'e karşı yüzde 11,3 kalp yetersizliği olayı oranını gösteren bağımsız infografik",
+      "caption": "Çalışma özetinde bildirilen sayıların bağımsız gösterimi. Bileşik sonuç yüzdeleri 24 aylık düzeltilmiş değerlerdir; grafik zaman-olay eğrisinin, yöntem ayrıntılarının veya bireysel klinik kararın yerini tutmaz.",
+      "sections": [
+        {
+          "heading": "Bir dakikalık özet",
+          "paragraphs": [
+            "Xiaofei Li, Haixiong Wang, Wenjuan Zhang ve LEAP-Block araştırmacıları, 28 Ekim 2026'da JAMA'da çok merkezli randomize bir çalışmanın sonuçlarını yayımladı. Soru şuydu: Sol ventrikül ejeksiyon fraksiyonu en az yüzde 50 olan ve ventrikül atımlarının yüzde 40'tan fazlasının uyarılması beklenen atriyoventriküler bloklu hastalarda, sol dal alanına elektrot yerleştirmek standart sağ ventrikül uyarımından daha iyi mi? [1]",
+            "Birincil analize alınan 482 hastada 24 aylık ölüm, kalp yetersizliği olayı veya iki ventriküllü uyarıma yükseltmeden oluşan bileşik sonuç sol dal alanı grubunda yüzde 2,4, sağ ventrikül grubunda yüzde 12,5'ti; mutlak fark 10,1 yüzde puanıydı. Kaplan-Meier tahmini yüzde 5,0'a karşı yüzde 13,2 ve tehlike oranı 0,37 olarak bildirildi. Sonuç güçlü, ancak bileşik sonucun bileşenleri ayrı ayrı okunmalı. [1]"
+          ]
+        },
+        {
+          "heading": "Çalışma nasıl yürütüldü?",
+          "paragraphs": [
+            "Değerlendirilen 551 kişinin 499'u, 2021-2025 arasında Çin'deki 14 hastanede merkezî web sistemiyle bire bir randomize edildi: 249 kişi sol dal alanı, 250 kişi sağ ventrikül uyarımına ayrıldı. Birincil analizde ortalama yaş 67 idi ve katılımcıların yüzde 46'sı kadındı. Sonuç değerlendirmesi kördü; elektrot yerleştiren ekibin müdahaleye körlenmesi ise yöntemin doğası gereği mümkün değildi. [1, 2]",
+            "Tüm hastalara çift odacıklı kalp pili takıldı. Müdahale grubunda elektrot, septumda kalbin doğal ileti sistemine yakın alanı uyarmak üzere yerleştirildi; karşılaştırma grubunda sağ ventrikül septumu veya apeksi kullanıldı. Akut işlem başarısı benzerdi: yüzde 97,9'a karşı yüzde 99,6. Ancak sol dal 'alanına' başarılı yerleşim her zaman dalın kendisinin yakalandığı anlamına gelmedi; değerlendirilebilen 236 hastanın 188'inde, yani yüzde 79,7'sinde sol dal yakalanması doğrulandı. [1]"
+          ]
+        },
+        {
+          "heading": "Yarar hangi bileşenden geldi?",
+          "paragraphs": [
+            "Kalp yetersizliği olayları sol dal alanı grubunda 242 hastanın 8'inde, yani yüzde 3,4'te; sağ ventrikül grubunda 240 hastanın 26'sında, yani yüzde 11,3'te görüldü. Mutlak fark 7,9 yüzde puanıydı. Bu dağılım, bileşik sonuçtaki azalmanın esas olarak kalp yetersizliği olaylarıyla açıklanabildiğini gösteriyor. Düzeltilmiş bileşik sonuç yüzdeleri temel alınırsa mutlak fark 24 ayda yaklaşık her 10 hastada bir olayın önlenmesine denk gelir; bu betimleyici bir tahmindir, kişisel yarar garantisi değildir. [1]",
+            "Tek başına tüm nedenlere bağlı ölüm, iki ventriküllü uyarıma yükseltme, cihazla ilişkili komplikasyonlar ve uyarıma bağlı kardiyomiyopati için anlamlı fark görülmedi. Dolayısıyla 'ölümü azalttı' başlığı doğru olmaz. Öte yandan tek tek bileşenlerde anlamlılık çıkmaması da yöntemlerin eşitliğini kanıtlamaz; çalışma her bileşendeki farkı ayrı ayrı saptayacak güçte değildi. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Uyarım yeri neden önemli olabilir?",
+          "paragraphs": [
+            "Sağ ventrikül uyarımı iki ventrikülün doğal etkinleşme yolunu devre dışı bırakır ve bazı hastalarda eşzamanlı olmayan kasılmaya yol açar. Yüksek uyarım yükü zaman içinde sol ventrikül işlevinde azalma ve kalp yetersizliğiyle ilişkili olabilir. Sol dal alanı dâhil ileti sistemi uyarımı, elektriksel yayılımı doğal yola yaklaştırmayı amaçlar. Yeni çalışma bu fizyolojik mantığı yalnız QRS genişliği veya ekokardiyografi sayılarıyla değil, randomize klinik sonuçlarla ilişkilendiriyor. [1, 3]",
+            "2023 HRS/APHRS/LAHRS kılavuzu, normal ejeksiyon fraksiyonu ve belirgin uyarım yükü beklenen hastalarda fizyolojik kalp uyarımını değerlendirilebilir bir seçenek olarak görüyordu; aynı zamanda ileti sistemi uyarımı kanıtlarının çoğunlukla gözlemsel ve uzun dönem elektrot takibinin sınırlı olduğunu açıkça belirtiyordu. LEAP-Block bu boşluğun bir bölümünü randomize karşılaştırmayla dolduruyor, fakat tüm klinik senaryolar veya tüm elektrot teknolojileri için kılavuzu tek başına yeniden yazmıyor. [3]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve genellenebilirlik",
+          "paragraphs": [
+            "Takip yalnız 24 aydı. Yıllarca vücutta kalacak bir cihaz için elektrot dayanıklılığı, uyarım eşiği, olası çıkarma işlemi ve çok geç komplikasyonlar önemlidir. Merkezlerin tamamı Çin'deydi ve sol dal alanı yöntemi lümensiz bir elektrotla uygulandı; sonuç stiletli elektrotlara, daha az deneyimli merkezlere veya başka sağlık sistemlerine doğrudan taşınamaz. Randomizasyondan sonra az sayıda kişinin ana analizden çıkarılması sınırlı seçim yanlılığı yaratmış olabilir. [2]",
+            "Çalışma topluluğu da dardı: sinüs ritmi, en az yüzde 50 ejeksiyon fraksiyonu ve yüzde 40'tan fazla beklenen ventrikül uyarım yükü. Süreğen atriyal fibrilasyonu, önceki kalp pili, defibrilatör gereksinimi veya bir yıl içinde planlı kalp ameliyatı olanlar dışlandı. Bu nedenle sonuç sistolik kalp yetersizliği, düşük uyarım gereksinimi, çocuklar veya zor septum anatomisi olan kişilere doğrudan genellenemez. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Kanıt düzeyi ve pratik mesaj",
+          "paragraphs": [
+            "Aynı topluluktaki bileşik sonuç için kanıt düzeyi görece yüksektir: randomizasyon, çok merkezli tasarım, kör sonuç değerlendirmesi ve güven aralığıyla bildirilen büyük etki. Buna karşın bileşik sonuca dayanılması, tek tek bileşenler için yetersiz güç, orta uzunlukta takip ve bu incelemede ana makalenin tam metnine erişilememesi temkin gerektirir. Çalışma NCT04730921 numarasıyla kayıtlıydı; finansman Çin Kardiyoloji Derneği ve Çin Tıp Bilimleri Akademisi Tıp Bilimleri İnovasyon Fonu tarafından sağlandı. [1, 2]",
+            "Pratik mesaj, kalp pili gereken herkesin yöntemini değiştirmesi değildir. Yeni kalp pili planlanan bir kişide sağ ventrikül, sol dal alanı ve diğer seçenekler arasındaki karar; blok nedeni, beklenen uyarım yükü, anatomi, operatör deneyimi, elektrot türü ve takip olanağı dikkate alınarak elektrofizyoloji uzmanıyla verilmelidir. Bu çalışma bilinçli görüşme için güçlü bir dayanak sunuyor; uzaktan kişisel tedavi reçetesi değil."
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Hizmetten yoksun bölgelerde PCI erişimi ve kalp krizi sağkalımı",
+          "path": "latest/2026-10-13-pci-access-ami-outcomes.html"
+        },
+        {
+          "label": "Roksadustat kalp krizinden sonra hasarlı alanı küçültmedi",
+          "path": "latest/2026-10-12-roxadustat-stemi-infarct-size.html"
+        },
+        {
+          "label": "Kalp-damar olayları azaldı, gelir eşitsizliği sürdü",
+          "path": "latest/2026-10-16-income-cardiovascular-inequality-denmark.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Li X, Wang H, Zhang W ve diğerleri · LEAP-Block randomize çalışması: sol dal alanı ve sağ ventrikül uyarımının karşılaştırılması · JAMA · 28 Ekim 2026",
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/2855975",
+          "doi": "10.1001/jama.2026.18146"
+        },
+        {
+          "label": "JAMA · LEAP-Block araştırma özeti; tasarım, bulgular ve sınırlılıklar · 28 Ekim 2026",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2855972",
+          "doi": "10.1001/jama.2026.19090"
+        },
+        {
+          "label": "Chung MK ve diğerleri · 2023 HRS/APHRS/LAHRS fizyolojik kalp uyarımı kılavuzu · Heart Rhythm",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11062890/",
+          "doi": "10.1016/j.hrthm.2023.03.1538"
+        }
+      ]
+    },
+    {
       "id": "2026-10-28-hba1c-residual-periodontal-pockets",
       "category": "dentistry",
       "published": "2026-10-28",
