@@ -3,6 +3,92 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-11-01-cthpvdna-patient-experiences",
+      "category": "medicine",
+      "published": "2026-11-01",
+      "studyDate": "2026-10-29",
+      "image": "assets/latest/hpv-oropharyngeal-cancer-nidcr.webp",
+      "imageSource": "https://www.nidcr.nih.gov/grants-funding/funded-research/research-investments-advances/hpv-oropharyngeal-cancer",
+      "imageRights": "NIDCR states that most material on its website is in the public domain and, unless otherwise noted, may be freely downloaded and reproduced with credit: https://www.nidcr.nih.gov/about-us/web-policies. No separate copyright notice or third-party credit was observed for hpv.jpg on the source page. The source image was center-cropped, compressed, and converted to WebP for display. It is a contextual HPV image, not a specimen, participant, assay result, or figure from the study. NIDCR, NIH, JAMA, the investigators, and the funders do not endorse this website.",
+      "imageCredit": "NIDCR / NIH; bağlamsal HPV görseli",
+      "title": "HPV pozitif orofarenks kanserinde ctHPVDNA izlemi: Hastalar testi benimsedi, klinik yarar kanıtlanmadı",
+      "summary": "HPV pozitif orofarenks kanseri tedavisi görmüş 20 kişiyle yapılan tek merkezli görüşme çalışmasında katılımcıların çoğu ctHPVDNA kan testini izlemin değerli bir tamamlayıcısı olarak gördü; sonucun açık anlatılmasını ve maliyetin karşılanabilir olmasını önemsedi. Küçük çalışma test doğruluğunu, nüks saptamayı, sağkalımı veya yaşam kalitesindeki iyileşmeyi ölçmedi.",
+      "evidence": "Yarı yapılandırılmış görüşmeler ve amaçlı örneklem kullanan karma yöntemli kesitsel çalışma; tek bir akademik kanser merkezinden, doğru ve yanlış test sonucu deneyimlerini içeren 20 hasta. Hasta deneyimini ve iletişim temalarını anlamaya uygun; tanısal doğruluk, prevalans, izlem etkinliği veya klinik sonuç tahmini için uygun değil",
+      "access": "Ana JAMA Otolaryngology makalesinin tam özeti ve bibliyografik bilgileri incelendi; tam metne bu değerlendirme için erişilemedi ve bulgular özetin ötesine taşınmadı. Bağlam için American Head and Neck Society'nin 2026 tarihli derlemesinin tam metni ile NIDCR'nin resmi sayfası incelendi. Derlemenin 22 Ekim 2026 düzeltmesi kaynaklar bölümündeki bir hatayla ilgiliydi. İnceleme sırasında ana çalışmanın başlığı veya DOI'si için düzeltme, geri çekme ya da endişe bildirimi görülmedi.",
+      "takeaway": "Çalışma, sağlık ekibi negatif, pozitif ve belirsiz sonuçları dikkatle açıkladığında birçok hastanın kan temelli izlemi kabul edebileceğini gösteriyor. Ancak hasta kabulü tıbbi yararın kanıtı değildir: ctHPVDNA henüz standart muayene ve görüntülemenin yerini almamalı, her sonuç klinik bağlam içinde yorumlanmalıdır.",
+      "alt": "HPV pozitif orofarenks kanseri izlemi yazısı için mavi tonlarda insan papillomavirüsü parçacıkları; NIDCR'ye ait bağlamsal görsel çalışma örneği veya sonucu değildir",
+      "caption": "NIDCR'den bağlamsal HPV görseli. HPV pozitif orofarenks kanseri konusunu açıklamak için kullanılmıştır; katılımcı fotoğrafı, kan örneği veya ctHPVDNA test çıktısı değildir.",
+      "sections": [
+        {
+          "heading": "Bir dakikada ana fikir",
+          "paragraphs": [
+            "Grace Fleming, Hannah Roth, Glenn Hanna ve çalışma arkadaşları, insan papillomavirüsüyle ilişkili orofarenks kanseri sonrası izleme ilişkin hasta deneyimlerini 29 Ekim 2026'da JAMA Otolaryngology'de yayımladı. İncelenen yöntem ctHPVDNA testiydi: Tümör hücrelerinden kana karışan HPV DNA parçalarının ölçülmesi, tedaviden sonra nüksün saptanmasına yardımcı olabilir. Bu, rutin HPV testiyle veya sağlıklı kişilerin toplum taramasıyla aynı şey değildir. [1, 3]",
+            "Araştırmacılar, HPV pozitif kanser tedavisi görmüş ve çalışmaya alınmadan en az üç ay önce bir veya daha fazla izlem ctHPVDNA testi yaptırmış 20 yetişkinle görüştü. Katılımcılar testi genel olarak kabul edilebilir ve güven verici buldu; ancak test sayısından çok kanser ekibinin sonucu nasıl yorumladığına güvendiler. Ana sonuç hasta deneyimi ve iletişimdi; testin kaç nüks yakaladığı ya da kaç yaşamı kurtardığı değildi. [1]"
+          ]
+        },
+        {
+          "heading": "Çalışma neyi ölçtü?",
+          "paragraphs": [
+            "Bu, tek bir akademik kanser merkezinde yürütülen karma yöntemli kesitsel bir çalışmaydı. Görüşmeler Haziran-Ağustos 2025 arasında yapıldı. Amaçlı örneklemle dört farklı deneyim küçük gruba özellikle dahil edildi: 8 doğru negatif, 6 doğru pozitif, 4 yanlış negatif ve 2 yanlış pozitif sonuç. Bu dağılım farklı öyküleri dinlemek için yararlıdır; ancak oranlar testin duyarlılığı, özgüllüğü veya gerçek hata oranı olarak okunamaz. Katılımcılar deneyim türlerine göre bilerek seçildi. [1]",
+            "Ortanca yaş 58 idi ve 20 katılımcının 16'sı erkekti. Araştırmacılar bir yarı yapılandırılmış görüşme yaptı, görüşme metinlerini tümevarımsal yaklaşımla kodladı ve cepten ödeme isteğini aşamalı fiyat teklifleriyle değerlendirdi. Bu nedenle kanıt, bu grubun algısını anlamaya uygundur; testi standart izlemin karşısına koymaya, adil fiyat belirlemeye veya sigorta geri ödeme politikası önermeye yeterli değildir. [1]"
+          ]
+        },
+        {
+          "heading": "Hastalar ne söyledi?",
+          "paragraphs": [
+            "Beş ana tema bildirildi: Hastalıkla ilgili bilgiyi daha erken öğrenmeye genel destek; negatif sonuçtan sonra rahatlama; kaygıyı kanserden sonraki yaşamın bir parçası olarak görme; kafa karıştırıcı sonuçları açıklaması için klinisyene güvenme; ve testi olağan izlemin yerine değil yanına ekleme isteği. Yanlış sonuç yaşamış kişiler bile çoğu zaman test fikrini destekliyordu. Bu ayrışma, 'daha çok bilgi' memnuniyetinin test sınırlılıklarının tam olarak anlaşıldığı anlamına gelmeyebileceğini gösteriyor. [1]",
+            "Maliyet ayrı bir temaydı. Her test için ortanca cepten ödeme isteği 325 dolar, aralık ise 0 ile 9.000 dolar arasında bildirildi. Bu çok geniş dağılım ve küçük örneklem, 325 doların ekonomik değer ya da önerilen fiyat gibi kullanılmasına izin vermez. Daha savunulabilir mesaj şudur: Eşit erişim, sigorta kapsamı ve maliyetin önceden açıklanması hasta merkezli uygulamanın parçası olmalıdır; aksi halde izlem aracı kanser sonrası döneme yeni bir mali yük ekleyebilir. [1]"
+          ]
+        },
+        {
+          "heading": "ctHPVDNA neyi gösterir, neyi göstermez?",
+          "paragraphs": [
+            "American Head and Neck Society'nin 2026 derlemesi, ctHPVDNA'nın bazı hastalarda nüksü klinik belirtilerden önce gösterebildiğini; ancak test platformlarının aynı olmadığını ve yanlış sonuçların oluşabildiğini anlatıyor. Derleme, ctHPVDNA'nın izleme eklenmesiyle nükslerin yüzde 40'ının klinik saptamadan ortalama yaklaşık iki ay önce bulunduğu 2025 tarihli ileriye dönük bir çalışmaya değiniyor. Buna karşın yaklaşımın genel sağkalımı, hastalıksız sağkalımı veya yaşam kalitesini iyileştirdiğine dair kanıt henüz yok. [2]",
+            "'Daha erken saptama' ile 'daha iyi klinik sonuç' arasındaki bu boşluk yeni çalışmayı okurken önemlidir. Negatif sonuç rahatlatıcı olabilir fakat nüks olmadığını garanti etmez; pozitif sonuç da tek başına kesin nüks tanısı değildir ve ek değerlendirme gerektirir. NIDCR ayrıca toplumda HPV pozitif orofarenks kanserini erken saptamak için standart bir tarama yöntemi bulunmadığını belirtiyor. Tedavi sonrası izlem ile daha önce kanser tanısı almamış kişilerin taranması ayrı sorulardır. [2, 3]"
+          ]
+        },
+        {
+          "heading": "Sınırlılıklar ve kanıt düzeyi",
+          "paragraphs": [
+            "Makale özeti sınırlılıkları ayrıntılı vermiyor ve tam metin bu incelemeye açık değildi. Yine de tasarımın belirgin sınırları var: Tek merkezden yalnız 20 kişi, amaçlı örneklem, karşılaştırma grubu olmaması, tek zamanlı görüşme ve hatırlama ya da seçilim yanlılığı olasılığı. Katılımcıların çoğunun erkek olması da önemlidir. Başka merkezlerde, ülkelerde ve sigorta sistemlerinde hastaların aynı deneyimi yaşayıp yaşamayacağı bilinemez. [1]",
+            "Çalışma tanı, tedavi veya sağkalımı sınamadı ve duyarlılık ile özgüllük hesaplamak için tasarlanmadı. Güçlü yanı, pozitif, negatif ve hatalı sonuç deneyimlerini klinik uygulama tartışmasına katmasıdır; zayıf yanı ise tıbbi yararı belirleyememesidir. Kanıt hiyerarşisinde bulgular, hasta iletişimini ve sonraki araştırmaları tasarlamak için hipotez üretir; ctHPVDNA'nın etkinliğinin onayı veya standart bakımın yerine geçmesi olarak sunulmamalıdır. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Reçete vermeden pratik mesaj",
+          "paragraphs": [
+            "Kanser ekipleri için pratik mesaj, testten önce ctHPVDNA'nın neyi ölçtüğünü, negatif ya da pozitif sonucun ne anlama geldiğini, ek incelemenin ne zaman gerekebileceğini ve maliyetin nasıl karşılanacağını açıklamaktır. Hasta açısından bu makale, muayene veya görüntüleme planını kendi başına değiştirme gerekçesi değildir. Her sonuç; tümör öyküsü, önceki tedavi, klinik muayene ve onkoloji ekibiyle ortak karar bağlamında yorumlanmalıdır. [1, 2]"
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Ağız kanserinde tükürük testleri: ADA kılavuzu ne söylüyor?",
+          "path": "latest/2026-09-30-oral-cancer-salivary-tests.html"
+        },
+        {
+          "label": "WHO'nun TB tanı rehberi: Tanısal doğruluk tek başına yeterli değil",
+          "path": "latest/2026-10-22-who-tb-diagnostics-evidence-guidance.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fleming GE, Roth H, Hanna GJ ve diğerleri · HPV pozitif orofarenks kanserinde ctHPVDNA izlemine ilişkin hasta deneyimleri · JAMA Otolaryngology–Head & Neck Surgery · 29 Ekim 2026",
+          "url": "https://jamanetwork.com/journals/jamaotolaryngology/article-abstract/2855937",
+          "doi": "10.1001/jamaoto.2026.3379"
+        },
+        {
+          "label": "Kansara S, Contrera K, Roof S ve diğerleri · American Head and Neck Society'nin baş-boyun kanserinde ctDNA derlemesi · JAMA Otolaryngology–Head & Neck Surgery · 2026",
+          "url": "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2851926",
+          "doi": "10.1001/jamaoto.2026.2045"
+        },
+        {
+          "label": "NIDCR · HPV ve orofarenks kanseri; araştırma, erken saptama ve biyobelirteçlere ilişkin resmi sayfa · Ocak 2026'da gözden geçirildi",
+          "url": "https://www.nidcr.nih.gov/grants-funding/funded-research/research-investments-advances/hpv-oropharyngeal-cancer"
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-second-primary-molar-space-loss",
       "category": "dentistry",
       "published": "2026-10-31",
