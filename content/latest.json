@@ -3,6 +3,96 @@
   "locale": "tr",
   "articles": [
     {
+      "id": "2026-11-02-neighborhood-deprivation-mental-health",
+      "category": "health",
+      "published": "2026-11-02",
+      "studyDate": "2026-10-30",
+      "image": "assets/latest/neighborhood-deprivation-mental-health-2026.webp",
+      "imageSource": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856031",
+      "imageRights": "Johansson ve çalışma arkadaşlarının makalesinde bildirilen sayısal bulgular temel alınarak bu yazı için hazırlanmış bağımsız veri görselleştirmesi; kaynak gösterilerek CC BY 4.0 ile yeniden kullanılabilir. Derginin hiçbir şekli, grafiği veya sayfa düzeni kopyalanmamış ya da değiştirilmemiştir. Kaynak makale CC BY-NC-ND lisanslıdır; bağımsız tasarımda yalnızca olgusal sayılar kullanılmıştır. JAMA Network Open, yazarlar ve araştırma destekçileri bu web sitesini desteklememektedir.",
+      "imageCredit": "Veriler: Johansson ve çalışma arkadaşları, JAMA Network Open; özgün tasarım: Dr. Omid Kheirkhah web sitesi",
+      "title": "İsveç’te mahalle yoksunluğu ve ruh sağlığı: İlişki var, nedensellik kanıtlanmadı",
+      "summary": "10–50 yaşındaki 4.065.375 kişiyi kapsayan ulusal kayıt çalışmasında, İsveç’in en yoksun mahallelerinde yaşamak daha yüksek depresyon veya anksiyete kayıt hızıyla ilişkiliydi; ilişki kardeş karşılaştırmalarında da görüldü. Çalışma büyük olsa da gözlemseldir ve mahallenin hastalığa neden olduğunu kanıtlayamaz.",
+      "evidence": "2015–2023 dönemindeki İsveç idari kayıtlarına dayanan ulusal kohort çalışması; ayrıca 1.301.647 öz kardeşin aile içi karşılaştırması. Büyük örneklem, zamansal izlem ve duyarlılık analizleri güçlü yönlerdir. Maruziyetin yalnız başlangıçta ölçülmesi, tanı ve ilaç kayıtlarındaki hata, artık karıştırıcılık ve ters nedensellik olasılığı nedensel çıkarımı engeller",
+      "access": "Ana makalenin açık erişimli tam metni, ana tabloları, yöntemleri ve JAMA Network Open sayfasında bildirilen sınırlılıkları incelendi. Ek dosyaların listesi görüldü, ancak indirilebilir ek dosya bağımsız olarak analiz edilmedi. Arka plan için önceki çalışmanın PubMed kaydı ve DSÖ’nün sağlığın sosyal belirleyicileri bilgi notu incelendi. İnceleme sırasında ana başlık veya DOI için bir düzeltme, geri çekme ya da endişe bildirimi bulunmadı.",
+      "takeaway": "Araştırma, depresyon veya anksiyete kayıtlarında dikkat çekici bir toplumsal basamak gösteriyor ve yerel hizmetlerin hedeflenmesi açısından değerli olabilir. Ancak 1,18’lik tehlike oranı kişisel tanı, mutlak risk ya da mahallenin doğrudan etkisinin kanıtı değildir; hizmete erişim farkları ve ölçülmemiş bireysel veya ailesel etkenler ilişkinin bir bölümünü hâlâ açıklayabilir.",
+      "alt": "En az yoksun mahallelerde 1,00 olan depresyon veya anksiyete kaydı için düzeltilmiş tehlike oranının en yoksun mahallelerde 1,18’e çıktığını gösteren dört çubuklu bağımsız veri görseli",
+      "caption": "Çalışmada bildirilen düzeltilmiş tehlike oranlarının bağımsız görselleştirmesi; dergi şeklinin kopyası değildir ve nedenselliği ya da kişisel riski değil, istatistiksel ilişkiyi gösterir.",
+      "sections": [
+        {
+          "heading": "Bir dakikada ana fikir",
+          "paragraphs": [
+            "Emily White Johansson, Anna Ohlis, Mathias Mattsson ve çalışma arkadaşları 30 Ekim 2026’da JAMA Network Open’da İsveç çapındaki bir araştırmanın sonuçlarını yayımladı. Araştırmacılar, başlangıçtan önceki on yılda kayıtlı depresyon veya anksiyete öyküsü olmayan 10–50 yaş arası 4.065.375 kişiyi 2015 başından 2023 sonuna kadar izledi. Soru, başlangıçtaki mahalle yoksunluğu düzeyinin sonraki ilk tanı veya ilgili ilk ilaç kaydıyla ilişkili olup olmadığıydı. [1]",
+            "En az yoksun dörtte birlik kesimle karşılaştırıldığında, en yoksun bölgelerde sonucun kayda geçme hızı istatistiksel düzeltmeden sonra %18 daha yüksekti: tehlike oranı 1,18 ve %95 güven aralığı 1,17–1,19. Kardeş analizinde tahmin biraz küçüldü, ancak yüksek kaldı: 1,15. Bu değerler ilişkiyi gösterir; yoksun bir mahallede yaşayan her bireyin kesin olarak %18 daha yüksek hastalık olasılığı taşıdığını veya yalnızca taşınmanın hastalığı önleyeceğini göstermez. [1]"
+          ]
+        },
+        {
+          "heading": "Araştırma nasıl tasarlandı?",
+          "paragraphs": [
+            "Araştırmacılar İsveç’in nüfus, reçete, hastane, uzman poliklinik, birinci basamak ve aile ilişkileri kayıtlarını kişisel kimlik numarasıyla eşleştirdi. 2015’teki 5.984 küçük bölgenin yoksunluğu; gelir ve sermaye, eğitim, istihdam ve konut başlıklarındaki 15 göstergeyi birleştiren bir endeksle ölçüldü ve dört düzeye ayrıldı. Sonuç, ilk depresyon veya anksiyete tanısıydı; tanı yoksa bu bozukluklarda yaygın kullanılan bir ilacın devam eden bakım kapsamında ilk kez verilmesi işaret olarak kabul edildi. [1]",
+            "Bu yaklaşım kesitsel bir fotoğraftan daha güçlüdür: maruziyet başlangıçta tanımlandı ve sonraki olaylar sekiz yıla kadar izlendi. Aynı ekibin önceki çalışması İsveç’te kayıtlı olguların genel dağılımını betimlemişti; yeni çalışma yakın dönem öyküsü olanları dışladı ve sonuca kadar geçen zamanı analiz etti. Buna karşılık, yoksunluk yalnızca 2015 adresine göre belirlendi ve sonraki taşınmalar hesaba katılmadı. [1, 2]"
+          ]
+        },
+        {
+          "heading": "Sayılar ne anlatıyor?",
+          "paragraphs": [
+            "Toplam 32 milyondan fazla kişi-yıllık izlemde 798.456 kişi sonuç tanımını karşıladı. Ham hız, en az yoksun bölgelerde 1000 kişi-yılda 22,8 iken en yoksun bölgelerde 25,6 oldu. Yaş, cinsiyet, kentsellik ve doğum ülkesi için düzeltmeden sonra düşük, yüksek ve çok yüksek yoksunluk düzeylerinin tehlike oranları sırasıyla 1,12, 1,17 ve 1,18’di. Yalnız kayıtlı tanıları kullanan analiz ile birinci basamak verisini çıkartan analiz de ilişkinin genel yönünü korudu. [1]",
+            "İlişki alt gruplarda aynı değildi. En yoksun ve en az yoksun bölgelerin karşılaştırmasında tahmin erkeklerde 1,23, kadınlarda 1,14; kentlerde 1,18, kent çevresinde 1,21 ve kırsalda 1,11’di. Farklar çevresel streslerdeki gerçek ayrımları yansıtabilir, fakat hizmete erişim ve başvuru davranışı da tanının kayda geçmesini etkiler. Kırsalda daha düşük kayıt hızı, otomatik olarak daha iyi ruh sağlığı anlamına gelmez. [1]"
+          ]
+        },
+        {
+          "heading": "Kardeş karşılaştırması ne ekliyor?",
+          "paragraphs": [
+            "Ortak aile geçmişinin etkisini azaltmak için araştırmacılar, 2015’te farklı yoksunluk düzeylerinde yaşayan 537.429 aileden 1.301.647 öz kardeşi karşılaştırdı. Bu analizde en yoksun düzeyin en az yoksun düzeye göre tehlike oranı 1,15’ti. İlişkinin bu karşılaştırmadan sonra sürmesi, farkın tamamının ortak genetik yapı veya çocukluk aile ortamıyla açıklanması olasılığını azaltır. [1]",
+            "Yine de aile içi karşılaştırma randomize deney değildir. Kardeşler gelir, iş, ilişkiler, bedensel hastalıklar, yaşam olayları ve yaşadıkları yeri seçme nedenleri bakımından farklı olabilir. Ayrıca bu analize yalnızca kardeşleri farklı yoksunluk düzeylerinde yaşayan aileler katkı verdi; bu nedenle sonuçların tüm ailelere genellenmesi sınırlıdır. Yöntem bazı karıştırıcıları azaltır, hepsini ortadan kaldırmaz. [1]"
+          ]
+        },
+        {
+          "heading": "Neden hâlâ nedensellik diyemiyoruz?",
+          "paragraphs": [
+            "Yazarlar, gözlemsel tasarımın nedensel çıkarıma izin vermediğini açıkça belirtiyor. Ters nedensellik mümkündür: depresyon veya anksiyeteye yatkın kişiler ekonomik ya da işle ilgili nedenlerle başlangıçta daha yoksun bölgelere taşınmış olabilir. Hafif olgular, kamu sistemi dışındaki başvurular ve bazı yıllarda eksik birinci basamak kapsamı eksik sayım yaratabilir; öte yandan bazı antidepresanlar kronik ağrı gibi başka durumlarda da verildiği için fazla sayım oluşabilir. [1]",
+            "Mahalle endeksi de bileşik bir ölçüdür ve aynı sınıf içindeki farklılıkları gizler. Bireysel ekonomik değişkenler, mahallenin etkisi ile sonuç arasındaki yolun parçası olabilecekleri gerekçesiyle ana modele alınmadı; bu tercih anlaşılır olsa da artık karıştırıcılığa alan bırakır. Dolayısıyla çalışma; konut, iş, eğitim, güvenlik, sosyal sermaye veya hizmete erişim bileşenlerinden hangisinin ilişkide rol oynadığını belirleyemez. [1]"
+          ]
+        },
+        {
+          "heading": "Halk sağlığı açısından ne anlama geliyor?",
+          "paragraphs": [
+            "Dünya Sağlık Örgütü; insanların yaşadığı, çalıştığı ve barındığı koşulları ve kaynakların dağılımını sağlığın sosyal belirleyicileri arasında sayıyor. Yeni çalışma bu çerçeveyle uyumlu uzunlamasına İsveç verileri sunuyor, ancak belirli bir politikanın etkisini sınamadı. Bulguların temkinli kullanımı; yoksun bölgelerin belirlenmesi, erişim açığının ölçülmesi, yerel hizmetlerin güçlendirilmesi ve müdahalelerin önceden tanımlanmış sonuçlarla değerlendirilmesi olabilir. Birey açısından adres bir tanı aracı değildir; bu makale klinik değerlendirmenin veya tedavi kararının yerini tutmaz. [1, 3]"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Johansson EW, Ohlis A, Mattsson M ve çalışma arkadaşları · Ulusal bir kohortta küçük alan yoksunluğu ve depresyon veya anksiyete · JAMA Network Open · 30 Ekim 2026",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856031",
+          "doi": "10.1001/jamanetworkopen.2026.41218"
+        },
+        {
+          "label": "Johansson EW ve çalışma arkadaşları · İsveç’te bölge, küçük alan yoksunluğu ve sağlık hizmeti düzeyine göre depresyon veya anksiyete · JAMA Network Open · 3 Ağustos 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42635986/",
+          "doi": "10.1001/jamanetworkopen.2026.30530"
+        },
+        {
+          "label": "Dünya Sağlık Örgütü · Sağlığın sosyal belirleyicileri · Bilgi notu · 6 Mayıs 2025",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/social-determinants-of-health"
+        }
+      ],
+      "related": [
+        {
+          "label": "Ruh sağlığı hizmetlerinde toplum temelli modele geçiş: DSÖ paketi ne söylüyor?",
+          "path": "latest/2026-10-10-community-mental-health-transition.html"
+        },
+        {
+          "label": "Kalp olayları azaldı, gelir farkı sürdü",
+          "path": "latest/2026-10-16-income-cardiovascular-inequality-denmark.html"
+        },
+        {
+          "label": "Ergen kızlara yönelik cinsel şiddet: Küresel tahminler ne anlatıyor?",
+          "path": "latest/2026-10-07-adolescent-girls-violence.html"
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-cthpvdna-patient-experiences",
       "category": "medicine",
       "published": "2026-11-01",
